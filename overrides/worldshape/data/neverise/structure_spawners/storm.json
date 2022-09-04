@@ -1,0 +1,47 @@
+{
+    "template": {
+        "type": "single", 
+        "id": "neverise:storm", 
+        "maxDepth": 10, 
+        
+                               
+        "followTerrain": false 
+    },
+
+    "placement": {
+        "type": "surface",           
+        "minY": 70,
+        "maxY": 120,
+        "offset": 0,
+        "fluidSurface": false,
+
+        "terraform": -1
+    },
+   
+    "averageSpacing": 10,  
+    "minimumSpacing": 5,          
+    "seed": 328978114514,
+    "avoidOthers": false,       
+    
+    "biomes": [
+        "#taiga",
+        "#extreme_hills",
+        "#jungle",
+        "#mesa",
+        "#plains",
+        "#savanna",
+        "#icy",
+        "#beach",
+        "#forest",
+        "#ocean",
+        "#desert",
+        "#river",
+        "#swamp",
+        "#mushroom",
+        "#nether",
+        "#the_end"
+    ],
+    "dimensions": [
+        "lostcities:lostcity"
+    ]
+}

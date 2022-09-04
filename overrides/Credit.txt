@@ -1,0 +1,26 @@
+Mods:
+
+Magnesium Extra, by TeamDeusVult, fork and i18n by TexBlock, LICENSE: LGPL-2.1
+https://github.com/ForgeModi18n/MgRb-Extras-i18n/releases/tag/mc1.16-v1.3.2-i18n-Multi
+
+Magnesium Dynamic Lights, by TeamDeusVult, fork and i18n by TexBlock, LICENSE: MIT
+https://github.com/ForgeModi18n/MgRb-Extras-i18n/releases/tag/mc1.16-v1.3.2-i18n-Multi
+
+Resourcepack:
+
+Minecraft-Mod-Language-Package, by CFPAOrg, LICENSE: CC BY-NC-SA 4.0
+https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/releases/tag/Snapshot-2022072706571658905071
+
+Image:
+
+AoA mod icon from Official Advent of Ascension Wiki, LICENSE: CC BY-NC-SA 3.0
+https://static.wikia.nocookie.net/adventofascension_gamepedia/images/e/e6/Site-logo.png/revision/latest?cb=20210602052052
+
+xibao image from xibao mod, LICENSE: Unlicense
+https://github.com/teaconmc/xibao/blob/1.18-forge/src/main/resources/assets/xibao/textures/xibao.png
+
+Music:
+
+haoyunlai music from Xibao Plus Plus mod, converted from .ogg to .wav by aconvert: https://www.aconvert.com/cn/audio/ogg-to-wav/,  LICENSE: Unlicense
+https://github.com/GregTaoo/Xibao-Plus-Plus/blob/Fabric/Fabric-1.19/src/main/resources/assets/xibaopp/sounds/haoyunlai.ogg
+
