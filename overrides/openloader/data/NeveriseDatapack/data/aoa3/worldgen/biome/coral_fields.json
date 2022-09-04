@@ -1,0 +1,147 @@
+{
+    "precipitation": "none",
+    "category": "none",
+    "depth": 0.01,
+    "scale": 0.1,
+    "temperature": 0.2,
+    "temperature_modifier": "none",
+    "downfall": 0.9,
+    "effects": {
+        "fog_color": 0,
+        "sky_color": 255,
+        "water_color": 255,
+        "water_fog_color": 255,
+        "grass_color_modifier": "none"
+    },
+    "surface_builder": "aoa3:lborean",
+    "carvers": {},
+    "features": [
+        [
+            "aoa3:dimensional_fabric_floor"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "aoa3:lborean_plants",
+            "aoa3:giant_coral_trees"
+        ],
+        [
+            "aoa3:lborean_barrier_roof"
+        ]
+    ],
+    "starts": [
+        "aoa3:dracyon_fountain",
+        "aoa3:amphibiyte_cove",
+        "aoa3:aquatic_castle",
+        "aoa3:drowned_lotto_stand"
+    ],
+    "spawners": {
+        "monster": [
+            {
+                "type": "aoa3:muncher",
+                "weight": 8,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "aoa3:sea_viper",
+                "weight": 20,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "aoa3:angler",
+                "weight": 20,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "aoa3:neptuno",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "outvoted:kraken",
+                "weight": 8,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "upgrade_aquatic:great_thrasher",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "upgrade_aquatic:lionfish",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ],
+        "creature": [],
+        "ambient": [],
+        "water_creature": [
+            {
+                "type": "minecraft:squid",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 3
+            }
+        ],
+        "water_ambient": [
+            {
+                "type": "aoa3:coratee",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 2
+            },
+            {
+                "type": "minecraft:salmon",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 2
+            },
+            {
+                "type": "minecraft:cod",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 2
+            },
+            {
+                "type": "minecraft:tropical_fish",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 2
+            },
+            {
+                "type": "upgrade_aquatic:nautilus",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "upgrade_aquatic:perch",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "upgrade_aquatic:pike",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 3
+            }
+        ],
+        "misc": []
+    },
+    "player_spawn_friendly": false,
+    "creature_spawn_probability": 0.1,
+    "spawn_costs": {}
+}
