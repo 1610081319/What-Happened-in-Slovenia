@@ -1,0 +1,15 @@
+{
+    "notenoughcrashes.gui.restart": "重启虚无崛起",
+    "notenoughcrashes.crashscreen.title": "  ",
+    "notenoughcrashes.crashscreen.summary": "虚无崛起遇到了一个问题并崩溃了。",
+    "notenoughcrashes.crashscreen.paragraph3.line1": "请前往.minecraft/versions/Neverise/logs文件夹",
+    "notenoughcrashes.crashscreen.paragraph3.line2": "将latest.log发送给他人（如果你需要获得他人帮助的话）",
+    "notenoughcrashes.crashscreen.paragraph3.line3": "§4§l§n但是，请不要对此页面进行任何任何任何任何令人高血压",
+    "notenoughcrashes.crashscreen.paragraph3.line4": "§4§l§n且丝毫不利于解决问题的截图或拍屏！这种行为除了说明你是瞎子别无它用！",
+    "notenoughcrashes.initerrorscreen.title": "虚无崛起未能启动！",
+    "notenoughcrashes.initerrorscreen.summary": "启动过程中的一个错误阻止了虚无崛起的启动。",
+    "notenoughcrashes.initerrorscreen.paragraph3.line1": "请前往.minecraft/versions/Neverise/logs文件夹",
+    "notenoughcrashes.initerrorscreen.paragraph3.line2": "将latest.log发送给他人（如果你需要获得他人帮助的话）",
+    "notenoughcrashes.initerrorscreen.paragraph3.line3": "§4§n但是，请不要对此页面进行任何任何任何任何令人高血压",
+    "notenoughcrashes.initerrorscreen.paragraph3.line4": "§4§n且丝毫不利于解决问题的截图或拍屏！这种行为除了说明你是瞎子别无它用！"
+}
