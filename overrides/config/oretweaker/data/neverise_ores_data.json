@@ -1,0 +1,24 @@
+{
+    "oreConfig": [
+        {
+            "ore": "aoa3:toxic_block",
+            "filler": "aoa3:abyssal_stone",
+            "minY": 1,
+            "maxY": 20,
+            "maxVeinSize": 40,
+            "spawnRate": 8.0,
+            "biomeBlacklist": [],
+            "biomeWhitelist": []
+        },
+        {
+            "ore": "aoa3:ancient_rock",
+            "filler": "minecraft:stone",
+            "minY": 1,
+            "maxY": 20,
+            "maxVeinSize": 40,
+            "spawnRate": 0.5,
+            "biomeBlacklist": [],
+            "biomeWhitelist": []
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+  "customSky [default: true]": false,
+  "useFogDensity [default: true]": false,
+  "blendBiomeMusic [default: true]": true,
+  "sulfurWaterColor [default: true]": false
+}

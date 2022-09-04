@@ -1,0 +1,22 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = openloader/resources/NeveriseResourcepack/assets/neverise/textures/shrines_harbour.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  x = 0
+  action = editprogressbar
+  y = -120
+}
+

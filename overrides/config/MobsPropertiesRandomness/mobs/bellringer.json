@@ -1,0 +1,12 @@
+{
+    "mob_id": "meetyourfight:bellringer",
+    "attributes": [
+        {
+            "id": "minecraft:generic.max_health",
+            "modifier_name": "More Health For Bellringer",
+            "amount": 800,
+            "chance": 1.0,
+            "operation": "addition"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+  "oreChances": {
+    "entries": {
+      "minecraft:iron_ore": 0.08,
+      "minecraft:diamond_ore": 0.06,
+      "minecraft:gold_ore": 0.06,
+      "minecraft:emerald_ore": 0.06,
+      "minecraft:coal_ore": 0.2,
+      "minecraft:lapis_ore": 0.06,
+      "minecraft:redstone_ore[lit=false]": 0.06,
+      "aoa3:amethyst_block": 0.08,
+      "chancecubes:chance_cube": 0.06,
+      "aoa3:sapphire_block": 0.04,
+      "aoa3:jade_block": 0.08,
+      "aoa3:limonite_block": 0.08,
+      "aoa3:rosite_block": 0.08
+    },
+    "defaultBlock": "minecraft:coal_ore"
+  }
+}
