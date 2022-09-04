@@ -1,0 +1,33 @@
+
+[items]
+
+	[items.trades]
+		"Clerics buy thrasher teeth" = true
+		"Leatherworkers sell bedrolls" = true
+
+[mobs]
+	#Give Drowneds a swimming animation, like in bedrock edition
+	"Drowned swimming animation" = true
+	#The max height that deep ocean mobs can spawn at
+	#Range: 0 ~ 255
+	"Deep ocean mob max height" = 40
+
+	[mobs.spawns]
+		"Glow Squid spawn weight (oceans)" = 1
+		"Thrasher spawn weight (cold oceans)" = 30
+		"Nautilus spawn weight (warm oceans)" = 17
+		"Lionfish spawn weight (coral reefs)" = 6
+		"Pike spawn weight (rivers)" = 4
+		"Perch spawn weight (swamps)" = 2
+		"Pike spawn weight (swamps)" = 2
+		"Squid spawn weight (swamps)" = 2
+
+[world]
+
+	[world.generation]
+		"Beachgrass frequency (beaches)" = 6
+		"Searocket frequency (beaches)" = 5
+		"Pickerelweed frequency (jungles, swamps, rivers)" = 9
+		"Pickerelweed frequency (flower forests)" = 30
+		"Flowering Rush frequency (rivers)" = 5
+
