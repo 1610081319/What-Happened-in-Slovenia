@@ -1,0 +1,95 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screen.MainMenuScreen {
+}
+
+net.minecraft.client.gui.screen.CreateWorldScreen {
+}
+
+com.blamejared.controlling.client.gui.GuiNewControls {
+}
+
+net.minecraft.client.gui.screen.VideoSettingsScreen {
+}
+
+me.flashyreese.mods.reeses_sodium_options.client.gui.SodiumVideoOptionsScreen {
+}
+
+net.coderbot.iris.gui.screen.ShaderPackScreen {
+}
+
+net.minecraft.client.gui.screen.OptionsScreen {
+}
+
+net.minecraft.client.gui.screen.LanguageScreen {
+}
+
+net.minecraft.client.gui.screen.ChatOptionsScreen {
+}
+
+net.minecraft.client.gui.AccessibilityScreen {
+}
+
+net.minecraft.client.gui.screen.PackScreen {
+}
+
+net.minecraft.client.gui.screen.StatsScreen {
+}
+
+net.minecraft.client.gui.screen.MultiplayerScreen {
+}
+
+net.minecraft.client.gui.screen.WorldSelectionScreen {
+}
+
+net.minecraft.client.gui.screen.WorldLoadProgressScreen {
+}
+
+net.minecraft.client.gui.screen.DirtMessageScreen {
+}
+
+net.minecraft.client.gui.screen.OptionsSoundsScreen {
+}
+
+net.minecraft.client.gui.screen.CustomizeSkinScreen {
+}
+
+net.minecraft.client.gui.screen.AddServerScreen {
+}
+
+net.minecraft.client.gui.screen.ServerListScreen {
+}
+
+net.minecraft.client.gui.screen.ConfirmScreen {
+}
+
+net.minecraft.client.gui.screen.WorkingScreen {
+}
+
+net.minecraft.client.gui.screen.inventory.InventoryScreen {
+}
+
+observable.client.ProfileScreen {
+}
+
+dev.ftb.mods.ftblibrary.ui.ScreenWrapper {
+}
+
+net.minecraft.client.gui.screen.inventory.CreativeScreen {
+}
+
+net.minecraft.client.gui.screen.ConnectingScreen {
+}
+
+net.minecraft.client.gui.screen.DownloadTerrainScreen {
+}
+
+fudge.notenoughcrashes.gui.CrashScreen {
+}
+
+net.minecraft.client.gui.screen.DeathScreen {
+}
+
+net.minecraft.client.gui.screen.DisconnectedScreen {
+}
+
