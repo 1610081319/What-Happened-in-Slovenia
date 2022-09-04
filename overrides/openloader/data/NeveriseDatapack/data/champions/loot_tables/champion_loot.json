@@ -1,0 +1,1009 @@
+{
+    "pools": [
+        {
+            "name": "tier#1",
+            "rolls": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 100,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 1
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 1
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 6.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "aoa3:heart_fruit"
+                },
+                {
+                    "type": "item",
+                    "name": "aoa3:copper_coin",
+                    "weight": 100,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 1
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 2.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "aoa3:silver_coin",
+                    "weight": 10,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 1
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 1.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 15,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 3
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 2.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "tier#2",
+            "rolls": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 100,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 2
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 2
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 6.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "aoa3:heart_fruit"
+                },
+                {
+                    "type": "item",
+                    "name": "aoa3:copper_coin",
+                    "weight": 100,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 2
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 2.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "aoa3:silver_coin",
+                    "weight": 20,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 2
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 2.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 15,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 3
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 2.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "tier#3",
+            "rolls": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 100,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 3
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 3
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 6.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "aoa3:heart_fruit"
+                },
+                {
+                    "type": "item",
+                    "name": "aoa3:copper_coin",
+                    "weight": 100,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 3
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "aoa3:silver_coin",
+                    "weight": 30,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 3
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 2.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_golden_apple",
+                    "weight": 15,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 3
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 2.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 15,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 3
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "tier#4",
+            "rolls": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 100,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 4
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 4
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 6.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "aoa3:heart_fruit"
+                },
+                {
+                    "type": "item",
+                    "name": "aoa3:copper_coin",
+                    "weight": 100,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 4
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 4.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "aoa3:silver_coin",
+                    "weight": 30,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 4
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 2.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "aoa3:gold_coin",
+                    "weight": 24,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 4
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 1.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_golden_apple",
+                    "weight": 15,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 3
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 15,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 3
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "tier#5",
+            "rolls": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 100,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 5
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 5
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 6.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "aoa3:heart_fruit"
+                },
+                {
+                    "type": "item",
+                    "name": "aoa3:copper_coin",
+                    "weight": 100,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 5
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 5.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "aoa3:silver_coin",
+                    "weight": 30,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 5
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "aoa3:gold_coin",
+                    "weight": 24,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 5
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 2.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "aoa3:lunaver_coin",
+                    "weight": 8,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 5
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 1.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_golden_apple",
+                    "weight": 15,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 3
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 15,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 3
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "tier#6",
+            "rolls": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 100,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 6
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 6
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 6.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "aoa3:heart_fruit"
+                },
+                {
+                    "type": "item",
+                    "name": "aoa3:copper_coin",
+                    "weight": 100,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 6
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 6.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "aoa3:silver_coin",
+                    "weight": 50,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 6
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "aoa3:gold_coin",
+                    "weight": 36,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 6
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 2.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "aoa3:lunaver_coin",
+                    "weight": 20,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 6
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 2.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_golden_apple",
+                    "weight": 15,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 3
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 4.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 15,
+                    "conditions": [
+                        {
+                            "condition": "champions:entity_champion",
+                            "entity": "this",
+                            "minTier": 3
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1.0,
+                                "max": 3.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

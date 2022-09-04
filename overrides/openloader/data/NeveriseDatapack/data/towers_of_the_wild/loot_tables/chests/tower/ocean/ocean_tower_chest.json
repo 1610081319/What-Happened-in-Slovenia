@@ -1,0 +1,294 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": {
+          "min": 1.0,
+          "max": 2.0,
+          "type": "minecraft:uniform"
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ],
+            "name": "minecraft:book"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:heart_of_the_sea"
+            }
+        ]
+      },
+      {
+        "rolls": {
+            "min": 0.0,
+            "max": 4.0,
+            "type": "minecraft:uniform"
+        },
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 8.0,
+                        "max": 12.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                "name": "archers_paradox:blaze_arrow"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 8.0,
+                        "max": 12.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                "name": "archers_paradox:challenge_arrow"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 8.0,
+                        "max": 12.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                "name": "archers_paradox:diamond_arrow"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 8.0,
+                        "max": 12.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                "name": "archers_paradox:displacement_arrow"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 8.0,
+                        "max": 12.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                "name": "archers_paradox:ender_arrow"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 8.0,
+                        "max": 12.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                "name": "archers_paradox:explosive_arrow"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 8.0,
+                        "max": 12.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                "name": "archers_paradox:frost_arrow"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 8.0,
+                        "max": 12.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                "name": "archers_paradox:glowstone_arrow"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 8.0,
+                        "max": 12.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                "name": "archers_paradox:lightning_arrow"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 8.0,
+                        "max": 12.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                "name": "archers_paradox:phantasmal_arrow"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 8.0,
+                        "max": 12.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                "name": "archers_paradox:prismarine_arrow"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 8.0,
+                        "max": 12.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                "name": "archers_paradox:quartz_arrow"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 8.0,
+                        "max": 12.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                "name": "archers_paradox:redstone_arrow"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 8.0,
+                        "max": 12.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                "name": "archers_paradox:shulker_arrow"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 8.0,
+                        "max": 12.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                "name": "archers_paradox:slime_arrow"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 8.0,
+                        "max": 12.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                "name": "archers_paradox:spore_arrow"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 8.0,
+                        "max": 12.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                "name": "archers_paradox:training_arrow"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 8.0,
+                        "max": 12.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                  ],
+                "name": "archers_paradox:verdant_arrow"
+            }
+        ]
+      }
+    ]
+  }

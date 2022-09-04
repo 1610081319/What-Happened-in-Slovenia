@@ -1,0 +1,816 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wither_skeleton_skull"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 5,
+          "max": 7
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ],
+            "name": "minecraft:book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ],
+            "name": "minecraft:book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ],
+            "name": "minecraft:book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ],
+            "name": "minecraft:book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ],
+            "name": "minecraft:book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ],
+            "name": "minecraft:book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly"
+              }
+            ],
+            "name": "minecraft:book"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 1,
+          "max": 2
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "chancecubes:chance_cube"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 4,
+          "max": 8
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:golden_goliath_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:golden_goliath_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:golden_goliath_circuitry_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:golden_goliath_circuitry_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:golden_goliath_circuitry_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:golden_goliath_circuitry_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ivor_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ivor_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ivor_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ivor_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:champion_petra_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:champion_petra_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:champion_petra_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:champion_petra_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:dragonsbane_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:dragonsbane_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:dragonsbane_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:dragonsbane_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ellegaard_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ellegaard_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ellegaard_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ellegaard_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ender_defender_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ender_defender_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ender_defender_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ender_defender_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:enderman_soren_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:enderman_soren_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:enderman_soren_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:enderman_soren_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:gabriel_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:gabriel_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:gabriel_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:gabriel_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:golden_goliath_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:golden_goliath_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:golden_goliath_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:adamantium_impervium_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:adamantium_impervium_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:adamantium_impervium_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:adamantium_impervium_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:shield_of_infinity_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:soren_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:soren_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:soren_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:soren_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:star_shield_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:star_shield_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:star_shield_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:star_shield_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:magnus_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:magnus_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:magnus_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:magnus_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ninja_ivor_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ninja_ivor_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ninja_ivor_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ninja_ivor_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:olivia_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:olivia_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:olivia_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:olivia_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:petra_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:petra_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:petra_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:petra_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:prismarine_soldier_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:prismarine_soldier_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:prismarine_soldier_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:prismarine_soldier_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:redstone_riot_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:redstone_riot_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:redstone_riot_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:redstone_riot_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:shield_of_infinity_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:shield_of_infinity_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:shield_of_infinity_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:lukas_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:lukas_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:lukas_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:lukas_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:swordbreaker_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:swordbreaker_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:swordbreaker_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:swordbreaker_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:tim_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:tim_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:tim_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:adamantium_impervium_boots"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 0,
+          "max": 1
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "piggybankmod:dark_katana"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "piggybankmod:diamond_pickaxe"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "piggybankmod:firebrand"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "piggybankmod:frost_scythe"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "piggybankmod:golden_banana"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "piggybankmod:hawkbrand"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "piggybankmod:heartstealer"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "piggybankmod:the_monkey_motivator"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "piggybankmod:suns_grace"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "piggybankmod:whirlwind"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "piggybankmod:chainmail_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "piggybankmod:cuirassier_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "piggybankmod:face_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "piggybankmod:greathelm"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "piggybankmod:maximilian_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "piggybankmod:norman_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "piggybankmod:rustedchainmail_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "piggybankmod:rustedgreathelm"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "piggybankmod:rustednorman_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "piggybankmod:stechhelm"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 0,
+          "max": 4
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:hearty\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:half_hearted\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:hard\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:guarding\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:armored\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:warding\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:jagged\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:spiked\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:angry\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:menacing\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:brisk\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:fleeting\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:hasty\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:quick\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:wild\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:rash\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:intrepid\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:light\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:swift\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:agile\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:damaged\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:sharp\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:vicious\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:deadly\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:legendary\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{bookModifier: \"modifiers:violent\"}"
+              }
+            ],
+            "name": "modifiers:modifier_book"
+          }
+        ]
+      }
+    ]
+  }
