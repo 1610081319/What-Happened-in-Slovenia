@@ -11,8 +11,8 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Neverise",
-  "version": "0.0.1",
-  "author": "CatastropheChou",
+  "version": "0.0.2",
+  "author": "",
   "files": [
     {
       "projectID": 409371,
@@ -52,6 +52,11 @@
     {
       "projectID": 317716,
       "fileID": 3522097,
+      "required": true
+    },
+    {
+      "projectID": 476545,
+      "fileID": 3545687,
       "required": true
     },
     {
@@ -1502,11 +1507,6 @@
     {
       "projectID": 574856,
       "fileID": 3949659,
-      "required": true
-    },
-    {
-      "projectID": 353399,
-      "fileID": 3788882,
       "required": true
     },
     {
