@@ -52,6 +52,10 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
         player.sendMessage(MCTextComponent.createTranslationTextComponent("eventMessage.neverise.nether_star.4"));
         player.removeGameStage("before_wither");
         player.give(<item:prefab:item_start_house>);
+        player.give(<item:aoa3:carved_rune_of_reality>);
+        player.give(<item:aoa3:carved_rune_of_direction>);
+        player.give(<item:aoa3:carved_rune_of_travel>);
+        player.give(<item:aoa3:carved_rune_of_space>);
     }
     if (player.hasGameStage("mcsaforge")) player.addTag("mcsaforge");
     if ("overworld" in player.world.dimension && player.removeTag("lost")) {
