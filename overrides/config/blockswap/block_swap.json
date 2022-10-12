@@ -1,0 +1,18 @@
+{
+  "retroGen": false,
+  "swapper": {
+    "minecraft:cobblestone_wall": "minecraft:light_gray_stained_glass",
+    "minecraft:iron_bars": "minecraft:light_gray_stained_glass",
+    "endergetic:ender_fire": "minecraft:air",
+    "minecraft:glass_pane": "minecraft:light_gray_stained_glass",
+    "minecraft:andesite": "minecraft:stone",
+    "minecraft:diorite": "minecraft:stone",
+    "minecraft:granite": "minecraft:stone",
+    "wyrmroost.blue_geode": "minecraft:stone",
+    "wyrmroost.red_geode": "minecraft:stone",
+    "wyrmroost.purple_geode": "minecraft:stone",
+    "minecraft:white_stained_glass_pane": "minecraft:light_gray_stained_glass",
+    "aoa3:nowhere_activity_portal": "minecraft:orange_stained_glass",
+    "minecraft:blue_stained_glass_pane": "minecraft:blue_stained_glass"
+  }
+}
