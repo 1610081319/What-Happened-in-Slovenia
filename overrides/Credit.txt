@@ -9,7 +9,7 @@ https://github.com/ForgeModi18n/MgRb-Extras-i18n/releases/tag/mc1.16-v1.3.2-i18n
 Resourcepack:
 
 Minecraft-Mod-Language-Package, by CFPAOrg, LICENSE: CC BY-NC-SA 4.0
-https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/releases/tag/Snapshot-2022072706571658905071
+https://github.com/CFPAOrg/Minecraft-Mod-Language-Package
 
 Image:
 
