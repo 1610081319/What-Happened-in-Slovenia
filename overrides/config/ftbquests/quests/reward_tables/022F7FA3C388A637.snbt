@@ -1,0 +1,14 @@
+{
+	id: "022F7FA3C388A637"
+	order_index: 2
+	title: "{reward_tables.nrq.022F7FA3C388A637.title}"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "ironchest:iron_to_gold_chest_upgrade" }
+		{ item: "ironchest:gold_to_diamond_chest_upgrade" }
+		{ item: "ironchest:diamond_to_crystal_chest_upgrade" }
+		{ item: "ironchest:wood_to_iron_chest_upgrade" }
+		{ item: "ironchest:diamond_to_obsidian_chest_upgrade" }
+	]
+}

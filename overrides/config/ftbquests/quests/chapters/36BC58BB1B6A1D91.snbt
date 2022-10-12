@@ -1,0 +1,26 @@
+{
+	id: "36BC58BB1B6A1D91"
+	group: ""
+	order_index: 0
+	filename: "36BC58BB1B6A1D91"
+	title: "{chapters.nrq.36BC58BB1B6A1D91.title}"
+	icon: "aoa3:ancient_ring"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -4.5d
+		y: 3.5d
+		description: [
+			"{quests.nrq.4F9047D7C384A0AA.description.1}"
+			"{quests.nrq.4F9047D7C384A0AA.description.2}"
+			"{quests.nrq.4F9047D7C384A0AA.description.3}"
+			"报告BUG时，请附带详细信息，包括但不限于哪个章节、哪个任务、任务的截图。作者们不会算命。"
+		]
+		id: "4F9047D7C384A0AA"
+		tasks: [{
+			id: "40B42C03DA4F9BDE"
+			type: "checkmark"
+			title: "{tasks.nrq.40B42C03DA4F9BDE.title}"
+		}]
+	}]
+}

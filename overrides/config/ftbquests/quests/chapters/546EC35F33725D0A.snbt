@@ -1,0 +1,249 @@
+{
+	id: "546EC35F33725D0A"
+	group: "5DCE5658DD5D4597"
+	order_index: 0
+	filename: "546EC35F33725D0A"
+	title: "{chapters.nrq.546EC35F33725D0A.title}"
+	icon: "minecraft:wheat"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -14.0d
+			y: 9.0d
+			shape: "square"
+			subtitle: "{quests.nrq.35AF2BC4B7BD53E2.subtitle}"
+			description: ["{quests.nrq.35AF2BC4B7BD53E2.description}"]
+			id: "35AF2BC4B7BD53E2"
+			tasks: [{
+				id: "38FD8FA6AD19FD2C"
+				type: "dimension"
+				dimension: "aoa3:nowhere"
+			}]
+			rewards: [{
+				id: "19C46CEC748D830F"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			title: "{quests.nrq.309271CDDDC2C966.title}"
+			icon: "minecraft:oak_log"
+			x: -8.0d
+			y: 9.0d
+			shape: "square"
+			subtitle: "{quests.nrq.309271CDDDC2C966.subtitle}"
+			dependencies: ["35AF2BC4B7BD53E2"]
+			id: "309271CDDDC2C966"
+			tasks: [{
+				id: "49F7FB4E53AA9484"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "246A8A74A18B4A28"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:stick"
+					count: 32
+				}
+				{
+					id: "7FCA2EDE8169D60C"
+					type: "random"
+					auto: "enabled"
+					table_id: 5889479829872516299L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 9.0d
+			shape: "square"
+			subtitle: "{quests.nrq.1CEC1C1A593658B1.subtitle}"
+			dependencies: ["309271CDDDC2C966"]
+			id: "1CEC1C1A593658B1"
+			tasks: [{
+				id: "15A09470595B4966"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5BC85B23B2BBB63E"
+				type: "item"
+				auto: "enabled"
+				item: "minecraft:furnace"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 9.0d
+			shape: "square"
+			subtitle: "{quests.nrq.5D41AECFC89293F6.subtitle}"
+			dependencies: ["1CEC1C1A593658B1"]
+			id: "5D41AECFC89293F6"
+			tasks: [{
+				id: "54D63EA34340B992"
+				type: "advancement"
+				icon: "minecraft:cobblestone"
+				advancement: "minecraft:story/upgrade_tools"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4D3A4B9FE699972E"
+				type: "item"
+				auto: "enabled"
+				item: "minecraft:torch"
+				count: 32
+			}]
+		}
+		{
+			x: 10.0d
+			y: 9.0d
+			subtitle: "{quests.nrq.5EA036CDBA01139B.subtitle}"
+			description: [
+				"{quests.nrq.5EA036CDBA01139B.description.1}"
+				"{quests.nrq.5EA036CDBA01139B.description.2}"
+			]
+			dependencies: ["5D41AECFC89293F6"]
+			id: "5EA036CDBA01139B"
+			tasks: [{
+				id: "0E166F2CCC94EF55"
+				type: "advancement"
+				advancement: "minecraft:story/smelt_iron"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "03B4FDDBBB69C3AC"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:iron_ingot"
+					count: 19
+				}
+				{
+					id: "15AE13C05828B0DF"
+					type: "item"
+					item: {
+						id: "ironchest:iron_chest"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Items: [
+									{
+										Slot: 0b
+										id: "minecraft:iron_helmet"
+										Count: 1b
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Slot: 1b
+										id: "minecraft:iron_chestplate"
+										Count: 1b
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Slot: 2b
+										id: "minecraft:iron_leggings"
+										Count: 1b
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Slot: 3b
+										id: "minecraft:iron_boots"
+										Count: 1b
+										tag: {
+											Damage: 0
+										}
+									}
+								]
+								id: "ironchest:iron_chest"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 3.5d
+			subtitle: "{quests.nrq.7DC04DDF064B0143.subtitle}"
+			dependencies: ["5EA036CDBA01139B"]
+			id: "7DC04DDF064B0143"
+			tasks: [{
+				id: "20C34627E5A0454F"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+			rewards: [{
+				id: "7C53AD8B27BAAF48"
+				type: "item"
+				auto: "enabled"
+				item: {
+					id: "aoa3:exp_flask"
+					Count: 1b
+					ForgeCaps: {
+						Parent: 0.0f
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 14.5d
+			subtitle: "{quests.nrq.0CFAF822D9C74F38.subtitle}"
+			dependencies: ["5EA036CDBA01139B"]
+			id: "0CFAF822D9C74F38"
+			tasks: [{
+				id: "424C2BD0C354CC4A"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+			rewards: [{
+				id: "28B89B597F94B017"
+				type: "item"
+				auto: "enabled"
+				item: "minecraft:redstone"
+				count: 32
+			}]
+		}
+		{
+			x: 17.0d
+			y: 9.0d
+			subtitle: "Creeper?"
+			dependencies: ["5EA036CDBA01139B"]
+			id: "74B7B6FDCAA487F4"
+			tasks: [{
+				id: "56113D0FCE0B8600"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+			rewards: [{
+				id: "0545D43C6A06CD94"
+				type: "item"
+				auto: "enabled"
+				item: "paraglider:heart_container"
+				count: 2
+			}]
+		}
+	]
+}

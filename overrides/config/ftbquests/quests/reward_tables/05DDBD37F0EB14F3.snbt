@@ -1,0 +1,46 @@
+{
+	id: "05DDBD37F0EB14F3"
+	order_index: 5
+	title: "{reward_tables.nrq.05DDBD37F0EB14F3.title}"
+	loot_size: 1
+	rewards: [
+		{ item: "sophisticatedbackpacks:pickup_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:advanced_pickup_upgrade" }
+		{ item: "sophisticatedbackpacks:filter_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:advanced_filter_upgrade" }
+		{ item: "sophisticatedbackpacks:magnet_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:advanced_magnet_upgrade" }
+		{ item: "sophisticatedbackpacks:feeding_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:advanced_feeding_upgrade" }
+		{ item: "sophisticatedbackpacks:compacting_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:advanced_compacting_upgrade" }
+		{ item: "sophisticatedbackpacks:void_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:advanced_void_upgrade" }
+		{ item: "sophisticatedbackpacks:restock_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:advanced_restock_upgrade" }
+		{ item: "sophisticatedbackpacks:deposit_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:advanced_deposit_upgrade" }
+		{ item: "sophisticatedbackpacks:refill_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:inception_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:everlasting_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:smelting_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:auto_smelting_upgrade" }
+		{ item: "sophisticatedbackpacks:smoking_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:auto_smoking_upgrade" }
+		{ item: "sophisticatedbackpacks:blasting_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:crafting_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:stonecutter_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_1", weight: 2 }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_2", weight: 2 }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_3" }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_4" }
+		{ item: "sophisticatedbackpacks:jukebox_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:tool_swapper_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade" }
+		{ item: "sophisticatedbackpacks:tank_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:battery_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:pump_upgrade", weight: 2 }
+		{ item: "sophisticatedbackpacks:advanced_pump_upgrade" }
+		{ item: "sophisticatedbackpacks:xp_pump_upgrade", weight: 2 }
+	]
+}

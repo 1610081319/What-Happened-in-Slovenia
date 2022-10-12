@@ -1,0 +1,95 @@
+{
+	id: "50A7285A5CB6ACE8"
+	order_index: 1
+	title: "{reward_tables.nrq.50A7285A5CB6ACE8.title}"
+	icon: {
+		id: "minecraft:potion"
+		Count: 1b
+		tag: {
+			Potion: "minecraft:mundane"
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:long_invisibility"
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:long_night_vision"
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:long_leaping"
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:long_fire_resistance"
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:strong_swiftness"
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:long_regeneration"
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:long_strength"
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:luck"
+				}
+			}
+			count: 2
+		}
+	]
+}

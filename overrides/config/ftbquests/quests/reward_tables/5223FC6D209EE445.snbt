@@ -1,0 +1,15 @@
+{
+	id: "5223FC6D209EE445"
+	order_index: 4
+	title: "{reward_tables.nrq.5223FC6D209EE445.title}"
+	icon: "betterendforge:helix_tree_chest"
+	loot_size: 1
+	rewards: [
+		{ item: "ironchest:iron_chest", count: 4, weight: 100 }
+		{ item: "ironchest:gold_chest", count: 4, weight: 50 }
+		{ item: "ironchest:diamond_chest", count: 4, weight: 25 }
+		{ item: "ironchest:crystal_chest", count: 4, weight: 12 }
+		{ item: "ironchest:obsidian_chest", count: 4, weight: 6 }
+		{ item: "ironchest:dirt_chest", count: 4, weight: 3 }
+	]
+}

@@ -1,0 +1,43 @@
+{
+	id: "2E3552AF627E2A6B"
+	group: "10E8D915631C6B13"
+	order_index: 0
+	filename: "2E3552AF627E2A6B"
+	title: "{chapters.nrq.2E3552AF627E2A6B.title}"
+	icon: "minecraft:nether_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -3.0d
+		y: -1.0d
+		subtitle: "{quests.nrq.60529DC6F8CFF75B.subtitle}"
+		id: "60529DC6F8CFF75B"
+		tasks: [{
+			id: "774B6D162119D82F"
+			type: "item"
+			item: "minecraft:nether_star"
+		}]
+		rewards: [
+			{
+				id: "0CEA9B4F3887056F"
+				type: "item"
+				item: "aoa3:carved_rune_of_direction"
+			}
+			{
+				id: "7DF3436D5FFD0B78"
+				type: "item"
+				item: "aoa3:carved_rune_of_reality"
+			}
+			{
+				id: "4C3845D0DDF6F3FA"
+				type: "item"
+				item: "aoa3:carved_rune_of_space"
+			}
+			{
+				id: "07C90204E6EC5B67"
+				type: "item"
+				item: "aoa3:carved_rune_of_travel"
+			}
+		]
+	}]
+}
