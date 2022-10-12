@@ -1,0 +1,33 @@
+type = menu
+
+customization-meta {
+  identifier = observable.client.ProfileScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=467564%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=538564%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=396564%
+  orientation = bottom-centered
+  x = -33
+  action = movebutton
+  y = -20
+}
+
