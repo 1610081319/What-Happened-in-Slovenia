@@ -1,0 +1,18 @@
+
+[common]
+	"Whether banana cookies are enabled" = true
+	"Whether vanilla cookie tiles are enabled" = false
+	"Whether vanilla cookies are enabled" = true
+	"Whether sweet berry cookie tiles are enabled" = false
+	"Whether adzuki cookie tiles are enabled" = false
+	"Whether mint cookie tiles are enabled" = false
+	"Whether chocolate cookie tiles are enabled" = false
+	"Whether cookie tiles are enabled" = false
+	"Whether chocolate cookies are enabled" = true
+	"Whether mint cookies are enabled" = true
+	"Whether honey cookie tiles are enabled" = false
+	"Whether strawberry cookies are enabled" = true
+	"Whether banana cookie tiles are enabled" = false
+	"Whether adzuki cookies are enabled" = true
+	"Whether strawberry cookie tiles are enabled" = false
+
