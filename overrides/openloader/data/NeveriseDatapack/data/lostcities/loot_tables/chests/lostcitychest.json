@@ -1,0 +1,536 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 3,
+          "max": 6
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:golden_goliath_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:golden_goliath_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:golden_goliath_circuitry_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:golden_goliath_circuitry_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:golden_goliath_circuitry_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:golden_goliath_circuitry_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ivor_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ivor_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ivor_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ivor_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:champion_petra_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:champion_petra_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:champion_petra_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:champion_petra_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:dragonsbane_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:dragonsbane_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:dragonsbane_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:dragonsbane_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ellegaard_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ellegaard_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ellegaard_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ellegaard_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ender_defender_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ender_defender_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ender_defender_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ender_defender_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:enderman_soren_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:enderman_soren_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:enderman_soren_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:enderman_soren_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:gabriel_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:gabriel_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:gabriel_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:gabriel_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:golden_goliath_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:golden_goliath_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:golden_goliath_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:adamantium_impervium_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:adamantium_impervium_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:adamantium_impervium_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:adamantium_impervium_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:shield_of_infinity_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:soren_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:soren_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:soren_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:soren_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:star_shield_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:star_shield_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:star_shield_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:star_shield_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:magnus_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:magnus_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:magnus_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:magnus_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ninja_ivor_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ninja_ivor_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ninja_ivor_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:ninja_ivor_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:olivia_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:olivia_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:olivia_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:olivia_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:petra_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:petra_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:petra_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:petra_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:prismarine_soldier_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:prismarine_soldier_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:prismarine_soldier_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:prismarine_soldier_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:redstone_riot_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:redstone_riot_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:redstone_riot_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:redstone_riot_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:shield_of_infinity_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:shield_of_infinity_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:shield_of_infinity_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:lukas_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:lukas_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:lukas_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:lukas_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:swordbreaker_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:swordbreaker_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:swordbreaker_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:swordbreaker_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:tim_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:tim_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:tim_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "mcsaforge:adamantium_impervium_boots"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 2,
+          "max": 5
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:rapier"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:bee_stinger"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:freezing_foil"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:soul_scythe"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:frost_scythe"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:jailors_scythe"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:cutlass"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:dancers_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:nameless_blade"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:sparkler"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:sword"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:stone_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:gold_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:diamond_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:hawkbrand"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:sinister_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:katana"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:dark_katana"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:masters_katana"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:soul_knife"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:eternal_knife"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:truthseeker"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:claymore"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:broadsword"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:heartstealer"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:great_axeblade"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:frost_slayer"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:grave_bane"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:venom_glaive"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:glaive"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:tempest_knife"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:resolute_tempest_knife"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:chill_gale_knife"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:axe"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:gold_axe"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:firebrand"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:highland_axe"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:double_axe"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:cursed_axe"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "dungeons_gear:whirlwind"
+          }
+        ]
+      }
+    ]
+  }
