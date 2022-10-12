@@ -1,0 +1,26 @@
+name: Pack
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+env:
+  BUILD: Neverise-dev
+jobs:
+  AutoPack:
+    if: "!endsWith(github.event.head_commit.message, 'NOPACK')"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: pack cl
+        run: |
+          mkdir artifacts
+          mv ${GITHUB_WORKSPACE}/overrides artifacts/overrides
+          mv ${GITHUB_WORKSPACE}/manifest.json artifacts
+          mv ${GITHUB_WORKSPACE}/modlist.html artifacts
+      - name: Upload
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.BUILD }}
+          path: artifacts
