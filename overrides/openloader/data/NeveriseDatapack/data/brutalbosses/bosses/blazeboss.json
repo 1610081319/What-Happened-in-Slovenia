@@ -1,0 +1,52 @@
+{
+  "entity": "minecraft:zombie",
+  "name": "§5§l§o被无情岁月磨平棱角の整合包作者",
+  "visualscale": 1.5,
+  "experience": 300,
+  "protect_treasure": true,
+  "effects": {
+    "minecraft:glowing": 1,
+    "minecraft:fire_resistance": 1,
+    "minecraft:strength": 1
+  },
+  "attributes": {
+    "generic.max_health": 64,
+    "generic.follow_range": 80,
+    "generic.knockback_resistance": 1
+  },
+  "customattributes": {
+    "dropgear": 6
+  },
+  "gear": {
+    "mainhand": "{id: \"minecraft:iron_sword\"}"
+  },
+  "ai-goals": {
+    "brutalbosses:aftercombatregen": {
+      "amount": 1
+    }
+  },
+  "spawnatchest": {
+    "lostcities:chests/food": 5,
+    "lostcities:chests/witherstorm": 4,
+    "lostcities:chests/lostcitychest": 3,
+    "minecraft:chests/simple_dungeon": 20,
+    "minecraft:chests/shipwreck_supply": 1,
+    "minecraft:chests/village/village_butcher": 10,
+    "minecraft:chests/stronghold_crossing": 5,
+    "minecraft:chests/stronghold_library": 3,
+    "graveyard:chests/large_loot": 10,
+    "graveyard:chests/totem_loot": 10,
+    "valhelsia_structures:chests/treasure": 10,
+    "valhelsia_structures:chests/castle_ruin": 5,
+    "valhelsia_structures:chests/spawner_dungeon": 10,
+    "minecraft:chests/abandoned_mineshaft": 10,
+    "betterdungeons:skeleton_dungeon/chests/common": 15,
+    "betterdungeons:skeleton_dungeon/chests/middle": 7,
+    "betterdungeons:spider_dungeon/chests/egg_room": 7,
+    "betterdungeons:zombie_dungeon/chests/common": 25,
+    "betterstrongholds:chests/crypt": 10,
+    "betterstrongholds:chests/common": 35,
+    "minecraft:chests/buried_treasure": 5,
+    "minecraft:chests/jungle_temple_dispenser": 10
+  }
+}
