@@ -8,3 +8,4 @@ KubeJS、lootjs、rhino寄了，其脚本全用crt/openloader再实现
 cursor模组寄了，这玩意进世界的时候总是有个粒子效果残留在屏幕上很不舒服
 禁用 eyes in the darkness的jumpscare系统（不那么吓人了）
 七咒强制佩戴选项关闭
+为除能量雕符石之外的雕符石加入了tooltip：只能通过任务获得。
