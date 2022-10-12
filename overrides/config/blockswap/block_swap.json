@@ -1,9 +1,0 @@
-{
-  "retroGen": false,
-  "swapper": {
-    "minecraft:cobblestone_wall": "minecraft:light_gray_stained_glass",
-    "minecraft:iron_bars": "minecraft:light_gray_stained_glass",
-    "endergetic:ender_fire": "minecraft:air",
-    "minecraft:glass_pane": "minecraft:light_gray_stained_glass"
-  }
-}

@@ -1,5 +1,0 @@
-#Whether highlighting of sleep-preventing monsters is enabled. Set this to false to disable the feature.
-highlight_mobs = true
-#How long the highlight effect will last, in ticks.
-highlight_duration = 120
-
