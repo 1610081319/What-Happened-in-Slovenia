@@ -1,0 +1,98 @@
+{
+	"entity.enderlinginvaders.snareling" : "迷惑灵",
+	"entity.enderlinginvaders.watchling" : "看守灵",
+	"entity.enderlinginvaders.blastling" : "爆破灵",
+	"entity.enderlinginvaders.lureling" : "引诱灵",
+	"entity.enderlinginvaders.thumpling" : "重击灵",
+	"entity.enderlinginvaders.endersent" : "末影遣使",
+	"entity.enderlinginvaders.stronghold_endersent" : "末影遣使",
+	"entity.enderlinginvaders.necrosent" : "Necrosent",
+	"entity.enderlinginvaders.snareling_glob" : "Snareling Glob",
+	"entity.enderlinginvaders.blastling_bullet" : "Blastling Bullet",
+	"entity.enderlinginvaders.hypno_bulb" : "Hypno Bulb",
+	"entity.enderlinginvaders.soul_bullet" : "Soul Bullet",
+	
+	"effect.enderlinginvaders.ensnared" : "被捕获",
+	
+	"block.enderlinginvaders.magentur_tiles": "Magentur Tiles",
+	"block.enderlinginvaders.chiseled_magentur": "Chiseled Magentur",
+	"block.enderlinginvaders.magentur_stairs": "Magentur Stairs",
+	"block.enderlinginvaders.magentur_slab": "Magentur Slab",
+	"block.enderlinginvaders.magentur_pillar": "Magentur Pillar",
+    "block.enderlinginvaders.magentur_fence": "Magentur Fence",
+    
+    "block.enderlinginvaders.skull_of_ender": "末影头颅",
+    "block.enderlinginvaders.wall_skull_of_ender": "末影头颅",
+		
+	"item.enderlinginvaders.watchling_spawn_egg": "看守灵刷怪蛋",
+	"item.enderlinginvaders.blastling_spawn_egg": "爆破灵刷怪蛋",
+	"item.enderlinginvaders.snareling_spawn_egg": "迷惑灵刷怪蛋",
+	"item.enderlinginvaders.lureling_spawn_egg": "引诱灵刷怪蛋",
+	"item.enderlinginvaders.thumpling_spawn_egg": "重击灵刷怪蛋",
+			
+	"item.enderlinginvaders.hypno_juice": "Hypno Juice",
+	"item.enderlinginvaders.hypno_bulb": "Hypno Bulb",
+	"item.enderlinginvaders.watchling_eye": "Watchling Eye",
+	"item.enderlinginvaders.snareling_residue": "Snareling Residue",
+	"item.enderlinginvaders.corrosive_goo": "Corrosive Goo",
+	"item.enderlinginvaders.bottle_of_corrosion": "Bottle Of Corrosion",
+	"item.enderlinginvaders.watchers_shroud": "Watcher's Shroud",
+		
+	"item.minecraft.potion.effect.ensnared": "Potion of Ensnaring",
+	"item.minecraft.splash_potion.effect.ensnared": "Splash Potion of Ensnaring",
+	"item.minecraft.lingering_potion.effect.ensnared": "Lingering Potion of Ensnaring",
+	"item.minecraft.tipped_arrow.effect.ensnared": "Arrow of Ensnaring",
+	
+    "enchantment.enderlinginvaders.soul_protection": "Soul Barrier",  
+	
+	"death.blastling": "%1$s was blasted",	
+	"death.attack.blastling": "%1$s was blasted by %2$s",
+	
+	"death.soulBullet": "%1$s's soul was absorbed",	
+	"death.attack.soulBullet": "%1$s's soul was absorbed by %2$s using a Soul Bullet",
+	
+	"advancements.adventure.watchling_eye.title": "I Spy With My Disgusting Little Eye",
+	"advancements.adventure.watchling_eye.description": "Slay a Watchling and obtain one of it's eyes",
+	
+	"advancements.adventure.watchers_shroud.title": "An Interesting Choice Of Clothing",
+	"advancements.adventure.watchers_shroud.description": "Craft yourself a Watcher's Shroud",
+	
+	"advancements.adventure.ensnared.title": "A Very Sticky Situation",
+	"advancements.adventure.ensnared.description": "Get ensnared by a Snareling",
+	
+	"advancements.adventure.snareling_residue.title": "Prepare To Get Sticky",
+	"advancements.adventure.snareling_residue.description": "Obtain a Snareling Residue and get ready to turn the tables",
+	
+	"advancements.adventure.corrosive_goo.title": "Ooouuucccchhh!",
+	"advancements.adventure.corrosive_goo.description": "Pick up some Corrosive Goo and burn your hands off",
+	
+	"advancements.adventure.bottle_of_corrosion.title": "Don't Drink It!",
+	"advancements.adventure.bottle_of_corrosion.description": "Make yourself a Bottle Of Corrosion, remember, don't drink it",
+	
+	"advancements.adventure.drink_bottle_of_corrosion.title": "You Drank It",
+	"advancements.adventure.drink_bottle_of_corrosion.description": "Get yourself killed doing the stupidest thing imaginable, good luck if you're in hardcore mode",
+	
+	"advancements.adventure.hypno_bulb.title": "In A Trance",
+	"advancements.adventure.hypno_bulb.description": "Craft a Hypno Bulb, then realise that you need to fill it up",
+	
+	"advancements.adventure.fill_hypno_bulb.title": "Now We''re Walkin''!",
+	"advancements.adventure.fill_hypno_bulb.description": "Fill a Hypno Bulb and watch as the nearby mobs flock to it",
+	
+	"advancements.adventure.defeat_thumpling.title": "他确实警告过你",
+	"advancements.adventure.defeat_thumpling.description": "无视重击灵的警告，靠近并击败它。",
+	
+	"advancements.end.defeat_enderling.title": "末影灵猎手",
+	"advancements.end.defeat_enderling.description": "首次击败末影灵",
+	
+	"advancements.end.defeat_main_enderlings.title": "高级末影灵猎手",
+	"advancements.end.defeat_main_enderlings.description": "击败从《我的世界：地下城》中来的三种原始末影灵",
+	
+	"advancements.end.defeat_all_enderlings.title": "末影灵猎手大师",
+	"advancements.end.defeat_all_enderlings.description": "杀死每种末影灵",
+	
+	"advancements.end.defeat_endersent.title": "解放末影遣使",
+	"advancements.end.defeat_endersent.description": "将腐化的哨兵从恍惚中拯救出来。",
+	
+	"advancements.end.find_enderling_stronghold.title": "游戏尽头的要塞",
+	"advancements.end.find_enderling_stronghold.description": "最好还是不要进去吧"
+}
