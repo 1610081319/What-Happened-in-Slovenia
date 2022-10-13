@@ -16,15 +16,15 @@
         "value": "minecraft:spider"
       },
       {
-        "factor": 4,
+        "factor": 2,
         "value": "graveyard:acolyte"
       },
       {
-        "factor": 4,
+        "factor": 2,
         "value": "graveyard:ghoul"
       },
       {
-        "factor": 4,
+        "factor": 2,
         "value": "graveyard:skeleton_creeper"
       },
       {
