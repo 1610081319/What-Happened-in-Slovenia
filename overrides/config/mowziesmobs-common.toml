@@ -155,11 +155,11 @@
 			#Smaller number causes more generation, -1 to disable generation
 			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_distance = 10
+			generation_distance = -1
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_separation = 3
+			generation_separation = -1
 			#Names of dimensions this mob/structure can generate in
 			dimensions = ["aoa3:deeplands"]
 			#Maximum height for generation placement. -1 to ignore
@@ -257,11 +257,11 @@
 			#Smaller number causes more generation, -1 to disable generation
 			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_distance = 10
+			generation_distance = -1
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_separation = 3
+			generation_separation = -1
 			#Names of dimensions this mob/structure can generate in
 			dimensions = ["aoa3:iromine"]
 			#Maximum height for generation placement. -1 to ignore
