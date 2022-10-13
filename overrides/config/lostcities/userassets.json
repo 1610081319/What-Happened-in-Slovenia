@@ -4,7 +4,7 @@
     "name": "easymobs",
     "values": [
       {
-        "factor": 4,
+        "factor": 8,
         "value": "minecraft:zombie"
       },
       {
