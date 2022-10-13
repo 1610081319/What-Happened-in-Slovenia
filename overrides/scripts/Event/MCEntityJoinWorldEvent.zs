@@ -14,7 +14,7 @@ CTEventManager.register<MCEntityJoinWorldEvent>((event) => {
 
     //禁止生物生成
     if ("lostcities" in dim && "aoa3" in type) event.cancel();
-    if ("moth" in type || "wisp" in type || "realmshifter" in type) event.cancel();
+    if ("moth" in type || "wisp" in type || "realmshifter" in type || "goat" in type|| "yak" in type) event.cancel();
     if ("eyesinthedarkness:eyes" in type && !("greckon" in dim)) event.cancel();
     if ("overworld" in dim && ("mowziesmobs" in type || "upgrade_aquatic" in type)) event.cancel();
     if (("spuid" in type || "salmon" in type) && "aoa3" in dim) event.cancel();
