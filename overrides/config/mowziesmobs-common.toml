@@ -117,7 +117,7 @@
 		breakable = false
 		#Earthbore Gauntlet durability
 		#Range: > 1
-		durability = 400
+		durability = 800
 
 		[tools_and_abilities.earthbore_gauntlet.tool_config]
 			#Tool attack damage
@@ -155,11 +155,11 @@
 			#Smaller number causes more generation, -1 to disable generation
 			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_distance = 25
+			generation_distance = 10
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_separation = 8
+			generation_separation = 3
 			#Names of dimensions this mob/structure can generate in
 			dimensions = ["aoa3:deeplands"]
 			#Maximum height for generation placement. -1 to ignore
@@ -209,11 +209,11 @@
 			#Smaller number causes more generation, -1 to disable generation
 			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_distance = 25
+			generation_distance = 10
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_separation = 8
+			generation_separation = 3
 			#Names of dimensions this mob/structure can generate in
 			dimensions = ["aoa3:lelyetia"]
 			#Maximum height for generation placement. -1 to ignore
@@ -257,11 +257,11 @@
 			#Smaller number causes more generation, -1 to disable generation
 			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_distance = 15
+			generation_distance = 10
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_separation = 5
+			generation_separation = 3
 			#Names of dimensions this mob/structure can generate in
 			dimensions = ["aoa3:iromine"]
 			#Maximum height for generation placement. -1 to ignore
