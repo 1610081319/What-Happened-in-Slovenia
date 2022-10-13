@@ -4,7 +4,7 @@
 	forbidspawnoncrystaldestroydenMobs = ["minecraft:phantom", "majruszs_difficulty:sky_keeper"]
 	#Sets the dragon difficulty modifier, the higher the more difficult the dragon gets.Scales up mob spawn amount, dragon damage and health aswell as crystal respawn intervals. Note that the difficulty already scales on the playercount involved in the fight, this is a static bonus ontop.default:2, vanilla:0
 	#Range: 0 ~ 100
-	dragonDifficulty = 12
+	dragonDifficulty = 16
 	#Prints the dragon phase in chat if enabled: default:false
 	printDragonPhases = false
 	#Disables mob spawning on the Dragon island: default:true
