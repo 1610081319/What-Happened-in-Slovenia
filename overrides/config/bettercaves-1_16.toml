@@ -5,7 +5,7 @@
 	# Entries must have the mod namespace included.
 	# For example: "[minecraft:overworld, minecraft:the_nether, rats:ratlantis]"
 	# Default: "[minecraft:overworld]"
-	"Whitelisted Dimensions" = "[lostcities:lostcity, aoa3:abyss, aoa3:barathos, aoa3:creeponia, aoa3:greckon, aoa3:iromine, aoa3:mysterium, aoa3:precasia]"
+	"Whitelisted Dimensions" = "[lostcities:lostcity]"
 	# Automatically enables Better Caves in every possible dimension.
 	#     If this is enabled, the Whitelisted Dimension IDs option is ignored.
 	# Default: false
