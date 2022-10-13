@@ -10,7 +10,7 @@
 	#Allowed Values: FALSE, TRUE, INHERIT
 	"minecraft:blaze" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:creeper" = "INHERIT"
+	"minecraft:creeper" = "FALSE"
 	#Allowed Values: FALSE, TRUE, INHERIT
 	"minecraft:drowned" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
