@@ -618,7 +618,7 @@
     I:CursedRingPainModifier=200
 
     # If true, Ring of the Seven Curses will be equipped into player's ring slot right away when entering a new world, instead of just being added to their inventory. [default: false, synchronized: yes]
-    B:CursedRingUltraHardcode=true
+    B:CursedRingUltraHardcode=false
 }
 
 
