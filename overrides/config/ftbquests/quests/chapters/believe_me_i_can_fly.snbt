@@ -20,13 +20,20 @@
 				type: "item"
 				item: "simpleplanes:plane_workbench"
 			}]
-			rewards: [{
-				id: "199B4B36E7FA22F9"
-				type: "item"
-				auto: "enabled"
-				item: "simpleplanes:propeller"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "199B4B36E7FA22F9"
+					type: "item"
+					auto: "enabled"
+					item: "simpleplanes:propeller"
+					count: 4
+				}
+				{
+					id: "2F1CA8C279985067"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -40,12 +47,19 @@
 				type: "item"
 				item: "simpleplanes:propeller"
 			}]
-			rewards: [{
-				id: "1398739163E76C73"
-				type: "item"
-				auto: "enabled"
-				item: "simpleplanes:booster"
-			}]
+			rewards: [
+				{
+					id: "1398739163E76C73"
+					type: "item"
+					auto: "enabled"
+					item: "simpleplanes:booster"
+				}
+				{
+					id: "257E85AD37F4DF73"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -79,16 +93,23 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "71BFCD702D526ABE"
-				type: "item"
-				auto: "enabled"
-				item: {
-					id: "explorerscompass:explorerscompass"
-					Count: 1b
-					tag: { }
+			rewards: [
+				{
+					id: "71BFCD702D526ABE"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "explorerscompass:explorerscompass"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+				{
+					id: "592126773F0789A5"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			x: -2.5d
@@ -103,13 +124,20 @@
 				type: "item"
 				item: "simpleplanes:furnace_engine"
 			}]
-			rewards: [{
-				id: "194912DB50DD712B"
-				type: "item"
-				auto: "enabled"
-				item: "minecraft:coal"
-				count: 64
-			}]
+			rewards: [
+				{
+					id: "194912DB50DD712B"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:coal"
+					count: 64
+				}
+				{
+					id: "5E7D0C2477523EED"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 	]
 }

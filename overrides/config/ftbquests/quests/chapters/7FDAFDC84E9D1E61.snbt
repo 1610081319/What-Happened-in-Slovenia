@@ -18,13 +18,20 @@
 				type: "item"
 				item: "ironchest:iron_chest"
 			}]
-			rewards: [{
-				id: "550DF693AC822737"
-				type: "loot"
-				icon: "minecraft:chest"
-				auto: "enabled"
-				table_id: 157484853318166071L
-			}]
+			rewards: [
+				{
+					id: "550DF693AC822737"
+					type: "loot"
+					icon: "minecraft:chest"
+					auto: "enabled"
+					table_id: 157484853318166071L
+				}
+				{
+					id: "01378B055F5F4A3F"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -36,13 +43,20 @@
 				type: "item"
 				item: "ironchest:gold_chest"
 			}]
-			rewards: [{
-				id: "25AE6FC8A87678F5"
-				type: "loot"
-				icon: "minecraft:chest"
-				auto: "enabled"
-				table_id: 157484853318166071L
-			}]
+			rewards: [
+				{
+					id: "25AE6FC8A87678F5"
+					type: "loot"
+					icon: "minecraft:chest"
+					auto: "enabled"
+					table_id: 157484853318166071L
+				}
+				{
+					id: "7C6D280A4A9720D3"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -54,13 +68,20 @@
 				type: "item"
 				item: "ironchest:diamond_chest"
 			}]
-			rewards: [{
-				id: "3327EF01A4905B9D"
-				type: "loot"
-				icon: "minecraft:chest"
-				auto: "enabled"
-				table_id: 157484853318166071L
-			}]
+			rewards: [
+				{
+					id: "3327EF01A4905B9D"
+					type: "loot"
+					icon: "minecraft:chest"
+					auto: "enabled"
+					table_id: 157484853318166071L
+				}
+				{
+					id: "7D99E6CB31D88262"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -73,13 +94,20 @@
 				type: "item"
 				item: "ironchest:crystal_chest"
 			}]
-			rewards: [{
-				id: "5BD360424393CB1A"
-				type: "loot"
-				icon: "minecraft:chest"
-				auto: "enabled"
-				table_id: 157484853318166071L
-			}]
+			rewards: [
+				{
+					id: "5BD360424393CB1A"
+					type: "loot"
+					icon: "minecraft:chest"
+					auto: "enabled"
+					table_id: 157484853318166071L
+				}
+				{
+					id: "7A3698AE8296F5BB"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -92,13 +120,20 @@
 				type: "item"
 				item: "ironchest:obsidian_chest"
 			}]
-			rewards: [{
-				id: "2A8039A8CC8F83E9"
-				type: "loot"
-				icon: "minecraft:chest"
-				auto: "enabled"
-				table_id: 157484853318166071L
-			}]
+			rewards: [
+				{
+					id: "2A8039A8CC8F83E9"
+					type: "loot"
+					icon: "minecraft:chest"
+					auto: "enabled"
+					table_id: 157484853318166071L
+				}
+				{
+					id: "2F6385E7259B8E45"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -110,13 +145,20 @@
 				type: "item"
 				item: "ironchest:dirt_chest"
 			}]
-			rewards: [{
-				id: "043DBCF2BCB47772"
-				type: "loot"
-				icon: "minecraft:chest"
-				auto: "enabled"
-				table_id: 157484853318166071L
-			}]
+			rewards: [
+				{
+					id: "043DBCF2BCB47772"
+					type: "loot"
+					icon: "minecraft:chest"
+					auto: "enabled"
+					table_id: 157484853318166071L
+				}
+				{
+					id: "1E616CB86BB7E9FA"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -145,13 +187,20 @@
 					item: "toms_storage:ts.inventory_connector"
 				}
 			]
-			rewards: [{
-				id: "31486E237E8751A3"
-				type: "random"
-				icon: "minecraft:chest"
-				auto: "enabled"
-				table_id: 5918851880923882565L
-			}]
+			rewards: [
+				{
+					id: "31486E237E8751A3"
+					type: "random"
+					icon: "minecraft:chest"
+					auto: "enabled"
+					table_id: 5918851880923882565L
+				}
+				{
+					id: "0E52CE415424ABA4"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -183,6 +232,11 @@
 				type: "item"
 				item: "toms_storage:ts.wireless_terminal"
 			}]
+			rewards: [{
+				id: "7275BF990BEBF3C7"
+				type: "random"
+				table_id: 4633218973587897819L
+			}]
 		}
 		{
 			x: 0.0d
@@ -194,12 +248,19 @@
 				type: "item"
 				item: "sophisticatedbackpacks:iron_backpack"
 			}]
-			rewards: [{
-				id: "574C4AC48BED944B"
-				type: "random"
-				auto: "enabled"
-				table_id: 422701988005483763L
-			}]
+			rewards: [
+				{
+					id: "574C4AC48BED944B"
+					type: "random"
+					auto: "enabled"
+					table_id: 422701988005483763L
+				}
+				{
+					id: "57DC8A3FA1D7610F"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -214,12 +275,19 @@
 				type: "item"
 				item: "sophisticatedbackpacks:gold_backpack"
 			}]
-			rewards: [{
-				id: "0484F45BD0ED86F3"
-				type: "random"
-				auto: "enabled"
-				table_id: 422701988005483763L
-			}]
+			rewards: [
+				{
+					id: "0484F45BD0ED86F3"
+					type: "random"
+					auto: "enabled"
+					table_id: 422701988005483763L
+				}
+				{
+					id: "1392641F3B7D9954"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -234,12 +302,19 @@
 				type: "item"
 				item: "sophisticatedbackpacks:diamond_backpack"
 			}]
-			rewards: [{
-				id: "192E3E2B86224969"
-				type: "random"
-				auto: "enabled"
-				table_id: 422701988005483763L
-			}]
+			rewards: [
+				{
+					id: "192E3E2B86224969"
+					type: "random"
+					auto: "enabled"
+					table_id: 422701988005483763L
+				}
+				{
+					id: "7A83995058DD9D0B"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -251,12 +326,19 @@
 				type: "item"
 				item: "sophisticatedbackpacks:netherite_backpack"
 			}]
-			rewards: [{
-				id: "2B0DAA77E1F07E75"
-				type: "random"
-				auto: "enabled"
-				table_id: 422701988005483763L
-			}]
+			rewards: [
+				{
+					id: "2B0DAA77E1F07E75"
+					type: "random"
+					auto: "enabled"
+					table_id: 422701988005483763L
+				}
+				{
+					id: "5AA642DD8EDE9C5F"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 	]
 }

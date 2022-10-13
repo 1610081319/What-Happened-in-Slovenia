@@ -14,7 +14,7 @@
 			"{quests.nrq.4F9047D7C384A0AA.description.1}"
 			"{quests.nrq.4F9047D7C384A0AA.description.2}"
 			"{quests.nrq.4F9047D7C384A0AA.description.3}"
-			"报告BUG时，请附带详细信息，包括但不限于哪个章节、哪个任务、任务的截图。作者们不会算命。"
+			"{quests.nrq.4F9047D7C384A0AA.description.4}"
 		]
 		id: "4F9047D7C384A0AA"
 		tasks: [{

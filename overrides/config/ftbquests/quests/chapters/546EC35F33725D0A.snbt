@@ -194,18 +194,25 @@
 				type: "item"
 				item: "minecraft:gold_ingot"
 			}]
-			rewards: [{
-				id: "7C53AD8B27BAAF48"
-				type: "item"
-				auto: "enabled"
-				item: {
-					id: "aoa3:exp_flask"
-					Count: 1b
-					ForgeCaps: {
-						Parent: 0.0f
+			rewards: [
+				{
+					id: "7C53AD8B27BAAF48"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "aoa3:exp_flask"
+						Count: 1b
+						ForgeCaps: {
+							Parent: 0.0f
+						}
 					}
 				}
-			}]
+				{
+					id: "2D26DEE71F0D0979"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			x: 10.0d
@@ -218,13 +225,20 @@
 				type: "item"
 				item: "minecraft:redstone"
 			}]
-			rewards: [{
-				id: "28B89B597F94B017"
-				type: "item"
-				auto: "enabled"
-				item: "minecraft:redstone"
-				count: 32
-			}]
+			rewards: [
+				{
+					id: "28B89B597F94B017"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:redstone"
+					count: 32
+				}
+				{
+					id: "1466FDCAC8D32E01"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			x: 17.0d
@@ -237,13 +251,20 @@
 				type: "item"
 				item: "minecraft:diamond"
 			}]
-			rewards: [{
-				id: "0545D43C6A06CD94"
-				type: "item"
-				auto: "enabled"
-				item: "paraglider:heart_container"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "0545D43C6A06CD94"
+					type: "item"
+					auto: "enabled"
+					item: "paraglider:heart_container"
+					count: 2
+				}
+				{
+					id: "05C48F1D4DF840C4"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 	]
 }

@@ -661,19 +661,26 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "183B1F34ABAB361D"
-				type: "loot"
-				icon: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:mundane"
+			rewards: [
+				{
+					id: "183B1F34ABAB361D"
+					type: "loot"
+					icon: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:mundane"
+						}
 					}
+					auto: "enabled"
+					table_id: 5811658212712557800L
 				}
-				auto: "enabled"
-				table_id: 5811658212712557800L
-			}]
+				{
+					id: "3156944E01D79698"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			title: "{quests.nrq.49CB106E20A9EB06.title}"
@@ -695,12 +702,19 @@
 				type: "item"
 				item: "minecraft:wither_skeleton_skull"
 			}]
-			rewards: [{
-				id: "166926E948E39276"
-				type: "item"
-				item: "minecraft:enchanted_golden_apple"
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "166926E948E39276"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+					count: 3
+				}
+				{
+					id: "00D1C816D614276B"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			x: 15.0d
@@ -881,12 +895,19 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "796A1FDD31398C0F"
-				type: "loot"
-				auto: "enabled"
-				table_id: 5811658212712557800L
-			}]
+			rewards: [
+				{
+					id: "796A1FDD31398C0F"
+					type: "loot"
+					auto: "enabled"
+					table_id: 5811658212712557800L
+				}
+				{
+					id: "06A84C1DBAC4F075"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			x: 10.5d
@@ -903,17 +924,24 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "3BCE538491A69F9F"
-				type: "item"
-				item: {
-					id: "minecraft:flint_and_steel"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "3BCE538491A69F9F"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "0B2ADC33117C3793"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			x: 10.5d
@@ -993,6 +1021,11 @@
 					auto: "enabled"
 					table_id: 3353091546409653319L
 				}
+				{
+					id: "72B137D450F29FF6"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
 			]
 		}
 		{
@@ -1026,12 +1059,19 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "7D4172F3BC6479BD"
-				type: "item"
-				item: "paraglider:heart_container"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "7D4172F3BC6479BD"
+					type: "item"
+					item: "paraglider:heart_container"
+					count: 2
+				}
+				{
+					id: "5003E3D422AF11F7"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			x: 10.5d
@@ -1044,13 +1084,20 @@
 				type: "item"
 				item: "witherstormmod:command_block_book"
 			}]
-			rewards: [{
-				id: "78E84AB14D3C027B"
-				type: "item"
-				auto: "enabled"
-				item: "paraglider:heart_container"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "78E84AB14D3C027B"
+					type: "item"
+					auto: "enabled"
+					item: "paraglider:heart_container"
+					count: 2
+				}
+				{
+					id: "6B2216A122795F33"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 		{
 			x: 10.5d
@@ -1063,11 +1110,18 @@
 				type: "item"
 				item: "witherstormmod:withered_nether_star"
 			}]
-			rewards: [{
-				id: "42D6F6C0E72C3DAC"
-				type: "item"
-				item: "aoa3:nowhere_portal"
-			}]
+			rewards: [
+				{
+					id: "42D6F6C0E72C3DAC"
+					type: "item"
+					item: "aoa3:nowhere_portal"
+				}
+				{
+					id: "2923F8978EB0249B"
+					type: "random"
+					table_id: 4633218973587897819L
+				}
+			]
 		}
 	]
 }
