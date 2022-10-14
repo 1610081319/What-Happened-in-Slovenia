@@ -34,10 +34,10 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
     val dim = player.world.dimension;
     val x = player.position.x;
     val y = player.position.y;
+    val z = player.position.z;
     val wroughtnaut_x = x + 10;
     val wroughtnaut_y = y + 10;
     val wroughtnaut_z = z + 10;
-    val z = player.position.z;
 
     if ("iromine" in dim && player.removeTag("ferrous_wroughtnaut")) server.executeCommand("execute in aoa3:iromine run summon mowziesmobs:ferrous_wroughtnaut " + wroughtnaut_x + " " + wroughtnaut_y + " " + wroughtnaut_z, true);
 
