@@ -7,6 +7,7 @@
     "reward_tables.nrq.404C801BCF4E7DDB.title": "食物",
     "reward_tables.nrq.5223FC6D209EE445.title": "箱子",
     "reward_tables.nrq.26660798BE93F618.title": "枪魔咒",
+    "reward_table.nrq.627114D9F9BC22B5.title": "币",
 
     "chapter_groups.nrq.5DCE5658DD5D4597.title": "你自虚无中醒来",
     "chapter_groups.nrq.10E8D915631C6B13.title": "又将前往何方",
@@ -58,6 +59,7 @@
     "quests.nrq.4F9047D7C384A0AA.description.1": "遇到不是自动领取的奖励时，请点开对应的任务，看看下面的文案。",
     "quests.nrq.4F9047D7C384A0AA.description.2": "如果遇到奖励没有自动领取但也没有文案的任务，请将此视为BUG，并前往报告此BUG。",
     "quests.nrq.4F9047D7C384A0AA.description.3": "那么这样，对于有自动领取奖励的任务，你就不需要逐个去点开来看它里面有没有文案提示了。",
+    "quests.nrq.4F9047D7C384A0AA.description.4": "报告BUG时，请附带详细信息，包括但不限于哪个章节、哪个任务、任务的截图。作者们不会算命。",
     "quests.nrq.2DA649ECB1B29D7B.description.1": "当凋灵风暴生长到极限后，将恐怖炸弹（Formidibomb）放置在凋灵风暴附近，点燃它，随后远离现场",
     "quests.nrq.629FCA38FB3EFCAF.subtitle": "远程担当",
     "quests.nrq.06114EC178DF3AF2.subtitle": "长夜临光",

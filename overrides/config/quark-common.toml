@@ -231,7 +231,7 @@
 	"Chests In Boats" = true
 	"Easy Transfering" = true
 	"Hotbar Changer" = true
-	"Inventory Sorting" = true
+	"Inventory Sorting" = false
 	"Item Sharing" = false
 	"Right Click Armor" = true
 	"Shulker Box Right Click" = true

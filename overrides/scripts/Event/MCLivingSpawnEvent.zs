@@ -108,6 +108,7 @@ CTEventManager.register<MCLivingSpawnEvent>((event) => {
     val classification = entity.type.classification.commandString;
     val random = world.random;
     val dim = world.dimension;
+    val random_start = random.nextInt(0, 114514);
     var random_chest = random.nextInt(0, 114514);
     var random_head = random.nextInt(0, 114514);
     var gear_chest = random.nextInt(0, 45);
@@ -118,10 +119,12 @@ CTEventManager.register<MCLivingSpawnEvent>((event) => {
         return;
     }
     if (("monster" in classification) && ("overworld" in dim || "lostcities" in dim)) {
-        if (random_head > random_chest) {
-            entity.setItemStackToSlot(MCEquipmentSlotType.HEAD, helmet[gear_head]);
-        } else {
-            entity.setItemStackToSlot(MCEquipmentSlotType.CHEST, chestplate[gear_chest]);
+        if (random_start > 57257) {
+            if (random_head > random_chest) {
+                entity.setItemStackToSlot(MCEquipmentSlotType.HEAD, helmet[gear_head]);
+            } else {
+                entity.setItemStackToSlot(MCEquipmentSlotType.CHEST, chestplate[gear_chest]);
+            }
         }
         entity.addTag("armored");
     }
