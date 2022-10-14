@@ -7,17 +7,17 @@ CTEventManager.register<MCEntityJoinWorldEvent>((event) => {
     if (world.remote) return;
     val entity = event.entity;
     val type = entity.type.commandString;
-    val cmd = world.asServerWorld().server;
+    val server = world.asServerWorld().server;
     val dim = world.dimension;
     val effect = "effect give " + entity.uuid;
     val num = " 114514 90";
 
     //禁止生物生成
     if ("lostcities" in dim && "aoa3" in type) event.cancel();
-    if ("moth" in type || "wisp" in type || "realmshifter" in type || "goat" in type|| "yak" in type) event.cancel();
+    if ("moth" in type || "wisp" in type || "realmshifter" in type || "goat" in type|| "yak" in type || "glow_spuid" in type) event.cancel();
     if ("eyesinthedarkness:eyes" in type && !("greckon" in dim)) event.cancel();
     if ("overworld" in dim && ("mowziesmobs" in type || "upgrade_aquatic" in type)) event.cancel();
-    if (("spuid" in type || "salmon" in type) && "aoa3" in dim) event.cancel();
+    if ("salmon" in type && "aoa3" in dim) event.cancel();
 
     //
     val mod_one = loadedMods.isModLoaded("s" + "l" + "a" + "s" + "h" + "b" + "l" + "a" + "d" + "e");
@@ -29,7 +29,7 @@ CTEventManager.register<MCEntityJoinWorldEvent>((event) => {
     ];
     if (mod_one || mod_two) {
         for i in 0 .. commands.length {
-            cmd.executeCommand(commands[i], true);
+            server.executeCommand(commands[i], true);
         }
     }
 });

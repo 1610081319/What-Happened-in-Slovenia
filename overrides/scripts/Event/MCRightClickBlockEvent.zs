@@ -8,7 +8,7 @@ CTEventManager.register<MCRightClickBlockEvent>((event) => {
     val world = player.world;
     if (player.world.remote) return;
     //空间之主套装 远古岩石特性实现
-    val cmd = world.asServerWorld().server;
+    val server = world.asServerWorld().server;
     val item = player.getItemStackFromSlot(MCEquipmentSlotType.MAINHAND);
     val uuid = player.uuid;
     val exp = player.getExperienceTotal();
@@ -16,7 +16,7 @@ CTEventManager.register<MCRightClickBlockEvent>((event) => {
     if (exp >= 50 && player.removeTag("spaceking") && sneak && "aoa3:ancient_rock" in item.commandString) {
         val pos as string[] = item.tag.asString().split(" ");
         player.removeTag("spaceking");
-        cmd.executeCommand("execute in " + world.dimension + " run tp " + uuid + " " + pos[9] + " " + pos[5] + " " + pos[1], true);
+        server.executeCommand("execute in " + world.dimension + " run tp " + uuid + " " + pos[9] + " " + pos[5] + " " + pos[1], true);
         player.giveExperiencePoints(-50);
     }
 });

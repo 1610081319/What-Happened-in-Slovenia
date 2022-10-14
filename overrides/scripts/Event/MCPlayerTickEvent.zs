@@ -27,23 +27,19 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
     val chestplate = chest.commandString;
     val leggings = legs.commandString;
     val boots = feet.commandString;
-    val cmd = player.world.asServerWorld().server;
+    val server = player.world.asServerWorld().server;
     val name = player.uuid;
     val buff = "effect give " + name;
     val jump = buff + " minecraft:jump_boost 10 ";
     val dim = player.world.dimension;
     val x = player.position.x;
     val y = player.position.y;
+    val wroughtnaut_x = x + 10;
+    val wroughtnaut_y = y + 10;
+    val wroughtnaut_z = z + 10;
     val z = player.position.z;
-    //仁慈的虚空
-    if (y < -10) cmd.executeCommand("execute in " + dim + " run tp " + name + " " + x + " 250 " + z, true);
 
-    if (player.removeTag("exp_fix")) {
-        //维度切换经验修复
-        player.removeTag("exp_fix");
-        player.addExperienceLevels(-1);
-        player.addExperienceLevels(1);
-    }
+    if ("iromine" in dim && player.removeTag("ferrous_wroughtnaut")) server.executeCommand("execute in aoa3:iromine run summon mowziesmobs:ferrous_wroughtnaut " + wroughtnaut_x + " " + wroughtnaut_y + " " + wroughtnaut_z, true);
 
     //tag已经注释了一切
     if ("lostcities" in dim) {
@@ -58,8 +54,8 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
     }
     if (player.removeTag("here_we_go_overworld")) {
         player.removeTag("here_we_go_overworld");
-        cmd.executeCommand("execute in minecraft:overworld run tp " + name + " 0 255 0", true);
-        cmd.executeCommand("effect give " + name + " minecraft:slow_falling 60", true);
+        server.executeCommand("execute in minecraft:overworld run tp " + name + " 0 255 0", true);
+        server.executeCommand("effect give " + name + " minecraft:slow_falling 60", true);
         player.addTag("wow_you_finally_go_to_the_overworld_and_now_you_need_to_kill_the_wither");
     }
     if (player.removeTag("storm_destroyer")) {
@@ -87,9 +83,9 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
     }
     if (player.removeTag("here_we_go_lost_cities") && "overworld" in dim) {
         player.removeTag("here_we_go_lost_cities");
-        cmd.executeCommand("execute in lostcities:lostcity run tp " + name + " 0 255 0", true);
-        cmd.executeCommand("effect give " + name + " minecraft:slow_falling 60", true);
-        cmd.executeCommand("fill 0 255 0 0 255 0 minecraft:air", true);
+        server.executeCommand("execute in lostcities:lostcity run tp " + name + " 0 255 0", true);
+        server.executeCommand("effect give " + name + " minecraft:slow_falling 60", true);
+        server.executeCommand("fill 0 255 0 0 255 0 minecraft:air", true);
         player.addTag("now_let_us_kill_the_command_block_in_the_wither_storm");
     }
     if ("aoa3:alacrity_bow" in mainhand) {
@@ -103,7 +99,7 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
         val health = player.getHealth();
         if (u in helmet && u in chestplate && u in leggings && u in boots) {
             //地下套强化
-            cmd.executeCommand(buff + " minecraft:haste 10 4", true);
+            server.executeCommand(buff + " minecraft:haste 10 4", true);
             return;
         }
         if (s in helmet && s in chestplate && s in leggings && s in boots) {
@@ -117,21 +113,21 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
         val m_health = player.getMaxHealth();
         if (health <= m_health * 0.5 && k in helmet && k in chestplate && k in leggings && k in boots) {
             //骑士套强化
-            cmd.executeCommand(buff + " minecraft:strength 10 1", true);
+            server.executeCommand(buff + " minecraft:strength 10 1", true);
             return;
         }
 
         //敏捷套&月球套强化
-        if (l in helmet && l in chestplate && l in leggings && l in boots) cmd.executeCommand(buff + " minecraft:night_vision 10", true);
-        if (a in helmet && a in chestplate && a in leggings && a in boots) cmd.executeCommand(jump + "3", true);
+        if (l in helmet && l in chestplate && l in leggings && l in boots) server.executeCommand(buff + " minecraft:night_vision 10", true);
+        if (a in helmet && a in chestplate && a in leggings && a in boots) server.executeCommand(jump + "3", true);
 
         //伊恩套强化
         if (r in helmet && r in chestplate && r in leggings && r in boots) {
             player.removePotionEffect(<effect:minecraft:poison>);
             val total_damage = one + two + three + four;
             val total_durability = 605 + 880 + 825 + 715;
-            if (1.00 * total_damage >= 0.66 * total_durability) cmd.executeCommand(buff + " minecraft:resistance 10 1", true);
-            if (1.00 * total_damage >= 0.33 * total_durability) cmd.executeCommand(buff + " minecraft:resistance 10 0", true);
+            if (1.00 * total_damage >= 0.66 * total_durability) server.executeCommand(buff + " minecraft:resistance 10 1", true);
+            if (1.00 * total_damage >= 0.33 * total_durability) server.executeCommand(buff + " minecraft:resistance 10 0", true);
         }
     }
 });

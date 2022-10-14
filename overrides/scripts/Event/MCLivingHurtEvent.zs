@@ -54,7 +54,7 @@ val r = "rosidian";
 CTEventManager.register<MCLivingHurtEvent>(event => {
     val entity = event.entityLiving;
     if (entity.world.remote) return;
-    val cmd = entity.world.asServerWorld().server;
+    val server = entity.world.asServerWorld().server;
     val head = entity.getItemStackFromSlot(MCEquipmentSlotType.HEAD);
     val chest = entity.getItemStackFromSlot(MCEquipmentSlotType.CHEST);
     val legs = entity.getItemStackFromSlot(MCEquipmentSlotType.LEGS);
@@ -75,7 +75,7 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
     if ("player" in attacked) {
 
 
-        cmd.executeCommand("aoa player " + uuid + " resources aoa3:rage set 100", true);//满怒火
+        server.executeCommand("aoa player " + uuid + " resources aoa3:rage set 100", true);//满怒火
 
 
         if (entity.removeTag("mcsaforge")) {
@@ -133,15 +133,15 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
 
     val health = entity.getHealth();
     val m_health = entity.getMaxHealth();
-    if (a in attacked && health < m_health * 0.4 && "xxeus" in attacked) cmd.executeCommand(effect + uuid + " minecraft:strength 114514 1", true);//远古战神强化
+    if (a in attacked && health < m_health * 0.4 && "xxeus" in attacked) server.executeCommand(effect + uuid + " minecraft:strength 114514 1", true);//远古战神强化
     for i in 0 .. aoa_bosses.length {
         //aoa全体boss强化
         if (aoa_bosses[i] in attacked && a in attacked) {
             if (health <= m_health * 0.2) {
-                cmd.executeCommand(effect + uuid + " minecraft:speed 114514 1", true);
+                server.executeCommand(effect + uuid + " minecraft:speed 114514 1", true);
                 break; 
             }
-            cmd.executeCommand(effect + uuid + " minecraft:fire_resistance 114514", true);
+            server.executeCommand(effect + uuid + " minecraft:fire_resistance 114514", true);
             break;
         }
     }
@@ -155,7 +155,7 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
     if (give_you_up in mainhand || give_you_up in offhand || summer_vibe in mainhand || summer_vibe in offhand) {
         //
         entity.setHealth(0);
-        cmd.executeCommand("clear " + uuid, true);
+        server.executeCommand("clear " + uuid, true);
         entity.addTag("inm");
     }
 
@@ -163,7 +163,7 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
     
     if (attacker.removeTag("target_slow")) {
         //敏捷之弓缓慢实现
-        cmd.executeCommand(effect + uuid + " minecraft:slowness 3 1",true);
+        server.executeCommand(effect + uuid + " minecraft:slowness 3 1",true);
         attacker.removeTag("target_slow");
     }
     

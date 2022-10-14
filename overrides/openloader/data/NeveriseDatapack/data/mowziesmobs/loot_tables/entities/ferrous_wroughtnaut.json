@@ -1,0 +1,15 @@
+{
+    "pools": [
+        {
+            "name": "ferrous_wroughtnaut_axe",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "mowziesmobs:wrought_axe",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

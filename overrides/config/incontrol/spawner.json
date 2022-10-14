@@ -82,7 +82,7 @@
             "minheight": 30,
             "maxheight": 140,
             "norestrictions": true,
-            "maxthis": 4
+            "maxthis": 1
         }
     },
     {

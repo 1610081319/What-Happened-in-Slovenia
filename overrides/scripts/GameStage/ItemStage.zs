@@ -73,7 +73,8 @@ val items as IItemStack[] = [
     <item:prefab:item_sickle_netherite>,
     <item:witherstormmod:command_block_shovel>,
     <item:witherstormmod:command_block_pickaxe>,
-    <item:witherstormmod:command_block_hoe>
+    <item:witherstormmod:command_block_hoe>,
+    <item:mowziesmobs:wrought_helmet>
 ];
 
 for i in 0 .. items.length {
