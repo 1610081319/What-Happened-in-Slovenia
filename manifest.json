@@ -12,7 +12,7 @@
   "manifestVersion": 1,
   "name": "Neverise",
   "version": "dev",
-  "author": "warlonmhite",
+  "author": "Kasualix",
   "files": [
     {
       "projectID": 409371,
@@ -210,13 +210,13 @@
       "required": true
     },
     {
-      "projectID": 514791,
-      "fileID": 3788863,
+      "projectID": 666907,
+      "fileID": 3961576,
       "required": true
     },
     {
-      "projectID": 666907,
-      "fileID": 3961576,
+      "projectID": 514791,
+      "fileID": 3788863,
       "required": true
     },
     {
@@ -232,11 +232,6 @@
     {
       "projectID": 326895,
       "fileID": 3561148,
-      "required": true
-    },
-    {
-      "projectID": 313477,
-      "fileID": 3884253,
       "required": true
     },
     {
