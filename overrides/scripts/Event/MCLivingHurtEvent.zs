@@ -53,7 +53,8 @@ val r = "rosidian";
 
 CTEventManager.register<MCLivingHurtEvent>(event => {
     val entity = event.entityLiving;
-    if (entity.world.remote) return;
+    val world = entity.world;
+    if (world.remote) return;
     val server = entity.world.asServerWorld().server;
     val head = entity.getItemStackFromSlot(MCEquipmentSlotType.HEAD);
     val chest = entity.getItemStackFromSlot(MCEquipmentSlotType.CHEST);
@@ -70,14 +71,11 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
     val attacker = dmgsource.trueSource;
     val attacked = entity.type.commandString; 
     val uuid = entity.uuid;
+    val dim = world.dimension;
 
     if (a in attacked && "destructor" in attacked) event.cancel();//灭世者不该受到任何伤害！
     if ("player" in attacked) {
-
-
         server.executeCommand("aoa player " + uuid + " resources aoa3:rage set 100", true);//满怒火
-
-
         if (entity.removeTag("mcsaforge")) {
             //凋灵之后，故事模式、地下城、Guns Without Roses 的装备作废
             if ("mcsaforge" in helmet) entity.setItemStackToSlot(MCEquipmentSlotType.HEAD, <item:minecraft:air>);
@@ -165,6 +163,15 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
         //敏捷之弓缓慢实现
         server.executeCommand(effect + uuid + " minecraft:slowness 3 1",true);
         attacker.removeTag("target_slow");
+    }
+
+    if ("iromine" in dim && "aoa3" in attacked) {
+        if (attacker.removeTag("iromine_passport")) {
+            attacker.addTag("iromine_passport");
+        } else {
+            if ("player" in attacked) return;
+            event.cancel();
+        }
     }
     
 });

@@ -108,9 +108,9 @@ CTEventManager.register<MCLivingSpawnEvent>((event) => {
     val classification = entity.type.classification.commandString;
     val random = world.random;
     val dim = world.dimension;
-    val random_start = r(random, 0, 114514);
-    var random_chest = r(random, 0, 114514);
-    var random_head = r(random, 0, 114514);
+    val random_start = r(random, 0, 191981);
+    var random_chest = r(random, 0, 191981);
+    var random_head = r(random, 0, 191981);
     var gear_chest = r(random, 0, 45);
     var gear_head = r(random, 0, 45);
     if (world.remote) return;
@@ -119,7 +119,7 @@ CTEventManager.register<MCLivingSpawnEvent>((event) => {
         return;
     }
     if (("monster" in classification) && ("overworld" in dim || "lostcities" in dim)) {
-        if (random_start > 57257) {
+        if (random_start >= 114514) {
             if (random_head > random_chest) {
                 entity.setItemStackToSlot(MCEquipmentSlotType.HEAD, helmet[gear_head]);
             } else {

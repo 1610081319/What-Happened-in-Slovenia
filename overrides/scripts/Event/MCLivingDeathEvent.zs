@@ -13,4 +13,5 @@ CTEventManager.register<MCLivingDeathEvent>((event) => {
         source.addTag("storm_destroyer");
         source.removeTag("now_let_us_kill_the_command_block_in_the_wither_storm");
     }
+    if ("ferrous_wroughtnaut" in type && "player" in source.type.commandString) source.addTag("iromine_passport");
 });

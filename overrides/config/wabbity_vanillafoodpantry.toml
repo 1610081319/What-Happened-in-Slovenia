@@ -5,7 +5,7 @@ version = 2
 	#[INTERNAL] Set true to enable development checks and workflows. Do NOT enable in a regular environment.
 	debug_mode = false
 	#Set to true to force all the basic recipes to use a mod-specific element to ensure no collisions with other mod recipes. Off by default; requires restart if changed.
-	super_compatibility_mode = false
+	super_compatibility_mode = true
 	#Set to false to turn off documentation tooltips (status tips not affected). Enabled by default.
 	show_doc_tooltips = true
 	#Set to "true" to disable extra recipes and actions that allow players access to items normally tied to standard progression. For example, if true, disables recipes for blaze powder and ender pearls. Combine with other options to remove all possible vanilla progression changes.
@@ -19,9 +19,9 @@ version = 2
 	#Set to false to disable compensation for Minecraft ignoring small amounts of crafting Xp. Note that this option is ignored if crafting Xp is disabled. Enabled by default; requires restart if changed.
 	generous_xp = true
 	#Set to false to disable generation of custom VFP ores like rock salt and natron in new worlds and new chunks. Enabled by default; requires restart if changed.
-	ore_generate_enabled = true
+	ore_generate_enabled = false
 	#Set to false to disable all mod-specific additions to structure and activity loot tables. Changing this affects things like fishing and dungeon loot but NOT upsize drops (see individual options). Enabled by default; requires restart if changed.
-	enrich_loot_tables = true
+	enrich_loot_tables = false
 	#Set to "true" to have VFP create single-use food items if possible. 'If possible' is defined as having a total food value less than or equal to the max food points allowed by vanilla Minecraft (20pts). Off for most multi-use capable foods by default. Requires restart if changed.
 	prefer_singleuse = "*DEFAULT*"
 	#Set to true to limit the use of the flint-cutter to only food RELATED recipes. Disabled by default (cutter can be used to cut things like wool blocks and leather).

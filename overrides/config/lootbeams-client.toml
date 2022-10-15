@@ -9,11 +9,11 @@
 	beam_alpha = 0.85
 	#How close the player has to be to see the beam. (note: ItemEntities stop rendering at 24 blocks, so that is the limit for beams)
 	#Range: 0.0 ~ 24.0
-	render_distance = 24.0
+	render_distance = 12.0
 	#If beams should be colored the same as the Items name (excludes name colors from rarity). This has priority over render_rarity_color.
-	render_name_color = true
+	render_name_color = false
 	#If beams should be colored the same as the Items rarity.
-	render_rarity_color = true
+	render_rarity_color = false
 	#The height of the Loot Beam.
 	#Range: 0.0 ~ 10.0
 	beam_height = 1.0
@@ -31,7 +31,7 @@
 		#Range: -10.0 ~ 10.0
 		nametag_scale = 1.0
 		#If Item nametags should be rendered.
-		render_nametags = true
+		render_nametags = false
 		#If Item nametags should be rendered when looking at items.
 		render_nametags_onlook = false
 		#Render nametags as bordered. Set to false for flat nametag with background.

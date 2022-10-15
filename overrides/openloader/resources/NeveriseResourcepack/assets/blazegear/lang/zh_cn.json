@@ -1,0 +1,19 @@
+{	
+	"block.blazegear.brimsteel_block": "§6硫钢块",
+	"item.blazegear.brimsteel_sword": "§6硫钢剑",
+	"item.blazegear.brimsteel_axe": "§6硫钢斧",
+	"item.blazegear.brimsteel_shovel": "§6硫钢锹",
+	"item.blazegear.brimsteel_pickaxe": "§6硫钢镐",
+	"item.blazegear.brimsteel_hoe": "§6硫钢锄",
+	"item.blazegear.brimsteel_helmet": "§6硫钢头盔",
+	"item.blazegear.brimsteel_chestplate": "§6硫钢胸甲",
+	"item.blazegear.brimsteel_leggings": "§6硫钢护腿",
+	"item.blazegear.brimsteel_boots": "§6硫钢靴子",
+	"item.blazegear.brimsteel_ingot": "§6硫钢锭",
+	"item.blazegear.flint_and_brimsteel": "§6硫钢打火石",
+	"item.blazegear.brimsteel_horse_armour": "§6硫钢马铠",
+	
+	"item.blazegear.brimsteel_horse_armour.tooltip": "为马匹抵御来自岩浆块和火焰的伤害。",
+	"item.blazegear.brimsteel_tool.tooltip": "点燃目标，以两倍的速度破坏易燃方块，自动熔炼方块掉落物。",
+	"item.blazegear.brimsteel_armour.tooltip": "全套效果：免疫来自岩浆块和火焰的伤害。"
+}

@@ -1,11 +1,23 @@
 {
   "retroGen": false,
   "swapper": {
-    "betterendforge:ender_ore": "minecraft:air",
+    "betterendforge:ender_ore": "minecraft:stone",
     "minecraft:andesite": "minecraft:stone",
     "minecraft:diorite": "minecraft:stone",
     "minecraft:granite": "minecraft:stone",
     "endergetic:ender_fire": "minecraft:air",
-    "aoa3:nowhere_activity_portal": "connectedglass:borderless_white_pane"
+    "aoa3:nowhere_activity_portal": "connectedglass:borderless_glass_orange",
+    "minecraft:cobblestone_wall": "connectedglass:borderless_glass_light_gray",
+    "minecraft:iron_bars": "connectedglass:borderless_glass_light_gray",
+    "minecraft:blue_stained_glass": "connectedglass:borderless_glass_blue",
+    "minecraft:glass": "connectedglass:clear_glass",
+    "minecraft:glass_pane": "connectedglass:clear_glass",
+    "minecraft:light_blue_stained_glass": "connectedglass:borderless_glass_light_blue",
+    "minecraft:white_stained_glass_pane": "connectedglass:borderless_glass_white_pane",
+    "minecraft:gray_stained_glass_pane": "connectedglass:borderless_glass_gray_pane",
+    "minecraft:light_blue_stained_glass_pane": "connectedglass:borderless_glass_light_blue_pane",
+    "minecraft:gray_stained_glass": "connectedglass:borderless_glass_gray",
+    "minecraft:white_stained_glass": "connectedglass:borderless_glass_white",
+    "minecraft:blue_stained_glass_pane": "connectedglass:borderless_glass_blue_pane"
   }
 }

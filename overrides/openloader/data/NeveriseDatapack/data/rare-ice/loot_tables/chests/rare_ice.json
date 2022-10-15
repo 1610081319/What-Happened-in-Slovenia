@@ -1,0 +1,491 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:emerald"
+                }, 
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:diamond"
+                }, 
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:prismarine_crystals"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:iron_ingot"
+                }, 
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:gold_ingot"
+                }, 
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:map"
+                }, 
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:coal"
+                }
+            ]
+        }, 
+        {
+            "rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"upgrade_aquatic:vibing_long\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"upgrade_aquatic:vibing_strong\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"upgrade_aquatic:vibing\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"upgrade_aquatic:repellence_long\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"upgrade_aquatic:repellence_strong\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"upgrade_aquatic:repellence\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"upgrade_aquatic:restfulness_strong\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"upgrade_aquatic:restfulness\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"goblintraders:dolphins_grace\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"buddycards:grading_luck\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"buddycards:grading_luck_strong\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"buddycards:grading_luck_long\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"environmental:vitality\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"mowziesmobs:long_poison_resist\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"mowziesmobs:poison_resist\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"betterendforge:end_veil_long\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"betterendforge:end_veil\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"minecraft:long_slow_falling\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"minecraft:slow_falling\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"minecraft:luck\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"minecraft:strong_strength\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"environmental:vitality_strong\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"environmental:long_strength\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"environmental:strength\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"environmental:regeneration\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"minecraft:strong_healing\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"minecraft:long_water_breathing\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"minecraft:water_breathing\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"minecraft:strong_swiftness\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"minecraft:long_swiftness\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"minecraft:swiftness\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"minecraft:long_fire_resistance\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"minecraft:fire_resistance\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"minecraft:strong_leaping\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"minecraft:long_leaping\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"minecraft:leaping\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"minecraft:long_invisibility\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion: \"minecraft:invisibility\"}"
+                        }
+                    ],
+                    "name": "minecraft:potion"
+                }
+            ]
+        }, 
+        {
+            "rolls": {
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+        
+                    "name": "minecraft:cod"
+                }, 
+                {
+                    "type": "item",
+        
+                    "name": "minecraft:salmon"
+                }
+            ]
+        }
+    ]
+}
