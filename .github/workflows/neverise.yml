@@ -12,7 +12,7 @@ jobs:
     if: "!endsWith(github.event.head_commit.message, 'NOPACK')"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: pack cl
         run: |
           mkdir artifacts
@@ -20,7 +20,7 @@ jobs:
           mv ${GITHUB_WORKSPACE}/manifest.json artifacts
           mv ${GITHUB_WORKSPACE}/modlist.html artifacts
       - name: Upload
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: ${{ env.BUILD }}
           path: artifacts
