@@ -1,0 +1,74 @@
+{
+	id: "1A1610C9EE45C0B9"
+	order_index: 10
+	title: "轻食物语"
+	loot_size: 1
+	rewards: [
+		{ item: "lightmeals:apple_juice" }
+		{ item: "lightmeals:apple_pie" }
+		{ item: "lightmeals:baby_carrot" }
+		{ item: "lightmeals:bacon" }
+		{ item: "lightmeals:bat_wings" }
+		{ item: "lightmeals:blaze_soup" }
+		{ item: "lightmeals:bone_broth" }
+		{ item: "lightmeals:cactus_fruit" }
+		{ item: "lightmeals:cactus_slice" }
+		{ item: "lightmeals:candied_apple" }
+		{ item: "lightmeals:carrot_soup" }
+		{ item: "lightmeals:chicken_dinner" }
+		{ item: "lightmeals:chocolate_bar" }
+		{ item: "lightmeals:chorus_fruit_juice" }
+		{ item: "lightmeals:chorus_fruit_pie" }
+		{ item: "lightmeals:chorus_soup" }
+		{ item: "lightmeals:cooked_bat_wings" }
+		{ item: "lightmeals:cooked_cactus_slice" }
+		{ item: "lightmeals:cooked_horse_meat" }
+		{ item: "lightmeals:cooked_mushroom" }
+		{ item: "lightmeals:cooked_ocelot_meat" }
+		{ item: "lightmeals:cooked_parrot" }
+		{ item: "lightmeals:cooked_rabbit_foot" }
+		{ item: "lightmeals:cooked_scute" }
+		{ item: "lightmeals:cooked_squid" }
+		{ item: "lightmeals:cooked_tropical_fish" }
+		{ item: "lightmeals:cooked_turtle_egg" }
+		{ item: "lightmeals:cooked_wolf_meat" }
+		{ item: "lightmeals:crispy_bacon" }
+		{ item: "lightmeals:fish_fillet" }
+		{ item: "lightmeals:fish_slice" }
+		{ item: "lightmeals:fish_soup" }
+		{ item: "lightmeals:flower_pie" }
+		{ item: "lightmeals:fried_egg" }
+		{ item: "lightmeals:fruit_salad" }
+		{ item: "lightmeals:glow_ink_soup" }
+		{ item: "lightmeals:honey_dipper" }
+		{ item: "lightmeals:horse_meat" }
+		{ item: "lightmeals:hot_chocolate" }
+		{ item: "lightmeals:ink_soup" }
+		{ item: "lightmeals:kelp_soup" }
+		{ item: "lightmeals:llama_meat" }
+		{ item: "lightmeals:llama_steak" }
+		{ item: "lightmeals:mashed_potato" }
+		{ item: "lightmeals:melon_juice" }
+		{ item: "lightmeals:nether_fungus_stew" }
+		{ item: "lightmeals:nether_roots_salad" }
+		{ item: "lightmeals:ocelot_meat" }
+		{ item: "lightmeals:polar_bear_meat" }
+		{ item: "lightmeals:polar_bear_steak" }
+		{ item: "lightmeals:potato_stew" }
+		{ item: "lightmeals:pudding" }
+		{ item: "lightmeals:pumpkin_soup" }
+		{ item: "lightmeals:raw_egg" }
+		{ item: "lightmeals:raw_fish_fillet" }
+		{ item: "lightmeals:raw_glow_squid" }
+		{ item: "lightmeals:raw_parrot" }
+		{ item: "lightmeals:raw_squid" }
+		{ item: "lightmeals:sea_pickle_juice" }
+		{ item: "lightmeals:small_cake" }
+		{ item: "lightmeals:sugar_cane_juice" }
+		{ item: "lightmeals:surf_and_turf" }
+		{ item: "lightmeals:sweet_berry_juice" }
+		{ item: "lightmeals:sweet_berry_pie" }
+		{ item: "lightmeals:veggie_salad" }
+		{ item: "lightmeals:wolf_meat" }
+	]
+}

@@ -1,13 +1,6 @@
 {
   "retroGen": false,
   "swapper": {
-    "minecraft:cobblestone_wall": "connectedglass:borderless_glass_gray_pane",
-    "minecraft:iron_bars": "connectedglass:borderless_glass_gray_pane",
-    "minecraft:glass_pane": "connectedglass:borderless_glass_pane",
-    "minecraft:white_stained_glass_pane": "connectedglass:borderless_white_black_pane",
-    "minecraft:blue_stained_glass_pane": "minecraft:blue_stained_glass",
-    "minecraft:black_stained_glass": "connectedglass:borderless_glass_black",
-    "minecraft:black_stained_glass_pane": "connectedglass:borderless_glass_orange_pane",
     "betterendforge:ender_ore": "minecraft:air",
     "minecraft:andesite": "minecraft:stone",
     "minecraft:diorite": "minecraft:stone",

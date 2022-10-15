@@ -40,7 +40,7 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
     val wroughtnaut_z = z + 10;
 
     if ("iromine" in dim && player.removeTag("ferrous_wroughtnaut")) server.executeCommand("execute in aoa3:iromine run summon mowziesmobs:ferrous_wroughtnaut " + wroughtnaut_x + " " + wroughtnaut_y + " " + wroughtnaut_z, true);
-
+        
     //tag已经注释了一切
     if ("lostcities" in dim) {
         player.addTag("if_you_die_in_lostcities_you_should_respawn_in_lostcities");

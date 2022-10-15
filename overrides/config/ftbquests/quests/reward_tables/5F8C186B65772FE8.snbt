@@ -1,0 +1,55 @@
+{
+	id: "5F8C186B65772FE8"
+	order_index: 15
+	title: "疯狂星期四"
+	loot_size: 1
+	rewards: [
+		{ item: "with_thursday:apple_juice" }
+		{ item: "with_thursday:bacon" }
+		{ item: "with_thursday:bacon_chicken_burger" }
+		{ item: "with_thursday:bacon_panini" }
+		{ item: "with_thursday:bbq_burger" }
+		{ item: "with_thursday:beaten_eggs" }
+		{ item: "with_thursday:beef_panini" }
+		{ item: "with_thursday:breakfast" }
+		{ item: "with_thursday:cappuccino" }
+		{ item: "with_thursday:cheese" }
+		{ item: "with_thursday:chicken_breast" }
+		{ item: "with_thursday:chicken_bucket" }
+		{ item: "with_thursday:chicken_burger" }
+		{ item: "with_thursday:chicken_nugget" }
+		{ item: "with_thursday:chicken_panini" }
+		{ item: "with_thursday:chicken_pop" }
+		{ item: "with_thursday:chicken_wings" }
+		{ item: "with_thursday:chocolate_bar" }
+		{ item: "with_thursday:classic_coffee" }
+		{ item: "with_thursday:cola" }
+		{ item: "with_thursday:cooked_chicken_breast" }
+		{ item: "with_thursday:cooked_chicken_wings" }
+		{ item: "with_thursday:cooked_diced_chicken" }
+		{ item: "with_thursday:corn_salad" }
+		{ item: "with_thursday:cp_burger" }
+		{ item: "with_thursday:etc_burger" }
+		{ item: "with_thursday:fish_burger" }
+		{ item: "with_thursday:flesh_bone" }
+		{ item: "with_thursday:french_fries" }
+		{ item: "with_thursday:ice_cream_float" }
+		{ item: "with_thursday:mashed_potato" }
+		{ item: "with_thursday:milk_tea" }
+		{ item: "with_thursday:mocha" }
+		{ item: "with_thursday:nine_fruit_juice" }
+		{ item: "with_thursday:original_recipe" }
+		{ item: "with_thursday:orleans_burger" }
+		{ item: "with_thursday:orleans_roasted_wings" }
+		{ item: "with_thursday:pnn_bread" }
+		{ item: "with_thursday:pork_panini" }
+		{ item: "with_thursday:potato_chips" }
+		{ item: "with_thursday:potato_pie" }
+		{ item: "with_thursday:sparkling_apple_juice" }
+		{ item: "with_thursday:spicy_squid" }
+		{ item: "with_thursday:sun_egg" }
+		{ item: "with_thursday:sundae" }
+		{ item: "with_thursday:thuringia_sausage" }
+		{ item: "with_thursday:usa_cofe" }
+	]
+}
