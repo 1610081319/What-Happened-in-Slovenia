@@ -1,24 +1,24 @@
 #Enables backups to run automatically.
 auto = true
 #If set to true, no messages will be displayed in chat/status bar.
-silent = false
+silent = true
 #The number of backup files to keep.
 #More backups = more space used
 #0 - Infinite
 #Range: 0 ~ 32000
-backups_to_keep = 4
+backups_to_keep = 3
 #Timer in minutes.
 #5 - backups every 5 minutes
 #60 - backups every hour
 #360 - backups every 6 hours
 #1440 - backups once every day
 #Range: 1 ~ 43800
-backup_timer = 24
+backup_timer = 30
 #0 - Disabled (output = folders)
 #1 - Best speed
 #9 - Smallest file size
 #Range: 0 ~ 9
-compression_level = 1
+compression_level = 0
 #Absolute path to backups folder.
 folder = ""
 #Prints (current size | total size) when backup is done.
@@ -30,7 +30,7 @@ max_total_size = "50 GB"
 #Only create backups when players have been online.
 only_if_players_online = true
 #Create a backup when server is stopped.
-force_on_shutdown = false
+force_on_shutdown = true
 
 #Advanced features that shouldn't be changed unless you know what you are doing.
 [advanced]
