@@ -102,13 +102,21 @@
 				advancement: "minecraft:story/upgrade_tools"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "4D3A4B9FE699972E"
-				type: "item"
-				auto: "enabled"
-				item: "minecraft:torch"
-				count: 32
-			}]
+			rewards: [
+				{
+					id: "4D3A4B9FE699972E"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:torch"
+					count: 32
+				}
+				{
+					id: "1BA382CAD27EC8AC"
+					type: "random"
+					auto: "enabled"
+					table_id: 1879708353945780409L
+				}
+			]
 		}
 		{
 			x: 10.0d
@@ -181,6 +189,12 @@
 						}
 					}
 				}
+				{
+					id: "47F349BBF0A91329"
+					type: "random"
+					auto: "enabled"
+					table_id: 1879708353945780409L
+				}
 			]
 		}
 		{
@@ -208,9 +222,10 @@
 					}
 				}
 				{
-					id: "2D26DEE71F0D0979"
+					id: "29967AAB8C338E6B"
 					type: "random"
-					table_id: 4633218973587897819L
+					auto: "enabled"
+					table_id: 1879708353945780409L
 				}
 			]
 		}
@@ -234,9 +249,10 @@
 					count: 32
 				}
 				{
-					id: "1466FDCAC8D32E01"
+					id: "6C52FB506AC42AAC"
 					type: "random"
-					table_id: 4633218973587897819L
+					auto: "enabled"
+					table_id: 1879708353945780409L
 				}
 			]
 		}
@@ -260,9 +276,10 @@
 					count: 2
 				}
 				{
-					id: "05C48F1D4DF840C4"
+					id: "6663AB7E2B5143A5"
 					type: "random"
-					table_id: 4633218973587897819L
+					auto: "enabled"
+					table_id: 1879708353945780409L
 				}
 			]
 		}

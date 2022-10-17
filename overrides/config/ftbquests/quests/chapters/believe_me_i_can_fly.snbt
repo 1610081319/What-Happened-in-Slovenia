@@ -29,9 +29,10 @@
 					count: 4
 				}
 				{
-					id: "2F1CA8C279985067"
+					id: "72548FB5284E0CCF"
 					type: "random"
-					table_id: 4633218973587897819L
+					auto: "enabled"
+					table_id: 6884904779885522920L
 				}
 			]
 		}
@@ -55,9 +56,10 @@
 					item: "simpleplanes:booster"
 				}
 				{
-					id: "257E85AD37F4DF73"
+					id: "7FF6E4C1B9BBBA9F"
 					type: "random"
-					table_id: 4633218973587897819L
+					auto: "enabled"
+					table_id: 6884904779885522920L
 				}
 			]
 		}
@@ -105,9 +107,10 @@
 					}
 				}
 				{
-					id: "592126773F0789A5"
+					id: "01C7C246AFCC5C0F"
 					type: "random"
-					table_id: 4633218973587897819L
+					auto: "enabled"
+					table_id: 6884904779885522920L
 				}
 			]
 		}
@@ -133,11 +136,30 @@
 					count: 64
 				}
 				{
-					id: "5E7D0C2477523EED"
+					id: "40792B6FB7EEAFBB"
 					type: "random"
-					table_id: 4633218973587897819L
+					auto: "enabled"
+					table_id: 6884904779885522920L
 				}
 			]
+		}
+		{
+			title: "找到一座天空村庄"
+			x: -6.0d
+			y: 9.5d
+			subtitle: "村庄的中央喷泉最底下有个绿宝石块~"
+			dependencies: ["52D679F15AC7C5E9"]
+			id: "452FD0677C8989F6"
+			tasks: [{
+				id: "6AD8CDC916DF7F40"
+				type: "item"
+				item: "minecraft:emerald_block"
+			}]
+			rewards: [{
+				id: "34AF0B042E73B7FF"
+				type: "random"
+				table_id: 6884904779885522920L
+			}]
 		}
 	]
 }

@@ -21,22 +21,32 @@
 			{
 				id: "0CEA9B4F3887056F"
 				type: "item"
+				auto: "enabled"
 				item: "aoa3:carved_rune_of_direction"
 			}
 			{
 				id: "7DF3436D5FFD0B78"
 				type: "item"
+				auto: "enabled"
 				item: "aoa3:carved_rune_of_reality"
 			}
 			{
 				id: "4C3845D0DDF6F3FA"
 				type: "item"
+				auto: "enabled"
 				item: "aoa3:carved_rune_of_space"
 			}
 			{
 				id: "07C90204E6EC5B67"
 				type: "item"
+				auto: "enabled"
 				item: "aoa3:carved_rune_of_travel"
+			}
+			{
+				id: "6BEAE06BFC46CEEA"
+				type: "random"
+				auto: "enabled"
+				table_id: 4633218973587897819L
 			}
 		]
 	}]

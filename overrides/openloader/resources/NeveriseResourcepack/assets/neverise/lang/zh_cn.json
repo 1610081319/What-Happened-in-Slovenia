@@ -21,5 +21,7 @@
     "info.neverise.puzzle_master": "§5§l§o游戏只能在玩具维度玩",
     "info.neverise.golden_apple_stew": "§5§l§o可用于缓解凋零腐败（一种逐渐降低玩家生命上限的Debuff）",
     "info.neverise.command_block_book": "§5§l§o击败凋灵共生体（Wither Symbiont）获得",
+    "info.neverise.hammocks": "§5§l§o跳过白天，进入夜晚",
+    "info.neverise.sleeping_bags": "§5§l§o跳过夜晚，但不更改重生点",
     "info.neverise.carved_rune": "§5§l§o只可通过任务（下界之星）获得"
 }

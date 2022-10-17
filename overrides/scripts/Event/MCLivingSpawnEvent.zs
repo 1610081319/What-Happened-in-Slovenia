@@ -108,11 +108,11 @@ CTEventManager.register<MCLivingSpawnEvent>((event) => {
     val classification = entity.type.classification.commandString;
     val random = world.random;
     val dim = world.dimension;
-    val random_start = r(random, 0, 191981);
-    var random_chest = r(random, 0, 191981);
-    var random_head = r(random, 0, 191981);
-    var gear_chest = r(random, 0, 45);
-    var gear_head = r(random, 0, 45);
+    val random_start = random.nextInt(0, 191981);
+    var random_chest = random.nextInt(0, 191981);
+    var random_head = random.nextInt(0, 191981);
+    var gear_chest = random.nextInt(0, 45);
+    var gear_head = random.nextInt(0, 45);
     if (world.remote) return;
     if (entity.removeTag("armored")) {
         entity.addTag("armored");

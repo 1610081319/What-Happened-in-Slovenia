@@ -21,5 +21,7 @@
     "info.neverise.puzzle_master": "§5§l§oYou can only play games in Celeve",
     "info.neverise.golden_apple_stew": "§5§l§oCan be used to mitigate Wither Sickness (a debuff that gradually lowers the player's health cap)",
     "info.neverise.command_block_book": "§5§l§oObtain by killing Wither Symbiont",
+    "info.neverise.hammocks": "§5§l§oPlace two ropes and nails on blocks 4 blocks apart, then right-click on any rope and nail with the hammock to place the hammock。",
+    "info.neverise.sleeping_bags": "§5§l§oSkip night without changing spawn point.",
     "info.neverise.carved_rune": "§5§l§oCan ONLY be obtained from quest Nether Star"
 }

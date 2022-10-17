@@ -676,9 +676,10 @@
 					table_id: 5811658212712557800L
 				}
 				{
-					id: "3156944E01D79698"
+					id: "5C909D96B41C6889"
 					type: "random"
-					table_id: 4633218973587897819L
+					auto: "enabled"
+					table_id: 4487615752174575348L
 				}
 			]
 		}
@@ -710,9 +711,10 @@
 					count: 3
 				}
 				{
-					id: "00D1C816D614276B"
+					id: "4144AB9F65B818AE"
 					type: "random"
-					table_id: 4633218973587897819L
+					auto: "enabled"
+					table_id: 4487615752174575348L
 				}
 			]
 		}
@@ -903,9 +905,10 @@
 					table_id: 5811658212712557800L
 				}
 				{
-					id: "06A84C1DBAC4F075"
+					id: "256BA8B5D4C9FF8C"
 					type: "random"
-					table_id: 4633218973587897819L
+					auto: "enabled"
+					table_id: 4487615752174575348L
 				}
 			]
 		}
@@ -937,9 +940,10 @@
 					}
 				}
 				{
-					id: "0B2ADC33117C3793"
+					id: "5D170E6BF876551D"
 					type: "random"
-					table_id: 4633218973587897819L
+					auto: "enabled"
+					table_id: 4487615752174575348L
 				}
 			]
 		}
@@ -1022,9 +1026,10 @@
 					table_id: 3353091546409653319L
 				}
 				{
-					id: "72B137D450F29FF6"
+					id: "5C38713D69CCCD99"
 					type: "random"
-					table_id: 4633218973587897819L
+					auto: "enabled"
+					table_id: 4487615752174575348L
 				}
 			]
 		}
@@ -1067,9 +1072,10 @@
 					count: 2
 				}
 				{
-					id: "5003E3D422AF11F7"
+					id: "1817B0ED1EBB9667"
 					type: "random"
-					table_id: 4633218973587897819L
+					auto: "enabled"
+					table_id: 4487615752174575348L
 				}
 			]
 		}
@@ -1093,9 +1099,10 @@
 					count: 2
 				}
 				{
-					id: "6B2216A122795F33"
+					id: "1D74DDA835C29160"
 					type: "random"
-					table_id: 4633218973587897819L
+					auto: "enabled"
+					table_id: 4487615752174575348L
 				}
 			]
 		}
@@ -1117,9 +1124,10 @@
 					item: "aoa3:nowhere_portal"
 				}
 				{
-					id: "2923F8978EB0249B"
+					id: "1EDDBDCB3EA7E53B"
 					type: "random"
-					table_id: 4633218973587897819L
+					auto: "enabled"
+					table_id: 4487615752174575348L
 				}
 			]
 		}

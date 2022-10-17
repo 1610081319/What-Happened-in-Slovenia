@@ -2,11 +2,6 @@
 import crafttweaker.api.event.entity.MCEntityTravelToDimensionEvent;
 import crafttweaker.api.util.text.MCTextComponent;
 import crafttweaker.api.events.CTEventManager;
-import crafttweaker.api.util.Random;
-
-public function r(rd as Random, a as int, b as int) as int {
-    return rd.nextInt(a, b);
-}
 
 CTEventManager.register<MCEntityTravelToDimensionEvent>(event => {
     val entity = event.entity;
@@ -16,10 +11,10 @@ CTEventManager.register<MCEntityTravelToDimensionEvent>(event => {
     val here = world.dimension;
     val there = event.dimension.commandString;
     val random = world.random;
-    val y = r(random, 30, 60);
+    val y = random.nextInt(30, 60);
     val player_y = y + 10;
-    val x1 = r(random, 0, 100);
-    val z1 = r(random, 0, 100);
+    val x1 = random.nextInt(0, 100);
+    val z1 = random.nextInt(0, 100);
 
     //tag已经注释了一切
     if ("player" in type) {
