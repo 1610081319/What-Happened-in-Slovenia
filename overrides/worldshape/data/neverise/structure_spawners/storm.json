@@ -10,8 +10,8 @@
 
     "placement": {
         "type": "surface",           
-        "minY": 70,
-        "maxY": 120,
+        "minY": 60,
+        "maxY": 160,
         "offset": 0,
         "fluidSurface": false,
 
@@ -37,11 +37,9 @@
         "#desert",
         "#river",
         "#swamp",
-        "#mushroom",
-        "#nether",
-        "#the_end"
+        "#mushroom"
     ],
     "dimensions": [
-        "lostcities:lostcity"
+        "dungeons_arise:witherstorm"
     ]
 }

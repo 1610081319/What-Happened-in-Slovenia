@@ -187,17 +187,6 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Potion: \"environmental:vitality\"}"
-                        }
-                    ],
-                    "name": "minecraft:potion"
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 2,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
                             "tag": "{Potion: \"mowziesmobs:long_poison_resist\"}"
                         }
                     ],
@@ -276,50 +265,6 @@
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{Potion: \"minecraft:strong_strength\"}"
-                        }
-                    ],
-                    "name": "minecraft:potion"
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 2,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion: \"environmental:vitality_strong\"}"
-                        }
-                    ],
-                    "name": "minecraft:potion"
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 2,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion: \"environmental:long_strength\"}"
-                        }
-                    ],
-                    "name": "minecraft:potion"
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 2,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion: \"environmental:strength\"}"
-                        }
-                    ],
-                    "name": "minecraft:potion"
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 2,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion: \"environmental:regeneration\"}"
                         }
                     ],
                     "name": "minecraft:potion"

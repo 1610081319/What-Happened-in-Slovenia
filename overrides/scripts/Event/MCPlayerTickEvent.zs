@@ -41,11 +41,10 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
 
     if ("iromine" in dim && player.removeTag("ferrous_wroughtnaut")) server.executeCommand("execute in aoa3:iromine run summon mowziesmobs:ferrous_wroughtnaut " + wroughtnaut_x + " " + wroughtnaut_y + " " + wroughtnaut_z, true);
         
-    //tag已经注释了一切
-    if ("lostcities" in dim) {
-        player.addTag("if_you_die_in_lostcities_you_should_respawn_in_lostcities");
+    if ("dungeons_arise:witherstorm" in dim) {
+        player.addTag("if_you_die_in_witherstorm_you_should_respawn_in_witherstorm");
     } else {
-        player.removeTag("if_you_die_in_lostcities_you_should_respawn_in_lostcities");
+        player.removeTag("if_you_die_in_witherstorm_you_should_respawn_in_witherstorm");
     }
     if ("nowhere" in dim) {
         player.addTag("if_you_die_in_nowhere_you_should_respawn_in_nowhere");
@@ -66,7 +65,6 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
         player.sendMessage(MCTextComponent.createTranslationTextComponent("eventMessage.neverise.after_storm.3"));
     }
     if (player.inventory.hasIItemStack(<item:minecraft:nether_star>) && player.removeTag("wow_you_finally_go_to_the_overworld_and_now_you_need_to_kill_the_wither")) {
-        //凋灵已死，虚无世界的大门正式开启
         player.removeTag("wow_you_finally_go_to_the_overworld_and_now_you_need_to_kill_the_wither");
         player.addTag("the_wither_storm_age_ends_and_you_are_free");
         player.sendMessage(MCTextComponent.createTranslationTextComponent("eventMessage.neverise.nether_star.1"));
@@ -83,7 +81,7 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
     }
     if (player.removeTag("here_we_go_lost_cities") && "overworld" in dim) {
         player.removeTag("here_we_go_lost_cities");
-        server.executeCommand("execute in lostcities:lostcity run tp " + name + " 0 255 0", true);
+        server.executeCommand("execute in dungeons_arise:witherstorm run tp " + name + " 0 255 0", true);
         server.executeCommand("effect give " + name + " minecraft:slow_falling 60", true);
         server.executeCommand("fill 0 255 0 0 255 0 minecraft:air", true);
         player.addTag("now_let_us_kill_the_command_block_in_the_wither_storm");
@@ -98,12 +96,10 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
     if ("aoa3" in helmet && "aoa3" in chestplate && "aoa3" in leggings && "aoa3" in boots) {
         val health = player.getHealth();
         if (u in helmet && u in chestplate && u in leggings && u in boots) {
-            //地下套强化
             server.executeCommand(buff + " minecraft:haste 10 4", true);
             return;
         }
         if (s in helmet && s in chestplate && s in leggings && s in boots) {
-            //空间之主恐水
             player.addTag(s);
             if (player.isInWater()) player.setHealth(health - 0.05);
             return;
@@ -112,16 +108,13 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
         }
         val m_health = player.getMaxHealth();
         if (health <= m_health * 0.5 && k in helmet && k in chestplate && k in leggings && k in boots) {
-            //骑士套强化
             server.executeCommand(buff + " minecraft:strength 10 1", true);
             return;
         }
 
-        //敏捷套&月球套强化
         if (l in helmet && l in chestplate && l in leggings && l in boots) server.executeCommand(buff + " minecraft:night_vision 10", true);
         if (a in helmet && a in chestplate && a in leggings && a in boots) server.executeCommand(jump + "3", true);
 
-        //伊恩套强化
         if (r in helmet && r in chestplate && r in leggings && r in boots) {
             player.removePotionEffect(<effect:minecraft:poison>);
             val total_damage = one + two + three + four;

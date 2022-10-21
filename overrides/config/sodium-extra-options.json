@@ -3,7 +3,7 @@
     "animation": true,
     "water": true,
     "lava": true,
-    "fire": true,
+    "fire": false,
     "portal": true,
     "block_animations": true
   },
@@ -13,11 +13,27 @@
     "block_break": true,
     "block_breaking": true,
     "other": {
-      "minecraft:large_smoke": true,
+      "minecraft:large_smoke": false,
       "minecraft:portal": false,
       "minecraft:lava": false,
       "minecraft:bubble_pop": false,
-      "minecraft:flame": false
+      "minecraft:flame": true,
+      "minecraft:poof": false,
+      "minecraft:smoke": false,
+      "minecraft:campfire_signal_smoke": false,
+      "minecraft:campfire_cosy_smoke": false,
+      "minecraft:rain": true,
+      "minecraft:falling_water": true,
+      "majruszs_difficulty:blood_particle": false,
+      "mowziesmobs:ring": true,
+      "mowziesmobs:ring_0": true,
+      "mowziesmobs:ring_big": true,
+      "mowziesmobs:ring1": true,
+      "mowziesmobs:ring2": true,
+      "mowziesmobs:ribbon_flat": true,
+      "mowziesmobs:ribbon_glow": true,
+      "mowziesmobs:ribbon_squiggle": true,
+      "mowziesmobs:ribbon_streaks": true
     }
   },
   "detail_settings": {
@@ -29,7 +45,7 @@
     "sky_colors": true
   },
   "render_settings": {
-    "fog_distance": 0,
+    "fog_distance": 33,
     "light_updates": true,
     "item_frame": true,
     "armor_stand": true,
@@ -41,15 +57,15 @@
     "player_name_tag": true
   },
   "extra_settings": {
-    "overlay_corner": "TOP_RIGHT",
+    "overlay_corner": "TOP_LEFT",
     "text_contrast": "NONE",
     "show_fps": true,
     "show_f_p_s_extended": true,
     "show_coords": false,
     "reduce_resolution_on_mac": true,
     "use_adaptive_sync": false,
-    "cloud_height": 248,
-    "toasts": true,
+    "cloud_height": 255,
+    "toasts": false,
     "instant_sneak": false,
     "prevent_shaders": false,
     "use_fast_random": true

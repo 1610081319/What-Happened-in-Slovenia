@@ -94,5 +94,11 @@
         "onjoin": true,
         "result": "default",
         "healthmultiply": 2.0
+    },
+    {
+        "mob": "witherstormmod:wither_storm",
+        "speedmultiply": 0.5,
+        "onjoin": true,
+        "result": "default"
     }
 ]

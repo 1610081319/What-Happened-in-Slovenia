@@ -40,9 +40,9 @@
 		#No comment
 		CertusQuartzWorldGen = true
 		#No comment
-		MeteoriteWorldGen = true
+		MeteoriteWorldGen = false
 		#No comment
-		SpawnPressesInMeteorites = true
+		SpawnPressesInMeteorites = false
 		#No comment
 		VillagerTrading = true
 

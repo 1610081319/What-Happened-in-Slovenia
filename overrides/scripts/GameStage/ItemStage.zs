@@ -74,7 +74,17 @@ val items as IItemStack[] = [
     <item:witherstormmod:command_block_shovel>,
     <item:witherstormmod:command_block_pickaxe>,
     <item:witherstormmod:command_block_hoe>,
-    <item:mowziesmobs:wrought_helmet>
+    <item:mowziesmobs:wrought_helmet>,
+    <item:plg:pl131072>,
+    <item:plg:pl32768>,
+    <item:plg:pl8192>,
+    <item:plg:pl2048>,
+    <item:plg:pl512>,
+    <item:plg:pl128>,
+    <item:plg:pl32>,
+    <item:plg:pl8>,
+    <item:plg:pl2>,
+    <item:appliedenergistics2:vibration_chamber>
 ];
 
 for i in 0 .. items.length {

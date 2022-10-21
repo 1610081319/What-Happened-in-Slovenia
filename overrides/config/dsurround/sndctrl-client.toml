@@ -6,7 +6,7 @@
 	#Enable HRTF processing in OpenAL
 	"Enable HRTF Processing" = false
 	#Enable conversion of stereo sounds to mono format for spacial play
-	"Enable Stereo to Mono Conversion" = true
+	"Enable Stereo to Mono Conversion" = false
 	#Enable sound occlusion calculations (sound muffling when positioned behind blocks)
 	"Enable Sound Occlusion Calculations" = true
 	#Number of streaming sound channels to configure
@@ -33,7 +33,7 @@
 	"Replace Randoms" = true
 	#Block range of entity special effect handling
 	#Range: 16 ~ 64
-	"Block Range" = 24
+	"Block Range" = 16
 
 #Defines how Sound Control logging will behave
 ["Logging Options"]

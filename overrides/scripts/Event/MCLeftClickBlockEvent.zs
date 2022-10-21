@@ -9,7 +9,7 @@ CTEventManager.register<MCLeftClickBlockEvent>((event) => {
     val player = event.player;
     val world = player.world;
     if (world.remote) return;
-    //空间之主套装 远古岩石特性实现
+    
     val server = player.world.asServerWorld().server;
     val pos_x = event.getBlockPos().x;
     val pos_y = event.getBlockPos().y;

@@ -4,9 +4,9 @@
       "ore": "minecraft:diorite",
       "filler": "minecraft:stone",
       "minY": 1,
-      "maxY": 80,
-      "maxVeinSize": 32,
-      "spawnRate": 10.0,
+      "maxY": 2,
+      "maxVeinSize": 1,
+      "spawnRate": 0.1,
       "biomeBlacklist": [],
       "biomeWhitelist": []
     }

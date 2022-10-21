@@ -9,9 +9,9 @@ CTEventManager.register<MCPlayerRespawnEvent>(event => {
     val server = world.asServerWorld().server;
     val pos = player.position;
     if (player.world.remote) return;
-    //tag已经注释了一切
-    if (player.removeTag("if_you_die_in_lostcities_you_should_respawn_in_lostcities")) {
-        server.executeCommand("execute in lostcities:lostcity run tp " + player.uuid + " 0 205 0", true);
+    
+    if (player.removeTag("if_you_die_in_witherstorm_you_should_respawn_in_witherstorm")) {
+        server.executeCommand("execute in dungeons_arise:witherstorm run tp " + player.uuid + " 0 205 0", true);
         server.executeCommand("effect give " + player.uuid + " minecraft:slow_falling 60", true);
     }
     if (player.removeTag("if_you_die_in_nowhere_you_should_respawn_in_nowhere")) server.executeCommand("execute in aoa3:nowhere run tp " + player.uuid + " 0 205 0", true);

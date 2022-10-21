@@ -1,6 +1,0 @@
-#Mon Oct 17 19:00:55 CST 2022
-shadowDistance=64.0
-BLOOM=false
-WATER_TYPE=1
-RP_SUPPORT=2
-WATER_SPEED=0.20

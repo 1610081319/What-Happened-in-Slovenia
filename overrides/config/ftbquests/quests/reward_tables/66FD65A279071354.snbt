@@ -130,19 +130,6 @@
 		{ item: "ends_delight:shulker_meat_slice" }
 		{ item: "ends_delight:smoked_dragon_leg" }
 		{ item: "ends_delight:stir_fried_shulker_meat" }
-		{ item: "environmental:apple_pie" }
-		{ item: "environmental:cherries" }
-		{ item: "environmental:cherry_pie" }
-		{ item: "environmental:cooked_duck" }
-		{ item: "environmental:cooked_venison" }
-		{ item: "environmental:duck" }
-		{ item: "environmental:fried_egg" }
-		{ item: "environmental:koi" }
-		{ item: "environmental:scrambled_eggs" }
-		{ item: "environmental:truffle" }
-		{ item: "environmental:truffle_mash" }
-		{ item: "environmental:truffle_pie" }
-		{ item: "environmental:venison" }
 		{ item: "farmersdelight:apple_pie_slice" }
 		{ item: "farmersdelight:bacon" }
 		{ item: "farmersdelight:bacon_and_eggs" }

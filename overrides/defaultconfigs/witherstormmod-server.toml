@@ -13,7 +13,7 @@
 	playerPickupChance = 3
 	#DEFAULT=1.0. Specifies a modifier value of the evolution rate attribute. The higher the value, the longer it takes for the Wither Storm to make a complete evolution (from phases 0 to 7), and vice versa. Cannot be lower than 0. Reload Type: NONE
 	#Range: 0.01 ~ 32.0
-	evolutionAttributeModifier = 0.5
+	evolutionAttributeModifier = 0.4
 	#DEFAULT=30. Specifies the amount of time in minutes that the Wither Storm's ultimate target must be stationary in order for it to accelerate. Reload Type: WORLD
 	#Range: 1 ~ 120
 	targetStationaryMinutes = 30
@@ -22,7 +22,7 @@
 	targetRunawayMinutes = 10
 	#DEFAULT=50. Specifies the invulnerability time when the Wither Storm has been summoned, in seconds. When invulnerable, the Wither Storm doesn't move and can't be attacked. Reload Type: NONE
 	#Range: 1 ~ 320
-	invulnerabilityTime = 100
+	invulnerabilityTime = 30
 	#DEFAULT=0.4. Specifies a modifier value of Target Stationary Flying Speed attribute. The higher the value, the faster the Wither Storm will go when its ultimate target is stationary. Reload Type: WORLD
 	#Range: 0.01 ~ 1.0
 	targetStationaryFlyingSpeed = 0.4
@@ -69,7 +69,7 @@
 	#DEFAULT=true. Specifies if Block Clusters should remove non-important items in its path. NOTE: Disabling can cause major lag. Reload Type: NONE
 	clustersRemoveItems = true
 	#DEFAULT=false. If true, the hitbox of the Wither Storm and Wither Storm Segment's will be shrunk vertically to one block. Enable if facing major server lag in the bigger Wither Storm phases. Reload Type: WORLD
-	squashHitbox = false
+	squashHitbox = true
 	#DEFAULT=20. Alters the interval (in ticks) of picking up block clusters for the hunchback phases (phase 0 - 3). NOTE: This value changes the evolution speed of the Wither Storm significantly. Reload Type: NONE
 	#Range: 10 ~ 80
 	hunchbackClusterPickupInterval = 20
@@ -86,11 +86,11 @@
 	#Wither sickness
 	[server."wither sickness"]
 		#DEFAULT=true. Specifies if mobs should be able to receive wither sickness. Reload Type: WORLD
-		witherSicknessEnabled = true
+		witherSicknessEnabled = false
 		#DEFAULT=true. Specifies if mobs should convert to sickened mobs once they die from wither sickness. Reload Type: NONE
-		sickenedMobConversions = true
+		sickenedMobConversions = false
 		#DEFAULT=true. Specifies if entities who are reinfected over a short period of time should receive wither sickness with a greater strength. Reload Type: NONE
-		increaseAmplifier = true
+		increaseAmplifier = false
 		#DEFAULT=6. After a mob has been targetted by the Wither Storm a set maximum of times, the mob will become infected. Reload Type: WORLD
 		#Range: 1 ~ 40
 		requiredContacts = 10
@@ -135,17 +135,17 @@
 	[server.formidibomb]
 		#DEFAULT=12000. Specifies the fuse in ticks that count down to the formidibomb's explosion. The fuse is set when the block is crafted. Reload Type: NONE
 		#Range: 1 ~ 12000
-		craftFuseTicks = 12000
+		craftFuseTicks = 1
 		#DEFAULT=1200. If the formidibomb is manually set on fire the fuse tick count will be set to this value, if the original fuse is greater than this value. Reload Type: NONE
 		#Range: 1 ~ 12000
-		catchFireFuseTicks = 1200
+		catchFireFuseTicks = 600
 		#DEFAULT=true. Specifies if after a set amount of time the formidibomb item should drop out of whatever inventory is holding it and should spawn as the entity. Reload Type: NONE
-		shouldDropFromInventory = true
+		shouldDropFromInventory = false
 		#DEFAULT=4. Specifies the interval for when the formidibomb will drop out of its inventory (if enabled). This value divides the crafted fuse ticks to get the interval (e.x. 12000 / 4 = 3000). Reload Type: NONE
 		#Range: 1 ~ 8
-		dropInterval = 4
+		dropInterval = 12000
 		#DEFAULT=true. Specifies if formidibombs should count down in block entity inventories. NOTE: Disable if facing compatibility issues with other mods. Reload Type: NONE
-		tickInContainers = true
+		tickInContainers = false
 
 	#Playing dead
 	[server."playing dead"]

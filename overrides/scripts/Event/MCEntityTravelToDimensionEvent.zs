@@ -16,7 +16,6 @@ CTEventManager.register<MCEntityTravelToDimensionEvent>(event => {
     val x1 = random.nextInt(0, 100);
     val z1 = random.nextInt(0, 100);
 
-    //tag已经注释了一切
     if ("player" in type) {
         entity.addTag("exp_fix");
         if ("overworld" in there && "nowhere" in here) {
@@ -30,7 +29,7 @@ CTEventManager.register<MCEntityTravelToDimensionEvent>(event => {
                 entity.addTag("here_we_go_overworld");
             }
         }
-        if ("lostcities" in here && "nowhere" in there) {
+        if ("dungeons_arise:witherstorm" in here && "nowhere" in there) {
             entity.addTag("here_we_go_overworld");
             event.cancel();
         }

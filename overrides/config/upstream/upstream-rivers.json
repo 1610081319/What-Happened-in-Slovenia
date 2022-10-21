@@ -1,10 +1,4 @@
 {
-  "environmental:blossom_highlands": "minecraft:river",
-  "environmental:blossom_hills": "minecraft:river",
-  "environmental:blossom_valleys": "minecraft:river",
-  "environmental:blossom_woods": "minecraft:river",
-  "environmental:marsh": "environmental:marsh",
-  "environmental:mushroom_marsh": "environmental:mushroom_marsh",
   "minecraft:badlands": "minecraft:river",
   "minecraft:badlands_plateau": "minecraft:river",
   "minecraft:bamboo_jungle": "minecraft:river",

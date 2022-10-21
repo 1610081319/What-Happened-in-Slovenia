@@ -123,8 +123,7 @@
 			y: 9.0d
 			subtitle: "{quests.nrq.5EA036CDBA01139B.subtitle}"
 			description: [
-				"{quests.nrq.5EA036CDBA01139B.description.1}"
-				"{quests.nrq.5EA036CDBA01139B.description.2}"
+				"{quests.nrq.5EA036CDBA01139B.description}"
 			]
 			dependencies: ["5D41AECFC89293F6"]
 			id: "5EA036CDBA01139B"

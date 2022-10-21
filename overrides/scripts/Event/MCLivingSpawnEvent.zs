@@ -101,31 +101,77 @@ val chestplate as IItemStack[] = [
     <item:minecraft:air>,
     <item:minecraft:air>
 ];
-
+val aoa_overworld_mobs as string[] = [
+    "charger",
+    "cyclops",
+    "ancient_golem",
+    "bomb_carrier",
+    "bugeye",
+    "everbeast",
+    "ghost",
+    "goblin",
+    "mother_void_walker",
+    "night_reaper",
+    "night_reaper",
+    "nightfly",
+    "sasquatch",
+    "shade",
+    "shadow",
+    "trickster",
+    "void_charger",
+    "void_walker"
+];
+val aoa_nether_mobs as string[] = [
+    "embrake",
+    "flamewalker",
+    "infernal",
+    "little_bam",
+    "scrubby",
+    "skeletal_cowman"
+];
 CTEventManager.register<MCLivingSpawnEvent>((event) => {
     val entity = event.entityLiving;
     val world = entity.world;
+    if (world.remote) return;
+    val type = entity.type.commandString;
+    val server = world.asServerWorld().server;
     val classification = entity.type.classification.commandString;
     val random = world.random;
     val dim = world.dimension;
+    val pos = entity.position;
     val random_start = random.nextInt(0, 191981);
     var random_chest = random.nextInt(0, 191981);
     var random_head = random.nextInt(0, 191981);
     var gear_chest = random.nextInt(0, 45);
     var gear_head = random.nextInt(0, 45);
-    if (world.remote) return;
-    if (entity.removeTag("armored")) {
-        entity.addTag("armored");
+    var random_overworld_mob = random.nextInt(0, 17);
+    var random_nether_mob = random.nextInt(0, 5);
+
+    if (entity.removeTag("armored_or_replaced")) {
+        entity.addTag("armored_or_replaced");
         return;
     }
-    if (("monster" in classification) && ("overworld" in dim || "lostcities" in dim)) {
+    if (("monster" in classification) && ("overworld" in dim || "dungeons_arise:witherstorm" in dim || "nether" in dim)) {
         if (random_start >= 114514) {
+            if ("minecraft:guardian" in type) {
+                entity.remove();
+                server.executeCommand("", true);
+            }
             if (random_head > random_chest) {
                 entity.setItemStackToSlot(MCEquipmentSlotType.HEAD, helmet[gear_head]);
             } else {
                 entity.setItemStackToSlot(MCEquipmentSlotType.CHEST, chestplate[gear_chest]);
             }
+        } else {
+            if (("zombie" in type || "skeleton" in type || "creeper" in type || "spider" in type || "enderman" in type || "witch" in type) && "overworld" in dim) {
+                entity.remove();
+                server.executeCommand("execute in " + dim + " run summon aoa3:" + aoa_overworld_mobs[random_overworld_mob] + " " + pos.x + " " + pos.y + " " + pos.z, true);
+            }
+            if ("nether" in dim && ("piglin" in type || "enderman" in type || "hoglin" in type)) {
+                entity.remove();
+                server.executeCommand("execute in " + dim + " run summon aoa3:" + aoa_nether_mobs[random_nether_mob] + " " + pos.x + " " + pos.y + " " + pos.z, true);
+            }
         }
-        entity.addTag("armored");
+        entity.addTag("armored_or_replaced");
     }
 });

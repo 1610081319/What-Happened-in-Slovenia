@@ -1,3 +1,4 @@
+//Author: @Kasualix
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.SmithingManager;
 
@@ -29,7 +30,14 @@ val all as IItemStack[] = [
     <item:relics:pedestal>,
     <item:relics:runic_altar>,
     <item:relics:bloody_lectern>,
-    <item:aoa3:carved_rune_of_power>
+    <item:aoa3:carved_rune_of_power>,
+    <item:appliedenergistics2:vibration_chamber>,
+    <item:appliedenergistics2:quartz_block>,
+    <item:appliedenergistics2:64k_storage_cell>,
+    <item:appliedenergistics2:1k_storage_cell>,
+    <item:appliedenergistics2:4k_storage_cell>,
+    <item:appliedenergistics2:16k_storage_cell>,
+    <item:appliedenergistics2:drive>
 ];
 val sword_names as string[] = [
     "rapier",
@@ -130,6 +138,11 @@ val book = <item:witherstormmod:command_block_book>;
 val sword = <item:witherstormmod:command_block_sword>;
 val axe = <item:witherstormmod:command_block_axe>;
 val baronyte = <item:aoa3:baronyte_ingot>;
+val certus = <item:appliedenergistics2:certus_quartz_crystal>;
+val iron = <item:minecraft:iron_ingot>;
+val red = <item:minecraft:redstone>;
+val glass = <tag:items:forge:glass>;
+val basalt = <item:minecraft:basalt>;
 
 for i in 0 .. all.length {
     recipes.removeRecipe(all[i]);
@@ -174,4 +187,18 @@ craftingTable.addShaped("haunted_bell", <item:meetyourfight:haunted_bell>, [
     [air, gold, air],
     [gold, <item:aoa3:haunted_eyes_leaves>, gold],
     [gold, <item:aoa3:haunted_eyes_leaves>, gold]
+]);
+craftingTable.addShaped("plg", <item:plg:pl532480>, [
+    [iron, certus, iron],
+    [iron, <item:minecraft:emerald_block>, iron],
+    [basalt, basalt, basalt]
+]);
+craftingTable.addShaped("certus_quartz_block", <item:appliedenergistics2:quartz_block>, [
+    [certus, certus],
+    [certus, certus]
+]);
+craftingTable.addShaped("storage_cell", <item:appliedenergistics2:64k_storage_cell>, [
+    [glass, red, glass],
+    [red, <item:appliedenergistics2:quartz_block>, red],
+    [iron, iron, iron]
 ]);

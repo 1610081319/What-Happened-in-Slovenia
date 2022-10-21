@@ -1,3 +1,4 @@
+//Author: @Kasualix
 import crafttweaker.api.util.text.MCTextComponent as MCTextComponent;
 import crafttweaker.api.item.IItemStack;
 

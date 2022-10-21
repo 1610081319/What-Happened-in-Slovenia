@@ -1,6 +1,4 @@
 {
-    "advancement.neverise.lost.title": "Lost Cities",
-    "advancement.neverise.lost.description": "Go out of Nowhere and enter the Lost Cities",
     "eventMessage.neverise.login": "§6§l§o「You wake up in Nowhere」",
     "eventMessage.neverise.after_storm.1": "§6§l§oThe Wither Storm is not completely dead.",
     "eventMessage.neverise.after_storm.2": "§6§l§oIts residual power escaped to the Overworld, becoming a crippled Wither.",
@@ -17,7 +15,7 @@
     "info.neverise.squire_bag": "§5You can't put items into it!",
     "info.neverise.formidibomb": "§5High-end ingredients often only require simple cooking: put it down and ignite it with Flint and Steel!",
     "info.neverise.for_storm": "§5§l§oThis piece of equipment exists to defeat the Wither Storm",
-    "info.neverise.nowhere_portal": "§5§l§oAfter returning to the overworld, you will not be able to return to the Nowhere dimension or the Lost Cities dimension. It's a whole new world outside.",
+    "info.neverise.nowhere_portal": "§5§l§oAfter returning to the overworld, you will not be able to return to this dimension. It's a whole new world outside.",
     "info.neverise.puzzle_master": "§5§l§oYou can only play games in Celeve",
     "info.neverise.golden_apple_stew": "§5§l§oCan be used to mitigate Wither Sickness (a debuff that gradually lowers the player's health cap)",
     "info.neverise.command_block_book": "§5§l§oObtain by killing Wither Symbiont",

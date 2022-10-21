@@ -1,6 +1,4 @@
 {
-    "advancement.neverise.lost.title": "失落的城市",
-    "advancement.neverise.lost.description": "离开虚无维度，进入失落的城市",
     "eventMessage.neverise.login": "§6§l§o「你自虚无中醒来」",
     "eventMessage.neverise.after_storm.1": "§6§l§o凋灵风暴并没有完全灭亡。",
     "eventMessage.neverise.after_storm.2": "§6§l§o它残留的力量逃窜到了主世界，变成了一个残缺的凋灵。",
@@ -15,13 +13,13 @@
     "info.neverise.fertilised_farmland": "§5肥沃耕地可用于增产农作物。\n当你收获种植在肥沃耕地上的作物时，它会额外给予你一个作物。\n但是，肥沃耕地不会影响作物收获时的种子数量，也不会影响没有种子的作物（如 马铃薯、胡萝卜）。",
     "info.neverise.alacrity_bow": "§5使目标缓慢",
     "info.neverise.squire_bag": "§5不是用来装东西的！",
-    "info.neverise.formidibomb": "§5高端的食材往往只需要简单地烹饪：放下后用打火石点燃！",
-    "info.neverise.for_storm": "§5§l§o这件装备是为了击败凋灵风暴而存在的",
-    "info.neverise.nowhere_portal": "§5§l§o回到主世界后，你将无法再返回虚无维度或失落的城市维度。外面，是个全新的世界。",
-    "info.neverise.puzzle_master": "§5§l§o游戏只能在玩具维度玩",
-    "info.neverise.golden_apple_stew": "§5§l§o可用于缓解凋零腐败（一种逐渐降低玩家生命上限的Debuff）",
-    "info.neverise.command_block_book": "§5§l§o击败凋灵共生体（Wither Symbiont）获得",
-    "info.neverise.hammocks": "§5§l§o跳过白天，进入夜晚",
-    "info.neverise.sleeping_bags": "§5§l§o跳过夜晚，但不更改重生点",
-    "info.neverise.carved_rune": "§5§l§o只可通过任务（下界之星）获得"
+    "info.neverise.formidibomb": "§5为避免破坏大量方块造成卡顿，此方块在被放下点燃后会被传送到原地200格高处。",
+    "info.neverise.for_storm": "§5§l§o这件装备是为了击败凋灵风暴而存在的。",
+    "info.neverise.nowhere_portal": "§5§l§o回到主世界后，你将无法再返回这个维度。外面，是个全新的世界。",
+    "info.neverise.puzzle_master": "§5§l§o游戏只能在玩具维度玩。",
+    "info.neverise.golden_apple_stew": "§5§l§o可用于缓解凋零腐败（一种逐渐降低玩家生命上限的Debuff）。",
+    "info.neverise.command_block_book": "§5§l§o击败凋灵共生体（Wither Symbiont）获得。",
+    "info.neverise.hammocks": "§5§l§o跳过白天，进入夜晚。",
+    "info.neverise.sleeping_bags": "§5§l§o跳过夜晚，但不更改重生点。",
+    "info.neverise.carved_rune": "§5§l§o只可通过任务（下界之星）获得。"
 }

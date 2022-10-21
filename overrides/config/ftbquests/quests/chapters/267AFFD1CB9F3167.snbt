@@ -3,8 +3,165 @@
 	group: "6A99013B6E72B71A"
 	order_index: 2
 	filename: "267AFFD1CB9F3167"
-	title: "简单存储？我不需要！"
-	default_quest_shape: ""
+	title: "全斯洛文尼亚最简单的存储"
+	icon: "appliedenergistics2:spatial_pylon"
+	default_quest_shape: "diamond"
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 1.5d
+			y: -1.0d
+			subtitle: "谐振仓？你认真的？"
+			description: [
+				"恒久光发电机产的是EU能量，能量接收器可以将之转化为AE能量。"
+				"相邻摆放即可。"
+			]
+			dependencies: [
+				"5EA036CDBA01139B"
+				"7316A9D399BB77A2"
+			]
+			id: "591E252A63BFAAD7"
+			tasks: [{
+				id: "6AA66A934258C184"
+				type: "item"
+				item: "plg:pl532480"
+			}]
+			rewards: [{
+				id: "28F27C4F463A40CE"
+				type: "item"
+				item: "appliedenergistics2:energy_acceptor"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			subtitle: "用它右击一个（空的）黑曜石箱子，有惊喜"
+			description: [
+				"把ME合成终端Shift+右击放到ME驱动器上去吧。"
+				"什么？没有ME驱动器？你一定没有看到小标题。"
+			]
+			dependencies: ["591E252A63BFAAD7"]
+			id: "5A90B12F6653A27C"
+			tasks: [{
+				id: "7A145A2DF9993577"
+				type: "item"
+				item: "appliedenergistics2:quartz_block"
+			}]
+			rewards: [
+				{
+					id: "547517E27062B493"
+					type: "item"
+					item: "appliedenergistics2:crafting_terminal"
+				}
+				{
+					id: "13E9D8A5401B64FC"
+					type: "choice"
+					table_id: 1041392055586736929L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -1.0d
+			subtitle: "如何用3个任务毕业存储"
+			description: ["把ME驱动器放到能量接收器旁边，然后把存储元件放到ME驱动器里去，然后打开ME合成终端，开始疯狂塞东西吧！"]
+			dependencies: ["5A90B12F6653A27C"]
+			id: "16035A1CD189E6DC"
+			tasks: [{
+				id: "1A9309EB46E4A5DE"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:64k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "60DC505415733CAF"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:64k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			description: [
+				"Tom的简单存储不行吗？"
+				"Simple Storage Network不行吗？"
+				"为什么要是AE2？"
+				"因为§m简单存储就是屑§r作者对AE2有特殊的情结。"
+				"说明白点吧：作者就是想往Neverise里塞AE2，作者就是要往Neverise里塞AE2，别人挡不住。"
+				"在作者的Minecraft游玩经历中，有两句话对他产生了莫大的影响，下面是其中一句："
+				"“整合包开发是围绕作者的恶趣味进行的。”"
+				"在Neverise中，对于不懂科技的冒险家，AE2的定位完全是最终的存储手段，一些东西的获取方式已经被极大幅度地简化，不需要去找陨石、磨石英。"
+				"对于很懂AE2的人，你依然可以利用它的其他价值，整合包不会限制这一点。"
+			]
+			id: "7316A9D399BB77A2"
+			tasks: [{
+				id: "6F063D532E3EAF41"
+				type: "checkmark"
+				title: "如何看待Neverise中有AE2？"
+			}]
+			rewards: [{
+				id: "7ABC0273E5763F95"
+				type: "item"
+				title: "纪念品"
+				item: {
+					id: "ironchest:obsidian_chest"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Items: [
+								{
+									Slot: 0b
+									id: "appliedenergistics2:silicon_press"
+									Count: 1b
+								}
+								{
+									Slot: 1b
+									id: "appliedenergistics2:calculation_processor_press"
+									Count: 1b
+								}
+								{
+									Slot: 2b
+									id: "appliedenergistics2:engineering_processor_press"
+									Count: 1b
+								}
+								{
+									Slot: 3b
+									id: "appliedenergistics2:logic_processor_press"
+									Count: 1b
+								}
+								{
+									Slot: 4b
+									id: "appliedenergistics2:sky_stone_block"
+									Count: 64b
+								}
+								{
+									Slot: 5b
+									id: "appliedenergistics2:sky_stone_block"
+									Count: 64b
+								}
+								{
+									Slot: 6b
+									id: "appliedenergistics2:sky_stone_block"
+									Count: 64b
+								}
+								{
+									Slot: 7b
+									id: "appliedenergistics2:sky_stone_block"
+									Count: 64b
+								}
+							]
+							id: "ironchest:obsidian_chest"
+						}
+					}
+				}
+			}]
+		}
+	]
 }

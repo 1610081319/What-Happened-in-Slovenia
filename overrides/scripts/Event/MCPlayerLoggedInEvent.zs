@@ -7,7 +7,7 @@ CTEventManager.register<MCPlayerLoggedInEvent>(event => {
     if (player.world.remote) return;
     if (player.hasGameStage("logged")) return;
     val server = player.world.asServerWorld().server;
-    //开局进虚无维度
+    
     player.addGameStage("logged");
     player.addGameStage("before_wither");
     player.addTag("now_let_us_go_to_nowhere");

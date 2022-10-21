@@ -9,7 +9,7 @@ customization-meta {
 }
 
 customization {
-  name = nowhere
+  name = nether
   action = setbackgroundpanorama
 }
 

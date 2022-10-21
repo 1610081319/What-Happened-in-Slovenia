@@ -72,12 +72,17 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
     val attacked = entity.type.commandString; 
     val uuid = entity.uuid;
     val dim = world.dimension;
+    val random_sickness = world.random.nextDouble(0.00, 1.00);
 
-    if (a in attacked && "destructor" in attacked) event.cancel();//灭世者不该受到任何伤害！
+    if (a in attacked && "destructor" in attacked) event.cancel();
     if ("player" in attacked) {
-        server.executeCommand("aoa player " + uuid + " resources aoa3:rage set 100", true);//满怒火
+        if (entity.removeTag("storm_time") && random_sickness >= 0.90) {
+            server.executeCommand("effect give " + uuid + " witherstormmod:wither_sickness 600 1", true);
+            entity.addTag("storm_time");
+        }
+        server.executeCommand("aoa player " + uuid + " resources aoa3:rage set 100", true);
         if (entity.removeTag("mcsaforge")) {
-            //凋灵之后，故事模式、地下城、Guns Without Roses 的装备作废
+            
             if ("mcsaforge" in helmet) entity.setItemStackToSlot(MCEquipmentSlotType.HEAD, <item:minecraft:air>);
             if ("mcsaforge" in chestplate) entity.setItemStackToSlot(MCEquipmentSlotType.CHEST, <item:minecraft:air>);
             if ("mcsaforge" in leggings) entity.setItemStackToSlot(MCEquipmentSlotType.LEGS, <item:minecraft:air>);
@@ -97,13 +102,11 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
         if (a in helmet && a in chestplate && a in leggings && a in boots) {
 
             if (dmgsource == <damagesource:fall>) {
-                //月球套和空间之主套免疫摔落
                 if (l in helmet && l in chestplate && l in leggings && l in boots) event.cancel();
                 if (s in helmet && s in chestplate && s in leggings && s in boots) event.cancel();
             }
 
             if (dmgsource == <damagesource:inWall>) {
-                //空间之主套免疫窒息
                 if (s in helmet && s in chestplate && s in leggings && s in boots) event.cancel();
             }
 
@@ -112,7 +115,6 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
         val dmgtype = dmgsource.getDamageType();
 
         if (dmgtype == "magic" && entity.isPotionActive(<effect:minecraft:poison>)) {
-            //伊恩套毒伤衰减
             if ((r in helmet && r in chestplate && r in leggings) || (r in helmet && r in chestplate && r in boots) || (r in chestplate && r in leggings && r in boots)) {
                 event.setAmount(event.amount * 0.2);
                 return;
@@ -133,7 +135,6 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
     val m_health = entity.getMaxHealth();
     if (a in attacked && health < m_health * 0.4 && "xxeus" in attacked) server.executeCommand(effect + uuid + " minecraft:strength 114514 1", true);//远古战神强化
     for i in 0 .. aoa_bosses.length {
-        //aoa全体boss强化
         if (aoa_bosses[i] in attacked && a in attacked) {
             if (health <= m_health * 0.2) {
                 server.executeCommand(effect + uuid + " minecraft:speed 114514 1", true);
@@ -160,7 +161,6 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
     if (attacker == null) return;
     
     if (attacker.removeTag("target_slow")) {
-        //敏捷之弓缓慢实现
         server.executeCommand(effect + uuid + " minecraft:slowness 3 1",true);
         attacker.removeTag("target_slow");
     }

@@ -22,7 +22,7 @@
 	#Enable applying enchantments from this mod on non-Dungeons gear using the Enchanting Table. 
 	#If you don't want your enchantments to become too cluttered for non-Dungeons gear, or simply don't like it, disable this feature. 
 	#You can still use the anvil to put the enchantments onto them and have them work correctly. [true / false]
-	enableEnchantsOnNonDungeonsGear = true
+	enableEnchantsOnNonDungeonsGear = false
 	#Enable applying enchantments together to create combinations would  be considered too overpowered. 
 	#If you don't want overpowered enchantment combinations, like Sharpness and Committed on a sword, disable this feature. [true / false]
 	enableOverpoweredEnchantmentCombos = false
@@ -34,16 +34,16 @@
 	treasureOnlyEnchantments = []
 	#Enable melee weapons appearing in chest loot and trades. 
 	#If you want to disable obtaining this mod's melee weapons, disable this feature. [true / false]
-	enableMeleeWeaponLoot = true
+	enableMeleeWeaponLoot = false
 	#Enable ranged weapons appearing in chest loot and trades. 
 	#If you want to disable obtaining this mod's ranged weapons, disable this feature. [true / false]
-	enableRangedWeaponLoot = true
+	enableRangedWeaponLoot = false
 	#Enable armors appearing in chest loot and trades. 
 	#If you want to disable obtaining this mod's armors, disable this feature. [true / false]
-	enableArmorLoot = true
+	enableArmorLoot = false
 	#Enable artifacts appearing in chest loot and trades. 
 	#If you want to disable obtaining this mod's artifacts, disable this feature. [true / false]
-	enableArtifactLoot = true
+	enableArtifactLoot = false
 	#Enable melee weapons appearing in their own tab in the creative menu. 
 	#Disabling this feature puts them in the COMBAT tab. [true / false]
 	enableMeleeWeaponTab = true
