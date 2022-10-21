@@ -164,14 +164,5 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
         server.executeCommand(effect + uuid + " minecraft:slowness 3 1",true);
         attacker.removeTag("target_slow");
     }
-
-    if ("iromine" in dim && "aoa3" in attacked) {
-        if (attacker.removeTag("iromine_passport")) {
-            attacker.addTag("iromine_passport");
-        } else {
-            if ("player" in attacked) return;
-            event.cancel();
-        }
-    }
     
 });

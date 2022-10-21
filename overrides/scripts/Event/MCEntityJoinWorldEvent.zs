@@ -17,7 +17,7 @@ CTEventManager.register<MCEntityJoinWorldEvent>((event) => {
     val between = 200 - pos.y - 1;
 
     if ("formidibomb" in type) {
-        if ("dungeons_arise:witherstorm" in dim) {
+        if ("neverise:witherstorm" in dim) {
             entity.setPosition(pos.x, 200.00, pos.z);
             world.setBlockState(pos.up(between), <blockstate:minecraft:stone>);
         } else {
@@ -25,7 +25,7 @@ CTEventManager.register<MCEntityJoinWorldEvent>((event) => {
         }
     }
 
-    if ("dungeons_arise:witherstorm" in dim && "aoa3" in type) event.cancel();
+    if ("neverise:witherstorm" in dim && "aoa3" in type) event.cancel();
     if ("duck" in type || "moth" in type || "wisp" in type || "realmshifter" in type || "goat" in type|| "yak" in type || "glow_spuid" in type) event.cancel();
     if ("eyesinthedarkness:eyes" in type && !("greckon" in dim)) event.cancel();
     if ("overworld" in dim && ("mowziesmobs" in type || "upgrade_aquatic" in type)) event.cancel();

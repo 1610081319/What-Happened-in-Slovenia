@@ -122,9 +122,7 @@
 			x: 10.0d
 			y: 9.0d
 			subtitle: "{quests.nrq.5EA036CDBA01139B.subtitle}"
-			description: [
-				"{quests.nrq.5EA036CDBA01139B.description}"
-			]
+			description: ["{quests.nrq.5EA036CDBA01139B.description}"]
 			dependencies: ["5D41AECFC89293F6"]
 			id: "5EA036CDBA01139B"
 			tasks: [{
@@ -279,6 +277,66 @@
 					type: "random"
 					auto: "enabled"
 					table_id: 1879708353945780409L
+				}
+				{
+					id: "1D9CB28A97F9DD2B"
+					type: "item"
+					auto: "enabled"
+					item: "torchmaster:megatorch"
+				}
+			]
+		}
+		{
+			x: 24.0d
+			y: 9.0d
+			subtitle: "你问书？战斗高塔里有书架哦~"
+			description: [
+				""
+				"位阶是控制你附魔台附魔等级的属性。"
+				"附魔台的最高附魔等级将会是位阶值的2倍，位阶在默认配置的情况下最高可以提高至50，也就是说，位阶可以使附魔台最高附魔等级提升至100级。"
+				"位阶只能提升到一个有效的最高值，如果周围书架的位阶属性加起来超过了设定的有效值，位阶将只会提升至你设定的有效值（默认：50），超出值视作无效。"
+				""
+				"量子化是控制附魔台附魔等级的波动程度的属性。"
+				"当你开始对一个物品附魔时，消耗你的经验后，附魔台的量子化会最终决定你所附魔的物品的实际附魔等级，这个实际附魔等级将会是一个波动范围，量子化越高，波动的范围越大，量子化越低，波动的范围越小。"
+				"因此，量子化并不是完全有益的，它会把你原本附魔1级的物品增加到200级，有时，它会把你原本附魔100级的物品减少到1级。"
+				""
+				"阿卡那是控制你附魔台附魔质量的属性。"
+				"当这个数值为0时，附魔台将会遵循原本的附魔规则进行附魔，但如果阿卡那数值增加，将会使非常稀有的附魔变得很常见，原本很常见的附魔将会变得很稀有。"
+				"当阿卡那数值达到百分之百，附魔规则将彻底反转，原本稀有的附魔将会非常非常常见，原本普通的附魔将会非常非常难找到！"
+				"在25%和75%时，你每次附魔都会获得一个额外的附魔。"
+				"这意味着，当这个数值到达百分之75时，你每次附魔都会获得3个附魔。"
+			]
+			dependencies: ["74B7B6FDCAA487F4"]
+			id: "035F147B54BEDA84"
+			tasks: [{
+				id: "27A706C0A3429BE3"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+			rewards: [
+				{
+					id: "11F0327B38E50426"
+					type: "random"
+					auto: "enabled"
+					table_id: 1524121945514259490L
+				}
+				{
+					id: "6455A20E198572E9"
+					type: "xp"
+					auto: "enabled"
+					xp: 100
+				}
+				{
+					id: "07E338005D384604"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "apotheosis:apoth_chronicle"
+						}
+					}
 				}
 			]
 		}

@@ -8,5 +8,5 @@ CTEventManager.register<MCItemEvent>(event => {
     if (world.remote) return;
     val item = entity.item.commandString;
     val dim = world.dimension;
-    if ("wither_rose" in item && "dungeons_arise:witherstorm" in dim) entity.remove();
+    if ("wither_rose" in item && "neverise:witherstorm" in dim) entity.remove();
 });

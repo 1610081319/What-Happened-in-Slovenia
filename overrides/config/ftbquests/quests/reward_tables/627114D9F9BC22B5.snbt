@@ -1,7 +1,7 @@
 {
 	id: "627114D9F9BC22B5"
 	order_index: 8
-	title: "{reward_table.nrq.627114D9F9BC22B5.title}"
+	title: "{reward_tables.nrq.627114D9F9BC22B5.title}"
 	icon: "aoa3:copper_coin"
 	loot_size: 1
 	rewards: [
@@ -21,9 +21,5 @@
 		{ item: "aoa3:copper_coin", count: 14 }
 		{ item: "aoa3:copper_coin", count: 15 }
 		{ item: "aoa3:copper_coin", count: 16 }
-		{ item: "aoa3:silver_coin" }
-		{ item: "aoa3:silver_coin", count: 2 }
-		{ item: "aoa3:silver_coin", count: 3 }
-		{ item: "aoa3:silver_coin", count: 4 }
 	]
 }

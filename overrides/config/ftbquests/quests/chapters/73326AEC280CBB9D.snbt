@@ -14,10 +14,13 @@
 	quests: [
 		{
 			title: "{quests.nrq.256ACF0F0A144B0A.title}"
-			x: 6.0d
-			y: -1.5d
+			x: 6.5d
+			y: -6.0d
 			subtitle: "{quests.nrq.256ACF0F0A144B0A.subtitle}"
-			dependencies: ["5EA036CDBA01139B"]
+			dependencies: [
+				"5EA036CDBA01139B"
+				"2BC0510A9095B363"
+			]
 			id: "256ACF0F0A144B0A"
 			tasks: [
 				{
@@ -693,9 +696,9 @@
 				"{quests.nrq.49CB106E20A9EB06.description.2}"
 			]
 			dependencies: [
-				"256ACF0F0A144B0A"
 				"384F4DF26450C2B2"
 				"629FCA38FB3EFCAF"
+				"256ACF0F0A144B0A"
 			]
 			id: "49CB106E20A9EB06"
 			tasks: [{
@@ -720,9 +723,12 @@
 		}
 		{
 			x: 15.0d
-			y: -1.5d
+			y: -6.0d
 			subtitle: "{quests.nrq.384F4DF26450C2B2.subtitle}"
-			dependencies: ["5EA036CDBA01139B"]
+			dependencies: [
+				"5EA036CDBA01139B"
+				"2BC0510A9095B363"
+			]
 			id: "384F4DF26450C2B2"
 			tasks: [{
 				id: "143461D1F3756DE0"
@@ -1130,6 +1136,24 @@
 					table_id: 4487615752174575348L
 				}
 			]
+		}
+		{
+			title: "{quests.nrq.2BC0510A9095B363.title}"
+			x: 10.5d
+			y: -11.0d
+			subtitle: "{quests.nrq.2BC0510A9095B363.subtitle}"
+			id: "2BC0510A9095B363"
+			tasks: [{
+				id: "09D621C552DBE7FD"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
+			rewards: [{
+				id: "2FB593DE57BC7354"
+				type: "item"
+				auto: "enabled"
+				item: "sophisticatedbackpacks:backpack"
+			}]
 		}
 	]
 }

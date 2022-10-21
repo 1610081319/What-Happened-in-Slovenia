@@ -1,0 +1,12 @@
+{
+	id: "2DF1DC0016C87697"
+	order_index: 16
+	title: "{reward_tables.nrq.2DF1DC0016C87697.title}"
+	loot_size: 1
+	rewards: [
+		{ item: "aoa3:gold_coin" }
+		{ item: "aoa3:gold_coin", count: 2 }
+		{ item: "aoa3:gold_coin", count: 3 }
+		{ item: "aoa3:gold_coin", count: 4 }
+	]
+}

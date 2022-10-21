@@ -129,6 +129,15 @@ val aoa_nether_mobs as string[] = [
     "scrubby",
     "skeletal_cowman"
 ];
+val aoa_ocean_mobs as string[] = [
+    "angler",
+    "mermage",
+    "muncher",
+    "neptuno",
+    "pincher",
+    "sea_viper",
+    "coratee"
+];
 CTEventManager.register<MCLivingSpawnEvent>((event) => {
     val entity = event.entityLiving;
     val world = entity.world;
@@ -146,16 +155,20 @@ CTEventManager.register<MCLivingSpawnEvent>((event) => {
     var gear_head = random.nextInt(0, 45);
     var random_overworld_mob = random.nextInt(0, 17);
     var random_nether_mob = random.nextInt(0, 5);
+    var random_ocean_mob = random.nextInt(0, 6);
+    val x = pos.x;
+    val y = pos.y;
+    val z = pos.z;
 
     if (entity.removeTag("armored_or_replaced")) {
         entity.addTag("armored_or_replaced");
         return;
     }
-    if (("monster" in classification) && ("overworld" in dim || "dungeons_arise:witherstorm" in dim || "nether" in dim)) {
+    if (("monster" in classification) && ("overworld" in dim || "neverise:witherstorm" in dim || "nether" in dim)) {
         if (random_start >= 114514) {
             if ("minecraft:guardian" in type) {
                 entity.remove();
-                server.executeCommand("", true);
+                server.executeCommand("exeucte in " + dim + " run summon aoa3:" + aoa_ocean_mobs[random_ocean_mob] + " " + x + " " + y + " " + z,true);
             }
             if (random_head > random_chest) {
                 entity.setItemStackToSlot(MCEquipmentSlotType.HEAD, helmet[gear_head]);
@@ -165,11 +178,11 @@ CTEventManager.register<MCLivingSpawnEvent>((event) => {
         } else {
             if (("zombie" in type || "skeleton" in type || "creeper" in type || "spider" in type || "enderman" in type || "witch" in type) && "overworld" in dim) {
                 entity.remove();
-                server.executeCommand("execute in " + dim + " run summon aoa3:" + aoa_overworld_mobs[random_overworld_mob] + " " + pos.x + " " + pos.y + " " + pos.z, true);
+                server.executeCommand("execute in " + dim + " run summon aoa3:" + aoa_overworld_mobs[random_overworld_mob] + " " + x + " " + y + " " + z, true);
             }
             if ("nether" in dim && ("piglin" in type || "enderman" in type || "hoglin" in type)) {
                 entity.remove();
-                server.executeCommand("execute in " + dim + " run summon aoa3:" + aoa_nether_mobs[random_nether_mob] + " " + pos.x + " " + pos.y + " " + pos.z, true);
+                server.executeCommand("execute in " + dim + " run summon aoa3:" + aoa_nether_mobs[random_nether_mob] + " " + x + " " + y + " " + z, true);
             }
         }
         entity.addTag("armored_or_replaced");

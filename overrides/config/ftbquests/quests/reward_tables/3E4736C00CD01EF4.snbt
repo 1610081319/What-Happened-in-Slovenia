@@ -1,7 +1,7 @@
 {
 	id: "3E4736C00CD01EF4"
 	order_index: 12
-	title: "香草+"
+	title: "{reward_tables.nrq.3E4736C00CD01EF4.title}"
 	loot_size: 1
 	rewards: [
 		{ item: "vanillacookbook:apple_chips" }

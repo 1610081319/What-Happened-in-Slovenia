@@ -1,7 +1,7 @@
 {
 	id: "1526C4D594C13422"
 	order_index: 11
-	title: "寿司"
+	title: "{reward_tables.nrq.1526C4D594C13422.title}"
 	loot_size: 1
 	rewards: [
 		{ item: "sushigocrafting:avocado_maki" }

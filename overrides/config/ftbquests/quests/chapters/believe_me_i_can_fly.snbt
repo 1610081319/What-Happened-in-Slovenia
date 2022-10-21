@@ -144,10 +144,10 @@
 			]
 		}
 		{
-			title: "找到一座天空村庄"
+			title: "{quests.nrq.452FD0677C8989F6.title}"
 			x: -6.0d
 			y: 9.5d
-			subtitle: "村庄的中央喷泉最底下有个绿宝石块~"
+			subtitle: "{quests.nrq.452FD0677C8989F6.subtitle}"
 			dependencies: ["52D679F15AC7C5E9"]
 			id: "452FD0677C8989F6"
 			tasks: [{
@@ -158,6 +158,7 @@
 			rewards: [{
 				id: "34AF0B042E73B7FF"
 				type: "random"
+				auto: "enabled"
 				table_id: 6884904779885522920L
 			}]
 		}

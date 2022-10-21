@@ -1,0 +1,1328 @@
+{
+	id: "315EAC02CD5BFBD8"
+	group: "6A99013B6E72B71A"
+	order_index: 3
+	filename: "315EAC02CD5BFBD8"
+	title: "{chapter_groups.nrq.315EAC02CD5BFBD8.title}"
+	icon: "aoa3:magic_marang"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.5d
+			y: 0.0d
+			subtitle: "{global.nrq.relics.common}"
+			id: "59CF8CCBAB79AF36"
+			tasks: [{
+				id: "184E2BFF36A8EB88"
+				type: "item"
+				item: {
+					id: "relics:infinity_ham"
+					Count: 1b
+					tag: {
+						pieces: 3
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0EED70F68A384397"
+					type: "xp"
+					auto: "enabled"
+					xp: 50
+				}
+				{
+					id: "7E1A1BF59C219E52"
+					type: "random"
+					auto: "enabled"
+					table_id: 7421199509466059604L
+				}
+				{
+					id: "065E1B97F185583E"
+					type: "random"
+					auto: "enabled"
+					table_id: 7093473814515557045L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			subtitle: "{global.nrq.relics.common}"
+			id: "3764B8D1D6DACCDF"
+			tasks: [{
+				id: "55BA906A0C341AF1"
+				type: "item"
+				item: {
+					id: "relics:old_boot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "13D9B65064401928"
+					type: "xp"
+					auto: "enabled"
+					xp: 50
+				}
+				{
+					id: "54DCFE954C90495B"
+					type: "random"
+					auto: "enabled"
+					table_id: 7421199509466059604L
+				}
+				{
+					id: "54D9808D66263273"
+					type: "random"
+					auto: "enabled"
+					table_id: 7093473814515557045L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			subtitle: "{global.nrq.relics.common}"
+			id: "17E513536B1E9A15"
+			tasks: [{
+				id: "3732126F86526833"
+				type: "item"
+				item: {
+					id: "relics:wool_mitten"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7F7F22C6BF7B2286"
+					type: "xp"
+					auto: "enabled"
+					xp: 50
+				}
+				{
+					id: "5A12E34671DC33B1"
+					type: "random"
+					auto: "enabled"
+					table_id: 7421199509466059604L
+				}
+				{
+					id: "6E34B250EFBB35EB"
+					type: "random"
+					auto: "enabled"
+					table_id: 7093473814515557045L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			subtitle: "{global.nrq.relics.common}"
+			id: "4869D2ED8D13ECBB"
+			tasks: [{
+				id: "0541F6B4AFB9AD9A"
+				type: "item"
+				item: {
+					id: "relics:leather_belt"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "75A98BBE3C66287B"
+					type: "xp"
+					auto: "enabled"
+					xp: 50
+				}
+				{
+					id: "7F3727C996BD440E"
+					type: "random"
+					auto: "enabled"
+					table_id: 7421199509466059604L
+				}
+				{
+					id: "06CB1C1FDCFF52BE"
+					type: "random"
+					auto: "enabled"
+					table_id: 7093473814515557045L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 4.0d
+			subtitle: "{global.nrq.relics.uncommon}"
+			id: "6508C021D40AB503"
+			tasks: [{
+				id: "6800A6F42713BFD6"
+				type: "item"
+				item: {
+					id: "relics:spore_sack"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0E94A3D6A7D58BD5"
+					type: "xp"
+					auto: "enabled"
+					xp: 100
+				}
+				{
+					id: "35A30BC43494A69B"
+					type: "random"
+					auto: "enabled"
+					table_id: 1750273349275014804L
+				}
+				{
+					id: "3CCDA1D3B89A4502"
+					type: "random"
+					auto: "enabled"
+					table_id: 4487615752174575348L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			subtitle: "{global.nrq.relics.uncommon}"
+			id: "79CDE004D1707870"
+			tasks: [{
+				id: "43278AF7B87588B1"
+				type: "item"
+				item: {
+					id: "relics:camouflage_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5104285B42371479"
+					type: "xp"
+					auto: "enabled"
+					xp: 100
+				}
+				{
+					id: "1C56AFF5618D3672"
+					type: "random"
+					auto: "enabled"
+					table_id: 1750273349275014804L
+				}
+				{
+					id: "1460EB44CFDC1ABA"
+					type: "random"
+					auto: "enabled"
+					table_id: 4487615752174575348L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			subtitle: "{global.nrq.relics.uncommon}"
+			id: "7DC631881E6174DC"
+			tasks: [{
+				id: "6D5C918DEC5B9A36"
+				type: "item"
+				item: {
+					id: "relics:hunter_belt"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "69D737863B89F316"
+					type: "xp"
+					auto: "enabled"
+					xp: 100
+				}
+				{
+					id: "5991AA5B4596C9E4"
+					type: "random"
+					auto: "enabled"
+					table_id: 1750273349275014804L
+				}
+				{
+					id: "34A27E4E954DCF0E"
+					type: "random"
+					auto: "enabled"
+					table_id: 4487615752174575348L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 4.0d
+			subtitle: "{global.nrq.relics.uncommon}"
+			id: "5B45C8CAECDEF3C8"
+			tasks: [{
+				id: "20A8DF4C9DAD02EE"
+				type: "item"
+				item: {
+					id: "relics:midnight_robe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5E73137A67190633"
+					type: "xp"
+					auto: "enabled"
+					xp: 100
+				}
+				{
+					id: "69493D184B9A932B"
+					type: "random"
+					auto: "enabled"
+					table_id: 1750273349275014804L
+				}
+				{
+					id: "36A30AFDC05BFBDD"
+					type: "random"
+					auto: "enabled"
+					table_id: 4487615752174575348L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 8.0d
+			subtitle: "{global.nrq.relics.rare}"
+			id: "50807A26497B2154"
+			tasks: [{
+				id: "0AEF7B8B9BF998FF"
+				type: "item"
+				item: {
+					id: "relics:bastion_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "09D8A2516027FABE"
+					type: "random"
+					auto: "enabled"
+					table_id: 3310669094034372247L
+				}
+				{
+					id: "3AC6D631799300CC"
+					type: "xp"
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "26443C0C0FB21BD6"
+					type: "random"
+					auto: "enabled"
+					table_id: 6884904779885522920L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 8.0d
+			subtitle: "{global.nrq.relics.rare}"
+			id: "1F7B532173035223"
+			tasks: [{
+				id: "24E92432BD79C086"
+				type: "item"
+				item: {
+					id: "relics:chorus_inhibitor"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7F397B540BB7ADEE"
+					type: "random"
+					auto: "enabled"
+					table_id: 3310669094034372247L
+				}
+				{
+					id: "43FD89F760CB4292"
+					type: "xp"
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "3821EC621EFC842A"
+					type: "random"
+					auto: "enabled"
+					table_id: 6884904779885522920L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 8.0d
+			subtitle: "{global.nrq.relics.rare}"
+			id: "00851E751F21B164"
+			tasks: [{
+				id: "3DC4F9BDBB09A263"
+				type: "item"
+				item: {
+					id: "relics:lucky_horseshoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "18F52968958B3051"
+					type: "random"
+					auto: "enabled"
+					table_id: 3310669094034372247L
+				}
+				{
+					id: "2F3F6B0AD54DF19C"
+					type: "xp"
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "585FED0E81A175D5"
+					type: "random"
+					auto: "enabled"
+					table_id: 6884904779885522920L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 8.0d
+			subtitle: "{global.nrq.relics.rare}"
+			id: "6602BFDAE9B49F63"
+			tasks: [{
+				id: "5215A7DF32AF27B3"
+				type: "item"
+				item: {
+					id: "relics:jellyfish_necklace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "223398A1AC9F80C6"
+					type: "random"
+					auto: "enabled"
+					table_id: 3310669094034372247L
+				}
+				{
+					id: "3B9AA52FE7C137B9"
+					type: "xp"
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "13F5CD687668B66F"
+					type: "random"
+					auto: "enabled"
+					table_id: 6884904779885522920L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 12.5d
+			subtitle: "{global.nrq.relics.rare}"
+			id: "0CCF3A8686D92278"
+			tasks: [{
+				id: "08E61C151D650102"
+				type: "item"
+				item: {
+					id: "relics:magic_mirror"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "159F5CC131CD0CA4"
+					type: "random"
+					auto: "enabled"
+					table_id: 3310669094034372247L
+				}
+				{
+					id: "6A776182A1BDE4BC"
+					type: "xp"
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "0F9A2CCBC6827D22"
+					type: "random"
+					auto: "enabled"
+					table_id: 6884904779885522920L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 12.5d
+			subtitle: "{global.nrq.relics.rare}"
+			id: "2B2336F70E8CA4DE"
+			tasks: [{
+				id: "40039DF76C8D2693"
+				type: "item"
+				item: {
+					id: "relics:fragrant_flower"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3E143A4B205F7189"
+					type: "random"
+					auto: "enabled"
+					table_id: 3310669094034372247L
+				}
+				{
+					id: "468A5F9D2674D7E3"
+					type: "xp"
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "49648F3D98A6CC39"
+					type: "random"
+					auto: "enabled"
+					table_id: 6884904779885522920L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 12.5d
+			subtitle: "{global.nrq.relics.rare}"
+			id: "7CF3FFC8E9479581"
+			tasks: [{
+				id: "134310F633CE9D7E"
+				type: "item"
+				item: {
+					id: "relics:ice_breaker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "212E12DA08202E89"
+					type: "random"
+					auto: "enabled"
+					table_id: 3310669094034372247L
+				}
+				{
+					id: "6214CBDD10B08047"
+					type: "xp"
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "0C31684B7CE05133"
+					type: "random"
+					auto: "enabled"
+					table_id: 6884904779885522920L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 12.5d
+			subtitle: "{global.nrq.relics.rare}"
+			id: "2AFAB4D7A82EC486"
+			tasks: [{
+				id: "63093A20B533E539"
+				type: "item"
+				item: {
+					id: "relics:horse_flute"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "54FA8CFDBF362E10"
+					type: "random"
+					auto: "enabled"
+					table_id: 3310669094034372247L
+				}
+				{
+					id: "745BB211EFC5CCEA"
+					type: "xp"
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "7D9BC9442F400558"
+					type: "random"
+					auto: "enabled"
+					table_id: 6884904779885522920L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 16.5d
+			subtitle: "{global.nrq.relics.rare}"
+			id: "6A8C10153287EA0A"
+			tasks: [{
+				id: "5A6893D5C4302F29"
+				type: "item"
+				item: {
+					id: "relics:spider_necklace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "390FE8D1465F1D3E"
+					type: "random"
+					auto: "enabled"
+					table_id: 3310669094034372247L
+				}
+				{
+					id: "69FB30CEFAE8A0D6"
+					type: "xp"
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "4546DE31F06597F6"
+					type: "random"
+					auto: "enabled"
+					table_id: 4487615752174575348L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 16.5d
+			subtitle: "{global.nrq.relics.rare}"
+			id: "6BEA01607695B992"
+			tasks: [{
+				id: "289D715E0FBBC4A9"
+				type: "item"
+				item: {
+					id: "relics:ice_skates"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5586D95645D22C56"
+					type: "random"
+					auto: "enabled"
+					table_id: 3310669094034372247L
+				}
+				{
+					id: "3B16D2015277FE1E"
+					type: "xp"
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "6BD8F74CDE507674"
+					type: "random"
+					auto: "enabled"
+					table_id: 4487615752174575348L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 16.5d
+			subtitle: "{global.nrq.relics.rare}"
+			id: "18C9195EA68E52D8"
+			tasks: [{
+				id: "0F962D47FD3421E5"
+				type: "item"
+				item: {
+					id: "relics:rage_glove"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2ED4111207906337"
+					type: "random"
+					auto: "enabled"
+					table_id: 3310669094034372247L
+				}
+				{
+					id: "21EA8A27D7735EC7"
+					type: "xp"
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "64626D4149B1819B"
+					type: "random"
+					auto: "enabled"
+					table_id: 4487615752174575348L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 16.5d
+			subtitle: "{global.nrq.relics.rare}"
+			id: "61E6AF9AC1E74D08"
+			tasks: [{
+				id: "5BB85C219C03764C"
+				type: "item"
+				item: {
+					id: "relics:holy_locket"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "01E2BA3AD9F669C2"
+					type: "random"
+					auto: "enabled"
+					table_id: 3310669094034372247L
+				}
+				{
+					id: "36127AEA163921FF"
+					type: "xp"
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "31853E51BC4062F6"
+					type: "random"
+					auto: "enabled"
+					table_id: 4487615752174575348L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 8.0d
+			subtitle: "{global.nrq.relics.rare}"
+			id: "23E6123AF75B211A"
+			tasks: [{
+				id: "7B46ED317196A4E0"
+				type: "item"
+				item: {
+					id: "relics:slime_heart"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "034C3B02182E0ADF"
+					type: "random"
+					auto: "enabled"
+					table_id: 3310669094034372247L
+				}
+				{
+					id: "50B27793EFDE50DF"
+					type: "xp"
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "40B15635B407412D"
+					type: "random"
+					auto: "enabled"
+					table_id: 6884904779885522920L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 12.5d
+			subtitle: "{global.nrq.relics.rare}"
+			id: "61E0D3A854AC9103"
+			tasks: [{
+				id: "35C0B0D715DC246E"
+				type: "item"
+				item: {
+					id: "relics:amphibian_boot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6C2F1F8389216FA0"
+					type: "random"
+					auto: "enabled"
+					table_id: 3310669094034372247L
+				}
+				{
+					id: "7CE03A4AB52A782C"
+					type: "xp"
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "71F81A3ECA49DE41"
+					type: "random"
+					auto: "enabled"
+					table_id: 6884904779885522920L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 16.5d
+			subtitle: "{global.nrq.relics.rare}"
+			id: "3CC7C1A8575BD337"
+			tasks: [{
+				id: "1ECB3B91796BCAD7"
+				type: "item"
+				item: {
+					id: "relics:spatial_sign"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "410429D64573DECE"
+					type: "random"
+					auto: "enabled"
+					table_id: 3310669094034372247L
+				}
+				{
+					id: "0B07007DF99B8713"
+					type: "xp"
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "469B52B37E8C9D3C"
+					type: "random"
+					auto: "enabled"
+					table_id: 4487615752174575348L
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: 8.0d
+			subtitle: "{global.nrq.relics.rare}"
+			id: "1FF3B9AB9A84726F"
+			tasks: [{
+				id: "40BE0E5901622ABF"
+				type: "item"
+				item: {
+					id: "relics:squire_bag"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "15311424D1D2190C"
+					type: "random"
+					auto: "enabled"
+					table_id: 3310669094034372247L
+				}
+				{
+					id: "215D4BA6FF1FB0BF"
+					type: "xp"
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "3AC8727550C547CB"
+					type: "random"
+					auto: "enabled"
+					table_id: 6884904779885522920L
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: 12.5d
+			subtitle: "{global.nrq.relics.rare}"
+			id: "0001119AB5AD1A55"
+			tasks: [{
+				id: "3F622C62C7A5A13B"
+				type: "item"
+				item: {
+					id: "relics:magma_walker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "606A9185C9B1E897"
+					type: "random"
+					auto: "enabled"
+					table_id: 3310669094034372247L
+				}
+				{
+					id: "0F542DCE77ABDD70"
+					type: "xp"
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "24019AAE5EA7D830"
+					type: "random"
+					auto: "enabled"
+					table_id: 6884904779885522920L
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: 16.5d
+			subtitle: "{global.nrq.relics.rare}"
+			id: "168B8D639112DB86"
+			tasks: [{
+				id: "009A1678A7845ED3"
+				type: "item"
+				item: {
+					id: "relics:elytra_booster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "790B82104E5C3E3C"
+					type: "random"
+					auto: "enabled"
+					table_id: 3310669094034372247L
+				}
+				{
+					id: "0D2D0F8745F61C4A"
+					type: "xp"
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "580465A3E7D3A874"
+					type: "random"
+					auto: "enabled"
+					table_id: 4487615752174575348L
+				}
+			]
+		}
+		{
+			x: 20.5d
+			y: 12.5d
+			subtitle: "{global.nrq.relics.rare}"
+			id: "076D1D434C99BB79"
+			tasks: [{
+				id: "42BFEA950D2F7EAC"
+				type: "item"
+				item: {
+					id: "relics:drowned_belt"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "121BB5246B4D8675"
+					type: "random"
+					auto: "enabled"
+					table_id: 3310669094034372247L
+				}
+				{
+					id: "21FE6293A2A5EF77"
+					type: "xp"
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "48BB6019076B2EAA"
+					type: "random"
+					auto: "enabled"
+					table_id: 6884904779885522920L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 20.5d
+			subtitle: "{global.nrq.relics.epic}"
+			id: "60B1405A13C2955C"
+			tasks: [{
+				id: "036F8444A7B9D038"
+				type: "item"
+				item: {
+					id: "relics:space_dissector"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1CCE712CD7DEA0DB"
+					type: "item"
+					auto: "enabled"
+					item: "aoa3:lunaver_coin"
+				}
+				{
+					id: "6663598710ED42AC"
+					type: "xp"
+					auto: "enabled"
+					xp: 800
+				}
+				{
+					id: "4052F21B2526272F"
+					type: "random"
+					auto: "enabled"
+					table_id: 7421199509466059604L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 20.5d
+			subtitle: "{global.nrq.relics.epic}"
+			id: "1F4F8FB76087AE80"
+			tasks: [{
+				id: "0782F46913C954F8"
+				type: "item"
+				item: {
+					id: "relics:blazing_flask"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "70386B01E9C8F03E"
+					type: "item"
+					auto: "enabled"
+					item: "aoa3:lunaver_coin"
+				}
+				{
+					id: "6BEA0E002C1527C2"
+					type: "xp"
+					auto: "enabled"
+					xp: 800
+				}
+				{
+					id: "1D7FF442771DD4B0"
+					type: "random"
+					auto: "enabled"
+					table_id: 7421199509466059604L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 20.5d
+			subtitle: "{global.nrq.relics.epic}"
+			id: "58134DF508C7674A"
+			tasks: [{
+				id: "0B47CECECC2A93E7"
+				type: "item"
+				item: {
+					id: "relics:stellar_catalyst"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "158375F4C1425FEE"
+					type: "item"
+					auto: "enabled"
+					item: "aoa3:lunaver_coin"
+				}
+				{
+					id: "047E556ADAE9A938"
+					type: "xp"
+					auto: "enabled"
+					xp: 800
+				}
+				{
+					id: "3F6E29C4DBA6E992"
+					type: "random"
+					auto: "enabled"
+					table_id: 7421199509466059604L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 20.5d
+			subtitle: "{global.nrq.relics.epic}"
+			id: "644AB99812EB0AAE"
+			tasks: [{
+				id: "5F62997AE4F63C46"
+				type: "item"
+				item: {
+					id: "relics:reflection_necklace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "61C68B0E2A37F101"
+					type: "item"
+					auto: "enabled"
+					item: "aoa3:lunaver_coin"
+				}
+				{
+					id: "17AA7DFED18A2CB9"
+					type: "xp"
+					auto: "enabled"
+					xp: 800
+				}
+				{
+					id: "54F0014D4B651F46"
+					type: "random"
+					auto: "enabled"
+					table_id: 7421199509466059604L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 20.5d
+			subtitle: "{global.nrq.relics.epic}"
+			id: "4C70F58440A398C4"
+			tasks: [{
+				id: "04525E0B04040FDB"
+				type: "item"
+				item: {
+					id: "relics:delay_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5DEC2A212880A1F0"
+					type: "item"
+					auto: "enabled"
+					item: "aoa3:lunaver_coin"
+				}
+				{
+					id: "37F4304AB3A34AA3"
+					type: "xp"
+					auto: "enabled"
+					xp: 800
+				}
+				{
+					id: "48A70C2F289D04B5"
+					type: "random"
+					auto: "enabled"
+					table_id: 7421199509466059604L
+				}
+			]
+		}
+		{
+			x: 20.5d
+			y: 16.5d
+			subtitle: "{global.nrq.relics.rare}"
+			id: "32730404B38A9621"
+			tasks: [{
+				id: "5D120738AD5A9181"
+				type: "item"
+				item: {
+					id: "relics:out_runner"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "05D5C9E5F7F18629"
+					type: "random"
+					auto: "enabled"
+					table_id: 3310669094034372247L
+				}
+				{
+					id: "1940DFF2BD801CCE"
+					type: "xp"
+					auto: "enabled"
+					xp: 300
+				}
+				{
+					id: "1061FCC8C688440B"
+					type: "random"
+					auto: "enabled"
+					table_id: 4487615752174575348L
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: 20.5d
+			subtitle: "{global.nrq.relics.epic}"
+			id: "098B371D34BA7047"
+			tasks: [{
+				id: "7802AE02476F2059"
+				type: "item"
+				item: {
+					id: "relics:soul_devourer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7DEFE1414A0B9694"
+					type: "item"
+					auto: "enabled"
+					item: "aoa3:lunaver_coin"
+				}
+				{
+					id: "78E6BF5C5193D0BA"
+					type: "xp"
+					auto: "enabled"
+					xp: 800
+				}
+				{
+					id: "7B85F2C64FA33496"
+					type: "random"
+					auto: "enabled"
+					table_id: 7421199509466059604L
+				}
+			]
+		}
+		{
+			x: 20.5d
+			y: 20.5d
+			subtitle: "{global.nrq.relics.epic}"
+			id: "03D67DF369BF7AE9"
+			tasks: [{
+				id: "1EFA2871515997C4"
+				type: "item"
+				item: {
+					id: "relics:shadow_glaive"
+					Count: 1b
+					tag: {
+						Damage: 0
+						charges: 8
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5D8590AF905392ED"
+					type: "item"
+					auto: "enabled"
+					item: "aoa3:lunaver_coin"
+				}
+				{
+					id: "3A8A1EB0DCBD07B2"
+					type: "xp"
+					auto: "enabled"
+					xp: 800
+				}
+				{
+					id: "2D150A0E97393CDB"
+					type: "random"
+					auto: "enabled"
+					table_id: 7421199509466059604L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 2.0d
+			subtitle: "Magia"
+			description: [
+				"{quests.nrq.71216F1811A73332.description.1}"
+				"{quests.nrq.71216F1811A73332.description.2}"
+				"{quests.nrq.71216F1811A73332.description.3}"
+				"{quests.nrq.71216F1811A73332.description.4}"
+				"{quests.nrq.71216F1811A73332.description.5}"
+			]
+			size: 4.0d
+			id: "71216F1811A73332"
+			tasks: [{
+				id: "3B5F1506BF9052FE"
+				type: "checkmark"
+				title: "{tasks.nrq.3B5F1506BF9052FE.title}"
+			}]
+		}
+	]
+}

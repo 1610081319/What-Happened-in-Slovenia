@@ -39,9 +39,9 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
     val wroughtnaut_y = y + 10;
     val wroughtnaut_z = z + 10;
 
-    if ("iromine" in dim && player.removeTag("ferrous_wroughtnaut")) server.executeCommand("execute in aoa3:iromine run summon mowziesmobs:ferrous_wroughtnaut " + wroughtnaut_x + " " + wroughtnaut_y + " " + wroughtnaut_z, true);
-        
-    if ("dungeons_arise:witherstorm" in dim) {
+    if (player.removeTag("ferrous_wroughtnaut")) server.executeCommand("execute in aoa3:iromine run summon mowziesmobs:ferrous_wroughtnaut " + wroughtnaut_x + " " + wroughtnaut_y + " " + wroughtnaut_z, true);
+    if (player.removeTag("iromine_passport")) player.removeGameStage("iromine_passport");
+    if ("neverise:witherstorm" in dim) {
         player.addTag("if_you_die_in_witherstorm_you_should_respawn_in_witherstorm");
     } else {
         player.removeTag("if_you_die_in_witherstorm_you_should_respawn_in_witherstorm");
@@ -81,7 +81,7 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
     }
     if (player.removeTag("here_we_go_lost_cities") && "overworld" in dim) {
         player.removeTag("here_we_go_lost_cities");
-        server.executeCommand("execute in dungeons_arise:witherstorm run tp " + name + " 0 255 0", true);
+        server.executeCommand("execute in neverise:witherstorm run tp " + name + " 0 255 0", true);
         server.executeCommand("effect give " + name + " minecraft:slow_falling 60", true);
         server.executeCommand("fill 0 255 0 0 255 0 minecraft:air", true);
         player.addTag("now_let_us_kill_the_command_block_in_the_wither_storm");

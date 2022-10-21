@@ -3,7 +3,7 @@
 	group: "6A99013B6E72B71A"
 	order_index: 2
 	filename: "267AFFD1CB9F3167"
-	title: "全斯洛文尼亚最简单的存储"
+	title: "{chapter_groups.nrq.267AFFD1CB9F3167.title}"
 	icon: "appliedenergistics2:spatial_pylon"
 	default_quest_shape: "diamond"
 	default_hide_dependency_lines: false
@@ -11,10 +11,11 @@
 		{
 			x: 1.5d
 			y: -1.0d
-			subtitle: "谐振仓？你认真的？"
+			subtitle: "{quests.nrq.591E252A63BFAAD7.subtitle}"
 			description: [
-				"恒久光发电机产的是EU能量，能量接收器可以将之转化为AE能量。"
-				"相邻摆放即可。"
+				"{quests.nrq.591E252A63BFAAD7.description.1}"
+				"{quests.nrq.591E252A63BFAAD7.description.2}"
+				"{quests.nrq.591E252A63BFAAD7.description.3}"
 			]
 			dependencies: [
 				"5EA036CDBA01139B"
@@ -35,10 +36,10 @@
 		{
 			x: 6.0d
 			y: -1.0d
-			subtitle: "用它右击一个（空的）黑曜石箱子，有惊喜"
+			subtitle: "{quests.nrq.5A90B12F6653A27C.subtitle}"
 			description: [
-				"把ME合成终端Shift+右击放到ME驱动器上去吧。"
-				"什么？没有ME驱动器？你一定没有看到小标题。"
+				"{quests.nrq.5A90B12F6653A27C.description.1}"
+				"{quests.nrq.5A90B12F6653A27C.description.2}"
 			]
 			dependencies: ["591E252A63BFAAD7"]
 			id: "5A90B12F6653A27C"
@@ -51,6 +52,7 @@
 				{
 					id: "547517E27062B493"
 					type: "item"
+					auto: "enabled"
 					item: "appliedenergistics2:crafting_terminal"
 				}
 				{
@@ -61,10 +63,10 @@
 			]
 		}
 		{
-			x: 10.5d
-			y: -1.0d
-			subtitle: "如何用3个任务毕业存储"
-			description: ["把ME驱动器放到能量接收器旁边，然后把存储元件放到ME驱动器里去，然后打开ME合成终端，开始疯狂塞东西吧！"]
+			x: 6.0d
+			y: -5.0d
+			subtitle: "{quests.nrq.16035A1CD189E6DC.subtitle}"
+			description: ["{quests.nrq.16035A1CD189E6DC.description}"]
 			dependencies: ["5A90B12F6653A27C"]
 			id: "16035A1CD189E6DC"
 			tasks: [{
@@ -87,29 +89,30 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -1.0d
+			x: 1.5d
+			y: 3.0d
 			description: [
-				"Tom的简单存储不行吗？"
-				"Simple Storage Network不行吗？"
-				"为什么要是AE2？"
-				"因为§m简单存储就是屑§r作者对AE2有特殊的情结。"
-				"说明白点吧：作者就是想往Neverise里塞AE2，作者就是要往Neverise里塞AE2，别人挡不住。"
-				"在作者的Minecraft游玩经历中，有两句话对他产生了莫大的影响，下面是其中一句："
-				"“整合包开发是围绕作者的恶趣味进行的。”"
-				"在Neverise中，对于不懂科技的冒险家，AE2的定位完全是最终的存储手段，一些东西的获取方式已经被极大幅度地简化，不需要去找陨石、磨石英。"
-				"对于很懂AE2的人，你依然可以利用它的其他价值，整合包不会限制这一点。"
+				"{quests.nrq.7316A9D399BB77A2.description.1}"
+				"{quests.nrq.7316A9D399BB77A2.description.2}"
+				"{quests.nrq.7316A9D399BB77A2.description.3}"
+				"{quests.nrq.7316A9D399BB77A2.description.4}"
+				"{quests.nrq.7316A9D399BB77A2.description.5}"
+				"{quests.nrq.7316A9D399BB77A2.description.6}"
+				"{quests.nrq.7316A9D399BB77A2.description.7}"
+				"{quests.nrq.7316A9D399BB77A2.description.8}"
+				"{quests.nrq.7316A9D399BB77A2.description.9}"
 			]
 			id: "7316A9D399BB77A2"
 			tasks: [{
 				id: "6F063D532E3EAF41"
 				type: "checkmark"
-				title: "如何看待Neverise中有AE2？"
+				title: "{tasks.nrq.6F063D532E3EAF41.title}"
 			}]
 			rewards: [{
 				id: "7ABC0273E5763F95"
 				type: "item"
-				title: "纪念品"
+				title: "{rewards.nrq.7ABC0273E5763F95.title}"
+				auto: "enabled"
 				item: {
 					id: "ironchest:obsidian_chest"
 					Count: 1b

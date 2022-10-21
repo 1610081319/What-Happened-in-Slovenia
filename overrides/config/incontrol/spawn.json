@@ -100,5 +100,11 @@
         "speedmultiply": 0.5,
         "onjoin": true,
         "result": "default"
+    },
+    {
+        "dimension": "aoa3:iromine",
+        "gamestage": "iromine_passport",
+        "result": "deny",
+        "onjoin": true
     }
 ]

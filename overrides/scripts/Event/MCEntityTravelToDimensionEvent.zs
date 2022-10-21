@@ -17,7 +17,6 @@ CTEventManager.register<MCEntityTravelToDimensionEvent>(event => {
     val z1 = random.nextInt(0, 100);
 
     if ("player" in type) {
-        entity.addTag("exp_fix");
         if ("overworld" in there && "nowhere" in here) {
             if (entity.removeTag("wow_now_you_are_in_nowhere_and_you_need_to_go_to_lost_cities")) {
                 entity.removeTag("wow_now_you_are_in_nowhere_and_you_need_to_go_to_lost_cities");
@@ -29,7 +28,7 @@ CTEventManager.register<MCEntityTravelToDimensionEvent>(event => {
                 entity.addTag("here_we_go_overworld");
             }
         }
-        if ("dungeons_arise:witherstorm" in here && "nowhere" in there) {
+        if ("neverise:witherstorm" in here && "nowhere" in there) {
             entity.addTag("here_we_go_overworld");
             event.cancel();
         }

@@ -1,7 +1,7 @@
 {
 	id: "0E73C48E99294B21"
 	order_index: 14
-	title: "线缆"
+	title: "{reward_tables.nrq.0E73C48E99294B21.title}"
 	loot_size: 1
 	rewards: [
 		{ item: "appliedenergistics2:white_smart_cable", count: 4 }

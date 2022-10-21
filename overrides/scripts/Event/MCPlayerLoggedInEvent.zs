@@ -10,6 +10,7 @@ CTEventManager.register<MCPlayerLoggedInEvent>(event => {
     
     player.addGameStage("logged");
     player.addGameStage("before_wither");
+    player.addGameStage("iromine_passport");
     player.addTag("now_let_us_go_to_nowhere");
     server.executeCommand("tp " + player.uuid + " 0 255 0", true);
     server.executeCommand("setblock 0 255 0 aoa3:nowhere_portal", true);

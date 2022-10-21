@@ -1,7 +1,7 @@
 {
 	id: "66FD65A279071354"
 	order_index: 9
-	title: "TeamAbnormal-食物"
+	title: "{reward_tables.nrq.66FD65A279071354.title}"
 	loot_size: 1
 	rewards: [
 		{ item: "upgrade_aquatic:cooked_lionfish" }
