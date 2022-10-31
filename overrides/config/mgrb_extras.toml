@@ -5,7 +5,7 @@
 	[Settings.Misc]
 		"Cloud Height [Raw, Default 196]" = 248
 		"Chunk Fade In Quality (OFF, FAST, FANCY)" = "OFF"
-		"Render Fog" = true
+		"Render Fog" = false
 		#Allowed Values: WINDOWED, BORDERLESS, FULLSCREEN
 		"Use Borderless Fullscreen" = "FULLSCREEN"
 

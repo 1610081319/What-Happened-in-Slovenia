@@ -9,12 +9,12 @@ customization-meta {
 }
 
 customization {
-  path = openloader/resources/NeveriseResourcepack/assets/neverise/xibao.png
+  path = kubejs/assets/neverise/xibao.png
   action = texturizebackground
 }
 
 customization {
-  path = openloader/resources/NeveriseResourcepack/assets/neverise/sound/haoyunlai.wav
+  path = kubejs/assets/neverise/sound/haoyunlai.wav
   action = setopenaudio
 }
 

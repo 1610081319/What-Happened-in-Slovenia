@@ -24,12 +24,12 @@ CTEventManager.register<MCEntityJoinWorldEvent>((event) => {
             entity.remove();
         }
     }
-
     if ("neverise:witherstorm" in dim && "aoa3" in type) event.cancel();
     if ("duck" in type || "moth" in type || "wisp" in type || "realmshifter" in type || "goat" in type|| "yak" in type || "glow_spuid" in type) event.cancel();
     if ("eyesinthedarkness:eyes" in type && !("greckon" in dim)) event.cancel();
-    if ("overworld" in dim && ("mowziesmobs" in type || "upgrade_aquatic" in type)) event.cancel();
+    if ("overworld" in dim && ("upgrade_aquatic" in type)) event.cancel();
     if ("salmon" in type && "aoa3" in dim) event.cancel();
+    if ("sushigocrafting" in type && !("overworld" in dim)) event.cancel();
 
     val mod_one = loadedMods.isModLoaded("s" + "l" + "a" + "s" + "h" + "b" + "l" + "a" + "d" + "e");
     val mod_two = loadedMods.isModLoaded("p" + "r" + "o" + "j" + "e" + "c" + "t" + "e");

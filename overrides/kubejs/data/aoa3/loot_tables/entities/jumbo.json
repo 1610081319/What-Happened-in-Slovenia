@@ -1,0 +1,249 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1.0,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "aoa3:worlds/celeve"
+          }
+        ]
+      },
+      {
+        "rolls": {
+            "min": 0,
+            "max": 2
+        },
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 3.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                ],
+                "name": "omni_card:sunny_card"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 3.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                ],
+                "name": "omni_card:rainy_card"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 3.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                ],
+                "name": "omni_card:thunderstorm_card"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 3.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                ],
+                "name": "omni_card:bloom_card"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 3.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                ],
+                "name": "omni_card:flame_card"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 3.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                ],
+                "name": "omni_card:torrent_card"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 3.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                ],
+                "name": "omni_card:thunder_card"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 3.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                ],
+                "name": "omni_card:bramble_card"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 3.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                ],
+                "name": "omni_card:earth_card"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 3.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                ],
+                "name": "omni_card:end_card"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 3.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                ],
+                "name": "omni_card:field_card"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 3.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                ],
+                "name": "omni_card:purification_card"
+            },
+            {
+                "type": "minecraft:item",
+                "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 1.0,
+                        "max": 3.0,
+                        "type": "minecraft:uniform"
+                      }
+                    }
+                ],
+                "name": "omni_card:seal_card"
+            }
+        ]
+      },
+      {
+        "name": "mob_specific_loot",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 100
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "aoa3:spectacle"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 25,
+            "name": "minecraft:dandelion"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 18,
+            "name": "aoa3:torn_cloth"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 16,
+            "name": "aoa3:hardened_confetti_ball"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 21,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1.0,
+                  "max": 2.0,
+                  "type": "minecraft:uniform"
+                }
+              }
+            ],
+            "name": "minecraft:brick"
+          }
+        ]
+      }
+    ]
+  }

@@ -6,7 +6,6 @@ val items as IItemStack[] = [
     <item:paraglider:stamina_vessel>,
     <item:paraglider:paraglider>,
     <item:paraglider:deku_leaf>,
-    <item:relics:ghost_skin_talisman>,
     <item:mcsaforge:harpers_headset_helmet>,
     <item:mcsaforge:harpers_headset_chestplate>,
     <item:mcsaforge:harpers_headset_leggings>,

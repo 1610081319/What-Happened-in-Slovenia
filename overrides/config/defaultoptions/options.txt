@@ -24,10 +24,10 @@ screenEffectScale:0.0
 fovEffectScale:0.7095922
 gamma:1.0
 renderDistance:7
-entityDistanceScaling:0.5
+entityDistanceScaling:1.0
 guiScale:4
 particles:1
-maxFps:114514
+maxFps:260
 difficulty:2
 graphicsMode:0
 ao:0
@@ -43,7 +43,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -66,7 +66,7 @@ skipMultiplayerWarning:true
 hideMatchedNames:true
 joinedFirstServer:false
 syncChunkWrites:true
-soundCategory_master:0.31195
+soundCategory_master:0.011589404
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

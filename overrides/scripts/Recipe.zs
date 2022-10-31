@@ -166,7 +166,7 @@ craftingTable.addShaped("ornate_trophy", <item:aoa3:ornate_trophy>, [
 craftingTable.addShaped("power_rune", <item:aoa3:carved_rune_of_power>, [
     [rune, <item:witherstormmod:withered_nether_star>, rune],
     [rune, <item:aoa3:ancient_rock>, rune],
-    [rune, rune, rune]
+    [rune, <item:ba_bt:guardian_eye_land>, rune]
 ]);
 craftingTable.addShaped("puzzle_master", <item:lootgames:puzzle_master>, [
     [air, orb, air],

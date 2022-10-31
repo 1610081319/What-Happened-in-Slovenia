@@ -15,7 +15,7 @@
 	enableFriendlyPetFire = false
 	#Enable Librarian Villagers trading books enchanted with this mod's enchantments. 
 	#Disable this feature if you want to prevent this. [true / false]
-	enableEnchantmentTrades = true
+	enableEnchantmentTrades = false
 	#Enable enchantments from this mod appearing in any type of generated loot. 
 	#Disable this feature if you want to prevent this. [true / false]
 	enableEnchantmentLoot = true

@@ -8,7 +8,7 @@
 	#Enable conversion of stereo sounds to mono format for spacial play
 	"Enable Stereo to Mono Conversion" = false
 	#Enable sound occlusion calculations (sound muffling when positioned behind blocks)
-	"Enable Sound Occlusion Calculations" = true
+	"Enable Sound Occlusion Calculations" = false
 	#Number of streaming sound channels to configure
 	#Range: 8 ~ 16
 	"Streaming Sound Count" = 10

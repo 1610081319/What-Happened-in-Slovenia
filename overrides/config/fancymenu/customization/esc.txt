@@ -18,3 +18,8 @@ customization {
   action = backgroundoptions
 }
 
+customization {
+  identifier = %id=320208%
+  action = hidebutton
+}
+

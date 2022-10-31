@@ -8,7 +8,6 @@ val dims_i as string[] = [
     "barathos", 
     "deeplands"
 ];
-
 val dims_ii as string[] = [
     "celeve", 
     "iromine", 
@@ -20,7 +19,6 @@ val dims_ii as string[] = [
     "crystevia", 
     "candyland"
 ];
-
 val dims_iii as string[] = [
     "lunalus", 
     "lborean", 
@@ -32,11 +30,9 @@ val dims_iii as string[] = [
 for i in 0 .. dims_i.length {
     StageHelper.grantStageOnDimension("aoa3:" + dims_i[i], "champion_i");
 }
-
 for j in 0 .. dims_ii.length {
     StageHelper.grantStageOnDimension("aoa3:" + dims_ii[j], "champion_ii");
 }
-
 for k in 0 .. dims_iii.length {
     StageHelper.grantStageOnDimension("aoa3:" + dims_iii[k], "champion_iii");
 }

@@ -148,9 +148,9 @@ CTEventManager.register<MCLivingSpawnEvent>((event) => {
     val random = world.random;
     val dim = world.dimension;
     val pos = entity.position;
-    val random_start = random.nextInt(0, 191981);
-    var random_chest = random.nextInt(0, 191981);
-    var random_head = random.nextInt(0, 191981);
+    val random_start = random.nextInt(0, 200000);
+    var random_chest = random.nextInt(0, 200000);
+    var random_head = random.nextInt(0, 200000);
     var gear_chest = random.nextInt(0, 45);
     var gear_head = random.nextInt(0, 45);
     var random_overworld_mob = random.nextInt(0, 17);
@@ -165,7 +165,7 @@ CTEventManager.register<MCLivingSpawnEvent>((event) => {
         return;
     }
     if (("monster" in classification) && ("overworld" in dim || "neverise:witherstorm" in dim || "nether" in dim)) {
-        if (random_start >= 114514) {
+        if (random_start >= 100000) {
             if ("minecraft:guardian" in type) {
                 entity.remove();
                 server.executeCommand("exeucte in " + dim + " run summon aoa3:" + aoa_ocean_mobs[random_ocean_mob] + " " + x + " " + y + " " + z,true);

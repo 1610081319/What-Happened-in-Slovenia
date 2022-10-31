@@ -13,8 +13,3 @@ CTEventManager.register<GameStageAdded>((event) => {
         player.sendMessage(MCTextComponent.createTranslationTextComponent("eventMessage.neverise.login"));
     }
 });
-
-/*
-{id:"relics:holy_locket",Count:1b,tag:{Damage:0,dropchance:2.0E-4d}}
-
-{id:"relics:out_runner",Count:1b,tag:{Damage:0,dropchance:2.0E-4d}}*/

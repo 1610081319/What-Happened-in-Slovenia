@@ -214,7 +214,24 @@ val bags as IItemStack[] = [
     <item:comforts:sleeping_bag_white>,
     <item:comforts:sleeping_bag_yellow>
 ];
-
+val dragonsteel_armor as IItemStack[] = [
+    <item:iceandfire:dragonsteel_lightning_helmet>,
+    <item:iceandfire:dragonsteel_lightning_chestplate>,
+    <item:iceandfire:dragonsteel_lightning_leggings>,
+    <item:iceandfire:dragonsteel_lightning_boots>,
+    <item:iceandfire:dragonsteel_ice_helmet>,
+    <item:iceandfire:dragonsteel_ice_chestplate>,
+    <item:iceandfire:dragonsteel_ice_leggings>,
+    <item:iceandfire:dragonsteel_ice_boots>,
+    <item:iceandfire:dragonsteel_fire_helmet>,
+    <item:iceandfire:dragonsteel_fire_chestplate>,
+    <item:iceandfire:dragonsteel_fire_leggings>,
+    <item:iceandfire:dragonsteel_fire_boots>
+];
+for dragon in 0 .. dragonsteel_armor.length {
+    tooltip(dragonsteel_armor[dragon], "info.neverise.dragonsteel_armor.1");
+    tooltip(dragonsteel_armor[dragon], "info.neverise.dragonsteel_armor.2");
+}
 for i in 0 .. vulcanes.length {
     tooltipS(vulcanes[i], "info.neverise.vulcane");
 }
@@ -247,7 +264,8 @@ val items as IItemStack[] = [
     <item:aoa3:nowhere_portal>,
     <item:lootgames:puzzle_master>,
     <item:witherstormmod:golden_apple_stew>,
-    <item:witherstormmod:command_block_book>
+    <item:witherstormmod:command_block_book>,
+    <item:enigmaticlegacy:cursed_ring>
 ]; 
 
 val texts as string[] = [
@@ -258,7 +276,8 @@ val texts as string[] = [
     "info.neverise.nowhere_portal",
     "info.neverise.puzzle_master",
     "info.neverise.golden_apple_stew",
-    "info.neverise.command_block_book"
+    "info.neverise.command_block_book",
+    "info.neverise.cursed_ring"
 ];
 
 for misc in 0 .. items.length {

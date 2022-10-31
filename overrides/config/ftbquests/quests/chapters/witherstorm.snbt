@@ -1,0 +1,1164 @@
+{
+	id: "73326AEC280CBB9D"
+	group: "5DCE5658DD5D4597"
+	order_index: 1
+	filename: "witherstorm"
+	title: "{chapters.nrq.73326AEC280CBB9D.title}"
+	icon: {
+		id: "witherstormmod:formidibomb"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{quests.nrq.256ACF0F0A144B0A.title}"
+			x: 6.5d
+			y: -6.0d
+			subtitle: "{quests.nrq.256ACF0F0A144B0A.subtitle}"
+			dependencies: [
+				"5EA036CDBA01139B"
+				"2BC0510A9095B363"
+			]
+			id: "256ACF0F0A144B0A"
+			tasks: [
+				{
+					id: "5AE725FA69E63BB6"
+					type: "item"
+					title: "{tasks.nrq.5AE725FA69E63BB6.title}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mcsaforge:golden_goliath_circuitry_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:ivor_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:champion_petra_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:dragonsbane_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:ellegaard_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:ender_defender_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:enderman_soren_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:gabriel_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:adamantium_impervium_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:soren_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:star_shield_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:magnus_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:ninja_ivor_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:olivia_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:petra_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:prismarine_soldier_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:redstone_riot_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:shield_of_infinity_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:lukas_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:swordbreaker_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:tim_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "37614EE59ACA7B4C"
+					type: "item"
+					title: "{tasks.nrq.37614EE59ACA7B4C.title}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mcsaforge:golden_goliath_circuitry_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:ivor_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:champion_petra_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:dragonsbane_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:ellegaard_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:ender_defender_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:enderman_soren_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:gabriel_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:adamantium_impervium_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:soren_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:star_shield_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:magnus_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:ninja_ivor_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:olivia_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:petra_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:prismarine_soldier_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:redstone_riot_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:shield_of_infinity_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:lukas_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:swordbreaker_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:tim_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "3132A93025DE6203"
+					type: "item"
+					title: "{tasks.nrq.3132A93025DE6203.title}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mcsaforge:golden_goliath_circuitry_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:ivor_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:champion_petra_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:dragonsbane_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:ellegaard_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:ender_defender_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:enderman_soren_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:gabriel_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:adamantium_impervium_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:soren_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:star_shield_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:magnus_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:ninja_ivor_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:olivia_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:petra_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:prismarine_soldier_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:redstone_riot_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:shield_of_infinity_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:lukas_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:swordbreaker_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:tim_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "266D557DC56DE8C2"
+					type: "item"
+					title: "{tasks.nrq.266D557DC56DE8C2.title}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mcsaforge:golden_goliath_circuitry_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:ivor_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:champion_petra_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:dragonsbane_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:ellegaard_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:ender_defender_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:enderman_soren_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:gabriel_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:adamantium_impervium_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:soren_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:star_shield_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:magnus_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:ninja_ivor_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:olivia_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:petra_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:prismarine_soldier_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:redstone_riot_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:shield_of_infinity_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:lukas_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:swordbreaker_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mcsaforge:tim_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "183B1F34ABAB361D"
+					type: "loot"
+					icon: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:mundane"
+						}
+					}
+					table_id: 5811658212712557800L
+				}
+				{
+					id: "69A40FFC75B65AFF"
+					type: "random"
+					table_id: 5409793229905546664L
+				}
+			]
+		}
+		{
+			title: "{quests.nrq.49CB106E20A9EB06.title}"
+			x: 10.5d
+			y: -1.5d
+			subtitle: "The Start of the Worlds Impending Doom......"
+			description: [
+				"{quests.nrq.49CB106E20A9EB06.description.1}"
+				"{quests.nrq.49CB106E20A9EB06.description.2}"
+			]
+			dependencies: [
+				"384F4DF26450C2B2"
+				"629FCA38FB3EFCAF"
+				"256ACF0F0A144B0A"
+			]
+			dependency_requirement: "one_completed"
+			id: "49CB106E20A9EB06"
+			tasks: [{
+				id: "71DFF8949D6A43F4"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
+			rewards: [
+				{
+					id: "166926E948E39276"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+					count: 3
+				}
+				{
+					id: "5A98BFC51C03D2AB"
+					type: "random"
+					table_id: 7879242088470543668L
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: -6.0d
+			subtitle: "{quests.nrq.384F4DF26450C2B2.subtitle}"
+			dependencies: [
+				"5EA036CDBA01139B"
+				"2BC0510A9095B363"
+			]
+			id: "384F4DF26450C2B2"
+			tasks: [{
+				id: "143461D1F3756DE0"
+				type: "item"
+				title: "{tasks.nrq.143461D1F3756DE0.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "dungeons_gear:rapier"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:bee_stinger"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:freezing_foil"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:soul_scythe"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:frost_scythe"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:jailors_scythe"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:cutlass"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:dancers_sword"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:nameless_blade"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:sparkler"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:sword"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:stone_sword"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:gold_sword"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:diamond_sword"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:hawkbrand"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:sinister_sword"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:katana"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:dark_katana"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:masters_katana"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:soul_knife"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:eternal_knife"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:truthseeker"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:claymore"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:broadsword"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:heartstealer"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:great_axeblade"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:frost_slayer"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:grave_bane"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:venom_glaive"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:glaive"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:tempest_knife"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:resolute_tempest_knife"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:chill_gale_knife"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:axe"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:gold_axe"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:firebrand"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:highland_axe"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:double_axe"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:cursed_axe"
+								Count: 1b
+							}
+							{
+								id: "dungeons_gear:whirlwind"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "796A1FDD31398C0F"
+					type: "loot"
+					table_id: 5811658212712557800L
+				}
+				{
+					id: "5B69617FA4EEDC0D"
+					type: "random"
+					table_id: 5409793229905546664L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 3.0d
+			description: ["{quests.nrq.2DA649ECB1B29D7B.description.1}"]
+			dependencies: ["49CB106E20A9EB06"]
+			id: "2DA649ECB1B29D7B"
+			tasks: [{
+				id: "2915552282596536"
+				type: "item"
+				item: {
+					id: "witherstormmod:formidibomb"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "3BCE538491A69F9F"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5FCFF90CF76DDDE1"
+					type: "random"
+					table_id: 5409793229905546664L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -6.0d
+			subtitle: "{quests.nrq.629FCA38FB3EFCAF.subtitle}"
+			dependencies: ["5EA036CDBA01139B"]
+			id: "629FCA38FB3EFCAF"
+			tasks: [{
+				id: "6F9B2CA390AFB60F"
+				type: "item"
+				title: "{tasks.nrq.6F9B2CA390AFB60F.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "gunswithoutroses:diamond_gatling"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "gunswithoutroses:diamond_sniper"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "gunswithoutroses:iron_gun"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "gunswithoutroses:gold_gun"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "gunswithoutroses:diamond_shotgun"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "504D8FE9E5790B28"
+					type: "random"
+					icon: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "cursery:curse_slowness"
+							}]
+						}
+					}
+					table_id: 2766907373679539736L
+				}
+				{
+					id: "7F71414062DC8908"
+					type: "random"
+					icon: "gunswithoutroses:flint_bullet"
+					table_id: 3353091546409653319L
+				}
+				{
+					id: "531566C51B458FFC"
+					type: "random"
+					table_id: 5409793229905546664L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 12.0d
+			subtitle: "{quests.nrq.06114EC178DF3AF2.subtitle}"
+			description: [
+				"{quests.nrq.06114EC178DF3AF2.description.1}"
+				"{quests.nrq.06114EC178DF3AF2.description.2}"
+			]
+			dependencies: ["2D95F4AC2D7C9166"]
+			id: "06114EC178DF3AF2"
+			tasks: [{
+				id: "660111A7413BB4FD"
+				type: "item"
+				title: "{tasks.nrq.660111A7413BB4FD.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "witherstormmod:command_block_sword"
+								Count: 1b
+							}
+							{
+								id: "witherstormmod:command_block_axe"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7D4172F3BC6479BD"
+					type: "item"
+					item: "paraglider:heart_container"
+					count: 2
+				}
+				{
+					id: "2E8AA7D0E0A7FAC5"
+					type: "random"
+					table_id: 4095883162075806048L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 7.5d
+			subtitle: "{quests.nrq.2D95F4AC2D7C9166.subtitle}"
+			dependencies: ["2DA649ECB1B29D7B"]
+			id: "2D95F4AC2D7C9166"
+			tasks: [{
+				id: "686000DB78399794"
+				type: "item"
+				item: "witherstormmod:command_block_book"
+			}]
+			rewards: [
+				{
+					id: "78E84AB14D3C027B"
+					type: "item"
+					item: "paraglider:heart_container"
+					count: 2
+				}
+				{
+					id: "2F00EF6D92756877"
+					type: "random"
+					table_id: 4095883162075806048L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 16.0d
+			subtitle: "{quests.nrq.57709EBE35A0B9EC.subtitle}"
+			dependencies: ["06114EC178DF3AF2"]
+			id: "57709EBE35A0B9EC"
+			tasks: [{
+				id: "3EC5B1AD339B795D"
+				type: "item"
+				item: "witherstormmod:withered_nether_star"
+			}]
+			rewards: [
+				{
+					id: "42D6F6C0E72C3DAC"
+					type: "item"
+					item: "aoa3:nowhere_portal"
+				}
+				{
+					id: "7F3D249C8168DDE7"
+					type: "random"
+					table_id: 7879242088470543668L
+				}
+				{
+					id: "7A363BA375E83B9C"
+					type: "item"
+					item: {
+						id: "bagofyurting:bag_of_yurting"
+						Count: 1b
+						tag: {
+							radius: 6
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{quests.nrq.2BC0510A9095B363.title}"
+			x: 10.5d
+			y: -11.0d
+			subtitle: "{quests.nrq.2BC0510A9095B363.subtitle}"
+			id: "2BC0510A9095B363"
+			tasks: [{
+				id: "09D621C552DBE7FD"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
+			rewards: [
+				{
+					id: "2FB593DE57BC7354"
+					type: "item"
+					item: "sophisticatedbackpacks:backpack"
+				}
+				{
+					id: "5EEC9EF781717298"
+					type: "random"
+					table_id: 3026663674124908032L
+				}
+			]
+		}
+	]
+}

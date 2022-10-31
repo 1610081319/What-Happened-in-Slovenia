@@ -1,8 +1,8 @@
 {
   "finalE": true,
-  "integratedE": true,
+  "integratedE": false,
   "dedicatedE": true,
   "reamsE": true,
-  "shortcutKet": true,
-  "keepInAction": 0
+  "shortcutKet": false,
+  "keepInAction": 1000
 }

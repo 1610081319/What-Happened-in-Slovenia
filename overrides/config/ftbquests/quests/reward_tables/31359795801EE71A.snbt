@@ -1,0 +1,13 @@
+{
+	id: "31359795801EE71A"
+	order_index: 16
+	title: "{reward_tables.nrq.31359795801EE71A.title}"
+	loot_size: 1
+	rewards: [
+		{ item: "aoa3:magic_repair_dust" }
+		{ item: "aoa3:magic_repair_dust", count: 2 }
+		{ item: "aoa3:magic_repair_dust", count: 3 }
+		{ item: "aoa3:magic_repair_dust", count: 4 }
+		{ item: "aoa3:magic_repair_dust", count: 5 }
+	]
+}

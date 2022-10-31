@@ -1,0 +1,82 @@
+{
+	id: "6D58B0EEF697FD34"
+	order_index: 15
+	title: "{reward_tables.nrq.6D58B0EEF697FD34.title}"
+	loot_size: 1
+	rewards: [
+		{ item: "with_thursday:beaten_eggs" }
+		{ item: "with_thursday:cheese" }
+		{ item: "with_thursday:chocolate_bar" }
+		{ item: "with_thursday:original_recipe" }
+		{ item: "with_thursday:chicken_bucket" }
+		{ item: "with_thursday:orleans_roasted_wings" }
+		{ item: "with_thursday:potato_pie" }
+		{ item: "with_thursday:breakfast" }
+		{ item: "with_thursday:milk_tea" }
+		{ item: "with_thursday:nine_fruit_juice" }
+		{ item: "minecraft:golden_apple" }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ item: "minecraft:golden_carrot" }
+		{ item: "sushigocrafting:salmon_maki" }
+		{ item: "sushigocrafting:tuna_maki" }
+		{ item: "sushigocrafting:avocado_maki" }
+		{ item: "sushigocrafting:cucumber_maki" }
+		{ item: "sushigocrafting:crab_maki" }
+		{ item: "sushigocrafting:salmon_gunkan" }
+		{ item: "sushigocrafting:tuna_gunkan" }
+		{ item: "sushigocrafting:wakame_gunkan" }
+		{ item: "sushigocrafting:tobiko_tuna_cucumber_california" }
+		{ item: "sushigocrafting:tuna_cucumber_california" }
+		{ item: "sushigocrafting:tobiko_tuna_california" }
+		{ item: "sushigocrafting:tuna_california" }
+		{ item: "sushigocrafting:tobiko_tuna_cheese_california" }
+		{ item: "sushigocrafting:tuna_cheese_california" }
+		{ item: "sushigocrafting:tobiko_salmon_cucumber_california" }
+		{ item: "sushigocrafting:salmon_cucumber_california" }
+		{ item: "sushigocrafting:tobiko_salmon_california" }
+		{ item: "sushigocrafting:salmon_california" }
+		{ item: "sushigocrafting:tobiko_salmon_cheese_california" }
+		{ item: "sushigocrafting:salmon_cheese_california" }
+		{ item: "sushigocrafting:tobiko_crab_cucumber_california" }
+		{ item: "sushigocrafting:crab_cucumber_california" }
+		{ item: "sushigocrafting:tobiko_crab_california" }
+		{ item: "sushigocrafting:crab_california" }
+		{ item: "sushigocrafting:tobiko_crab_cheese_california" }
+		{ item: "sushigocrafting:crab_cheese_california" }
+		{ item: "sushigocrafting:salmon_nigiri" }
+		{ item: "sushigocrafting:tuna_nigiri" }
+		{ item: "sushigocrafting:shrimp_nigiri" }
+		{ item: "sushigocrafting:onigiri" }
+		{ item: "sushigocrafting:salmon_temaki" }
+		{ item: "sushigocrafting:tuna_temaki" }
+		{ item: "sushigocrafting:shrimp_temaki" }
+		{ item: "sushigocrafting:chicken_temaki" }
+		{ item: "iceandfire:cannoli" }
+		{ item: "witherstormmod:golden_apple_stew" }
+		{ item: "cookielicious:vanilla_cookie" }
+		{ item: "cookielicious:chocolate_cookie" }
+		{ item: "cookielicious:strawberry_cookie" }
+		{ item: "cookielicious:banana_cookie" }
+		{ item: "cookielicious:mint_cookie" }
+		{ item: "cookielicious:adzuki_cookie" }
+		{ item: "neapolitan:vanilla_pudding" }
+		{ item: "neapolitan:cooked_mint_chops" }
+		{ item: "neapolitan:adzuki_curry" }
+		{ item: "nethers_delight:magma_gelatin" }
+		{ item: "vanillacookbook:birch_tea" }
+		{ item: "vanillacookbook:spruce_tea" }
+		{ item: "vanillacookbook:flower_salad" }
+		{ item: "vanillacookbook:meatloaf" }
+		{ item: "vanillacookbook:netherite_apple" }
+		{ item: "seasonals:sweet_berry_vanilla_yogurt" }
+		{ item: "quark:cooked_frog_leg" }
+		{ item: "quark:golden_frog_leg" }
+		{ item: "lightmeals:chocolate_bar" }
+		{ item: "lightmeals:apple_pie" }
+		{ item: "lightmeals:fish_soup" }
+		{ item: "lightmeals:veggie_salad" }
+		{ item: "lightmeals:fruit_salad" }
+		{ item: "lightmeals:chicken_dinner" }
+		{ item: "lightmeals:surf_and_turf" }
+	]
+}

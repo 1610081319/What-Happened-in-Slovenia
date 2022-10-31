@@ -93,3 +93,6 @@ net.minecraft.client.gui.screen.DeathScreen {
 net.minecraft.client.gui.screen.DisconnectedScreen {
 }
 
+nonamecrackers2.witherstormmod.client.gui.WitherStormModConfigScreen {
+}
+

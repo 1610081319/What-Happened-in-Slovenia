@@ -1,0 +1,17 @@
+{
+    "notenoughcrashes.gui.restart": "Restart Neverise",
+    "notenoughcrashes.crashscreen.title": " ",
+    "notenoughcrashes.crashscreen.summary": "Neverise ran into a problem and crashed.",
+    "notenoughcrashes.crashscreen.paragraph3.line1": "Please go to .minecraft/versions/Neverise/logs folder",
+    "notenoughcrashes.crashscreen.paragraph3.line2": "and send latest.log to others (if you need help from others).",
+    "notenoughcrashes.crashscreen.paragraph3.line3": "§4§l§nHowever, please don't take any non-helpful screenshots of this page!",
+    "notenoughcrashes.crashscreen.paragraph3.line4": "§4§l§nThis behavior does nothing but show that you are blind!",
+    "notenoughcrashes.initerrorscreen.title": "Neverise failed to start!",
+    "notenoughcrashes.initerrorscreen.summary": "An error during startup prevented Neverise from starting",
+    "notenoughcrashes.initerrorscreen.paragraph3.line1": "Please go to .minecraft/versions/Neverise/logs folder",
+    "notenoughcrashes.initerrorscreen.paragraph3.line2": "and send latest.log to others (if you need help from others).",
+    "notenoughcrashes.initerrorscreen.paragraph3.line3": "However, please don't take any non-helpful screenshots of this page!",
+    "notenoughcrashes.initerrorscreen.paragraph3.line4": "This behavior does nothing but show that you are blind!"
+}
+  
+  

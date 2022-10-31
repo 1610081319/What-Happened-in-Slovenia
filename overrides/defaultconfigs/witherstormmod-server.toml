@@ -10,10 +10,10 @@
 	targetStationaryChunkRadius = 8
 	#DEFAULT=4. The chance for the Wither Storm to choose a player instead of another entity, out of 10. Reload Type: NONE
 	#Range: 0 ~ 10
-	playerPickupChance = 3
+	playerPickupChance = 4
 	#DEFAULT=1.0. Specifies a modifier value of the evolution rate attribute. The higher the value, the longer it takes for the Wither Storm to make a complete evolution (from phases 0 to 7), and vice versa. Cannot be lower than 0. Reload Type: NONE
 	#Range: 0.01 ~ 32.0
-	evolutionAttributeModifier = 0.4
+	evolutionAttributeModifier = 0.1
 	#DEFAULT=30. Specifies the amount of time in minutes that the Wither Storm's ultimate target must be stationary in order for it to accelerate. Reload Type: WORLD
 	#Range: 1 ~ 120
 	targetStationaryMinutes = 30
@@ -30,7 +30,7 @@
 	#Range: 0.01 ~ 1.0
 	slowFlyingSpeed = 0.01
 	#DEFAULT=true. Specifies if the Wither Storm should use the phase as a multiplier when calculating the time in ticks it takes for it to start accelerating, when its ultimate target is stationary. Reload Type: NONE
-	usePhaseAsDistanceMultiplier = true
+	usePhaseAsDistanceMultiplier = false
 	#DEFAULT=1.0. Specifies if the Wither Storm should use this value as a multiplier when calculating the time in ticks it takes for it to start accelerating, when its ultimate target is stationary. Reload Type: NONE
 	#Range: 0.1 ~ 24.0
 	distanceMultiplier = 1.0
@@ -162,17 +162,17 @@
 	[server."withered symbiont"]
 		#DEFAULT=60. Specifies the minimum interval (+random) in seconds that the Wither Storm should check for Withered Symbiont spawn conditions. Reload Type: NONE
 		#Range: 1 ~ 240
-		minimumSpawnCheckInterval = 60
+		minimumSpawnCheckInterval = 1
 		#DEFAULT=10. Specifies the delay in minutes (+random) that the Wither Storm will be able to summon a Withered Symbiont. Reload Type: NONE
 		#Range: 1 ~ 20
-		witherStormSummingDelay = 10
+		witherStormSummingDelay = 1
 		#DEFAULT=5. Specifies the time in minutes (+random) that the players who killed a Withered Symbiont should be ignored by the Wither Storm for. Reload Type: NONE
 		#Range: 1 ~ 10
 		playerInvulnerableTime = 5
 		#DEFAULT=10. Specifies the delay in minutes (+random) that the Wither Storm should be able summon a Withered Symbiont for the player it summoned one for. Reload Type: NONE
 		#Range: 1 ~ 60
-		playerSummoningDelay = 10
+		playerSummoningDelay = 1
 		#DEFAULT=40. If a player kills a Withered Symbiont, their sumoning delay will be increased to this value in minutes (+random). Reload Type: NONE
 		#Range: 1 ~ 60
-		playerSummoningDelayOnKill = 40
+		playerSummoningDelayOnKill = 1
 

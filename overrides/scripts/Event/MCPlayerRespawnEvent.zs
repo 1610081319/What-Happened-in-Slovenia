@@ -9,13 +9,14 @@ CTEventManager.register<MCPlayerRespawnEvent>(event => {
     val server = world.asServerWorld().server;
     val pos = player.position;
     val end = event.isEndConquered();
+    val uuid = player.uuid;
     if (player.world.remote || end) return;
     
     if (player.removeTag("if_you_die_in_witherstorm_you_should_respawn_in_witherstorm")) {
-        server.executeCommand("execute in neverise:witherstorm run tp " + player.uuid + " 0 205 0", true);
-        server.executeCommand("effect give " + player.uuid + " minecraft:slow_falling 60", true);
+        server.executeCommand("execute in neverise:witherstorm run tp " + uuid + " 0 205 0", true);
+        server.executeCommand("effect give " + uuid + " minecraft:slow_falling 60", true);
     }
-    if (player.removeTag("if_you_die_in_nowhere_you_should_respawn_in_nowhere")) server.executeCommand("execute in aoa3:nowhere run tp " + player.uuid + " 0 205 0", true);
+    if (player.removeTag("if_you_die_in_nowhere_you_should_respawn_in_nowhere")) server.executeCommand("execute in aoa3:nowhere run tp " + uuid + " 0 205 0", true);
     
     if (player.removeTag("inm")) {
         for i in 0 .. 64 {
