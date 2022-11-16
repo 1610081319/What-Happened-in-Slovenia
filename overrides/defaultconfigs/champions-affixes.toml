@@ -23,7 +23,7 @@
 
 [[affixes]]
 	identifier = "desecrating"
-	enabled = false
+	enabled = true
 	minTier = 1
 	mobList = []
 	mobPermission = "BLACKLIST"
@@ -65,7 +65,7 @@
 
 [[affixes]]
 	identifier = "magnetic"
-	enabled = false
+	enabled = true
 	minTier = 1
 	mobList = []
 	mobPermission = "BLACKLIST"
@@ -79,7 +79,7 @@
 
 [[affixes]]
 	identifier = "paralyzing"
-	enabled = false
+	enabled = true
 	minTier = 1
 	mobList = []
 	mobPermission = "BLACKLIST"

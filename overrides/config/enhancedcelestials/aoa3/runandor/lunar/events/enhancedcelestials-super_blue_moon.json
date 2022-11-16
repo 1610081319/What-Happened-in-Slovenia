@@ -32,12 +32,12 @@
       "moonTextureColor": "ffff",
       "moonTextureBlendStrength": 1.0
     },
-    "moonSize": 40.0,
+    "moonSize": 80.0,
     "moonTextureLocation": "minecraft:textures/environment/moon_phases.png",
     "soundTrack": "enhancedcelestials:blue_moon",
     "type": "enhancedcelestials:default"
   },
   "minNumberOfNightsBetween": 20,
-  "chance": 0.01,
+  "chance": 0.0,
   "type": "enhancedcelestials:blue_moon"
 }

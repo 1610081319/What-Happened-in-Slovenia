@@ -154,39 +154,6 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Potion: \"buddycards:grading_luck\"}"
-                        }
-                    ],
-                    "name": "minecraft:potion"
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 2,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion: \"buddycards:grading_luck_strong\"}"
-                        }
-                    ],
-                    "name": "minecraft:potion"
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 2,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion: \"buddycards:grading_luck_long\"}"
-                        }
-                    ],
-                    "name": "minecraft:potion"
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 2,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
                             "tag": "{Potion: \"mowziesmobs:long_poison_resist\"}"
                         }
                     ],
@@ -199,28 +166,6 @@
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{Potion: \"mowziesmobs:poison_resist\"}"
-                        }
-                    ],
-                    "name": "minecraft:potion"
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 2,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion: \"betterendforge:end_veil_long\"}"
-                        }
-                    ],
-                    "name": "minecraft:potion"
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 2,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{Potion: \"betterendforge:end_veil\"}"
                         }
                     ],
                     "name": "minecraft:potion"

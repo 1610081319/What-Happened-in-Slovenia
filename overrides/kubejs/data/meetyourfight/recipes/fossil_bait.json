@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " B ",
+        "FEF",
+        " B "
+    ],
+    "key": {
+        "E": {
+            "item": "aoa3:skelecanth"
+        },
+        "B": {
+            "item": "aoa3:toxic_lump"
+        },
+        "F": {
+            "item": "minecraft:rotten_flesh"
+        }
+    },
+    "result": {
+        "item": "meetyourfight:fossil_bait"
+    }
+}

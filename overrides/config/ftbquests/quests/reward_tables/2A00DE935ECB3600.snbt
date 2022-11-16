@@ -5,7 +5,6 @@
 	loot_size: 1
 	rewards: [
 		{ item: "mowziesmobs:glowing_jelly" }
-		{ item: "betterendforge:end_fish_raw" }
 		{ item: "with_thursday:cooked_chicken_wings" }
 		{ item: "with_thursday:cooked_diced_chicken" }
 		{ item: "with_thursday:chicken_pop" }
@@ -53,7 +52,6 @@
 		{ item: "minecraft:rotten_flesh" }
 		{ item: "minecraft:sweet_berries" }
 		{ item: "minecraft:honey_bottle" }
-		{ item: "simplecorn:poppedcorn" }
 		{ item: "farmersdelight:wheat_dough" }
 		{ item: "farmersdelight:cod_slice" }
 		{ item: "farmersdelight:salmon_slice" }

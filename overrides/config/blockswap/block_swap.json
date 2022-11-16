@@ -1,7 +1,6 @@
 {
   "retroGen": false,
   "swapper": {
-    "betterendforge:ender_ore": "minecraft:stone",
     "endergetic:ender_fire": "minecraft:air",
     "aoa3:nowhere_activity_portal": "connectedglass:borderless_glass_orange",
     "minecraft:cobblestone_wall": "connectedglass:borderless_glass_light_gray",
@@ -16,6 +15,34 @@
     "minecraft:gray_stained_glass": "connectedglass:borderless_glass_gray",
     "minecraft:white_stained_glass": "connectedglass:borderless_glass_white",
     "minecraft:blue_stained_glass_pane": "connectedglass:borderless_glass_blue_pane",
-    "minecraft:player_head": "minecraft:air"
+    "minecraft:player_head": "minecraft:air",
+    "betterendforge:ender_ore": "minecraft:end_stone",
+    "betternether:cincinasite_ore": "minecraft:netherrack",
+    "betternether:nether_ruby_ore": "minecraft:netherrack",
+    "betternether:nether_reed": "minecraft:air",
+    "betternether:smoker": "minecraft:air",
+    "betternether:giant_mold": "minecraft:air",
+    "betternether:mushroom_fir": "minecraft:air",
+    "betternether:gray_mold": "minecraft:air",
+    "betternether:red_mold": "minecraft:air",
+    "betternether:orange_mushroom": "minecraft:air",
+    "betternether:red_large_mushroom": "minecraft:air",
+    "betternether:magma_flower": "minecraft:air",
+    "betternether:geyser": "minecraft:air",
+    "betternether:feather_fern": "minecraft:air",
+    "betternether:black_vine": "minecraft:air",
+    "betternether:willow_branch": "minecraft:air",
+    "betternether:willow_leaves": "minecraft:air",
+    "betternether:willow_bark": "minecraft:air",
+    "betternether:willow_trunk": "minecraft:air",
+    "betternether:anchor_tree_leaves": "minecraft:air",
+    "betternether:anchor_tree_vine": "minecraft:air",
+    "betternether:anchor_tree_log": "minecraft:air",
+    "betternether:anchor_tree_bark": "minecraft:air",
+    "betternether:brown_large_mushroom": "minecraft:air",
+    "betternether:black_bush": "minecraft:air",
+    "betternether:willow_log": "minecraft:air",
+    "betternether:moss_cover": "minecraft:air",
+    "betternether:jungle_moss": "minecraft:air"
   }
 }

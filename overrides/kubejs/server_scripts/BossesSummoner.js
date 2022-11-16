@@ -1,4 +1,3 @@
-
 onEvent("block.right_click", event => {
     let server = event.server
     let block = event.block
@@ -18,7 +17,7 @@ onEvent("block.right_click", event => {
         && block.offset(5, -1, 0).id == wall && block.offset(5, -1, 1).id == wall && block.offset(5, -1, -1).id == wall && block.offset(-5, -1, 0).id == wall && block.offset(-5, -1, 1).id == wall && block.offset(-5, -1, -1).id == wall && block.offset(0, -1, -5).id == wall && block.offset(1, -1, -5).id == wall && block.offset(-1, -1, -5).id == wall && block.offset(0, -1, 5).id == wall && block.offset(1, -1, 5).id == wall && block.offset(-1, -1, 5).id == wall && block.offset(0, -1, 6).id == wall && block.offset(0, -1, -6).id == wall && block.offset(6, -1, 0).id == wall && block.offset(-6, -1, 0).id == wall && block.offset(0, 0, 5).id == wall && block.offset(0, 0, -5).id == wall && block.offset(5, 0, 0).id == wall && block.offset(-5, 0, 0).id == wall && block.offset(0, 1, 5).id == wall && block.offset(0, 1, -5).id == wall && block.offset(5, 1, 0).id == wall && block.offset(-5, 1, 0).id == wall && block.offset(0, 2, 5).id == wall && block.offset(0, 2, -5).id == wall && block.offset(5, 2, 0).id == wall && block.offset(-5, 2, 0).id == wall 
         && block.offset(0, 3, 5).id == light && block.offset(0, 3, -5).id == light && block.offset(5, 3, 0).id == light && block.offset(-5, 3, 0).id == light
         && block.offset(1, 1, 1).id == deco && block.offset(-1, 1, 1).id == deco && block.offset(-1, 1, -1).id == deco && block.offset(1, 1, -1).id == deco) {
-            if (block.id == "minecraft:diamond_block" && block.offset(0, 0, 1).id == "minecraft:bone_block" && block.offset(0, 0, -1).id == "minecraft:bone_block" && block.offset(1, 0, 0).id == "minecraft:bone_block" && block.offset(-1, 0, 0).id == "minecraft:bone_block") {
+            if (block.id == "minecraft:diamond_block" && block.offset(0, 0, 1).id == "kubejs:smash" && block.offset(0, 0, -1).id == "kubejs:smash" && block.offset(1, 0, 0).id == "kubejs:smash" && block.offset(-1, 0, 0).id == "kubejs:smash") {
                 server.scheduleInTicks(60, server, function(callback1) {
                     callback1.server.runCommandSilent(`execute in ` + dim + ` run fill ${block.x} ${block.y} ${block.z} ${block.x} ${block.y} ${block.z} aoa3:dimensional_fabric`)
                 })

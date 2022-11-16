@@ -7,7 +7,6 @@
     "eventMessage.neverise.nether_star.2": "       ",
     "eventMessage.neverise.nether_star.3": "§6§l§oThe Wither Storm is dead completely, and its power spread wildly in the final battle, infecting the entire world.",
     "eventMessage.neverise.nether_star.4": "§6§l§oAnd that, is the Nevermine.",
-    "eventMessage.neverise.inm_respawn": "§7§oThe bats suck your blood dry",
     "eventMessage.neverise.storm_time": "§6§l§oThe game has entered the Withering Storm phase. Now, all players have a probability of contracting the Wither Sickness debuff when hurt",
     "info.neverise.shift": "§c§oPlease press Shift for more details",
     "info.neverise.vulcane": "§5AoA resource RAGE will be set to 100 when you are hurt.\nHold your vulcane (both mainhand or offhand should work) and right click to attack the mob that hurt you (you don't need to aim your vulcane at it).\nhe true damage ignores the vanilla damage immunity.",
@@ -22,8 +21,8 @@
     "info.neverise.command_block_book": "§5§l§oObtain by killing Wither Symbiont",
     "info.neverise.hammocks": "§5§l§oPlace two ropes and nails on blocks 4 blocks apart, then right-click on any rope and nail with the hammock to place the hammock。",
     "info.neverise.sleeping_bags": "§5§l§oSkip night without changing spawn point.",
-    "info.neverise.carved_rune": "§5§l§oCan ONLY be obtained from quest Nether Star",
     "info.neverise.dragonsteel_armor.1": "§2Full set bonus:",
     "info.neverise.dragonsteel_armor.2": "§2When taking damage, if your dragon is around for 100*100*100 range centered on you, you have a 40% chance of being immune to it",
-    "info.neverise.cursed_ring": "§5§l§oDon't wear it in early period of game!"
+    "info.neverise.flint_shard": "§5§l§oBreak vanilla leaves to get sticks.",
+    "info.neverise.bagofyurting": "§5§l§oShift and right-click to save chests. Can't target other kinds of blocks."
 }

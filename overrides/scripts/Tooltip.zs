@@ -1,19 +1,19 @@
 //Author: @Kasualix
-import crafttweaker.api.util.text.MCTextComponent as MCTextComponent;
-import crafttweaker.api.item.IItemStack;
+    import crafttweaker.api.util.text.MCTextComponent as MCTextComponent;
+    import crafttweaker.api.item.IItemStack;
 
 public function tooltip(item as IItemStack, key as string) as void {
     item.addTooltip(MCTextComponent.createTranslationTextComponent(key));
 }
 
 public function tooltipS(item as IItemStack, key as string) as void {
-    val shift = MCTextComponent.createTranslationTextComponent("info.neverise.shift");
+    var shift = MCTextComponent.createTranslationTextComponent("info.neverise.shift");
     item.addShiftTooltip(MCTextComponent.createTranslationTextComponent(key), shift);
 }
 
 tooltipS(<item:aoa3:fertilised_farmland>, "info.neverise.fertilised_farmland");
 
-val vulcanes as IItemStack[] = [
+var vulcanes as IItemStack[] = [
     <item:aoa3:vulcane>,
     <item:aoa3:battle_vulcane>,
     <item:aoa3:equality_vulcane>,
@@ -23,19 +23,19 @@ val vulcanes as IItemStack[] = [
     <item:aoa3:power_vulcane>,
     <item:aoa3:wither_vulcane>
 ];
-val spaceking as IItemStack[] = [
+var spaceking as IItemStack[] = [
     <item:aoa3:spaceking_helmet>,
     <item:aoa3:spaceking_chestplate>,
     <item:aoa3:spaceking_legs>,
     <item:aoa3:spaceking_boots>
 ];
-val rosidian as IItemStack[] = [
+var rosidian as IItemStack[] = [
     <item:aoa3:rosidian_helmet>,
     <item:aoa3:rosidian_chestplate>,
     <item:aoa3:rosidian_legs>,
     <item:aoa3:rosidian_boots>
 ];
-val for_storm as IItemStack[] = [
+var for_storm as IItemStack[] = [
     <item:mcsaforge:golden_goliath_boots>,
     <item:mcsaforge:golden_goliath_circuitry_helmet>,
     <item:mcsaforge:golden_goliath_circuitry_chestplate>,
@@ -172,13 +172,7 @@ val for_storm as IItemStack[] = [
     <item:gunswithoutroses:diamond_sniper>,
     <item:gunswithoutroses:diamond_gatling>
 ];
-var runes as IItemStack[] = [
-    <item:aoa3:carved_rune_of_travel>,
-    <item:aoa3:carved_rune_of_direction>,
-    <item:aoa3:carved_rune_of_reality>,
-    <item:aoa3:carved_rune_of_space>
-];
-val hammocks as IItemStack[] = [
+var hammocks as IItemStack[] = [
     <item:comforts:hammock_black>,
     <item:comforts:hammock_blue>,
     <item:comforts:hammock_brown>,
@@ -196,7 +190,7 @@ val hammocks as IItemStack[] = [
     <item:comforts:hammock_white>,
     <item:comforts:hammock_yellow>
 ];
-val bags as IItemStack[] = [
+var bags as IItemStack[] = [
     <item:comforts:sleeping_bag_black>,
     <item:comforts:sleeping_bag_blue>,
     <item:comforts:sleeping_bag_brown>,
@@ -214,7 +208,7 @@ val bags as IItemStack[] = [
     <item:comforts:sleeping_bag_white>,
     <item:comforts:sleeping_bag_yellow>
 ];
-val dragonsteel_armor as IItemStack[] = [
+var dragonsteel_armor as IItemStack[] = [
     <item:iceandfire:dragonsteel_lightning_helmet>,
     <item:iceandfire:dragonsteel_lightning_chestplate>,
     <item:iceandfire:dragonsteel_lightning_leggings>,
@@ -246,9 +240,6 @@ for rose in 0 .. rosidian.length {
 for storm in 0 .. for_storm.length {
     tooltip(for_storm[storm], "info.neverise.for_storm");
 }
-for rune in 0 .. runes.length {
-    tooltip(runes[rune], "info.neverise.carved_rune");
-}
 for hammock in 0 .. hammocks.length {
     tooltip(hammocks[hammock], "info.neverise.hammocks");
 }
@@ -256,7 +247,7 @@ for bag in 0 .. bags.length {
     tooltip(bags[bag], "info.neverise.sleeping_bags");
 }
 
-val items as IItemStack[] = [
+var items as IItemStack[] = [
     <item:aoa3:charging_table>,
     <item:aoa3:alacrity_bow>,
     <item:relics:squire_bag>,
@@ -265,10 +256,9 @@ val items as IItemStack[] = [
     <item:lootgames:puzzle_master>,
     <item:witherstormmod:golden_apple_stew>,
     <item:witherstormmod:command_block_book>,
-    <item:enigmaticlegacy:cursed_ring>
+    <item:notreepunching:flint_shard>
 ]; 
-
-val texts as string[] = [
+var texts as string[] = [
     "info.neverise.charging_table",
     "info.neverise.alacrity_bow",
     "info.neverise.squire_bag",
@@ -277,9 +267,23 @@ val texts as string[] = [
     "info.neverise.puzzle_master",
     "info.neverise.golden_apple_stew",
     "info.neverise.command_block_book",
-    "info.neverise.cursed_ring"
+    "info.neverise.flint_shard"
 ];
 
 for misc in 0 .. items.length {
     tooltip(items[misc], texts[misc]);
+}
+
+var yurters as IItemStack[] = [
+    <item:bagofyurting:bag_of_yurting>,
+    <item:bagofyurting:bag_of_yurting>,
+    <item:bagofyurting:bag_of_yurting>,
+    <item:bagofyurting:bag_of_yurting>,
+    <item:bagofyurting:bag_of_yurting>,
+    <item:bagofyurting:bag_of_yurting>,
+    <item:bagofyurting:bag_of_yurting>
+];
+
+for yurt in 0 .. yurters.length {
+    tooltip(yurters[yurt], "info.neverise.bagofyurting");
 }

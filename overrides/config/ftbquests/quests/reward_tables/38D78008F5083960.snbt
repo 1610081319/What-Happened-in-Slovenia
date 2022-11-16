@@ -5,12 +5,6 @@
 	loot_size: 1
 	rewards: [
 		{ item: "minecraft:spider_eye" }
-		{ item: "betterendforge:shadow_berry_cooked" }
-		{ item: "betterendforge:end_fish_cooked" }
-		{ item: "betterendforge:sweet_berry_jelly" }
-		{ item: "betterendforge:shadow_berry_jelly" }
-		{ item: "betterendforge:amber_root_raw" }
-		{ item: "betterendforge:umbrella_cluster_juice" }
 		{ item: "with_thursday:corn_salad" }
 		{ item: "aoa3:chocaw" }
 		{ item: "aoa3:raw_rainbowfish" }

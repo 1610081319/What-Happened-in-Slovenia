@@ -47,7 +47,7 @@
       "moonTextureColor": "ff0000",
       "moonTextureBlendStrength": 1.0
     },
-    "moonSize": 40.0,
+    "moonSize": 80.0,
     "moonTextureLocation": "minecraft:textures/environment/moon_phases.png",
     "soundTrack": "enhancedcelestials:blood_moon",
     "type": "enhancedcelestials:default"

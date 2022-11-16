@@ -29,7 +29,7 @@
 	return_to_main_menu_after_disconnect = false
 	# Gives capes to RandomPatches contributors.
 	# Default: true
-	contributor_capes = true
+	contributor_capes = false
 
 	# Client-sided bug fixes.
 	[client.bug_fixes]
@@ -177,7 +177,7 @@
 	# Min: 256
 	# Max: 2147483647
 	# Default: 16777216
-	max_compressed_packet_size = 16777216
+	max_compressed_packet_size = 2147483647
 	# The maximum NBT compound tag packet size.
 	# The vanilla limit is 2097152.
 	# This option is both client and server-sided.
@@ -185,14 +185,14 @@
 	# Min: 256
 	# Max: 2147483647
 	# Default: 16777216
-	max_nbt_compound_tag_packet_size = 16777216
+	max_nbt_compound_tag_packet_size = 2147483647
 	# The maximum client custom payload packet size.
 	# The vanilla limit is 32767.
 	# Setting this to a higher value than the vanilla limit may prevent the client from being disconnected.
 	# Min: 256
 	# Max: 2147483647
 	# Default: 16777216
-	max_client_custom_payload_packet_size = 16777216
+	max_client_custom_payload_packet_size = 2147483647
 
 # Options related to player speed limits.
 # These options are used to fix MC-90062: https://bugs.mojang.com/browse/MC-90062
@@ -281,7 +281,7 @@
 	# This option is both client and server-sided.
 	# Changes to this option are applied after a game restart.
 	# Default: []
-	mixin_blacklist = []
+	mixin_blacklist = ["ClientPlayerEntity"]
 
 	# Miscellaneous bug fixes.
 	[misc.bug_fixes]
@@ -307,7 +307,7 @@
 		# This bug is reported as both MC-98160: https://bugs.mojang.com/browse/MC-98160
 		# and MC-105103: https://bugs.mojang.com/browse/MC-105103
 		# Default: true
-		fix_boat_fall_damage = true
+		fix_boat_fall_damage = false
 		# Fixes player heads from the same player sometimes not stacking.
 		# DISABLED: Disables this fix.
 		# REQUIRE_SAME_PLAYER_AND_TEXTURE_URL: Player heads can stack if they are from the same player and have the same texture URL.

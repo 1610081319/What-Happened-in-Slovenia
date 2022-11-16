@@ -10,43 +10,43 @@
 	#Allowed Values: FALSE, TRUE, INHERIT
 	"minecraft:blaze" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:creeper" = "FALSE"
+	"minecraft:skeleton" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:drowned" = "INHERIT"
-	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:ender_dragon" = "INHERIT"
-	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:enderman" = "INHERIT"
-	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:evoker" = "INHERIT"
+	"minecraft:zombified_piglin" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
 	"minecraft:fox" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:ghast" = "INHERIT"
-	#Allowed Values: FALSE, TRUE, INHERIT
 	"minecraft:husk" = "INHERIT"
-	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:rabbit" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
 	"minecraft:ravager" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
 	"minecraft:sheep" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:silverfish" = "INHERIT"
+	"minecraft:ender_dragon" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:skeleton" = "INHERIT"
+	"minecraft:ghast" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
 	"minecraft:snow_golem" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:stray" = "INHERIT"
-	#Allowed Values: FALSE, TRUE, INHERIT
 	"minecraft:villager" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:wither" = "INHERIT"
+	"minecraft:enderman" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:silverfish" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:stray" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
 	"minecraft:zombie" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
-	"minecraft:zombified_piglin" = "INHERIT"
+	"minecraft:creeper" = "FALSE"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:drowned" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:wither" = "INHERIT"
 	#Allowed Values: FALSE, TRUE, INHERIT
 	"minecraft:zombie_villager" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:rabbit" = "INHERIT"
+	#Allowed Values: FALSE, TRUE, INHERIT
+	"minecraft:evoker" = "INHERIT"
 

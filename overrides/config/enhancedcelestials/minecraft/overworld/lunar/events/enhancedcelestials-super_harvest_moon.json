@@ -32,13 +32,13 @@
       "moonTextureColor": "ffdb63",
       "moonTextureBlendStrength": 1.0
     },
-    "moonSize": 40.0,
+    "moonSize": 80.0,
     "moonTextureLocation": "minecraft:textures/environment/moon_phases.png",
     "soundTrack": "enhancedcelestials:harvest_moon",
     "type": "enhancedcelestials:default"
   },
   "minNumberOfNightsBetween": 20,
-  "chance": 0.0175,
+  "chance": 0.0,
   "validMoonPhases": [
     0
   ],

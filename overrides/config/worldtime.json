@@ -62,7 +62,7 @@
   "worldtime.config.coordsx": {
     "key": "worldtime.config.coordsx",
     "toolTip": "worldtime.config.tt.offsetleft",
-    "value": 10,
+    "value": 0,
     "defaultValue": 0,
     "minValue": 0,
     "maxValue": 100
@@ -82,7 +82,7 @@
   "worldtime.config.realtimex": {
     "key": "worldtime.config.realtimex",
     "toolTip": "worldtime.config.tt.offsetleft",
-    "value": 10,
+    "value": 0,
     "defaultValue": 0,
     "minValue": 0,
     "maxValue": 100

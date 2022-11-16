@@ -16,6 +16,8 @@
 	showArmorWeapons = false
 	#Invisible to Mob AI when invisible (default:true)
 	invisibleToMobs = true
+	#Mod sounds on (default:true)
+	soundsOn = true
 	#Can sneak by mobs when inside detection distance (default:true)
 	sneakWhenClose = true
 	#Player loses sight when invisible (default:false)
@@ -23,6 +25,4 @@
 	#Radius of Invisibility Effect (default: 30)
 	#Range: 1 ~ 100
 	invisibilityRadius = 30
-	#Mod sounds on (default:true)
-	soundsOn = true
 

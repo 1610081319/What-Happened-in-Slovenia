@@ -1,8 +1,8 @@
 //Author: @Kasualix
-import crafttweaker.api.item.IItemStack;
-import crafttweaker.api.SmithingManager;
+    import crafttweaker.api.SmithingManager;
+    import crafttweaker.api.item.IItemStack;
 
-val all as IItemStack[] = [
+var all as IItemStack[] = [
     <item:paraglider:paraglider>,
     <item:paraglider:deku_leaf>,
     <item:relics:amphibian_boot>,
@@ -23,23 +23,13 @@ val all as IItemStack[] = [
     <item:sophisticatedbackpacks:crafting_upgrade>,
     <item:aoa3:gold_trophy>,
     <item:aoa3:ornate_trophy>,
-    <item:meetyourfight:fossil_bait>,
-    <item:meetyourfight:devils_ante>,
-    <item:meetyourfight:haunted_bell>,
     <item:relics:runic_anvil>,
     <item:relics:pedestal>,
     <item:relics:runic_altar>,
     <item:relics:bloody_lectern>,
-    <item:aoa3:carved_rune_of_power>,
-    <item:appliedenergistics2:vibration_chamber>,
-    <item:appliedenergistics2:quartz_block>,
-    <item:appliedenergistics2:64k_storage_cell>,
-    <item:appliedenergistics2:1k_storage_cell>,
-    <item:appliedenergistics2:4k_storage_cell>,
-    <item:appliedenergistics2:16k_storage_cell>,
-    <item:appliedenergistics2:drive>
+    <item:sushigocrafting:avocado_slices>
 ];
-val sword_names as string[] = [
+var sword_names as string[] = [
     "rapier",
     "bee_stinger",
     "freezing_foil",
@@ -74,7 +64,7 @@ val sword_names as string[] = [
     "resolute_tempest_knife",
     "chill_gale_knife"
 ];
-val swords as IItemStack[] = [
+var swords as IItemStack[] = [
     <item:dungeons_gear:rapier>,
     <item:dungeons_gear:bee_stinger>,
     <item:dungeons_gear:freezing_foil>,
@@ -109,7 +99,7 @@ val swords as IItemStack[] = [
     <item:dungeons_gear:resolute_tempest_knife>,
     <item:dungeons_gear:chill_gale_knife>
 ];
-val axe_names as string[] = [
+var axe_names as string[] = [
     "axe",
     "gold_axe",
     "firebrand",
@@ -118,7 +108,7 @@ val axe_names as string[] = [
     "cursed_axe",
     "whirlwind"
 ];
-val axes as IItemStack[] = [
+var axes as IItemStack[] = [
     <item:dungeons_gear:axe>,
     <item:dungeons_gear:gold_axe>,
     <item:dungeons_gear:firebrand>,
@@ -127,33 +117,39 @@ val axes as IItemStack[] = [
     <item:dungeons_gear:cursed_axe>,
     <item:dungeons_gear:whirlwind>
 ]; 
-val trophy = <item:aoa3:trophy>;
-val gold_trophy = <item:aoa3:gold_trophy>;
-val rune = <item:aoa3:unpowered_rune>;
-val air = <item:minecraft:air>;
-val orb = <item:paraglider:spirit_orb>;
-val gold = <item:minecraft:gold_ingot>;
-val hell = <item:aoa3:hellstone>;
-val book = <item:witherstormmod:command_block_book>; 
-val sword = <item:witherstormmod:command_block_sword>;
-val axe = <item:witherstormmod:command_block_axe>;
-val baronyte = <item:aoa3:baronyte_ingot>;
-val certus = <item:appliedenergistics2:certus_quartz_crystal>;
-val iron = <item:minecraft:iron_ingot>;
-val red = <item:minecraft:redstone>;
-val glass = <tag:items:forge:glass>;
-val basalt = <item:minecraft:basalt>;
 
+    var uncrafter = loadedMods.isModLoaded("c" + "o" + "r" + "a" + "i" + "l" + "_" + "r" + "e" + "c" + "y" + "c" + "l" + "e" + "r");
+    var trophy = <item:aoa3:trophy>;
+    var gold_trophy = <item:aoa3:gold_trophy>;
+    var rune = <item:aoa3:unpowered_rune>;
+    var air = <item:minecraft:air>;
+    var orb = <item:paraglider:spirit_orb>;
+    var certus = <item:appliedenergistics2:certus_quartz_crystal>;
+    var book = <item:witherstormmod:command_block_book>; 
+    var sword = <item:witherstormmod:command_block_sword>;
+    var axe = <item:witherstormmod:command_block_axe>;
+    var iron = <item:minecraft:iron_ingot>;
+    var red = <item:minecraft:redstone>;
+    var glass = <tag:items:forge:glass>;
+    var basalt = <item:minecraft:basalt>;
+    var cobblestone = <tag:items:forge:cobblestone>;
+    var stick = <tag:items:forge:rods/wooden>;
+
+var mods as string[] = [
+    "omni_card"
+];
+if (uncrafter) recipes.removeAll();
 for i in 0 .. all.length {
     recipes.removeRecipe(all[i]);
 }
-recipes.removeByModid("omni_card");
-
 for j in 0 .. sword_names.length {
     smithing.addRecipe("command_sword_" + sword_names[j], sword, swords[j], book);
 }
 for k in 0 .. axe_names.length {
     smithing.addRecipe("command_axe_" + axe_names[k], axe, axes[k], book);
+}
+for l in 0 .. mods.length {
+    recipes.removeByModid(mods[l]);
 }
 craftingTable.addShaped("gold_trophy", gold_trophy, [
     [trophy, trophy],
@@ -163,42 +159,39 @@ craftingTable.addShaped("ornate_trophy", <item:aoa3:ornate_trophy>, [
     [gold_trophy, gold_trophy],
     [gold_trophy, gold_trophy]
 ]);
-craftingTable.addShaped("power_rune", <item:aoa3:carved_rune_of_power>, [
-    [rune, <item:witherstormmod:withered_nether_star>, rune],
-    [rune, <item:aoa3:ancient_rock>, rune],
-    [rune, <item:ba_bt:guardian_eye_land>, rune]
-]);
 craftingTable.addShaped("puzzle_master", <item:lootgames:puzzle_master>, [
     [air, orb, air],
     [orb, <item:aoa3:circus_coin>, orb],
     [air, orb, air]
-]);
-craftingTable.addShaped("fossil_bait", <item:meetyourfight:fossil_bait>, [
-    [air, <item:aoa3:toxic_lump>, air],
-    [<item:minecraft:red_dye>, <item:aoa3:skelecanth>, <item:minecraft:red_dye>],
-    [air, <item:aoa3:toxic_lump>, air]
-]);
-craftingTable.addShaped("devils_ante", <item:meetyourfight:devils_ante>, [
-    [hell, baronyte, hell],
-    [baronyte, <item:minecraft:diamond>, baronyte],
-    [hell, baronyte, hell]
-]);
-craftingTable.addShaped("haunted_bell", <item:meetyourfight:haunted_bell>, [
-    [air, gold, air],
-    [gold, <item:aoa3:haunted_eyes_leaves>, gold],
-    [gold, <item:aoa3:haunted_eyes_leaves>, gold]
 ]);
 craftingTable.addShaped("plg", <item:plg:pl532480>, [
     [iron, certus, iron],
     [iron, <item:minecraft:emerald_block>, iron],
     [basalt, basalt, basalt]
 ]);
-craftingTable.addShaped("certus_quartz_block", <item:appliedenergistics2:quartz_block>, [
-    [certus, certus],
-    [certus, certus]
+craftingTable.addShaped("stone_pickaxe", <item:minecraft:stone_pickaxe>, [
+    [cobblestone, cobblestone, cobblestone],
+    [air, stick, air],
+    [air, stick, air]
 ]);
-craftingTable.addShaped("storage_cell", <item:appliedenergistics2:64k_storage_cell>, [
-    [glass, red, glass],
-    [red, <item:appliedenergistics2:quartz_block>, red],
-    [iron, iron, iron]
+craftingTable.addShapedMirrored("stone_axe", <item:minecraft:stone_axe>, [
+    [cobblestone, cobblestone, air],
+    [cobblestone,stick, air],
+    [air, stick, air]
 ]);
+craftingTable.addShaped("stone_shovel", <item:minecraft:stone_shovel>, [
+    [air, cobblestone, air],
+    [air, stick, air],
+    [air, stick, air]
+]);
+craftingTable.addShaped("stone_sword", <item:minecraft:stone_sword>, [
+    [air, cobblestone, air],
+    [air, cobblestone, air],
+    [air, stick, air]
+]);
+craftingTable.addShaped("stone_hoe", <item:minecraft:stone_hoe>, [
+    [cobblestone, cobblestone, air],
+    [air, stick, air],
+    [air, stick, air]
+]);
+    craftingTable.addShapeless("avocado", <item:sushigocrafting:avocado_slices> * 2, [<item:sushigocrafting:avocado>]);

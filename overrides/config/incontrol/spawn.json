@@ -103,5 +103,20 @@
         "gamestage": "iromine_passport",
         "result": "deny",
         "onjoin": true
+    },
+    {
+        "structure" : "ba_bt:land_battle_tower",
+        "result": "default",
+        "onjoin": true,
+        "damagemultiply": 2.0,
+        "healthmultiply": 1.5,
+        "speedmultiply": 1.2
+    },
+    {
+        "mod": "betterendforge",
+        "onjoin": true,
+        "healthmultiply": 4.0,
+        "speedmultiply": 1.5,
+        "result": "default"
     }
 ]

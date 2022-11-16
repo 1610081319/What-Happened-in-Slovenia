@@ -63,3 +63,12 @@
 	effects = []
 	presetAffixes = []
 
+[[ranks]]
+	tier = 7
+	numAffixes = 7
+	defaultColor = 12800
+	chance = 0.2
+	growthFactor = 49
+	effects = []
+	presetAffixes = []
+

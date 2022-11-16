@@ -5,8 +5,6 @@
 	loot_size: 1
 	rewards: [
 		{ item: "quark:root_item" }
-		{ item: "betterendforge:shadow_berry_raw" }
-		{ item: "betterendforge:chorus_mushroom_raw" }
 		{ item: "with_thursday:chicken_wings" }
 		{ item: "with_thursday:chicken_breast" }
 		{ item: "with_thursday:potato_chips" }

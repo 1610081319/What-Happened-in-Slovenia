@@ -1,7 +1,7 @@
 {
 	id: "315EAC02CD5BFBD8"
 	group: "6A99013B6E72B71A"
-	order_index: 3
+	order_index: 0
 	filename: "all_the_relics"
 	title: "{chapter_groups.nrq.315EAC02CD5BFBD8.title}"
 	icon: "aoa3:magic_marang"
@@ -472,45 +472,6 @@
 				}
 				{
 					id: "64954B16474BB77A"
-					type: "random"
-					table_id: 3545906949979563802L
-				}
-			]
-		}
-		{
-			x: -4.5d
-			y: 12.5d
-			subtitle: "{global.nrq.relics.rare}"
-			id: "0CCF3A8686D92278"
-			tasks: [{
-				id: "08E61C151D650102"
-				type: "item"
-				item: {
-					id: "relics:magic_mirror"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "159F5CC131CD0CA4"
-					type: "random"
-					table_id: 3310669094034372247L
-				}
-				{
-					id: "6A776182A1BDE4BC"
-					type: "xp"
-					xp: 300
-				}
-				{
-					id: "56F9B8E469FB064E"
-					type: "random"
-					table_id: 4095883162075806048L
-				}
-				{
-					id: "55BBB3EF3D51E03A"
 					type: "random"
 					table_id: 3545906949979563802L
 				}
@@ -1376,8 +1337,8 @@
 			]
 		}
 		{
-			x: 14.0d
-			y: 2.0d
+			x: -6.0d
+			y: 12.0d
 			subtitle: "Magia"
 			description: [
 				"{quests.nrq.71216F1811A73332.description.1}"

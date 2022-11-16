@@ -1,7 +1,7 @@
 {
 	id: "546EC35F33725D0A"
 	group: "5DCE5658DD5D4597"
-	order_index: 0
+	order_index: 1
 	filename: "world_of_vanilla"
 	title: "{chapters.nrq.546EC35F33725D0A.title}"
 	icon: "minecraft:wheat"
@@ -9,126 +9,25 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -14.0d
-			y: 9.0d
-			shape: "square"
-			subtitle: "{quests.nrq.35AF2BC4B7BD53E2.subtitle}"
-			description: ["{quests.nrq.35AF2BC4B7BD53E2.description}"]
-			id: "35AF2BC4B7BD53E2"
-			tasks: [{
-				id: "38FD8FA6AD19FD2C"
-				type: "dimension"
-				dimension: "aoa3:nowhere"
-			}]
-			rewards: [
-				{
-					id: "19C46CEC748D830F"
-					type: "item"
-					item: "sophisticatedbackpacks:backpack"
-				}
-				{
-					id: "7E73B7D7133CC07E"
-					type: "random"
-					table_id: 3026663674124908032L
-				}
-			]
-		}
-		{
-			title: "{quests.nrq.309271CDDDC2C966.title}"
-			icon: "minecraft:oak_log"
-			x: -8.0d
-			y: 9.0d
-			shape: "square"
-			subtitle: "{quests.nrq.309271CDDDC2C966.subtitle}"
-			dependencies: ["35AF2BC4B7BD53E2"]
-			id: "309271CDDDC2C966"
-			tasks: [{
-				id: "49F7FB4E53AA9484"
-				type: "item"
-				title: "Any #minecraft:logs"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "minecraft:logs"
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "246A8A74A18B4A28"
-					type: "item"
-					item: "minecraft:stick"
-					count: 32
-				}
-				{
-					id: "7FCA2EDE8169D60C"
-					type: "random"
-					table_id: 5889479829872516299L
-				}
-				{
-					id: "76EDFEDAAAB844D6"
-					type: "random"
-					table_id: 3026663674124908032L
-				}
-			]
-		}
-		{
-			x: -2.5d
-			y: 9.0d
-			shape: "square"
-			subtitle: "{quests.nrq.1CEC1C1A593658B1.subtitle}"
-			dependencies: ["309271CDDDC2C966"]
-			id: "1CEC1C1A593658B1"
-			tasks: [{
-				id: "15A09470595B4966"
-				type: "item"
-				item: {
-					id: "minecraft:wooden_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "5BC85B23B2BBB63E"
-					type: "item"
-					item: "minecraft:furnace"
-				}
-				{
-					id: "36BACDEEAB64DEC7"
-					type: "random"
-					table_id: 3026663674124908032L
-				}
-			]
-		}
-		{
 			x: 3.5d
 			y: 9.0d
 			shape: "square"
-			subtitle: "{quests.nrq.5D41AECFC89293F6.subtitle}"
-			dependencies: ["1CEC1C1A593658B1"]
 			id: "5D41AECFC89293F6"
 			tasks: [{
-				id: "54D63EA34340B992"
-				type: "advancement"
-				icon: "minecraft:cobblestone"
-				advancement: "minecraft:story/upgrade_tools"
-				criterion: ""
+				id: "25954C9E666DF4C0"
+				type: "item"
+				item: "minecraft:cobblestone"
 			}]
 			rewards: [
-				{
-					id: "4D3A4B9FE699972E"
-					type: "item"
-					item: "minecraft:torch"
-					count: 32
-				}
 				{
 					id: "466CD350472771C4"
 					type: "random"
 					table_id: 3026663674124908032L
+				}
+				{
+					id: "4C1CA459F2C2DE2C"
+					type: "item"
+					item: "minecraft:furnace"
 				}
 			]
 		}
@@ -221,13 +120,7 @@
 				{
 					id: "7C53AD8B27BAAF48"
 					type: "item"
-					item: {
-						id: "aoa3:exp_flask"
-						Count: 1b
-						ForgeCaps: {
-							Parent: 0.0f
-						}
-					}
+					item: "aoa3:exp_flask"
 				}
 				{
 					id: "1544E7A9F9AE1BB0"
@@ -323,17 +216,6 @@
 					id: "6455A20E198572E9"
 					type: "xp"
 					xp: 100
-				}
-				{
-					id: "07E338005D384604"
-					type: "item"
-					item: {
-						id: "patchouli:guide_book"
-						Count: 1b
-						tag: {
-							"patchouli:book": "apotheosis:apoth_chronicle"
-						}
-					}
 				}
 				{
 					id: "2C4DAB631083FC1A"

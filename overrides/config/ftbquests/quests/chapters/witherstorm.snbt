@@ -1,7 +1,7 @@
 {
 	id: "73326AEC280CBB9D"
 	group: "5DCE5658DD5D4597"
-	order_index: 1
+	order_index: 3
 	filename: "witherstorm"
 	title: "{chapters.nrq.73326AEC280CBB9D.title}"
 	icon: {
@@ -14,7 +14,7 @@
 	quests: [
 		{
 			title: "{quests.nrq.256ACF0F0A144B0A.title}"
-			x: 6.5d
+			x: 7.0d
 			y: -6.0d
 			subtitle: "{quests.nrq.256ACF0F0A144B0A.subtitle}"
 			dependencies: [
@@ -720,7 +720,7 @@
 			]
 		}
 		{
-			x: 15.0d
+			x: 14.0d
 			y: -6.0d
 			subtitle: "{quests.nrq.384F4DF26450C2B2.subtitle}"
 			dependencies: [
@@ -1124,13 +1124,13 @@
 					table_id: 7879242088470543668L
 				}
 				{
-					id: "7A363BA375E83B9C"
+					id: "2716EAFC91047946"
 					type: "item"
 					item: {
 						id: "bagofyurting:bag_of_yurting"
 						Count: 1b
 						tag: {
-							radius: 6
+							radius: 1
 						}
 					}
 				}
@@ -1139,7 +1139,7 @@
 		{
 			title: "{quests.nrq.2BC0510A9095B363.title}"
 			x: 10.5d
-			y: -11.0d
+			y: -10.5d
 			subtitle: "{quests.nrq.2BC0510A9095B363.subtitle}"
 			id: "2BC0510A9095B363"
 			tasks: [{
@@ -1157,6 +1157,29 @@
 					id: "5EEC9EF781717298"
 					type: "random"
 					table_id: 3026663674124908032L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 20.0d
+			dependencies: ["57709EBE35A0B9EC"]
+			id: "64BD66C780204C0B"
+			tasks: [{
+				id: "3E13E0640E09F7CA"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+			rewards: [
+				{
+					id: "00669A844AF5CD79"
+					type: "random"
+					table_id: 7879242088470543668L
+				}
+				{
+					id: "26C1A6C91B21042A"
+					type: "item"
+					item: "kubejs:example_item"
 				}
 			]
 		}

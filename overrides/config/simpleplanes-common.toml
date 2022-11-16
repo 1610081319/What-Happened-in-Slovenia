@@ -12,11 +12,11 @@
 	plane_heist = true
 	#Fuel cost of a small plane
 	#Range: > 0
-	plane_fuel_cost = 2
+	plane_fuel_cost = 1
 	#Fuel cost of a large plane
 	#Range: > 0
-	large_plane_fuel_cost = 4
+	large_plane_fuel_cost = 2
 	#Fuel cost of a helicopter
 	#Range: > 0
-	helicopter_fuel_cost = 4
+	helicopter_fuel_cost = 2
 

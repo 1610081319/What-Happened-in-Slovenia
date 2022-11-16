@@ -9,8 +9,13 @@
     "item.aoa3.rosidian_armour.desc.1": "20%Poison Damage Resistance",
     "item.aoa3.rosidian_armour.desc.2": "Immune to poisoning. When the total durability of the full set of armor is lower than 66%, the owner gains the Resistance I effect. When the durability is lower than 33%, the owner gains the effect of Resistance II.",
     "item.aoa3.subterranean_armour.desc.1": "Get Haste V effect",
+    "item.aoa3.vinocorne_spawn_egg": "MopeMope Spawn Egg",
+    "block.aoa3.vinocorne_shrine": "MopeMope Shrine",
     "gui.aoa3.skills.showtip": "",
     "gui.aoa3.resources.showtip": "",
+    "gui.realmstoneMenu.hover.nowhere": "Where is Nowhere? It's nowhere.",
     "info.neverise.charging_table": "You need a pickaxe with Silk Touch.",
-    "gui.realmstoneMenu.hover.nowhere": "Where is Nowhere? It's nowhere."
+    "entity.aoa3.vinocorne": "MopeMope",
+    "entity.aoa3.vinocorne.kill": "%1$s defeated MopeMope!",
+    "entity.aoa3.trickster_clone": "Trickster"
 }

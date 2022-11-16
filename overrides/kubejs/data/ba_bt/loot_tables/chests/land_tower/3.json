@@ -127,10 +127,6 @@
                 {
                     "type": "minecraft:item",
                     "name": "vanillacookbook:potato_chips"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "simplecorn:roastedcorn"
                 }
             ]
         },

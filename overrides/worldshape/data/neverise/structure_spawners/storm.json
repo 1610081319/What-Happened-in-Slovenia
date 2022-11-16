@@ -18,8 +18,8 @@
         "terraform": -1
     },
    
-    "averageSpacing": 10,  
-    "minimumSpacing": 5,          
+    "averageSpacing": 16,  
+    "minimumSpacing": 9,          
     "seed": 328978114514,
     "avoidOthers": false,       
     

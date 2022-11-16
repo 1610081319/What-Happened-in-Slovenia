@@ -12,7 +12,7 @@ speedReductionHorizontal = 0.8999999761581421
 #Range: 0.0 ~ 1.0
 speedReductionVertical = 0.8999999761581421
 #Should entities recognize leaves as air
-modifyPathFinding = true
+modifyPathFinding = false
 #Leaves only passable for players
 playerOnly = false
 

@@ -1,0 +1,194 @@
+{
+	id: "04DC8025FC6EE3C4"
+	group: "5DCE5658DD5D4597"
+	order_index: 0
+	filename: "no_tree_punching"
+	title: "{chapters.nrq.04DC8025FC6EE3C4.title}"
+	icon: "aoa3:eyeball_log"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.5d
+			y: -2.0d
+			subtitle: "{quests.nrq.35AF2BC4B7BD53E2.subtitle}"
+			description: ["{quests.nrq.35AF2BC4B7BD53E2.description}"]
+			id: "302D0017A2DB6684"
+			tasks: [{
+				id: "564282F5F2F30019"
+				type: "dimension"
+				title: "print(\"Hello World!\");"
+				dimension: "aoa3:nowhere"
+			}]
+			rewards: [
+				{
+					id: "1FB9046B8466F915"
+					type: "item"
+					item: "sophisticatedbackpacks:backpack"
+				}
+				{
+					id: "1004BFCB7E702899"
+					type: "random"
+					table_id: 3026663674124908032L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			subtitle: "{quests.nrq.52F78BE22C89289F.subtitle}"
+			description: ["{quests.nrq.52F78BE22C89289F.description}"]
+			dependencies: ["302D0017A2DB6684"]
+			id: "52F78BE22C89289F"
+			tasks: [{
+				id: "3C5818126C6AFB10"
+				type: "item"
+				item: "minecraft:flint"
+			}]
+			rewards: [
+				{
+					id: "64F6D945433FBB47"
+					type: "item"
+					item: "minecraft:flint"
+					count: 5
+				}
+				{
+					id: "423571F84E755188"
+					type: "random"
+					table_id: 3026663674124908032L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			subtitle: "{quests.nrq.070768E238B48336.subtitle}"
+			description: ["{quests.nrq.070768E238B48336.description}"]
+			dependencies: ["52F78BE22C89289F"]
+			id: "070768E238B48336"
+			tasks: [{
+				id: "34DC28C6E5A09E0F"
+				type: "item"
+				item: {
+					id: "notreepunching:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7527F858CA13BB5A"
+					type: "random"
+					table_id: 3026663674124908032L
+				}
+				{
+					id: "378BA4CCDF378CC3"
+					type: "item"
+					item: "minecraft:grass"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			dependencies: ["070768E238B48336"]
+			id: "7D735CCE55BDD33B"
+			tasks: [{
+				id: "0EBE9F12BB4DFEEF"
+				type: "item"
+				item: "notreepunching:plant_string"
+			}]
+			rewards: [
+				{
+					id: "5C80055AD2AC4DA4"
+					type: "random"
+					table_id: 3026663674124908032L
+				}
+				{
+					id: "4186E407CE830404"
+					type: "item"
+					item: "notreepunching:plant_string"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -2.0d
+			description: [
+				"{quests.nrq.1624FC0B94F24807.description.1}"
+				"{quests.nrq.1624FC0B94F24807.description.2}"
+				"{quests.nrq.1624FC0B94F24807.description.3}"
+			]
+			dependencies: ["7D735CCE55BDD33B"]
+			id: "1624FC0B94F24807"
+			tasks: [{
+				id: "719541450224B67F"
+				type: "item"
+				item: {
+					id: "notreepunching:flint_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "11B0E2A64307FCAA"
+					type: "random"
+					table_id: 3026663674124908032L
+				}
+				{
+					id: "0A2774CF92417BE0"
+					type: "item"
+					item: "minecraft:stick"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: -2.0d
+			subtitle: "{quests.nrq.67C86500A03CA12E.subtitle}"
+			dependencies: ["1624FC0B94F24807"]
+			id: "67C86500A03CA12E"
+			tasks: [{
+				id: "724014A22432115C"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [{
+				id: "688A1347104B7A2B"
+				type: "random"
+				table_id: 3026663674124908032L
+			}]
+		}
+		{
+			x: 17.0d
+			y: -2.0d
+			subtitle: "{quests.nrq.0D828170D092CFDE.subtitle}"
+			dependencies: ["67C86500A03CA12E"]
+			id: "0D828170D092CFDE"
+			tasks: [{
+				id: "306DCB6691B8597C"
+				type: "item"
+				item: {
+					id: "notreepunching:flint_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "724FAF857156A297"
+				type: "random"
+				table_id: 3026663674124908032L
+			}]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "NIN",
+        "IDI",
+        "NIN"
+    ],
+    "key": {
+        "D": {
+            "tag": "forge:gems/diamond"
+        },
+        "I": {
+            "item": "aoa3:baronyte_ingot"
+        },
+        "N": {
+            "item": "aoa3:hellstone"
+        }
+    },
+    "result": {
+        "item": "meetyourfight:devils_ante"
+    }
+}

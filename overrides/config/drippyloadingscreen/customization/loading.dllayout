@@ -1,0 +1,19 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = kubejs/assets/neverise/textures/top.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  orientation = bottom-right
+  x = 0
+  textcolor = 
+  action = editforgestatustext
+  y = 0
+}
+

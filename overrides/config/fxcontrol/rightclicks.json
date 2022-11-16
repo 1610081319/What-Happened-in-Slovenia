@@ -1,0 +1,22 @@
+[
+    {
+        "block": "ba_bt:land_golem_chest",
+        "playerhelditem": "minecraft:stick",
+        "result": "allow"
+    },
+    {
+        "block": "ba_bt:land_golem_chest",
+        "message": "You need a stick to open it.",
+        "result": "deny"
+    },
+    {
+        "block": "ba_bt:land_chest",
+        "playerhelditem": "minecraft:stick",
+        "result": "allow"
+    },
+    {
+        "block": "ba_bt:land_chest",
+        "message": "You need a stick to open it.",
+        "result": "deny"
+    }
+]

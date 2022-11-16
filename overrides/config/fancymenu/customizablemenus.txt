@@ -6,9 +6,6 @@ net.minecraft.client.gui.screen.MainMenuScreen {
 net.minecraft.client.gui.screen.CreateWorldScreen {
 }
 
-com.blamejared.controlling.client.gui.GuiNewControls {
-}
-
 net.minecraft.client.gui.screen.VideoSettingsScreen {
 }
 

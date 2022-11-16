@@ -4,7 +4,6 @@
     "ability.aoa3.descriptions.flatAndScaling.percent": "%1$s%%，+%2$s%%/每技能等级（当前数值：%3$s%%）",
     "ability.aoa3.descriptions.scaling": "%1$s/每技能等级（当前数值：%2$s）",
     "ability.aoa3.descriptions.scaling.percent": "%1$s%%/每技能等级（当前数值：%2$s%%）",
-    "items.description.vulcane.use": "至少需要50点怒火才能使用",
     "subtitles.entity.dryad_sprite.happy": "树灵：开心",
     "subtitles.entity.dryad_sprite.unhappy": "树灵：不悦",
     "ability.aoa3.dryad_sprite_spawn": "树灵生成",
@@ -14,6 +13,7 @@
     "entity.aoa3.dryad_sprite.interact.incorrect": "这精灵想要的似乎是另一个物品",
     "items.description.vulcane.target": "只能在离你上次受击的五秒之内使用",
     "item.aoa3.dryad_sprite_spawn_egg": "树灵刷怪蛋",
+    "items.description.vulcane.use": "至少需要50点怒火才能使用",
     "entity.aoa3.kror.tooFar": "你离祭坛太远了！",
     "ability.aoa3.innervation_mob_lure": "支配生物勾引",
     "ability.aoa3.innervation_mob_lure.description": "下蹲时按下能力触发键，让你攻击的最后一个实体以你为目标。激活时每秒消耗%1$s点精神力。首次来自被勾引实体的攻击伤害会减少%2$s%%，这次攻击也会使勾引结束。",
@@ -78,5 +78,10 @@
     "gui.aoa3.resources.showtip": "",
     "info.neverise.charging_table": "§4需要带精准采集的镐才能采集",
     "item.aoa3.magic_repair_dust": "魔理沙",
-    "gui.realmstoneMenu.hover.nowhere": "Where is Nowhere? It's nowhere."
+    "gui.realmstoneMenu.hover.nowhere": "Where is Nowhere? It's nowhere.",
+    "entity.aoa3.vinocorne": "MopeMope",
+    "entity.aoa3.vinocorne.kill": "%1$s击败了MopeMope！",
+    "item.aoa3.vinocorne_spawn_egg": "MopeMope刷怪蛋",
+    "block.aoa3.vinocorne_shrine": "MopeMope祭坛",
+    "entity.aoa3.trickster_clone": "欺瞒者"
 }

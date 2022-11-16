@@ -103,7 +103,7 @@
 	minimap: {
 		# Show biome under minimap
 		# Default: true
-		biome: true
+		biome: false
 		
 		# Blurs minimap
 		# Default: "auto"

@@ -2,7 +2,7 @@
 [mobs]
 
 	[mobs.creepers]
-		"Creeper explosions destroy blocks" = true
+		"Creeper explosions destroy blocks" = false
 		"Creeper explosions spawn creepies" = false
 		"Creepers drop Creeper Spores after they die from an explosion" = true
 		"Creepie explosions destroy blocks" = false
@@ -15,5 +15,5 @@
 		#This restores 2 health and gives them a projectile-proof shield for 30 seconds
 		#When their shield runs out, evokers cannot use totems for another 90 seconds
 		"Evokers use totems" = true
-		"Vex health is reduced to 2" = false
+		"Vex health is reduced to 2" = true
 
