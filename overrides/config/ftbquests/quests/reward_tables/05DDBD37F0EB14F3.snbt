@@ -1,7 +1,7 @@
 {
 	id: "05DDBD37F0EB14F3"
 	order_index: 4
-	title: "{reward_tables.nrq.05DDBD37F0EB14F3.title}"
+	title: "{reward_tables.quests_reward.05DDBD37F0EB14F3.title}"
 	loot_size: 1
 	rewards: [
 		{ item: "sophisticatedbackpacks:pickup_upgrade", weight: 2 }

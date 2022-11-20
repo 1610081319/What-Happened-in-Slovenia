@@ -1,0 +1,11 @@
+{
+    "name": "Simple Planes",
+    "icon": "simpleplanes:propeller",
+    "category": "a__storm",
+    "pages": [
+        {
+            "type": "text",
+            "text": ""
+        }
+    ]
+}

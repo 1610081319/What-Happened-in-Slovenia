@@ -7,7 +7,7 @@
 		"Chunk Fade In Quality (OFF, FAST, FANCY)" = "OFF"
 		"Render Fog" = false
 		#Allowed Values: WINDOWED, BORDERLESS, FULLSCREEN
-		"Use Borderless Fullscreen" = "FULLSCREEN"
+		"Use Borderless Fullscreen" = "WINDOWED"
 
 	[Settings."FPS Counter"]
 		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "OFF"

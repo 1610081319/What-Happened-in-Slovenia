@@ -1,7 +1,7 @@
 {
 	id: "50A7285A5CB6ACE8"
 	order_index: 1
-	title: "{reward_tables.nrq.50A7285A5CB6ACE8.title}"
+	title: "{reward_tables.quests_reward.50A7285A5CB6ACE8.title}"
 	icon: {
 		id: "minecraft:potion"
 		Count: 1b

@@ -1,0 +1,11 @@
+{
+    "name": "Battle Tower",
+    "icon": "ba_bt:guardian_eye_land",
+    "category": "a__storm",
+    "pages": [
+        {
+            "type": "text",
+            "text": ""
+        }
+    ]
+}

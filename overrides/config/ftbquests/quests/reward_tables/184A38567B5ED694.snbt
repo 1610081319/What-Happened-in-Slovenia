@@ -1,7 +1,7 @@
 {
 	id: "184A38567B5ED694"
-	order_index: 9
-	title: "{reward_tables.nrq.184A38567B5ED694.title}"
+	order_index: 8
+	title: "{reward_tables.quests_reward.184A38567B5ED694.title}"
 	loot_size: 1
 	rewards: [
 		{ item: "aoa3:silver_coin" }

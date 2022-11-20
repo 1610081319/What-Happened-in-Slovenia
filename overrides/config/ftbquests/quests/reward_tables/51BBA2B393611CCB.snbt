@@ -1,7 +1,7 @@
 {
 	id: "51BBA2B393611CCB"
 	order_index: 0
-	title: "{reward_tables.nrq.51BBA2B393611CCB.title}"
+	title: "{reward_tables.quests_reward.51BBA2B393611CCB.title}"
 	icon: "minecraft:oak_boat"
 	loot_size: 1
 	rewards: [

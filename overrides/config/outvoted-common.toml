@@ -36,7 +36,7 @@
 	"Spawn Weight" = 1
 	#Range: 1.0 ~ Infinity
 	"Max Health" = 50.0
-	"Maximum Stored Enchantments" = 1
+	"Maximum Stored Enchantments" = 3
 
 #Monster of the Ocean Depths
 [kraken]

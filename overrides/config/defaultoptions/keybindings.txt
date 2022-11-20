@@ -32,7 +32,6 @@ key_key.hotbar.6:key.keyboard.6:NONE
 key_key.hotbar.7:key.keyboard.7:NONE
 key_key.hotbar.8:key.keyboard.8:NONE
 key_key.hotbar.9:key.keyboard.9:NONE
-key_key.namepain.showCulled:key.keyboard.unknown:NONE
 key_key.narrator:key.keyboard.unknown:NONE
 key_key.pause:key.keyboard.escape:NONE
 key_key.gui:key.keyboard.unknown:NONE
@@ -110,7 +109,6 @@ key_key.observable.profile:key.keyboard.keypad.enter:NONE
 key_key.endergetic.booflo_vest:key.keyboard.unknown:NONE
 key_key.endergetic.booflo_slam:key.keyboard.x:NONE
 key_key.toggle_focus.desc:key.keyboard.unknown:NONE
-key_panorama.keybinds.screenshot:key.keyboard.unknown:NONE
 key_key.toastcontrol.clear:key.keyboard.unknown:NONE
 key_key.waila.config:key.keyboard.keypad.1:NONE
 key_key.waila.show_overlay:key.keyboard.keypad.2:NONE

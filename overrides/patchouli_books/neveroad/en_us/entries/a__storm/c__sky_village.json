@@ -1,0 +1,11 @@
+{
+    "name": "Sky Village",
+    "icon": "minecraft:wheat",
+    "category": "a__storm",
+    "pages": [
+        {
+            "type": "text",
+            "text": ""
+        }
+    ]
+}

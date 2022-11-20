@@ -88,7 +88,8 @@ var items as IItemStack[] = [
     <item:plg:pl2>,
     <item:relics:magic_mirror>,
     <item:dimpaintings:overworld_painting>,
-    <item:dimpaintings:end_painting>
+    <item:dimpaintings:end_painting>,
+    <item:enigmaticlegacy:dark_mirror>
 ];
 var stages as string[] = [
     "champion_i", 

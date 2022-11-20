@@ -1,7 +1,7 @@
 {
 	id: "38D78008F5083960"
-	order_index: 14
-	title: "{reward_tables.nrq.38D78008F5083960.title}"
+	order_index: 13
+	title: "{reward_tables.quests_reward.38D78008F5083960.title}"
 	loot_size: 1
 	rewards: [
 		{ item: "minecraft:spider_eye" }
@@ -69,10 +69,7 @@
 		{ item: "nethers_delight:grilled_strider" }
 		{ item: "nethers_delight:roast_hoglin_snout" }
 		{ item: "nethers_delight:roast_hoglin_ham" }
-		{ item: "buzzier_bees:honey_bread" }
-		{ item: "buzzier_bees:glazed_porkchop" }
 		{ item: "berry_good:sweet_berry_meatballs" }
-		{ item: "outer_end:cooked_stalker_meat" }
 		{ item: "vanillacookbook:cooked_turtle_egg" }
 		{ item: "vanillacookbook:cooked_cactus_slice" }
 		{ item: "vanillacookbook:flower_tea" }

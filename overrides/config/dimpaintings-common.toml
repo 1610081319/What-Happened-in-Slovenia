@@ -8,5 +8,5 @@
 	netherMaxY = 120
 	#Amount of seconds between being able to teleport (Default: 4)
 	#Range: > 0
-	teleportCooldown = 600
+	teleportCooldown = 60
 

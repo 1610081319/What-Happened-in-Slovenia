@@ -8,7 +8,7 @@ onEvent("block.right_click", event => {
     let border = "aoa3:ancient_rock"
     let wall = "minecraft:blackstone_wall"
     let light = "iceandfire:dread_portal"
-    let deco = "bonetorch:bonetorch"
+    let deco = "minecraft:torch"
     if (summoner == "minecraft:torch") {
         if (block.offset(1, 0, 1).id == altar && block.offset(-1, 0, -1).id == altar && block.offset(1, 0, -1) == altar && block.offset(-1, 0, 1).id == altar && block.offset(0, -1, 0).id == altar && block.offset(1, -1, 1).id == altar && block.offset(1, -1, 0).id == altar && block.offset(1, -1, -1).id == altar && block.offset(-1, -1, 0).id == altar && block.offset(-1, -1, 1).id == altar && block.offset(-1, -1, -1).id == altar && block.offset(0, -1, 1).id == altar && block.offset(0, -1, -1).id == altar 
         && block.offset(2, -1, 0).id == basic && block.offset(2, -1, 1).id == basic && block.offset(2, -1, 2).id == basic && block.offset(2, -1, -1).id == basic && block.offset(2, -1, -2).id == basic && block.offset(-2, -1, 0).id == basic && block.offset(-2, -1, 1).id == basic && block.offset(-2, -1, 2).id == basic && block.offset(-2, -1, -1).id == basic && block.offset(-2, -1, -2).id == basic && block.offset(0, -1, -2).id == basic && block.offset(0, -1, 2).id == basic && block.offset(-1, -1, -2).id == basic && block.offset(1, -1, -2).id == basic && block.offset(-1, -1, 2).id == basic && block.offset(1, -1, 2).id == basic 

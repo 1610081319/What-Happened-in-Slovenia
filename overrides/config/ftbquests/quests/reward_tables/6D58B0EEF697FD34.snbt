@@ -1,7 +1,7 @@
 {
 	id: "6D58B0EEF697FD34"
-	order_index: 15
-	title: "{reward_tables.nrq.6D58B0EEF697FD34.title}"
+	order_index: 14
+	title: "{reward_tables.quests_reward.6D58B0EEF697FD34.title}"
 	loot_size: 1
 	rewards: [
 		{ item: "with_thursday:beaten_eggs" }

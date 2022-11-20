@@ -1,7 +1,7 @@
 
 [General]
 	#Allows a player to teleport to a located biome when in creative mode, opped, or in cheat mode.
-	allowTeleport = true
+	allowTeleport = false
 	#Allows players to view the precise coordinates and distance of a located structure on the HUD, rather than relying on the direction the compass is pointing.
 	displayCoordinates = true
 	#biomeSize * radiusModifier = maxSearchRadius. Raising this value will increase search accuracy but will potentially make the process more resource .
@@ -14,5 +14,5 @@
 	biomeBlacklist = []
 	#The maximum number of samples to be taken when searching for a biome.
 	#Range: 0 ~ 1000000
-	maxSamples = 50000
+	maxSamples = 1000000
 

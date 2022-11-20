@@ -111,12 +111,5 @@
         "damagemultiply": 2.0,
         "healthmultiply": 1.5,
         "speedmultiply": 1.2
-    },
-    {
-        "mod": "betterendforge",
-        "onjoin": true,
-        "healthmultiply": 4.0,
-        "speedmultiply": 1.5,
-        "result": "default"
     }
 ]

@@ -1,7 +1,7 @@
 {
 	id: "31359795801EE71A"
-	order_index: 16
-	title: "{reward_tables.nrq.31359795801EE71A.title}"
+	order_index: 15
+	title: "{reward_tables.quests_reward.31359795801EE71A.title}"
 	loot_size: 1
 	rewards: [
 		{ item: "aoa3:magic_repair_dust" }

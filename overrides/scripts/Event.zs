@@ -8,7 +8,6 @@
     import crafttweaker.api.event.entity.living.MCLivingDeathEvent;
     import crafttweaker.api.event.entity.living.MCLivingHurtEvent;
     import crafttweaker.api.event.entity.MCEntityJoinWorldEvent;
-    import crafttweaker.api.event.living.MCLivingUpdateEvent;
     import crafttweaker.api.event.block.MCBlockBreakEvent;
     import crafttweaker.api.event.block.MCBlockPlaceEvent;
     import crafttweaker.api.event.tick.MCPlayerTickEvent;
@@ -150,20 +149,56 @@ var aoa_overworld_mobs as string[] = [
     "cyclops",
     "ancient_golem",
     "bomb_carrier",
+    "black_ursa",
+    "bone_creature",
     "bugeye",
+    "chimera",
+    "chomper",
+    "desert_charger",
     "everbeast",
+    "fishix",
+    "furlion",
     "ghost",
+    "ghostine_ancient",
+    "goalby",
     "goblin",
+    "grunt",
+    "hag",
+    "hill_charger",
+    "horndron",
+    "hunch",
+    "ice_giant",
+    "leafy_giant",
+    "magicke",
     "mother_void_walker",
+    "muckopede",
+    "night_reaper",
     "night_reaper",
     "night_reaper",
     "nightfly",
+    "polar_ursa",
+    "sand_giant",
+    "sand_golem",
     "sasquatch",
+    "sea_charger",
+    "sea_troll",
     "shade",
     "shadow",
+    "skipper",
+    "skolle",
+    "snow_charger",
+    "stone_giant",
+    "swamp_charger",
+    "tree_spirit",
     "trickster",
+    "void_walker",
+    "void_walker",
+    "void_walker",
     "void_charger",
-    "void_walker"
+    "warclops",
+    "wickett",
+    "wood_giant",
+    "yeti"
 ];
 var aoa_nether_mobs as string[] = [
     "embrake",
@@ -223,6 +258,29 @@ var aoa_bosses as string[] = [
     "xxeus", 
     "yellow_guardian"
 ];
+var dimensions as string[] = [
+    "aoa3:abyss",
+    "aoa3:barathos",
+    "aoa3:candyland",
+    "aoa3:celeve",
+    "aoa3:creeponia",
+    "aoa3:crystevia",
+    "aoa3:deeplands",
+    "aoa3:dustopia",
+    "aoa3:gardencia",
+    "aoa3:greckon",
+    "aoa3:haven",
+    "aoa3:iromine",
+    "aoa3:lborean",
+    "aoa3:lelyetia",
+    "aoa3:lunalus",
+    "aoa3:mysterium",
+    "aoa3:precasia",
+    "aoa3:runandor",
+    "aoa3:shyrelands",
+    "aoa3:vox_ponds",
+    "minecraft:the_nether"
+];
 var mobs as string[] = [
     "zombie",
     "skeleton",
@@ -243,18 +301,6 @@ var mobs as string[] = [
     var batsman = "p" + "r" + "o" + "j" + "e" + "c" + "t" + "e";
     var storm_time = MCTextComponent.createTranslationTextComponent("eventMessage.neverise.storm_time");
 
-CTEventManager.register<MCLivingUpdateEvent>((event) => {
-    var entity = event.entityLiving;
-    var world = entity.world;
-    if (world.remote) return;
-    var data = entity.data.getAt("Phase");
-    if (data == null) return;
-    var server = world.asServerWorld().server;
-    if ("witherstormmod:wither_storm" in entity.type.commandString) {
-        if ("1" in data.asString()) server.executeCommand("data merge entity " + entity.uuid + " {Phase:3}", true);
-        if ("4" in data.asString()) server.executeCommand("data merge entity " + entity.uuid + " {Phase:6}", true);
-    }
-});
 CTEventManager.register<MCRightClickBlockEvent>((event) => {
     var player = event.player;
     var world = player.world;
@@ -267,7 +313,6 @@ CTEventManager.register<MCRightClickBlockEvent>((event) => {
     var sneak = player.isSneaking();
     var bp = event.blockPos;
     var block = world.getBlockState(bp).commandString;
-    
     var should_be_air as BlockPos[] = [
         bp.add(-1, 1, -1),
         bp.add(1, 1, -1),
@@ -386,6 +431,11 @@ CTEventManager.register<MCRightClickBlockEvent>((event) => {
         bp.add(-1, 2, -1),
         bp.add(1, 2, -1)
     ];
+
+    if ("bonfires" in block) {
+        player.addTag("bonfirer");
+        return;
+    }
     if (batsman in block) {
         server.executeCommand("execute in " + world.dimension + " fill " + bp.x + " " + bp.y + " " + bp.z + " " + bp.x + " " + bp.y + " " + bp.z + " minecraft:air", true);
         for bats in 0 .. 64 {
@@ -396,11 +446,13 @@ CTEventManager.register<MCRightClickBlockEvent>((event) => {
     if ("rickroll:disk" in item.commandString && "minecraft:jukebox" in block) {
         player.removeGameStage("momlove");
         player.removeTag("momlove");
+        return;
     }
     if (exp >= 50 && player.removeTag("spaceking") && sneak && "aoa3:ancient_rock" in item.commandString) {
         var pos as string[] = item.tag.asString().split(" ");
         server.executeCommand("execute in " + world.dimension + " run tp " + uuid + " " + pos[9] + " " + pos[5] + " " + pos[1], true);
         player.giveExperiencePoints(-50);
+        return;
     }
     if ("kubejs:example_item" in item.commandString && "iceandfire:ghost_chest" in block) {
         for air in 0 .. should_be_air.length {
@@ -425,8 +477,9 @@ CTEventManager.register<MCRightClickBlockEvent>((event) => {
             world.setBlockState(should_be_air[fifth], <blockstate:iceandfire:dread_portal>);
         }
         for sixth in 112 .. 116 {
-            world.setBlockState(should_be_air[sixth], <blockstate:bonetorch:bonetorch>);
+            world.setBlockState(should_be_air[sixth], <blockstate:minecraft:torch>);
         }
+        return;
     }
     if ("bagofyurting" in item.commandString && !("yurtdata_id" in data) && !("chest" in block && sneak)) event.cancel();
 });
@@ -463,6 +516,11 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
     var id = player.name.formattedText;
     var m_health = player.getMaxHealth();
 
+    if ("recall" in mainhand) {
+        player.addTag("recaller");
+    } else {
+        player.removeTag("recaller");
+    }
     if (bedrocker && !("minecraft:air" in world.getBlockState(player.position.add(0, -2, 0)).commandString)) server.executeCommand("fill " + x + " " + bad + " " + z + " " + x + " " + bad + " " + z + " aoa3:dimensional_fabric", true);
     if (player.inventory.hasIItemStack(<item:rickroll:disk>) && !player.hasGameStage("momlove")) player.addGameStage("momlove");
     if (player.hasGameStage("momlove")) player.addTag("momlove");
@@ -489,7 +547,7 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
         server.executeCommand(effect + name + " minecraft:slow_falling 60", true);
         player.addTag("wow_you_finally_go_to_the_overworld_and_now_you_need_to_kill_the_wither");
     }
-    if (speeduper) server.executeCommand(effect + " @e minecraft:slowness 114514 255", true);
+    if (speeduper) server.executeCommand(effect + " @e minecraft:speed 114514 255", true);
     if (player.removeTag("storm_destroyer")) {
         player.addTag("omg_you_destroyed_the_wither_storm_and_now_you_need_to_go_to_the_overworld");
         player.sendMessage(MCTextComponent.createTranslationTextComponent("eventMessage.neverise.after_storm.1"));
@@ -504,7 +562,9 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
         player.sendMessage(MCTextComponent.createTranslationTextComponent("eventMessage.neverise.nether_star.4"));
         player.removeGameStage("before_wither");
         player.addGameStage("mcsaforge");
+        player.addGameStage("aoa_age");
     }
+    if (player.hasGameStage("aoa_age")) player.addTag("aoa_age");
     if (player.hasGameStage("mcsaforge")) player.addTag("mcsaforge");
     if (player.removeTag("now_let_us_go_to_nowhere")) player.addTag("wow_now_you_are_in_nowhere_and_you_need_to_go_for_witherstorm");
     if (player.removeTag("here_we_go_for_witherstorm") && "overworld" in dim) {
@@ -599,7 +659,7 @@ CTEventManager.register<MCLivingSpawnEvent>((event) => {
     var random_all = random.nextInt(0, 100);
     var gear_chest = random.nextInt(0, 45);
     var gear_head = random.nextInt(0, 45);
-    var random_overworld_mob = random.nextInt(0, 17);
+    var random_overworld_mob = random.nextInt(0, 53);
     var random_nether_mob = random.nextInt(0, 5);
     var random_ocean_mob = random.nextInt(0, 6);
     var x = pos.x;
@@ -741,7 +801,6 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
     }
 
     if (attacker == null) return;
-    if ("betterendforge" in attacker.type.commandString) server.executeCommand(effect + uuid + " minecraft:blindness 3 0", true);
     if (attacker.removeTag("target_slow")) server.executeCommand(effect + uuid + " minecraft:slowness 3 1", true);
     
 });
@@ -891,8 +950,8 @@ CTEventManager.register<MCEntityJoinWorldEvent>((event) => {
             entity.remove();
         }
     } 
+    if ("dimpaintings" in type && !("overworld" in dim)) event.cancel();
     if ("neverise:witherstorm" in dim && "aoa3" in type) event.cancel();
-    if ("betternether" in type|| "betterendforge:dragonfly" in type || "betterendforge:cubozoa" in type || "betterendforge:end_fish" in type || "duck" in type || "moth" in type || "wisp" in type || "realmshifter" in type || "goat" in type|| "yak" in type || "glow_spuid" in type) event.cancel();
     if ("eyesinthedarkness:eyes" in type && !("greckon" in dim)) event.cancel();
     if ("overworld" in dim && ("upgrade_aquatic" in type)) event.cancel();
     if ("salmon" in type && "aoa3" in dim) event.cancel();
@@ -906,12 +965,16 @@ CTEventManager.register<MCEntityJoinWorldEvent>((event) => {
     }
     if (serverworld.isRaid(pos)) {
         server.executeCommand(effect + uuid + " minecraft:strength 114514 1", true);
-        server.executeCommand(effect + uuid + " minecraft:regeneration 114514 2", true);
+        server.executeCommand(effect + uuid + " minecraft:regeneration 114514 1", true);
     }
     if ("ba_bt:land_golem" in type) {
         for silver in 0 .. 4 {
             server.executeCommand("execute in " + dim + " run summon ba_bt:silver_skeleton " + x + " " + y + " " + z, true);
         }
+    }
+    if ("witherstormmod:wither_storm" in type) {
+        entity.updateData({Phase:5});
+        entity.setPosition(x, 256.00, z);
     }
 });
 CTEventManager.register<MCEntityTravelToDimensionEvent>(event => {
@@ -921,16 +984,24 @@ CTEventManager.register<MCEntityTravelToDimensionEvent>(event => {
     var type = entity.type.commandString;
     var here = world.dimension;
     var there = event.dimension.commandString;
+    var server = world.asServerWorld().server;
+    var random = world.random.nextInt(0, 20);
+    var pos = entity.position;
+    var x = pos.x;
+    var y = pos.y;
+    var air = y + 1;
+    var z = pos.z;
 
     if ("player" in type) {
         if ("overworld" in there && "nowhere" in here) {
             if (entity.removeTag("wow_now_you_are_in_nowhere_and_you_need_to_go_for_witherstorm")) entity.addTag("here_we_go_for_witherstorm");
             if (entity.removeTag("omg_you_destroyed_the_wither_storm_and_now_you_need_to_go_to_the_overworld")) entity.addTag("here_we_go_overworld");
-            
+            return;
         }
         if ("neverise:witherstorm" in here && "nowhere" in there) {
             entity.addTag("here_we_go_overworld");
             event.cancel();
+            return;
         }
         if ("iromine" in there) {
             if (entity.removeTag("iromined")) {
@@ -939,6 +1010,18 @@ CTEventManager.register<MCEntityTravelToDimensionEvent>(event => {
             }
             entity.addTag("iromined");
             entity.addTag("ferrous_wroughtnaut");
+            return;
+        }
+        if (entity.removeTag("aoa_age")) {
+            if (entity.removeTag("bonfirer")) return;
+            if (entity.removeTag("dim_randomized")) return;
+            if (entity.removeTag("recaller")) return;
+            if ("nether" in there || "aoa3" in there) {
+                event.cancel();
+                server.executeCommand("execute in " + dimensions[random]  + " run tp " + entity.name + " " + x + " " + y + " " + z, true);
+                server.executeCommand("execute in " + dimensions[random]  + " run fill " + x + " " + y + " " + z + " " + x + " " + air + " " + z +" minecraft:air", true);
+                entity.addTag("dim_randomized");
+            }
         }
     }
 });

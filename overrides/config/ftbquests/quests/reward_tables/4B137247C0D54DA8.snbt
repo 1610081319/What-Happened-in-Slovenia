@@ -1,7 +1,7 @@
 {
 	id: "4B137247C0D54DA8"
-	order_index: 13
-	title: "{reward_tables.nrq.4B137247C0D54DA8.title}"
+	order_index: 12
+	title: "{reward_tables.quests_reward.4B137247C0D54DA8.title}"
 	loot_size: 1
 	rewards: [
 		{ item: "quark:root_item" }
@@ -75,7 +75,6 @@
 		{ item: "nethers_delight:hoglin_ear" }
 		{ item: "nethers_delight:propelpearl" }
 		{ item: "nethers_delight:nether_skewer" }
-		{ item: "buzzier_bees:honey_apple" }
 		{ item: "vanillacookbook:cooked_beetroot" }
 		{ item: "vanillacookbook:cooked_egg" }
 		{ item: "vanillacookbook:grilled_melon" }

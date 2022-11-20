@@ -138,7 +138,7 @@
 		craftFuseTicks = 1
 		#DEFAULT=1200. If the formidibomb is manually set on fire the fuse tick count will be set to this value, if the original fuse is greater than this value. Reload Type: NONE
 		#Range: 1 ~ 12000
-		catchFireFuseTicks = 600
+		catchFireFuseTicks = 200
 		#DEFAULT=true. Specifies if after a set amount of time the formidibomb item should drop out of whatever inventory is holding it and should spawn as the entity. Reload Type: NONE
 		shouldDropFromInventory = false
 		#DEFAULT=4. Specifies the interval for when the formidibomb will drop out of its inventory (if enabled). This value divides the crafted fuse ticks to get the interval (e.x. 12000 / 4 = 3000). Reload Type: NONE

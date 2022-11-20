@@ -10,16 +10,16 @@
 
     "placement": {
         "type": "surface",           
-        "minY": 60,
-        "maxY": 160,
+        "minY": 50,
+        "maxY": 80,
         "offset": 0,
         "fluidSurface": false,
 
         "terraform": -1
     },
    
-    "averageSpacing": 16,  
-    "minimumSpacing": 9,          
+    "averageSpacing": 25,  
+    "minimumSpacing": 16,          
     "seed": 328978114514,
     "avoidOthers": false,       
     

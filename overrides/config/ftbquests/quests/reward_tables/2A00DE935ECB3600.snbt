@@ -1,7 +1,7 @@
 {
 	id: "2A00DE935ECB3600"
-	order_index: 12
-	title: "{reward_tables.nrq.2A00DE935ECB3600.title}"
+	order_index: 11
+	title: "{reward_tables.quests_reward.2A00DE935ECB3600.title}"
 	loot_size: 1
 	rewards: [
 		{ item: "mowziesmobs:glowing_jelly" }
@@ -77,7 +77,6 @@
 		{ item: "neapolitan:strawberry_banana_smoothie" }
 		{ item: "neapolitan:strawberry_bean_bonbons" }
 		{ item: "nethers_delight:hoglin_loin" }
-		{ item: "buzzier_bees:sticky_honey_wand" }
 		{ item: "berry_good:sweet_berry_mince" }
 		{ item: "vanillacookbook:apple_juice" }
 		{ item: "vanillacookbook:berry_juice" }
@@ -85,7 +84,6 @@
 		{ item: "vanillacookbook:melon_juice" }
 		{ item: "vanillacookbook:sea_pickle_juice" }
 		{ item: "vanillacookbook:chorus_juice" }
-		{ item: "vanillacookbook:milk_bottle" }
 		{ item: "vanillacookbook:potato_soup" }
 		{ item: "vanillacookbook:fish_stew" }
 		{ item: "vanillacookbook:ink_soup" }

@@ -1,8 +1,0 @@
-
-["Client Settings"]
-	#List of items that will make the hand display when a boat is moving
-	#Seperate every entry except the last one with commas
-	itemsToShowInMovingBoat = ["minecraft:filled_map"]
-	#Toggle whether the hand should be rendered whilst the boat is moving
-	showHandsInMovingBoat = true
-

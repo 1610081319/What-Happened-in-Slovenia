@@ -172,42 +172,6 @@ var for_storm as IItemStack[] = [
     <item:gunswithoutroses:diamond_sniper>,
     <item:gunswithoutroses:diamond_gatling>
 ];
-var hammocks as IItemStack[] = [
-    <item:comforts:hammock_black>,
-    <item:comforts:hammock_blue>,
-    <item:comforts:hammock_brown>,
-    <item:comforts:hammock_cyan>,
-    <item:comforts:hammock_gray>,
-    <item:comforts:hammock_green>,
-    <item:comforts:hammock_light_blue>,
-    <item:comforts:hammock_light_gray>,
-    <item:comforts:hammock_lime>,
-    <item:comforts:hammock_magenta>,
-    <item:comforts:hammock_orange>,
-    <item:comforts:hammock_pink>,
-    <item:comforts:hammock_purple>,
-    <item:comforts:hammock_red>,
-    <item:comforts:hammock_white>,
-    <item:comforts:hammock_yellow>
-];
-var bags as IItemStack[] = [
-    <item:comforts:sleeping_bag_black>,
-    <item:comforts:sleeping_bag_blue>,
-    <item:comforts:sleeping_bag_brown>,
-    <item:comforts:sleeping_bag_cyan>,
-    <item:comforts:sleeping_bag_gray>,
-    <item:comforts:sleeping_bag_green>,
-    <item:comforts:sleeping_bag_light_blue>,
-    <item:comforts:sleeping_bag_light_gray>,
-    <item:comforts:sleeping_bag_lime>,
-    <item:comforts:sleeping_bag_magenta>,
-    <item:comforts:sleeping_bag_orange>,
-    <item:comforts:sleeping_bag_pink>,
-    <item:comforts:sleeping_bag_purple>,
-    <item:comforts:sleeping_bag_red>,
-    <item:comforts:sleeping_bag_white>,
-    <item:comforts:sleeping_bag_yellow>
-];
 var dragonsteel_armor as IItemStack[] = [
     <item:iceandfire:dragonsteel_lightning_helmet>,
     <item:iceandfire:dragonsteel_lightning_chestplate>,
@@ -240,12 +204,6 @@ for rose in 0 .. rosidian.length {
 for storm in 0 .. for_storm.length {
     tooltip(for_storm[storm], "info.neverise.for_storm");
 }
-for hammock in 0 .. hammocks.length {
-    tooltip(hammocks[hammock], "info.neverise.hammocks");
-}
-for bag in 0 .. bags.length {
-    tooltip(bags[bag], "info.neverise.sleeping_bags");
-}
 
 var items as IItemStack[] = [
     <item:aoa3:charging_table>,
@@ -255,8 +213,7 @@ var items as IItemStack[] = [
     <item:aoa3:nowhere_portal>,
     <item:lootgames:puzzle_master>,
     <item:witherstormmod:golden_apple_stew>,
-    <item:witherstormmod:command_block_book>,
-    <item:notreepunching:flint_shard>
+    <item:witherstormmod:command_block_book>
 ]; 
 var texts as string[] = [
     "info.neverise.charging_table",
@@ -266,8 +223,7 @@ var texts as string[] = [
     "info.neverise.nowhere_portal",
     "info.neverise.puzzle_master",
     "info.neverise.golden_apple_stew",
-    "info.neverise.command_block_book",
-    "info.neverise.flint_shard"
+    "info.neverise.command_block_book"
 ];
 
 for misc in 0 .. items.length {

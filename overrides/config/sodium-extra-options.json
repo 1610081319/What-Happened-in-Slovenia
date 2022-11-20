@@ -24,7 +24,6 @@
       "minecraft:campfire_cosy_smoke": false,
       "minecraft:rain": false,
       "minecraft:falling_water": false,
-      "majruszs_difficulty:blood_particle": false,
       "mowziesmobs:ring": true,
       "mowziesmobs:ring_0": true,
       "mowziesmobs:ring_big": true,
@@ -40,7 +39,7 @@
     "sky": true,
     "sun_moon": true,
     "stars": true,
-    "rain_snow": false,
+    "rain_snow": true,
     "biome_colors": true,
     "sky_colors": true
   },

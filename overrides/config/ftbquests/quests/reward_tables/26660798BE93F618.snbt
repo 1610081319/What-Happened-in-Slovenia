@@ -1,7 +1,7 @@
 {
 	id: "26660798BE93F618"
 	order_index: 5
-	title: "{reward_tables.nrq.26660798BE93F618.title}"
+	title: "{reward_tables.quests_reward.26660798BE93F618.title}"
 	loot_size: 1
 	rewards: [
 		{

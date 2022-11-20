@@ -4,7 +4,7 @@
 	#The time until bombs start to explode. Represented in ticks.
 	#Range: 0 ~ 600
 	#Default: 60
-	detonation_time = 60
+	detonation_time = 40
 	#It represents the number of attempts the player has to beat the game successfully.
 	#Range: > 1
 	#Default: 3

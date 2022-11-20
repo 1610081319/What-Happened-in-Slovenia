@@ -394,23 +394,23 @@
 
 [VariantMobTextures]
 	#If true, wolves may spawn with different textures.
-	"Variant wolves" = true
+	"Variant wolves" = false
 	#If true, chickens may spawn with different textures. This is disabled if Quark is present.
-	"Variant chickens" = true
+	"Variant chickens" = false
 	#If true, pigs may spawn with different textures. This is disabled if Quark is present.
-	"Variant pigs" = true
+	"Variant pigs" = false
 	#If true, snow golems may spawn with different derp faces.
-	"Variant snow golems" = true
+	"Variant snow golems" = false
 	#If true, all animals have a chance to spawn as a rare variant.
-	"Rare variants" = true
+	"Rare variants" = false
 	#Approximately 1 in X chance of a mob spawning as a rare variant.
 	"Rarity of rare variants" = 1000
 	#If true, squids may spawn with different textures.
-	"Variant squids" = true
+	"Variant squids" = false
 	#If true, cows may spawn with different textures. This is disabled if Quark is present.
-	"Variant cows" = true
+	"Variant cows" = false
 	#If true, sheep face and 'shorn' textures match their wool color. This is disabled if Quark is present.
-	"Variant sheep" = true
+	"Variant sheep" = false
 	#Some animal textures are disabled if Quark is present. Set true to force enable them.
 	Override = false
 

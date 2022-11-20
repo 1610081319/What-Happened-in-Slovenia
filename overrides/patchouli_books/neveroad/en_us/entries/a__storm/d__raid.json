@@ -1,0 +1,11 @@
+{
+    "name": "The Raid",
+    "icon": "minecraft:banner",
+    "category": "a__storm",
+    "pages": [
+        {
+            "type": "text",
+            "text": ""
+        }
+    ]
+}

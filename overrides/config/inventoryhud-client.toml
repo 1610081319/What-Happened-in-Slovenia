@@ -123,7 +123,7 @@
 	bootHal = "MIDDLE"
 	#Armor HUD position (X)
 	#Range: -9999 ~ 9999
-	xArmPos = 124
+	xArmPos = 1
 	#MainHand position (X)
 	#Range: -9999 ~ 9999
 	mainPosX = 103

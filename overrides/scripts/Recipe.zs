@@ -169,29 +169,4 @@ craftingTable.addShaped("plg", <item:plg:pl532480>, [
     [iron, <item:minecraft:emerald_block>, iron],
     [basalt, basalt, basalt]
 ]);
-craftingTable.addShaped("stone_pickaxe", <item:minecraft:stone_pickaxe>, [
-    [cobblestone, cobblestone, cobblestone],
-    [air, stick, air],
-    [air, stick, air]
-]);
-craftingTable.addShapedMirrored("stone_axe", <item:minecraft:stone_axe>, [
-    [cobblestone, cobblestone, air],
-    [cobblestone,stick, air],
-    [air, stick, air]
-]);
-craftingTable.addShaped("stone_shovel", <item:minecraft:stone_shovel>, [
-    [air, cobblestone, air],
-    [air, stick, air],
-    [air, stick, air]
-]);
-craftingTable.addShaped("stone_sword", <item:minecraft:stone_sword>, [
-    [air, cobblestone, air],
-    [air, cobblestone, air],
-    [air, stick, air]
-]);
-craftingTable.addShaped("stone_hoe", <item:minecraft:stone_hoe>, [
-    [cobblestone, cobblestone, air],
-    [air, stick, air],
-    [air, stick, air]
-]);
     craftingTable.addShapeless("avocado", <item:sushigocrafting:avocado_slices> * 2, [<item:sushigocrafting:avocado>]);
