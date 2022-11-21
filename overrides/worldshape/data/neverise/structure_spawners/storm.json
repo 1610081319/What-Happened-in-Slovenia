@@ -18,10 +18,10 @@
         "terraform": -1
     },
    
-    "averageSpacing": 25,  
-    "minimumSpacing": 16,          
+    "averageSpacing": 18,  
+    "minimumSpacing": 12,          
     "seed": 328978114514,
-    "avoidOthers": false,       
+    "avoidOthers": true,       
     
     "biomes": [
         "#taiga",
@@ -33,9 +33,7 @@
         "#icy",
         "#beach",
         "#forest",
-        "#ocean",
         "#desert",
-        "#river",
         "#swamp",
         "#mushroom"
     ],

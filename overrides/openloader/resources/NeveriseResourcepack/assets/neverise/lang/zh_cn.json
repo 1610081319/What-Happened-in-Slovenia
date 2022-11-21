@@ -21,5 +21,6 @@
     "info.neverise.command_block_book": "§5§l§o击败凋灵共生体（Wither Symbiont）获得。",
     "info.neverise.dragonsteel_armor.1": "§2全套效果",
     "info.neverise.dragonsteel_armor.2": "§2受到伤害时，如果周围（100*100*100）有你的龙存在，则有40%概率免疫此伤害",
-    "info.neverise.bagofyurting": "§5§l§oShift+右击箱子以进行搬运。无法对准其它方块进行搬运。"
+    "info.neverise.bagofyurting": "§5§l§oShift+右击箱子以进行搬运。无法对准其它方块进行搬运。",
+    "dimensions.neverise.witherstorm": "凋灵风暴维度"
 }

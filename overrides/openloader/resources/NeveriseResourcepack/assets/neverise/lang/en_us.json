@@ -21,5 +21,6 @@
     "info.neverise.command_block_book": "§5§l§oObtain by killing Wither Symbiont",
     "info.neverise.dragonsteel_armor.1": "§2Full set bonus:",
     "info.neverise.dragonsteel_armor.2": "§2When taking damage, if your dragon is around for 100*100*100 range centered on you, you have a 40% chance of being immune to it",
-    "info.neverise.bagofyurting": "§5§l§oShift and right-click to save chests. Can't target other kinds of blocks."
+    "info.neverise.bagofyurting": "§5§l§oShift and right-click to save chests. Can't target other kinds of blocks.",
+    "dimensions.neverise.witherstorm": "Wither Storm Dimension"
 }

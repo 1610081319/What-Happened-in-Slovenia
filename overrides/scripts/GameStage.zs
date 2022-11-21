@@ -89,14 +89,18 @@ var items as IItemStack[] = [
     <item:relics:magic_mirror>,
     <item:dimpaintings:overworld_painting>,
     <item:dimpaintings:end_painting>,
-    <item:enigmaticlegacy:dark_mirror>
+    <item:enigmaticlegacy:dark_mirror>,
+    <item:sophisticatedbackpacks:pickup_upgrade>,
+    <item:sophisticatedbackpacks:advanced_pickup_upgrade>
 ];
 var stages as string[] = [
     "champion_i", 
+    "champion_i",
     "champion_ii", 
     "champion_ii", 
     "champion_iii", 
     "champion_iii", 
+    "champion_iv", 
     "champion_iv"
 ];
 var tiers as int[] = [
@@ -105,7 +109,9 @@ var tiers as int[] = [
     3, 
     4, 
     5, 
-    6
+    6,
+    7,
+    8
 ];
 var dims_i as string[] = [
     "creeponia", 

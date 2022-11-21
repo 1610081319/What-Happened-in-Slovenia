@@ -563,6 +563,7 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
         player.removeGameStage("before_wither");
         player.addGameStage("mcsaforge");
         player.addGameStage("aoa_age");
+        player.removeTag("after_tower");
     }
     if (player.hasGameStage("aoa_age")) player.addTag("aoa_age");
     if (player.hasGameStage("mcsaforge")) player.addTag("mcsaforge");
@@ -595,10 +596,8 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
             server.executeCommand(buff + " minecraft:strength 10 1", true);
             return;
         }
-
         if (l in helmet && l in chestplate && l in leggings && l in boots) server.executeCommand(buff + " minecraft:night_vision 10", true);
         if (a in helmet && a in chestplate && a in leggings && a in boots) server.executeCommand(jump + "3", true);
-
         if (r in helmet && r in chestplate && r in leggings && r in boots) {
             player.removePotionEffect(<effect:minecraft:poison>);
             var total_damage = one + two + three + four;
@@ -616,31 +615,32 @@ CTEventManager.register<MCPlayerRespawnEvent>(event => {
     var server = world.asServerWorld().server;
     var pos = player.position;
     var dim = world.dimension;
-    var uuid = player.uuid;
-    var exp = player.experienceTotal;
-    player.giveExperiencePoints(- exp);
+    var name = player.name.formattedText;
 
     if (player.removeTag("if_you_die_in_bowel_you_should_respawn_in_witherstorm")) {
-        server.executeCommand("execute in neverise:witherstorm run tp " + uuid + " 0 205 0", true);
-        server.executeCommand(effect + uuid + " minecraft:slow_falling 60", true);
+        server.executeCommand("execute in neverise:witherstorm run tp " + name + " 0 205 0", true);
+        server.executeCommand(effect + name + " minecraft:slow_falling 60", true);
+        return;
     }
     if (player.removeTag("if_you_die_in_witherstorm_you_should_respawn_in_witherstorm")) {
-        server.executeCommand("execute in neverise:witherstorm run tp " + uuid + " 0 205 0", true);
-        server.executeCommand(effect + uuid + " minecraft:slow_falling 60", true);
+        server.executeCommand("execute in neverise:witherstorm run tp " + name + " 0 205 0", true);
+        server.executeCommand(effect + name + " minecraft:slow_falling 60", true);
+        return;
     }
-    if (player.removeTag("if_you_die_in_nowhere_you_should_respawn_in_nowhere")) server.executeCommand("execute in aoa3:nowhere run tp " + uuid + " 0 205 0", true);
+    if (player.removeTag("if_you_die_in_nowhere_you_should_respawn_in_nowhere")) server.executeCommand("execute in aoa3:nowhere run tp " + name + " 0 205 0", true);
 });
 CTEventManager.register<MCPlayerLoggedInEvent>(event => {
     var player = event.player;
-    if (player.world.remote) return;
+    var world = player.world;
+    if (world.remote) return;
     if (player.hasGameStage("logged")) return;
-    var server = player.world.asServerWorld().server;
+    var server = world.asServerWorld().server;
+    server.executeCommand("tp " + player.name.formattedText + " 0 255 0", true);
+    server.executeCommand("setblock 0 255 0 aoa3:nowhere_portal", true);
     player.addGameStage("logged");
     player.addGameStage("before_wither");
     player.addGameStage("iromine_passport");
     player.addTag("now_let_us_go_to_nowhere");
-    server.executeCommand("tp " + player.uuid + " 0 255 0", true);
-    server.executeCommand("setblock 0 255 0 aoa3:nowhere_portal", true);
     player.give(<item:ftbquests:book>);
 });
 CTEventManager.register<MCLivingSpawnEvent>((event) => {
@@ -729,14 +729,14 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
     var health = entity.getHealth();
     var m_health = entity.getMaxHealth();
     
-    if ("aoa3:destructor" in attacked) event.setAmount(0.0);
+    if ("aoa3:destructor" in attacked) event.cancel();
     if ("player" in attacked) {
         if ("dragonsteel" in helmet && "dragonsteel" in chestplate && "dragonsteel" in leggings && "dragonsteel" in boots && 0.40 >= damage_cancel) {
             for finder in 0 .. find_dragon.length {
                 var type = find_dragon[finder].type.commandString;
                 if ("fire_dragon" in type || "ice_dragon" in type || "lightning_dragon" in type) {
                     if (find_dragon[finder].data.getAt("Owner") == null) {} else {
-                        event.setAmount(0.0);
+                        event.cancel();
                         break;
                     }
                 }
@@ -747,7 +747,6 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
             entity.addTag("storm_time");
         }
         if (entity.removeTag("mcsaforge")) {
-            
             if ("mcsaforge" in helmet) entity.setItemStackToSlot(MCEquipmentSlotType.HEAD, <item:minecraft:air>);
             if ("mcsaforge" in chestplate) entity.setItemStackToSlot(MCEquipmentSlotType.CHEST, <item:minecraft:air>);
             if ("mcsaforge" in leggings) entity.setItemStackToSlot(MCEquipmentSlotType.LEGS, <item:minecraft:air>);
@@ -762,16 +761,13 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
             }
             entity.addTag("mcsaforge");
         }
-
         if (dmgsource == <damagesource:fall>) {
-            if (l in helmet && l in chestplate && l in leggings && l in boots) event.setAmount(0.0);
-            if (s in helmet && s in chestplate && s in leggings && s in boots) event.setAmount(0.0);
+            if (l in helmet && l in chestplate && l in leggings && l in boots) event.cancel();
+            if (s in helmet && s in chestplate && s in leggings && s in boots) event.cancel();
         }
-
         if (dmgsource == <damagesource:inWall>) {
-            if (s in helmet && s in chestplate && s in leggings && s in boots) event.setAmount(0.0);
+            if (s in helmet && s in chestplate && s in leggings && s in boots) event.cancel();
         }
-
         if (dmgtype == "magic" && entity.isPotionActive(<effect:minecraft:poison>)) {
             if ((r in helmet && r in chestplate && r in leggings) || (r in helmet && r in chestplate && r in boots) || (r in chestplate && r in leggings && r in boots)) {
                 event.setAmount(dmg_amt * 0.2);
@@ -786,8 +782,11 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
                 return;
             }
         }
+        if (entity.removeTag("after_tower")) {
+            entity.addTag("after_tower");
+            event.setAmount(dmg_amt * 2);
+        }
     }
-
     if (a in attacked && m_health * 0.4 > health && "xxeus" in attacked) server.executeCommand(effect + uuid + " minecraft:strength 114514 1", true);//远古战神强化
     for i in 0 .. aoa_bosses.length {
         if (aoa_bosses[i] in attacked && "aoa3" in attacked) {
@@ -799,10 +798,8 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
             break;
         }
     }
-
     if (attacker == null) return;
     if (attacker.removeTag("target_slow")) server.executeCommand(effect + uuid + " minecraft:slowness 3 1", true);
-    
 });
 CTEventManager.register<MCLivingDeathEvent>((event) => {
     var entity = event.entityLiving;
@@ -846,13 +843,15 @@ CTEventManager.register<MCLivingDeathEvent>((event) => {
         source.removeTag("now_let_us_kill_the_command_block_in_the_wither_storm");
         server.executeCommand("tag @e remove storm_time", true);
     }
-    if ("ferrous_wroughtnaut" in type && "player" in source.type.commandString) source.addTag("iromine_passport");
+    if ("player" in source.type.commandString) {
+        if ("ba_bt:land_golem" in type) source.addTag("after_tower");
+        if ("ferrous_wroughtnaut" in type) source.addTag("iromine_passport");
+    }
 });
 CTEventManager.register<MCLeftClickBlockEvent>((event) => {
     var player = event.player;
     var world = player.world;
     if (world.remote) return;
-    
     var server = player.world.asServerWorld().server;
     var blockPos = event.getBlockPos();
     var pos_x = blockPos.x;
@@ -862,24 +861,18 @@ CTEventManager.register<MCLeftClickBlockEvent>((event) => {
     var pos = "" + pos_x + " " + pos_y + " " + pos_z;
     var pos2 = "" + pos_x + " " + y + " " + pos_z;
     var exe = "execute in " + world.dimension + " if block " + pos;
-    var helmet = player.getItemStackFromSlot(MCEquipmentSlotType.HEAD).commandString;
-    var chestplate = player.getItemStackFromSlot(MCEquipmentSlotType.CHEST).commandString;
-    var leggings = player.getItemStackFromSlot(MCEquipmentSlotType.LEGS).commandString;
-    var boots = player.getItemStackFromSlot(MCEquipmentSlotType.FEET).commandString;
-    var mainhand = player.getHeldItemMainhand().asIItemStack().commandString;
-    var offhand = player.getHeldItemOffhand().asIItemStack().commandString;
-    var dim = world.dimension;
     
-    if (player.isSneaking() && s in helmet && s in chestplate && s in leggings && s in boots) {
+    if (player.isSneaking() && s in player.getItemStackFromSlot(MCEquipmentSlotType.HEAD).commandString && s in player.getItemStackFromSlot(MCEquipmentSlotType.CHEST).commandString && s in player.getItemStackFromSlot(MCEquipmentSlotType.LEGS).commandString && s in player.getItemStackFromSlot(MCEquipmentSlotType.FEET).commandString) {
         server.executeCommand(exe + " aoa3:ancient_rock run give " + player.uuid + " aoa3:ancient_rock{Pos_x:" + pos_x + ", Pos_y:" + pos_y + ", Pos_z:" + pos_z + "}", true);
         server.executeCommand(exe + " aoa3:ancient_rock run fill " + pos + " " + pos + " air", true);
     }
 });
 CTEventManager.register<GameStageAdded>((event) => {
     var player = event.player;
-    if (player.world.remote) return;
+    var world = player.world;
+    if (world.remote) return;
     var stage = event.stage;
-    var server = event.player.world.asServerWorld().server;
+    var server = world.asServerWorld().server;
     
     if (stage == "enig") {
         player.sendMessage(" ");
@@ -890,38 +883,29 @@ CTEventManager.register<GameStageAdded>((event) => {
         server.executeCommand("gamerule keepInventory false", true);
         player.removeGameStage("now_exit");
         player.removeGameStage("exit");
-        return;
     }
 });
 CTEventManager.register<MCBlockBreakEvent>((event) => {
     var player = event.player;
     var world = player.world;
     if (world.remote) return;
-    var state = event.state.commandString;
-    var server = world.asServerWorld().server;
-    var dim = world.dimension;
-    var pos = player.position;
-    var random_mob = world.random.nextInt(0, 4);
-    if ("ba_bt:bt_land_spawner" in state) server.executeCommand("execute in " + dim + " run summon " + mobs[random_mob] + " " + pos.x + " " + pos.y + " " + pos.z, true);
+    if ("ba_bt:bt_land_spawner" in event.state.commandString) world.asServerWorld().server.executeCommand("execute in " + world.dimension + " run summon " + mobs[world.random.nextInt(0, 4)] + " " + player.position.x + " " + player.position.y + " " + player.position.z, true);
 });
 CTEventManager.register<MCBlockPlaceEvent>((event) => {
     var entity = event.entity;
     var world = entity.world;
     if (world.remote) return; 
-    var type = entity.type.commandString;
     var placed = event.placedBlock.commandString;
-    var block = event.placedAgainst.commandString;
-    var dim = world.dimension;
     var server = world.asServerWorld().server;
 
-    if ("player" in type) {
-        if ("wither_skeleton_skull" in placed && "command_block" in block) {
+    if ("player" in entity.type.commandString) {
+        if ("wither_skeleton_skull" in placed && "command_block" in event.placedAgainst.commandString) {
             server.executeCommand("tag @e add storm_time", true);
             server.executeCommand("tell @a " + storm_time.formattedText, true);
             server.executeCommand("time set night", true);
         }
         if ("puzzle_master" in placed) {
-            if ("celeve" in dim) return;
+            if ("celeve" in world.dimension) return;
             event.cancel();
         }
     }

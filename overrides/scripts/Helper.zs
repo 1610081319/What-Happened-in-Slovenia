@@ -2,9 +2,7 @@
     import stdlib.List;
     import crafttweaker.api.mods.Mods;
     import crafttweaker.api.mods.ModInfo;
-    import crafttweaker.api.item.IItemStack;
-    import crafttweaker.api.entity.MCEntityType;
-    import crafttweaker.api.enchantment.EnchantmentType;
+    import crafttweaker.api.blocks.MCBlock;
 
 var loadedMods as List<ModInfo> = loadedMods.mods;
 for i in  .. loadedMods.length {

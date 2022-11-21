@@ -4,7 +4,6 @@
 	title: "{reward_tables.quests_reward.2A00DE935ECB3600.title}"
 	loot_size: 1
 	rewards: [
-		{ item: "mowziesmobs:glowing_jelly" }
 		{ item: "with_thursday:cooked_chicken_wings" }
 		{ item: "with_thursday:cooked_diced_chicken" }
 		{ item: "with_thursday:chicken_pop" }
@@ -61,11 +60,6 @@
 		{ item: "farmersdelight:honey_cookie" }
 		{ item: "farmersdelight:melon_popsicle" }
 		{ item: "farmersdelight:dog_food" }
-		{ item: "ends_delight:chorus_fruit_popsicle" }
-		{ item: "witherstormmod:withered_flesh" }
-		{ item: "upgrade_aquatic:perch" }
-		{ item: "upgrade_aquatic:mulberry" }
-		{ item: "upgrade_aquatic:mulberry_jam_bottle" }
 		{ item: "neapolitan:chocolate_bar" }
 		{ item: "neapolitan:strawberries" }
 		{ item: "neapolitan:white_strawberries" }
@@ -76,8 +70,6 @@
 		{ item: "neapolitan:chocolate_strawberries" }
 		{ item: "neapolitan:strawberry_banana_smoothie" }
 		{ item: "neapolitan:strawberry_bean_bonbons" }
-		{ item: "nethers_delight:hoglin_loin" }
-		{ item: "berry_good:sweet_berry_mince" }
 		{ item: "vanillacookbook:apple_juice" }
 		{ item: "vanillacookbook:berry_juice" }
 		{ item: "vanillacookbook:cactus_juice" }
@@ -110,19 +102,6 @@
 		{ item: "vanillacookbook:rose_cake_slice" }
 		{ item: "vanillacookbook:chorus_cake_slice" }
 		{ item: "vanillacookbook:book_cake_slice" }
-		{ item: "meetyourfight:velvet_fortune" }
-		{ item: "abnormals_delight:duck_fillet" }
-		{ item: "abnormals_delight:perch_slice" }
-		{ item: "abnormals_delight:cherry_cookie" }
-		{ item: "abnormals_delight:mulberry_cookie" }
-		{ item: "abnormals_delight:maple_cookie" }
-		{ item: "abnormals_delight:slabdish" }
-		{ item: "abnormals_delight:vanilla_cake_slice" }
-		{ item: "abnormals_delight:chocolate_cake_slice" }
-		{ item: "abnormals_delight:strawberry_cake_slice" }
-		{ item: "abnormals_delight:banana_cake_slice" }
-		{ item: "abnormals_delight:mint_cake_slice" }
-		{ item: "abnormals_delight:adzuki_cake_slice" }
 		{ item: "lightmeals:cactus_fruit" }
 		{ item: "lightmeals:baby_carrot" }
 		{ item: "lightmeals:small_cake" }

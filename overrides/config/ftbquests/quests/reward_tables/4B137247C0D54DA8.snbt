@@ -4,7 +4,6 @@
 	title: "{reward_tables.quests_reward.4B137247C0D54DA8.title}"
 	loot_size: 1
 	rewards: [
-		{ item: "quark:root_item" }
 		{ item: "with_thursday:chicken_wings" }
 		{ item: "with_thursday:chicken_breast" }
 		{ item: "with_thursday:potato_chips" }
@@ -47,17 +46,6 @@
 		{ item: "farmersdelight:nether_salad" }
 		{ item: "farmersdelight:cabbage_rolls" }
 		{ item: "farmersdelight:cooked_rice" }
-		{ item: "ends_delight:shulker_meat" }
-		{ item: "ends_delight:roasted_shulker_meat" }
-		{ item: "ends_delight:dragon_leg" }
-		{ item: "ends_delight:smoked_dragon_leg" }
-		{ item: "ends_delight:chorus_fruit_milk_tea" }
-		{ item: "ends_delight:bubble_tea" }
-		{ item: "ends_delight:dragon_meat_stew" }
-		{ item: "ends_delight:liquid_dragon_egg" }
-		{ item: "ends_delight:fried_dragon_egg" }
-		{ item: "ends_delight:liquid_dragon_egg_in_bowl" }
-		{ item: "upgrade_aquatic:mulberry_bread" }
 		{ item: "neapolitan:chocolate_spider_eye" }
 		{ item: "neapolitan:chocolate_ice_cream" }
 		{ item: "neapolitan:strawberry_ice_cream" }
@@ -72,9 +60,6 @@
 		{ item: "neapolitan:vanilla_chocolate_fingers" }
 		{ item: "neapolitan:mint_chocolate" }
 		{ item: "neapolitan:neapolitan_ice_cream" }
-		{ item: "nethers_delight:hoglin_ear" }
-		{ item: "nethers_delight:propelpearl" }
-		{ item: "nethers_delight:nether_skewer" }
 		{ item: "vanillacookbook:cooked_beetroot" }
 		{ item: "vanillacookbook:cooked_egg" }
 		{ item: "vanillacookbook:grilled_melon" }
@@ -99,10 +84,6 @@
 		{ item: "vanillacookbook:hot_chicken_wing" }
 		{ item: "vanillacookbook:potato_pancake" }
 		{ item: "vanillacookbook:chocolate_egg" }
-		{ item: "seasonals:pumpkin_ice_cream" }
-		{ item: "seasonals:sweet_berry_ice_cream" }
-		{ item: "quark:root_item" }
-		{ item: "abnormals_delight:escargot" }
 		{ item: "lightmeals:honey_dipper" }
 		{ item: "lightmeals:flower_pie" }
 		{ item: "lightmeals:cooked_rabbit_foot" }

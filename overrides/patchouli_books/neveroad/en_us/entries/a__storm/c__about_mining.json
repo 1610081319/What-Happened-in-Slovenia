@@ -1,0 +1,15 @@
+{
+    "name": "3.About Mining",
+    "icon": "minecraft:iron_pickaxe",
+    "category": "a__storm",
+    "pages": [
+        {
+            "type": "text",
+            "text": "    When my friend told me he had been mining for 2 hours in the Wither Storm Dimension, I got totally shocked!$(br)    So here I'm gonna tell you that you shouldn't waste your precious time to mine in this dim! Half an hour is definitely enough and then you should straightly go to fight against the Battle Tower and summon the Wither Storm for the AoA3's gameplay."
+        },
+        {
+            "type": "text",
+            "text": "    Again, don't waste too much time on mining in Wither Storm Dimension! I know you probably got hooked on digging the ores and ores and ores while exploring the caves, but one hour is the eventual limit!$(br2)    Well, however, just a suggestion you're not forced to follow. We are free in Minecraft, you know."
+        }
+    ]
+}

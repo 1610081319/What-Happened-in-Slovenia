@@ -14,9 +14,6 @@
 		{ item: "with_thursday:breakfast" }
 		{ item: "with_thursday:milk_tea" }
 		{ item: "with_thursday:nine_fruit_juice" }
-		{ item: "minecraft:golden_apple" }
-		{ item: "minecraft:enchanted_golden_apple" }
-		{ item: "minecraft:golden_carrot" }
 		{ item: "sushigocrafting:salmon_maki" }
 		{ item: "sushigocrafting:tuna_maki" }
 		{ item: "sushigocrafting:avocado_maki" }
@@ -51,26 +48,14 @@
 		{ item: "sushigocrafting:tuna_temaki" }
 		{ item: "sushigocrafting:shrimp_temaki" }
 		{ item: "sushigocrafting:chicken_temaki" }
-		{ item: "iceandfire:cannoli" }
-		{ item: "witherstormmod:golden_apple_stew" }
-		{ item: "cookielicious:vanilla_cookie" }
-		{ item: "cookielicious:chocolate_cookie" }
-		{ item: "cookielicious:strawberry_cookie" }
-		{ item: "cookielicious:banana_cookie" }
-		{ item: "cookielicious:mint_cookie" }
-		{ item: "cookielicious:adzuki_cookie" }
 		{ item: "neapolitan:vanilla_pudding" }
 		{ item: "neapolitan:cooked_mint_chops" }
 		{ item: "neapolitan:adzuki_curry" }
-		{ item: "nethers_delight:magma_gelatin" }
 		{ item: "vanillacookbook:birch_tea" }
 		{ item: "vanillacookbook:spruce_tea" }
 		{ item: "vanillacookbook:flower_salad" }
 		{ item: "vanillacookbook:meatloaf" }
 		{ item: "vanillacookbook:netherite_apple" }
-		{ item: "seasonals:sweet_berry_vanilla_yogurt" }
-		{ item: "quark:cooked_frog_leg" }
-		{ item: "quark:golden_frog_leg" }
 		{ item: "lightmeals:chocolate_bar" }
 		{ item: "lightmeals:apple_pie" }
 		{ item: "lightmeals:fish_soup" }

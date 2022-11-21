@@ -142,43 +142,11 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "cookielicious:vanilla_cookie"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cookielicious:chocolate_cookie"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cookielicious:strawberry_cookie"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cookielicious:banana_cookie"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cookielicious:mint_cookie"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "cookielicious:adzuki_cookie"
-                },
-                {
-                    "type": "minecraft:item",
                     "name": "farmersdelight:sweet_berry_cookie"
                 },
                 {
                     "type": "minecraft:item",
                     "name": "farmersdelight:honey_cookie"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "abnormals_delight:mulberry_cookie"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "abnormals_delight:cherry_cookie"
                 }
             ]
         }
