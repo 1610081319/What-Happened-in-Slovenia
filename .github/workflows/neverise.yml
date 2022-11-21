@@ -6,7 +6,7 @@ on:
     branches: [ main ]
   workflow_dispatch:
 env:
-  BUILD: Neverise-dev
+  BUILD: Neverise-dev-unplayable
 jobs:
   AutoPack:
     if: "!endsWith(github.event.head_commit.message, 'NOPACK')"
