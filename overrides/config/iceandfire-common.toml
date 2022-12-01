@@ -21,7 +21,7 @@
 		#Blacklisted dragon gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
 		blacklistDimensionsDragons = ["minecraft:the_nether", "minecraft:the_end"]
 		#Whitelist dragon gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
-		whitelistDimensionsDragons = ["aoa3:precasia"]
+		whitelistDimensionsDragons = []
 		#Blacklisted feature(cyclops caves, hydra dens, etc) gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
 		blacklistDimensionsFeature = ["minecraft:the_nether", "minecraft:the_end"]
 		#Blacklisted mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
@@ -40,9 +40,9 @@
 		#Range: 1 ~ 10000
 		"Generate Dragon Roost Chance" = 240
 		#Whether to generate dragon caves or not
-		"Generate Dragon Caves" = true
+		"Generate Dragon Caves" = false
 		#Whether to generate dragon roosts or not
-		"Generate Dragon Roosts" = true
+		"Generate Dragon Roosts" = false
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
 		"Generate Dragon Skeleton Chance" = 300
@@ -59,9 +59,9 @@
 		"Dangerous World Gen Dist Seperation" = 200
 		#One out of this number chance per chunk to generate a mausoleum.
 		#Range: 1 ~ 10000
-		"Mausoleum Gen Chance" = 2400
+		"Mausoleum Gen Chance" = 10000
 		#Whether to generate graveyards or not
-		"Generate Graveyards" = true
+		"Generate Graveyards" = false
 		#Glacier Spawn Weight. Higher number = more common
 		#Range: 1 ~ 10000
 		"Glacier Spawn Weight" = 2
@@ -69,9 +69,9 @@
 		#Range: 2 ~ 10000
 		"Graveyard Chance" = 46
 		#True if mausoleums are allowed to generate
-		"Generate Mausoleums" = true
+		"Generate Mausoleums" = false
 		#Whether to generate glacier biomes or not
-		"Generate Glaciers" = true
+		"Generate Glaciers" = false
 
 [Dragons]
 
@@ -169,31 +169,31 @@
 		"Sea Serpent Griefing" = true
 		#Default sea serpent attack strength, this is scaled to the sea serpent's particular size
 		#Range: 1.0 ~ 10000.0
-		"Sea Serpent Base Attack Strength" = 4.0
+		"Sea Serpent Base Attack Strength" = 8.0
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sea Serpent Chance" = 250
+		"Spawn Sea Serpent Chance" = 1000
 		#Default sea serpent health, this is scaled to the sea serpent's particular size
 		#Range: 1.0 ~ 10000.0
-		"Sea Serpent Base Health" = 20.0
+		"Sea Serpent Base Health" = 40.0
 
 	[Mobs.Others]
 		#True if hydra caves are allowed to generate
 		"Generate Hydra Caves" = true
 		#Dread Lich spawn chance. Lower = higher chance to spawn
 		#Range: 1 ~ 10000
-		"Lich Spawn Chance" = 30
+		"Lich Spawn Chance" = 60
 		#True if ghosts can rarely spawn from brutal PvP deaths.
 		"Ghost Spawn from PvP deaths" = true
 		#Dread Lich spawn weight. Lower = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Lich Spawn Weight" = 2
+		"Lich Spawn Weight" = 1
 		#Maximum ghost attack strength.
 		#Range: 0.0 ~ 10000.0
-		"Ghost Attack Strength" = 3.0
+		"Ghost Attack Strength" = 6.0
 		#Maximum hydra health
 		#Range: 1.0 ~ 10000.0
-		"Hydra Max Health" = 250.0
+		"Hydra Max Health" = 300.0
 		#Villager Scribe House generation weight. Lower = lower chance to spawn
 		#Range: 0 ~ 10000
 		"Villager Scribe House Weight" = 22
@@ -223,7 +223,7 @@
 		"Death Worms Target Monsters" = true
 		#A double check to see if the game can spawn death worms. Higher number = lower chance to spawn.
 		#Range: 0 ~ 10000
-		"Death Worm Spawn Check Chance" = 3
+		"Death Worm Spawn Check Chance" = 30
 		#Default deathworm health, this is scaled to the worm's particular size
 		#Range: 1.0 ~ 10000.0
 		"Death Worm Base Health" = 10.0
@@ -235,7 +235,7 @@
 		"Death Worm Target Search Length" = 64
 		#Deathworm spawn weight. Higher = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Death Worm Spawn Weight" = 30
+		"Death Worm Spawn Weight" = 100
 		#True if deathworms are allowed to spawn
 		"Spawn Death Worms" = true
 
@@ -252,7 +252,7 @@
 		"Use Siren Shader" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sirens Chance" = 400
+		"Spawn Sirens Chance" = 600
 		#Maximum siren health
 		#Range: 1.0 ~ 10000.0
 		"Siren Max Health" = 50.0
@@ -265,12 +265,12 @@
 		"Spawn Cockatrices" = true
 		#Cockatrice spawn weight. Lower = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Cockatrice Spawn Weight" = 4
+		"Cockatrice Spawn Weight" = 1
 		#True if chickens lay rotten eggs.
 		"Chickens Lay Rotten Eggs" = true
 		#A double check to see if the game can spawn cockatrices. Higher number = lower chance to spawn.
 		#Range: 0 ~ 10000
-		"Cockatrice Spawn Check Chance" = 0
+		"Cockatrice Spawn Check Chance" = 5
 		#1 out of this number chance per 6000 ticks for a chicken to lay a cockatrice egg.
 		#Range: > 1
 		"Cockatrice chicken Search Length" = 30
@@ -280,7 +280,7 @@
 		"Spawn Cyclopes Caves" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Cyclops Cave Chance" = 100
+		"Spawn Cyclops Cave Chance" = 400
 		#Maximum cyclops health
 		#Range: 1.0 ~ 10000.0
 		"Cyclops Max Health" = 150.0
@@ -291,7 +291,7 @@
 		"Cyclops Bite Strength" = 40.0
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Wandering Cyclops Chance" = 100
+		"Spawn Wandering Cyclops Chance" = 400
 		#Cyclops attack strength
 		#Range: 1.0 ~ 10000.0
 		"Cyclops Attack Strength" = 15.0
@@ -312,7 +312,7 @@
 		"Spawn Trolls" = true
 		#A double check to see if the game can spawn trolls. Higher number = lower chance to spawn.
 		#Range: 0 ~ 10000
-		"Troll Spawn Check Chance" = 2
+		"Troll Spawn Check Chance" = 20
 		#Maximum troll health
 		#Range: 1.0 ~ 10000.0
 		"Troll Max Health" = 50.0
@@ -346,7 +346,7 @@
 	[Mobs.Hippogryph]
 		#Hippogryph spawn weight. Lower = lower chance to spawn.
 		#Range: 1 ~ 10000
-		"Hippogryph Spawn Weight" = 2
+		"Hippogryph Spawn Weight" = 1
 		#Change this to slow down or speed up hippogryph flight.
 		#Range: 0.0 ~ 2.0
 		"Hippogryph Flight Speed Modifier" = 1.0
@@ -361,7 +361,7 @@
 		"Spawn Pixies" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Pixies Chance" = 60
+		"Spawn Pixies Chance" = 200
 		#True if pixies are allowed to steal from players
 		"Pixies Steal Items" = false
 
@@ -399,7 +399,7 @@
 		"Spawn Amphitheres" = true
 		#Amphithere spawn weight. Lower = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Amphithere Spawn Weight" = 50
+		"Amphithere Spawn Weight" = 20
 		#Maximum amphithere health
 		#Range: 1.0 ~ 10000.0
 		"Amphithere Max Health" = 50.0
@@ -416,7 +416,7 @@
 	[Mobs.Hippocampus]
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Hippocampus Chance" = 40
+		"Spawn Hippocampus Chance" = 100
 		#Change this to slow down or speed up hippocampus swimming.
 		#Range: 0.0 ~ 2.0
 		"Hippocampus Swim Speed Modifier" = 1.0

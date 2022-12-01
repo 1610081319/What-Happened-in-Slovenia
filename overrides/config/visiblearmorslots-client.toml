@@ -3,7 +3,7 @@
 	on_debug = false
 	debug_as_level_info = false
 	#Allowed Values: LEFT, RIGHT
-	slots_side = "LEFT"
+	slots_side = "RIGHT"
 	#Range: 0 ~ 128
 	slots_margin = 2
 	swap_hands = true

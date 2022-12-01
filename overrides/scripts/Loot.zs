@@ -1,10 +1,10 @@
-//Author: @Kasualix
-    import crafttweaker.api.blocks.MCBlock;
-var mods as string[] = [
+var modid as string[] = [
+    "endrem",
     "relics",
-    "mcsaforge"
+    "mcsaforge",
+    "dungeons_gear"
 ];
-for i in 0 .. mods.length {
-    loot.modifiers.removeByModId(mods[i]);
+
+for i in 0 .. modid.length {
+    loot.modifiers.removeByModId(modid[i]);
 }
-<block:plg:pl532480>.addLootModifier("plg", (loots, currentContext) => [<item:plg:pl532480>]);

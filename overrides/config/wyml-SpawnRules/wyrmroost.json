@@ -1,0 +1,78 @@
+{
+	"mod": "wyrmroost",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"water_creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"butterfly_leviathan": {
+						// Do not edit this name
+						"name": "butterfly_leviathan",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"overworld_drake": {
+						// Do not edit this name
+						"name": "overworld_drake",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"roost_stalker": {
+						// Do not edit this name
+						"name": "roost_stalker",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"silver_glider": {
+						// Do not edit this name
+						"name": "silver_glider",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"coin_dragon": {
+						// Do not edit this name
+						"name": "coin_dragon",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"alpine": {
+						// Do not edit this name
+						"name": "alpine",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"lesser_desertwyrm": {
+						// Do not edit this name
+						"name": "lesser_desertwyrm",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"dragon_fruit_drake": {
+						// Do not edit this name
+						"name": "dragon_fruit_drake",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"royal_red": {
+						// Do not edit this name
+						"name": "royal_red",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					},
+					"canari_wyvern": {
+						// Do not edit this name
+						"name": "canari_wyvern",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			}
+		}
+	}
+}

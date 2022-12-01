@@ -22,7 +22,7 @@
 	#DEFAULT=true. Toggles the rendering of Block Clusters. Reload Type: NONE
 	blockClusterRendering = false
 	#DEFAULT=true. Specifies if an overlay should be applied to entities that renders wither sickness. Reload Type: GAME
-	witherSicknessLayer = true
+	witherSicknessLayer = false
 	#DEFAULT=true. Specifies if the boss themes should be played. Useful if you want to disable only the themes without also turning off music discs. Reload Type: NONE
 	playBossThemes = true
 	#DEFAULT=true. Toggle to enable/disable the chromatic aberration effect. Reload Type: NONE
@@ -30,11 +30,11 @@
 	#DEFAULT=true. Specifies whether or not a white overlay should cover the screen during certain events. Reload Type: NONE
 	blindingEffects = true
 	#DEFAULT=true. Specifies whether or not camera shake effects should be used. Reload Type: NONE
-	cameraShakeEffects = true
+	cameraShakeEffects = false
 	#DEFAULT=true. Specifies if fog should be applied to Wither Storms being rendered from a distance. Reload Type: NONE
-	distantFog = true
+	distantFog = false
 	#DEFAULT=true. Specifies if block clusters should be able to have special colouring and alpha applied to them. NOTE: DISABLE IF FACING CRASHES WHEN USING SHADERS WITH OPTIFINE. Reload Type: NONE
-	blockClusterColouring = true
+	blockClusterColouring = false
 	#DEFAULT=true. Turn off to disable the ear ringing effects used in the mod. Reload Type: NONE
 	earRingingEffects = false
 

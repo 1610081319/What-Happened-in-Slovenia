@@ -68,19 +68,19 @@
 	#  To disable spawning in the end dimension: [ "!minecraft:the_end" ]
 	#  To disable spawning in the nether dimension: [ "!minecraft:nether" ]
 	#  To disable spawning in all secondary overworlds, but allow the vanilla overworld: [ "minecraft:overworld", "!#minecraft:overworld" ]
-	DimensionRules = []
+	DimensionRules = ["aoa3:greckon", "!minecraft:overworld", "!minecraft:the_end", "!minecraft:the_nether", "!otg:far_from_home_7_premium"]
 
 #Default spawn settings
 [spawning_normal]
 	#Number of ticks between spawn cycles.
 	#Range: > 1
-	SpawnCycleInterval = 150
+	SpawnCycleInterval = 50
 	#Max number of eyes entities that will spawn around any one player.
 	#Range: > 1
 	MaxEyesAroundPlayer = 2
 	#Max number of eyes entities that will spawn in each dimension.
 	#Range: > 1
-	MaxTotalEyesPerDimension = 15
+	MaxTotalEyesPerDimension = 8
 
 #Spawn settings in the minutes around midnight
 [spawning_midnight]
@@ -89,10 +89,10 @@
 	SpawnCycleInterval = 50
 	#Max number of eyes entities that will spawn around any one player.
 	#Range: > 1
-	MaxEyesAroundPlayer = 3
+	MaxEyesAroundPlayer = 2
 	#Max number of eyes entities that will spawn in each dimension.
 	#Range: > 1
-	MaxTotalEyesPerDimension = 15
+	MaxTotalEyesPerDimension = 8
 
 #Spawn settings in the days leading to halloween
 [spawning_halloween]
@@ -101,8 +101,8 @@
 	SpawnCycleInterval = 50
 	#Max number of eyes entities that will spawn around any one player.
 	#Range: > 1
-	MaxEyesAroundPlayer = 5
+	MaxEyesAroundPlayer = 2
 	#Max number of eyes entities that will spawn in each dimension.
 	#Range: > 1
-	MaxTotalEyesPerDimension = 25
+	MaxTotalEyesPerDimension = 8
 

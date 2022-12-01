@@ -24,15 +24,10 @@
       "minecraft:campfire_cosy_smoke": false,
       "minecraft:rain": false,
       "minecraft:falling_water": false,
-      "mowziesmobs:ring": true,
-      "mowziesmobs:ring_0": true,
-      "mowziesmobs:ring_big": true,
-      "mowziesmobs:ring1": true,
-      "mowziesmobs:ring2": true,
-      "mowziesmobs:ribbon_flat": true,
-      "mowziesmobs:ribbon_glow": true,
-      "mowziesmobs:ribbon_squiggle": true,
-      "mowziesmobs:ribbon_streaks": true
+      "minecraft:falling_dust": false,
+      "minecraft:ash": false,
+      "minecraft:white_ash": false,
+      "minecraft:dust": false
     }
   },
   "detail_settings": {
@@ -58,7 +53,7 @@
   "extra_settings": {
     "overlay_corner": "TOP_LEFT",
     "text_contrast": "NONE",
-    "show_fps": true,
+    "show_fps": false,
     "show_f_p_s_extended": false,
     "show_coords": false,
     "reduce_resolution_on_mac": true,

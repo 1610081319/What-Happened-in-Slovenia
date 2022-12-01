@@ -18,7 +18,7 @@
         "terraform": -1
     },
    
-    "averageSpacing": 18,  
+    "averageSpacing": 16,  
     "minimumSpacing": 12,          
     "seed": 328978114514,
     "avoidOthers": true,       
@@ -38,6 +38,6 @@
         "#mushroom"
     ],
     "dimensions": [
-        "neverise:witherstorm"
+        "otg:far_from_home_7_premium"
     ]
 }

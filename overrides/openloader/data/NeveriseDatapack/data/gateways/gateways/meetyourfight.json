@@ -1,0 +1,64 @@
+{
+    "size": "large",
+    "color": "#CB3D07",
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "meetyourfight:bellringer"
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "entity_loot",
+                    "entity": "meetyourfight:bellringer",
+                    "rolls": 1
+                }
+            ],
+            "max_wave_time": 2147483640,
+            "setup_time": 100
+        },
+        {
+            "entities": [
+                {
+                    "entity": "meetyourfight:dame_fortuna"
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "entity_loot",
+                    "entity": "meetyourfight:dame_fortuna",
+                    "rolls": 1
+                }
+            ],
+            "max_wave_time": 2147483640,
+            "setup_time": 100
+        },
+        {
+            "entities": [
+                {
+                    "entity": "meetyourfight:swampjaw"
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "entity_loot",
+                    "entity": "meetyourfight:swampjaw",
+                    "rolls": 1
+                }
+            ],
+            "max_wave_time": 2147483640,
+            "setup_time": 100
+        }
+    ],
+    "rewards": [
+	    {
+	    	"type": "stack",
+	    	"stack": {
+	    		"item": "endrem:rogue_eye"
+	    	}
+	    }
+    ],
+    "completion_xp": 1800,
+	"spawn_range": 20
+}

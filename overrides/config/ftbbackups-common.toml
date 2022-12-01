@@ -30,11 +30,11 @@ max_total_size = "50 GB"
 #Only create backups when players have been online.
 only_if_players_online = true
 #Create a backup when server is stopped.
-force_on_shutdown = true
+force_on_shutdown = false
 
 #Advanced features that shouldn't be changed unless you know what you are doing.
 [advanced]
 	#Buffer size for writing files.
 	#Range: 256 ~ 65536
-	buffer_size = 4096
+	buffer_size = 65536
 

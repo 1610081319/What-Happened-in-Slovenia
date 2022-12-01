@@ -8,9 +8,9 @@
 	#Prints the dragon phase in chat if enabled: default:false
 	printDragonPhases = false
 	#Disables mob spawning on the Dragon island: default:true
-	disableDragonAreaSpawns = true
+	disableDragonAreaSpawns = false
 	#List of mobs spawning on crystal respawn, intended to be ranged to ward of players from a distance: e.g. format :  ["minecraft:zombie", "minecraft:creeper"]
 	spawnoncrystalrespawn = ["minecraft:blaze", "outvoted:wildfire"]
 	#List of mobs spawning while the dragon is sitting in the middle, intended to be melee and not vulnerable to ranged: e.g. format :  ["minecraft:zombie", "minecraft:creeper"]
-	spawnwhilelanded = ["minecraft:enderman", "enderlinginvaders:snareling", "enderlinginvaders:watchling", "enderlinginvaders:blastling", "enderlinginvaders:lureling", "enderlinginvaders:thumpling"]
+	spawnwhilelanded = ["minecraft:enderman"]
 

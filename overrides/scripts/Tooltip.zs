@@ -1,15 +1,5 @@
-//Author: @Kasualix
-    import crafttweaker.api.util.text.MCTextComponent as MCTextComponent;
-    import crafttweaker.api.item.IItemStack;
-
-public function tooltip(item as IItemStack, key as string) as void {
-    item.addTooltip(MCTextComponent.createTranslationTextComponent(key));
-}
-
-public function tooltipS(item as IItemStack, key as string) as void {
-    var shift = MCTextComponent.createTranslationTextComponent("info.neverise.shift");
-    item.addShiftTooltip(MCTextComponent.createTranslationTextComponent(key), shift);
-}
+import crafttweaker.api.util.text.MCTextComponent as MCTextComponent;
+import crafttweaker.api.item.IItemStack;
 
 tooltipS(<item:aoa3:fertilised_farmland>, "info.neverise.fertilised_farmland");
 
@@ -124,16 +114,29 @@ var for_storm as IItemStack[] = [
     <item:mcsaforge:tim_chestplate>,
     <item:mcsaforge:tim_leggings>,
     <item:mcsaforge:tim_boots>,
+    <item:witherstormmod:command_block_axe>,
+    <item:witherstormmod:command_block_sword>,
+    <item:gunswithoutroses:iron_gun>,
+    <item:gunswithoutroses:gold_gun>,
+    <item:gunswithoutroses:diamond_shotgun>,
+    <item:gunswithoutroses:diamond_sniper>,
+    <item:gunswithoutroses:diamond_gatling>,
+    <item:dungeons_gear:axe>,
+    <item:dungeons_gear:gold_axe>,
+    <item:dungeons_gear:firebrand>,
+    <item:dungeons_gear:highland_axe>,
+    <item:dungeons_gear:double_axe>,
+    <item:dungeons_gear:cursed_axe>,
+    <item:dungeons_gear:whirlwind>,
+    <item:dungeons_gear:tempest_knife>,
+    <item:dungeons_gear:resolute_tempest_knife>,
+    <item:dungeons_gear:chill_gale_knife>,
     <item:dungeons_gear:rapier>,
     <item:dungeons_gear:bee_stinger>,
     <item:dungeons_gear:freezing_foil>,
-    <item:dungeons_gear:soul_scythe>,
-    <item:dungeons_gear:frost_scythe>,
-    <item:dungeons_gear:jailors_scythe>,
     <item:dungeons_gear:cutlass>,
     <item:dungeons_gear:dancers_sword>,
     <item:dungeons_gear:nameless_blade>,
-    <item:dungeons_gear:sparkler>,
     <item:dungeons_gear:sword>,
     <item:dungeons_gear:stone_sword>,
     <item:dungeons_gear:gold_sword>,
@@ -149,28 +152,11 @@ var for_storm as IItemStack[] = [
     <item:dungeons_gear:claymore>,
     <item:dungeons_gear:broadsword>,
     <item:dungeons_gear:heartstealer>,
-    <item:dungeons_gear:great_axeblade>,
     <item:dungeons_gear:frost_slayer>,
-    <item:dungeons_gear:grave_bane>,
-    <item:dungeons_gear:venom_glaive>,
+    <item:dungeons_gear:fortune_spear>,
     <item:dungeons_gear:glaive>,
-    <item:dungeons_gear:tempest_knife>,
-    <item:dungeons_gear:resolute_tempest_knife>,
-    <item:dungeons_gear:chill_gale_knife>,
-    <item:dungeons_gear:axe>,
-    <item:dungeons_gear:gold_axe>,
-    <item:dungeons_gear:firebrand>,
-    <item:dungeons_gear:highland_axe>,
-    <item:dungeons_gear:double_axe>,
-    <item:dungeons_gear:cursed_axe>,
-    <item:dungeons_gear:whirlwind>,
-    <item:witherstormmod:command_block_axe>,
-    <item:witherstormmod:command_block_sword>,
-    <item:gunswithoutroses:iron_gun>,
-    <item:gunswithoutroses:gold_gun>,
-    <item:gunswithoutroses:diamond_shotgun>,
-    <item:gunswithoutroses:diamond_sniper>,
-    <item:gunswithoutroses:diamond_gatling>
+    <item:dungeons_gear:grave_bane>,
+    <item:dungeons_gear:venom_glaive>
 ];
 var dragonsteel_armor as IItemStack[] = [
     <item:iceandfire:dragonsteel_lightning_helmet>,
@@ -213,7 +199,9 @@ var items as IItemStack[] = [
     <item:aoa3:nowhere_portal>,
     <item:lootgames:puzzle_master>,
     <item:witherstormmod:golden_apple_stew>,
-    <item:witherstormmod:command_block_book>
+    <item:witherstormmod:command_block_book>,
+    <item:minecraft:paper>.withTag({Mark: 1}),
+    <item:bagofyurting:bag_of_yurting>
 ]; 
 var texts as string[] = [
     "info.neverise.charging_table",
@@ -223,23 +211,11 @@ var texts as string[] = [
     "info.neverise.nowhere_portal",
     "info.neverise.puzzle_master",
     "info.neverise.golden_apple_stew",
-    "info.neverise.command_block_book"
+    "info.neverise.command_block_book",
+    "info.neverise.ba_bt_paper",
+    "info.neverise.bagofyurting"
 ];
 
 for misc in 0 .. items.length {
     tooltip(items[misc], texts[misc]);
-}
-
-var yurters as IItemStack[] = [
-    <item:bagofyurting:bag_of_yurting>,
-    <item:bagofyurting:bag_of_yurting>,
-    <item:bagofyurting:bag_of_yurting>,
-    <item:bagofyurting:bag_of_yurting>,
-    <item:bagofyurting:bag_of_yurting>,
-    <item:bagofyurting:bag_of_yurting>,
-    <item:bagofyurting:bag_of_yurting>
-];
-
-for yurt in 0 .. yurters.length {
-    tooltip(yurters[yurt], "info.neverise.bagofyurting");
 }

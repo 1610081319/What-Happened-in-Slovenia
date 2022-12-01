@@ -90,30 +90,6 @@
                 "weight": 20,
                 "minCount": 1,
                 "maxCount": 1
-            },
-            {
-                "type": "graveyard:acolyte",
-                "weight": 16,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "graveyard:ghoul",
-                "weight": 16,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "graveyard:reaper",
-                "weight": 16,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "graveyard:skeleton_creeper",
-                "weight": 16,
-                "minCount": 1,
-                "maxCount": 1
             }
         ],
         "creature": [],

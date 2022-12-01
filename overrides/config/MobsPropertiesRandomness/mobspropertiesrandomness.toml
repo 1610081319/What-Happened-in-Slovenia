@@ -1,8 +1,0 @@
-
-[Base]
-
-	#Base feature of the mod
-	[Base.Base]
-		#If true, all the loaded JSONs will be logged in the mobspropertiesrandomness.log file.
-		Debug = false
-

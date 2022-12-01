@@ -1,6 +1,6 @@
 {
     "notenoughcrashes.gui.restart": "重启虚无崛起",
-    "notenoughcrashes.crashscreen.title": "  ",
+    "notenoughcrashes.crashscreen.title": "虚无崛起崩溃啦",
     "notenoughcrashes.crashscreen.summary": "虚无崛起遇到了一个问题并崩溃了。",
     "notenoughcrashes.crashscreen.paragraph3.line1": "请前往.minecraft/versions/Neverise/logs文件夹",
     "notenoughcrashes.crashscreen.paragraph3.line2": "将latest.log发送给他人（如果你需要获得他人帮助的话）",

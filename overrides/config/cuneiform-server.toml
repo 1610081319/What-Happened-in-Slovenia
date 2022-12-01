@@ -8,5 +8,5 @@
 	"/killitems" = true
 	#Kills all non-player entities.
 	#Default: true
-	"/killall" = true
+	"/killall" = false
 

@@ -50,14 +50,14 @@
 #Settings for Potions HUD
 [potionshud]
 	#Is Potions HUD enabled
-	Potions = false
+	Potions = true
 	#Potion HUD gap
 	#Range: -5 ~ 5
 	potGap = 0
 	#Potion HUD horizontal mode
 	potHor = false
 	#Potion HUD mini mode
-	potMini = true
+	potMini = false
 	#Potion HUD alpha
 	#Range: 0 ~ 100
 	potAlpha = 100
@@ -75,7 +75,7 @@
 	invVal = "BOTTOM"
 	#Potion HUD position (Y)
 	#Range: -9999 ~ 9999
-	yPotionPos = 18
+	yPotionPos = 40
 	#OffHand vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	offVal = "BOTTOM"
@@ -84,7 +84,7 @@
 	helmVal = "BOTTOM"
 	#Armor HUD position (Y)
 	#Range: -9999 ~ 9999
-	yArmPos = 70
+	yArmPos = 86
 	#Inventory HUD position (X)
 	#Range: -9999 ~ 9999
 	xPos = 0
@@ -114,7 +114,7 @@
 	invPosX = -103
 	#Potion HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	potHalign = "RIGHT"
+	potHalign = "LEFT"
 	#InvIcon position (Y)
 	#Range: -9999 ~ 9999
 	invPosY = 20
@@ -147,7 +147,7 @@
 	mainPosY = 71
 	#Potion HUD position (X)
 	#Range: -9999 ~ 9999
-	xPotionPos = 116
+	xPotionPos = 95
 	#Chestplate position (X)
 	#Range: -9999 ~ 9999
 	chestPosX = 103

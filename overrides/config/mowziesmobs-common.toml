@@ -1,7 +1,7 @@
 
 [general]
 	#Add a mob's full name here to prevent it from being frozen or taking damage from ice magic.
-	freeze_blacklist = ["mowziesmobs:frostmaw", "minecraft:enderdragon", "minecraft:blaze", "minecraft:magma_cube", "minecraft:stray", "minecraft:polar_bear", "minecraft:snow_golem", "aoa3:bane", "aoa3:baroness", "aoa3:blue_guardian", "aoa3:clunkhead", "aoa3:corallus", "aoa3:cotton_candor", "aoa3:craexxeus", "aoa3:creep", "aoa3:crystocore", "aoa3:dracyon", "aoa3:elusive", "aoa3:flash", "aoa3:graw", "aoa3:green_guardian", "aoa3:gyro", "aoa3:harkos", "aoa3:hive_king", "aoa3:kajaros", "aoa3:king_bambambam", "aoa3:king_shroomus", "aoa3:klobber", "aoa3:kror", "aoa3:mechbot", "aoa3:mirage", "aoa3:miskel", "aoa3:nethengeic_wither", "aoa3:okazor", "aoa3:proshield", "aoa3:raxxan", "aoa3:red_guardian", "aoa3:rock_rider", "aoa3:shadowlord", "aoa3:smash", "aoa3:tyrosaur", "aoa3:vinocorne", "aoa3:visualent", "aoa3:voxxulon", "aoa3:xxeus", "aoa3:yellow_guardian"]
+	freeze_blacklist = ["mowziesmobs:frostmaw", "minecraft:enderdragon", "minecraft:blaze", "minecraft:magma_cube", "minecraft:stray", "minecraft:polar_bear", "minecraft:snow_golem"]
 
 [tools_and_abilities]
 	#Range: 0.0 ~ 1.7976931348623157E308
@@ -36,10 +36,10 @@
 		[tools_and_abilities.axe_of_a_thousand_metals.tool_config]
 			#Tool attack damage
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_damage = 21.0
+			attack_damage = 9.0
 			#Tool attack speed
 			#Range: 0.0 ~ 1.7976931348623157E308
-			attack_speed = 0.81
+			attack_speed = 0.8999999761581421
 
 	[tools_and_abilities.sol_visage]
 		#Set to true for the Sol Visage to have limited durability.
@@ -117,7 +117,7 @@
 		breakable = false
 		#Earthbore Gauntlet durability
 		#Range: > 1
-		durability = 800
+		durability = 400
 
 		[tools_and_abilities.earthbore_gauntlet.tool_config]
 			#Tool attack damage
@@ -146,7 +146,7 @@
 			#'!MOUNTAIN' would mean all non-mountain biomes
 			biome_type = ["SNOWY,!OCEAN,!RIVER,!BEACH,!FOREST"]
 			#Allow spawns in these biomes regardless of the biome type settings
-			biome_whitelist = ["aoa3:cavern_depths"]
+			biome_whitelist = []
 			#Prevent spawns in these biomes regardless of the biome type settings
 			biome_blacklist = []
 
@@ -155,26 +155,26 @@
 			#Smaller number causes more generation, -1 to disable generation
 			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_distance = -1
+			generation_distance = 25
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_separation = -1
+			generation_separation = 8
 			#Names of dimensions this mob/structure can generate in
-			dimensions = ["aoa3:deeplands"]
+			dimensions = ["minecraft:overworld"]
 			#Maximum height for generation placement. -1 to ignore
 			#Range: -1.0 ~ 256.0
 			height_max = 100.0
 			#Minimum height for generation placement. -1 to ignore
 			#Range: -1.0 ~ 256.0
-			height_min = 30.0
+			height_min = 50.0
 			#Names of structures this mob/structure will avoid when generating
-			avoid_structures = ["aoa3:charging_station", "aoa3:arocknid_cave", "aoa3:deep_lotto_shelter", "aoa3:kror_cave"]
+			avoid_structures = ["minecraft:village", "minecraft:pillager_outpost"]
 
 		[mobs.frostmaw.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 3.2
+			health_multiplier = 1.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_multiplier = 1.0
@@ -185,10 +185,10 @@
 		#Disable/enable Barako healing while not in combat
 		heals_out_of_battle = true
 		#Which item Barako desires in exchange for the Sun's Blessing
-		trade_which_item = "aoa3:gold_coin"
+		trade_which_item = "minecraft:gold_block"
 		#How many of the item Barako desires in exchange for the Sun's Blessing
 		#Range: 0 ~ 64
-		trade_how_many = 1
+		trade_how_many = 7
 
 		#Generation controls for Barakoa villages
 		[mobs.barako.biome_config]
@@ -200,7 +200,7 @@
 			#'!MOUNTAIN' would mean all non-mountain biomes
 			biome_type = ["SAVANNA"]
 			#Allow spawns in these biomes regardless of the biome type settings
-			biome_whitelist = ["aoa3:lelyetian_plains"]
+			biome_whitelist = []
 			#Prevent spawns in these biomes regardless of the biome type settings
 			biome_blacklist = []
 
@@ -209,26 +209,26 @@
 			#Smaller number causes more generation, -1 to disable generation
 			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_distance = 10
+			generation_distance = 25
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_separation = 3
+			generation_separation = 8
 			#Names of dimensions this mob/structure can generate in
-			dimensions = ["aoa3:lelyetia"]
+			dimensions = ["minecraft:overworld"]
 			#Maximum height for generation placement. -1 to ignore
 			#Range: -1.0 ~ 256.0
-			height_max = 200.0
+			height_max = 100.0
 			#Minimum height for generation placement. -1 to ignore
 			#Range: -1.0 ~ 256.0
-			height_min = 65.0
+			height_min = 50.0
 			#Names of structures this mob/structure will avoid when generating
-			avoid_structures = ["aoa3:boney_dungeon", "aoa3:graw_pillar", "aoa3:zhinx_enclave", "aoa3:paravite_hive", "aoa3:lelyetian_tower"]
+			avoid_structures = ["minecraft:village", "minecraft:pillager_outpost"]
 
 		[mobs.barako.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 10.0
+			health_multiplier = 1.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_multiplier = 1.0
@@ -248,7 +248,7 @@
 			#'!MOUNTAIN' would mean all non-mountain biomes
 			biome_type = ["!OCEAN"]
 			#Allow spawns in these biomes regardless of the biome type settings
-			biome_whitelist = ["aoa3:iromine"]
+			biome_whitelist = []
 			#Prevent spawns in these biomes regardless of the biome type settings
 			biome_blacklist = []
 
@@ -257,13 +257,13 @@
 			#Smaller number causes more generation, -1 to disable generation
 			#Maximum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_distance = -1
+			generation_distance = 15
 			#Smaller number causes more generation, -1 to disable generation
 			#Minimum number of chunks between placements of this mob/structure
 			#Range: > -1
-			generation_separation = -1
+			generation_separation = 5
 			#Names of dimensions this mob/structure can generate in
-			dimensions = ["aoa3:iromine"]
+			dimensions = ["minecraft:overworld"]
 			#Maximum height for generation placement. -1 to ignore
 			#Range: -1.0 ~ 256.0
 			height_max = 55.0
@@ -271,12 +271,12 @@
 			#Range: -1.0 ~ 256.0
 			height_min = 30.0
 			#Names of structures this mob/structure will avoid when generating
-			avoid_structures = ["aoa3:charging_pads", "aoa3:professors_lab", "aoa3:mechyon_temple", "aoa3:iro_pillar", "aoa3:enforcer_tower"]
+			avoid_structures = []
 
 		[mobs.ferrous_wroughtnaut.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 5.0
+			health_multiplier = 1.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_multiplier = 1.0
@@ -292,7 +292,7 @@
 			#'!MOUNTAIN' would mean all non-mountain biomes
 			biome_type = ["!MUSHROOM"]
 			#Allow spawns in these biomes regardless of the biome type settings
-			biome_whitelist = ["aoa3:cavern_depths"]
+			biome_whitelist = []
 			#Prevent spawns in these biomes regardless of the biome type settings
 			biome_blacklist = []
 
@@ -300,7 +300,7 @@
 		[mobs.grottol.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 0
+			spawn_rate = 2
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 1
@@ -311,17 +311,17 @@
 			#Range: 0.0 ~ 1.0
 			extra_rarity = 1.0
 			#Names of dimensions this mob can spawn in
-			dimensions = ["aoa3:deeplands"]
+			dimensions = ["minecraft:overworld"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
 			allowed_blocks = []
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
-			allowed_block_tags = []
+			allowed_block_tags = ["minecraft:base_stone_overworld"]
 			#Maximum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
-			height_max = 200
+			height_max = 25
 			#Minimum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
-			height_min = 1
+			height_min = -1
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = true
 			#Set to true to only spawn mob if it can see the sky.
@@ -334,7 +334,7 @@
 		[mobs.grottol.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 4.0
+			health_multiplier = 1.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_multiplier = 1.0
@@ -350,7 +350,7 @@
 			#'!MOUNTAIN' would mean all non-mountain biomes
 			biome_type = ["FOREST,MAGICAL,!SNOWY"]
 			#Allow spawns in these biomes regardless of the biome type settings
-			biome_whitelist = ["aoa3:fungal_caverns"]
+			biome_whitelist = ["minecraft:dark_forest", "minecraft:dark_forest_hills"]
 			#Prevent spawns in these biomes regardless of the biome type settings
 			biome_blacklist = []
 
@@ -358,7 +358,7 @@
 		[mobs.lantern.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 0
+			spawn_rate = 5
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 2
@@ -369,21 +369,21 @@
 			#Range: 0.0 ~ 1.0
 			extra_rarity = 1.0
 			#Names of dimensions this mob can spawn in
-			dimensions = ["aoa3:mysterium"]
+			dimensions = ["minecraft:overworld"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
 			allowed_blocks = []
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
-			allowed_block_tags = []
+			allowed_block_tags = ["minecraft:valid_spawn", "minecraft:leaves", "minecraft:logs"]
 			#Maximum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
 			height_max = -1
 			#Minimum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
-			height_min = 150
+			height_min = 60
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
-			needs_darkness = false
+			needs_darkness = true
 			#Set to true to only spawn mob if it can see the sky.
-			needs_see_sky = true
+			needs_see_sky = false
 			#Set to true to only spawn mob if it can't see the sky.
 			needs_cant_see_sky = false
 			#Names of structures this mob will avoid spawning near.
@@ -392,7 +392,7 @@
 		[mobs.lantern.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 4.0
+			health_multiplier = 1.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_multiplier = 1.0
@@ -411,7 +411,7 @@
 			#'!MOUNTAIN' would mean all non-mountain biomes
 			biome_type = ["SAVANNA"]
 			#Allow spawns in these biomes regardless of the biome type settings
-			biome_whitelist = ["aoa3:lelyetian_plains"]
+			biome_whitelist = []
 			#Prevent spawns in these biomes regardless of the biome type settings
 			biome_blacklist = []
 
@@ -430,30 +430,30 @@
 			#Range: 0.0 ~ 1.0
 			extra_rarity = 1.0
 			#Names of dimensions this mob can spawn in
-			dimensions = ["aoa3:lelyetia"]
+			dimensions = ["minecraft:overworld"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
 			allowed_blocks = []
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
-			allowed_block_tags = []
+			allowed_block_tags = ["minecraft:valid_spawn", "minecraft:sand"]
 			#Maximum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
-			height_max = 150
+			height_max = -1
 			#Minimum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
-			height_min = 1
+			height_min = 60
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = false
 			#Set to true to only spawn mob if it can see the sky.
-			needs_see_sky = true
+			needs_see_sky = false
 			#Set to true to only spawn mob if it can't see the sky.
 			needs_cant_see_sky = false
 			#Names of structures this mob will avoid spawning near.
-			avoid_structures = []
+			avoid_structures = ["minecraft:village", "minecraft:pillager_outpost", "mowziesmobs:barakoa_village"]
 
 		[mobs.barakoa.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 4.0
+			health_multiplier = 1.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_multiplier = 1.0
@@ -469,7 +469,7 @@
 			#'!MOUNTAIN' would mean all non-mountain biomes
 			biome_type = ["BEACH,MOUNTAIN", "BEACH,HILLS"]
 			#Allow spawns in these biomes regardless of the biome type settings
-			biome_whitelist = ["aoa3:haven"]
+			biome_whitelist = ["minecraft:stone_shore"]
 			#Prevent spawns in these biomes regardless of the biome type settings
 			biome_blacklist = []
 
@@ -477,7 +477,7 @@
 		[mobs.naga.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 0
+			spawn_rate = 15
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 2
@@ -488,17 +488,17 @@
 			#Range: 0.0 ~ 1.0
 			extra_rarity = 1.0
 			#Names of dimensions this mob can spawn in
-			dimensions = ["aoa3:haven"]
+			dimensions = ["minecraft:overworld"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
 			allowed_blocks = []
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
 			allowed_block_tags = []
 			#Maximum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
-			height_max = 256
+			height_max = -1
 			#Minimum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
-			height_min = 1
+			height_min = 70
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = false
 			#Set to true to only spawn mob if it can see the sky.
@@ -506,7 +506,7 @@
 			#Set to true to only spawn mob if it can't see the sky.
 			needs_cant_see_sky = false
 			#Names of structures this mob will avoid spawning near.
-			avoid_structures = []
+			avoid_structures = ["minecraft:village", "minecraft:pillager_outpost"]
 
 		[mobs.naga.combat_config]
 			#Scale mob health by this value
@@ -527,7 +527,7 @@
 			#'!MOUNTAIN' would mean all non-mountain biomes
 			biome_type = ["JUNGLE"]
 			#Allow spawns in these biomes regardless of the biome type settings
-			biome_whitelist = ["aoa3:precasian_tall_forest"]
+			biome_whitelist = []
 			#Prevent spawns in these biomes regardless of the biome type settings
 			biome_blacklist = []
 
@@ -535,7 +535,7 @@
 		[mobs.foliaath.spawn_config]
 			#Smaller number causes less spawning, 0 to disable spawning
 			#Range: > 0
-			spawn_rate = 0
+			spawn_rate = 70
 			#Minimum number of mobs that appear in a spawn group
 			#Range: > 1
 			min_group_size = 1
@@ -544,32 +544,32 @@
 			max_group_size = 4
 			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
 			#Range: 0.0 ~ 1.0
-			extra_rarity = 0.0
+			extra_rarity = 1.0
 			#Names of dimensions this mob can spawn in
-			dimensions = ["aoa3:precasia"]
+			dimensions = ["minecraft:overworld"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
 			allowed_blocks = []
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
-			allowed_block_tags = []
+			allowed_block_tags = ["minecraft:valid_spawn", "minecraft:leaves", "minecraft:logs"]
 			#Maximum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
-			height_max = 150
+			height_max = -1
 			#Minimum height for this spawn. -1 to ignore.
 			#Range: -1 ~ 256
-			height_min = 40
+			height_min = 60
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = false
 			#Set to true to only spawn mob if it can see the sky.
-			needs_see_sky = true
+			needs_see_sky = false
 			#Set to true to only spawn mob if it can't see the sky.
 			needs_cant_see_sky = false
 			#Names of structures this mob will avoid spawning near.
-			avoid_structures = []
+			avoid_structures = ["minecraft:village", "minecraft:pillager_outpost"]
 
 		[mobs.foliaath.combat_config]
 			#Scale mob health by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
-			health_multiplier = 5.0
+			health_multiplier = 1.0
 			#Scale mob attack damage by this value
 			#Range: 0.0 ~ 1.7976931348623157E308
 			attack_multiplier = 1.0

@@ -1,0 +1,61 @@
+{
+	"mod": "ba_bt",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"ocean_golem": {
+						// Do not edit this name
+						"name": "ocean_golem",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"end_golem": {
+						// Do not edit this name
+						"name": "end_golem",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"sky_minion": {
+						// Do not edit this name
+						"name": "sky_minion",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"core_golem": {
+						// Do not edit this name
+						"name": "core_golem",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"sky_golem": {
+						// Do not edit this name
+						"name": "sky_golem",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"nether_golem": {
+						// Do not edit this name
+						"name": "nether_golem",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"silver_skeleton": {
+						// Do not edit this name
+						"name": "silver_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"land_golem": {
+						// Do not edit this name
+						"name": "land_golem",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

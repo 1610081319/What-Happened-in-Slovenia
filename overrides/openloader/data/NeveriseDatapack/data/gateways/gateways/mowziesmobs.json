@@ -1,0 +1,88 @@
+{
+    "size": "large",
+    "color": "#CB3D07",
+    "waves": [
+        {
+            "entities": [
+                {
+                    "entity": "mowziesmobs:ferrous_wroughtnaut"
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "entity_loot",
+                    "entity": "mowziesmobs:ferrous_wroughtnaut",
+                    "rolls": 1
+                }
+            ],
+            "max_wave_time": 2147483640,
+            "setup_time": 100
+        },
+        {
+            "entities": [
+                {
+                    "entity": "mowziesmobs:barako"
+                },
+                {
+                    "entity": "mowziesmobs:barakoan_barakoana"
+                },
+                {
+                    "entity": "mowziesmobs:barakoana"
+                },
+                {
+                    "entity": "mowziesmobs:barakoaya"
+                },
+                {
+                    "entity": "mowziesmobs:barakoaya"
+                },
+                {
+                    "entity": "mowziesmobs:barakoaya"
+                },
+                {
+                    "entity": "mowziesmobs:barakoan_player"
+                },
+                {
+                    "entity": "mowziesmobs:barakoan_player"
+                },
+                {
+                    "entity": "mowziesmobs:barakoan_player"
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "entity_loot",
+                    "entity": "mowziesmobs:barako",
+                    "rolls": 1
+                }
+            ],
+            "max_wave_time": 2147483640,
+            "setup_time": 100
+        },
+        {
+            "entities": [
+                {
+                    "entity": "mowziesmobs:frostmaw"
+                }
+            ],
+            "rewards": [
+                {
+                    "type": "entity_loot",
+                    "entity": "mowziesmobs:frostmaw",
+                    "rolls": 1
+                }
+            ],
+            "max_wave_time": 2147483640,
+            "setup_time": 100
+        }
+    ],
+    "rewards": [
+	    {
+	    	"type": "stack",
+	    	"stack": {
+	    		"item": "endrem:lost_eye"
+	    	}
+	    }
+    ],
+    "completion_xp": 1800,
+	"spawn_range": 20
+}

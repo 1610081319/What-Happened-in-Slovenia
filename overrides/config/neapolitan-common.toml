@@ -11,14 +11,14 @@
 
 	[world.generation]
 		#The chance Strawberry Bushes have to generate in Plains biomes (larger = more common)
-		"Strawberry Bush chance" = 12
+		"Strawberry Bush chance" = 5
 		#The chance Vanilla Vines have to generate in Savanna biomes (larger = more common)
-		"Vanilla Vine chance" = 10
+		"Vanilla Vine chance" = 4
 		#The chance Adzuki Sprouts have to generate in Forest biomes (larger = more common)
-		"Adzuki Sprouts chance" = 7
+		"Adzuki Sprouts chance" = 3
 		#The chance ponds with Mint have to generate in Mountain biomes (larger = more common)
-		"Mint pond chance" = 6
-		"Banana Plants generate in Beach biomes" = true
+		"Mint pond chance" = 4
+		"Banana Plants generate in Beach biomes" = false
 		"Banana Plants generate in Jungle biomes" = true
 
 [mobs]
@@ -31,11 +31,11 @@
 	[mobs.chimpanzee]
 		"Chimpanzee spawn in Jungles" = true
 		#The percentage chance for a Banana Plant to generate with a group of Chimpanzees
-		"Chimpanzee group chance" = 0.25
+		"Chimpanzee group chance" = 0.03
 		#The maximum amount of Chimpanzees that can spawn with a Banana Plant
-		"Chimpanzee maximum group size" = 10
+		"Chimpanzee maximum group size" = 1
 		#The minimum attempts for Chimpanzees to spawn with a Banana Plant
-		"Chimpanzee minimum spawn attempts" = 12
+		"Chimpanzee minimum spawn attempts" = 48
 		#The maximum attempts for Chimpanzees to spawn with a Banana Plant
-		"Chimpanzee maximum spawn attempts" = 24
+		"Chimpanzee maximum spawn attempts" = 96
 

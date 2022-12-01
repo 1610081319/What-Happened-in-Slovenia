@@ -1,26 +1,19 @@
 {
   "retroGen": false,
   "swapper": {
-    "endergetic:ender_fire": "minecraft:air",
-    "aoa3:nowhere_activity_portal": "connectedglass:borderless_glass_orange",
-    "minecraft:cobblestone_wall": "connectedglass:borderless_glass_light_gray",
-    "minecraft:iron_bars": "connectedglass:borderless_glass_light_gray",
-    "minecraft:blue_stained_glass": "connectedglass:borderless_glass_blue",
-    "minecraft:glass": "connectedglass:clear_glass",
-    "minecraft:glass_pane": "connectedglass:clear_glass",
-    "minecraft:light_blue_stained_glass": "connectedglass:borderless_glass_light_blue",
-    "minecraft:white_stained_glass_pane": "connectedglass:borderless_glass_white_pane",
-    "minecraft:gray_stained_glass_pane": "connectedglass:borderless_glass_gray_pane",
-    "minecraft:light_blue_stained_glass_pane": "connectedglass:borderless_glass_light_blue_pane",
-    "minecraft:gray_stained_glass": "connectedglass:borderless_glass_gray",
-    "minecraft:white_stained_glass": "connectedglass:borderless_glass_white",
-    "minecraft:blue_stained_glass_pane": "connectedglass:borderless_glass_blue_pane",
     "minecraft:player_head": "minecraft:air",
-    "aoa3:ancient_rock": "minecraft:air",
     "aoa3:carved_rune_of_direction": "minecraft:air",
     "aoa3:carved_rune_of_power": "minecraft:air",
     "aoa3:carved_rune_of_reality": "minecraft:air",
     "aoa3:carved_rune_of_space": "minecraft:air",
-    "aoa3:carved_rune_of_travel": "minecraft:air"
+    "aoa3:carved_rune_of_travel": "minecraft:air",
+    "endrem:end_crystal_ore": "minecraft:blackstone",
+    "byg:winter_grass": "minecraft:air",
+    "aoa3:nowhere_activity_portal": "minecraft:air",
+    "byg:leaf_pile": "minecraft:air",
+    "wyrmroost:blue_geode_ore": "minecraft:stone",
+    "wyrmroost:platinum_ore": "minecraft:stone",
+    "wyrmroost:red_geode_ore": "minecraft:netherrack",
+    "wyrmroost:purple_geode_ore": "minecraft:end_stone"
   }
 }

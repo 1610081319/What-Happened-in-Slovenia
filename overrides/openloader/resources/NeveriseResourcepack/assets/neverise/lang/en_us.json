@@ -1,4 +1,5 @@
 {
+    "eventMessage.neverise.rusher": "§6§l§o你需要打一场 袭击/迎战Boss Rush/MCD Mobs Rush 才能再次挑战 AoA3 的 Boss 们。",
     "eventMessage.neverise.login": "§6§l§o「You wake up in Nowhere」",
     "eventMessage.neverise.after_storm.1": "§6§l§oThe Wither Storm is not completely dead.",
     "eventMessage.neverise.after_storm.2": "§6§l§oIts residual power escaped to the Overworld, becoming a crippled Wither.",
@@ -20,7 +21,7 @@
     "info.neverise.golden_apple_stew": "§5§l§oCan be used to mitigate Wither Sickness (a debuff that gradually lowers the player's health cap)",
     "info.neverise.command_block_book": "§5§l§oObtain by killing Wither Symbiont",
     "info.neverise.dragonsteel_armor.1": "§2Full set bonus:",
-    "info.neverise.dragonsteel_armor.2": "§2When taking damage, if your dragon is around for 100*100*100 range centered on you, you have a 40% chance of being immune to it",
+    "info.neverise.dragonsteel_armor.2": "§2When taking damage, if your dragon is around for 100*100*100 range centered on you, you have a 30% chance of being immune to it",
     "info.neverise.bagofyurting": "§5§l§oShift and right-click to save chests. Can't target other kinds of blocks.",
-    "dimensions.neverise.witherstorm": "Wither Storm Dimension"
+    "info.neverise.ba_bt_paper": "§5§l§opiece of shit"
 }

@@ -10,7 +10,7 @@
 	targetStationaryChunkRadius = 7
 	#DEFAULT=4. The chance for the Wither Storm to choose a player instead of another entity, out of 10. Reload Type: NONE
 	#Range: 0 ~ 10
-	playerPickupChance = 6
+	playerPickupChance = 8
 	#DEFAULT=1.0. Specifies a modifier value of the evolution rate attribute. The higher the value, the longer it takes for the Wither Storm to make a complete evolution (from phases 0 to 7), and vice versa. Cannot be lower than 0. Reload Type: NONE
 	#Range: 0.01 ~ 32.0
 	evolutionAttributeModifier = 0.1
@@ -22,7 +22,7 @@
 	targetRunawayMinutes = 10
 	#DEFAULT=50. Specifies the invulnerability time when the Wither Storm has been summoned, in seconds. When invulnerable, the Wither Storm doesn't move and can't be attacked. Reload Type: NONE
 	#Range: 1 ~ 320
-	invulnerabilityTime = 50
+	invulnerabilityTime = 20
 	#DEFAULT=0.4. Specifies a modifier value of Target Stationary Flying Speed attribute. The higher the value, the faster the Wither Storm will go when its ultimate target is stationary. Reload Type: WORLD
 	#Range: 0.01 ~ 1.0
 	targetStationaryFlyingSpeed = 0.5
@@ -72,7 +72,7 @@
 	squashHitbox = true
 	#DEFAULT=20. Alters the interval (in ticks) of picking up block clusters for the hunchback phases (phase 0 - 3). NOTE: This value changes the evolution speed of the Wither Storm significantly. Reload Type: NONE
 	#Range: 10 ~ 80
-	hunchbackClusterPickupInterval = 40
+	hunchbackClusterPickupInterval = 60
 	#DEFAULT=40. Alters the interval (in ticks) of picking up block clusters for the destroyer phases (phase 4 - 7). NOTE: This value changes the evolution speed of the Wither Storm significantly. Reload Type: NONE
 	#Range: 10 ~ 80
 	clusterPickupInterval = 80

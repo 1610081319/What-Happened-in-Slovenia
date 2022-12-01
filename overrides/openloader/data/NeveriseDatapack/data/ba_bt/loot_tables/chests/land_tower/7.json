@@ -110,6 +110,46 @@
             "entries": [
                 {
                     "type": "minecraft:item",
+                    "name": "dungeons_gear:axe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:gold_axe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:firebrand"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:highland_axe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:double_axe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:cursed_axe"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:whirlwind"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:tempest_knife"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:resolute_tempest_knife"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:chill_gale_knife"
+                },
+                {
+                    "type": "minecraft:item",
                     "name": "dungeons_gear:rapier"
                 },
                 {
@@ -122,18 +162,6 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "dungeons_gear:soul_scythe"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "dungeons_gear:frost_scythe"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "dungeons_gear:jailors_scythe"
-                },
-                {
-                    "type": "minecraft:item",
                     "name": "dungeons_gear:cutlass"
                 },
                 {
@@ -143,10 +171,6 @@
                 {
                     "type": "minecraft:item",
                     "name": "dungeons_gear:nameless_blade"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "dungeons_gear:sparkler"
                 },
                 {
                     "type": "minecraft:item",
@@ -210,11 +234,15 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "dungeons_gear:great_axeblade"
+                    "name": "dungeons_gear:frost_slayer"
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "dungeons_gear:frost_slayer"
+                    "name": "dungeons_gear:fortune_spear"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "dungeons_gear:glaive"
                 },
                 {
                     "type": "minecraft:item",
@@ -223,50 +251,6 @@
                 {
                     "type": "minecraft:item",
                     "name": "dungeons_gear:venom_glaive"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "dungeons_gear:glaive"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "dungeons_gear:tempest_knife"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "dungeons_gear:resolute_tempest_knife"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "dungeons_gear:chill_gale_knife"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "dungeons_gear:axe"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "dungeons_gear:gold_axe"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "dungeons_gear:firebrand"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "dungeons_gear:highland_axe"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "dungeons_gear:double_axe"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "dungeons_gear:cursed_axe"
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "dungeons_gear:whirlwind"
                 }
             ]
         },

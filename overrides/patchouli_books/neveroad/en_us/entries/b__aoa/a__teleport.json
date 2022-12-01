@@ -13,7 +13,7 @@
         },
         {
             "type": "text",
-            "text": "    There is only one way to reach the other dimensions: Nether Painting.$(br)    You need a 2*4 wall to right-click and place it in the world.$(br)    Once you jump into it, you will be teleported to a random dimension mentioned above."
+            "text": "    At the beginning, there are three ways to reach the other dimensions: Weeping Angels/ Nether Painting/ Falling Through.$(br2)    Weeping Angel: When you are attacked by it, you will be randomly teleported to another dimension.$(br2)    Nether Painting: Can only be placed in Overworld. You need a 2*4 wall to right-click and place it in the world.$(br)    Once you jump into it, you will be teleported to a random dimension mentioned above.$(br2)    Falling Through: Try digging through the center of the world?"
         },
         {
             "type": "text",
