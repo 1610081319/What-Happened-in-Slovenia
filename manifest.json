@@ -12,7 +12,7 @@
   "manifestVersion": 1,
   "name": "Neverise",
   "version": "dev",
-  "author": "Kasualix",
+  "author": "",
   "files": [
     {
       "projectID": 285612,
@@ -1062,6 +1062,11 @@
     {
       "projectID": 495476,
       "fileID": 3517499,
+      "required": true
+    },
+    {
+      "projectID": 318283,
+      "fileID": 4075818,
       "required": true
     },
     {
