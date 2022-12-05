@@ -3,9 +3,7 @@ function killitems(server) {
         entity.kill()
     })
     //server.tell(`Items in the world are cleared.`)
-    //server.tell(`If you wanna clear items manually, try /killitems.`)
     server.tell(`已清理掉落物。`)
-    server.tell(`如果你想手动清理掉落物，请运行/killitems指令。`)
 }
 
 const minutes = 18
