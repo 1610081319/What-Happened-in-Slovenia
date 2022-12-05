@@ -52,25 +52,25 @@
     B:CrashOnUnnamedPool=true
 
     # Whether or not Crying Netherite Armor should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheriteArmorEnabled=true
+    B:CryingNetheriteArmorEnabled=false
 
     # Whether or not Crying Netherite Axe should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheriteAxeEnabled=true
+    B:CryingNetheriteAxeEnabled=false
 
     # Whether or not Crying Netherite Hoe should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheriteHoeEnabled=true
+    B:CryingNetheriteHoeEnabled=false
 
     # Whether or not Crying Netherite Ingot should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheriteIngotEnabled=true
+    B:CryingNetheriteIngotEnabled=false
 
     # Whether or not Crying Netherite Pickaxe should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheritePickaxeEnabled=true
+    B:CryingNetheritePickaxeEnabled=false
 
     # Whether or not Crying Netherite Shovel should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheriteShovelEnabled=true
+    B:CryingNetheriteShovelEnabled=false
 
     # Whether or not Crying Netherite Sword should be enabled. [default: true, synchronized: yes]
-    B:CryingNetheriteSwordEnabled=true
+    B:CryingNetheriteSwordEnabled=false
 
     # Whether or not this mod should add any custom loot to dungeon chests' loot tables. This options is mainly for modpack developers and enables them to re-add that loot on their own terms, since no other ways of modifying what Enigmatic Legacy adds to loot tables currently exist. [default: true, synchronized: yes]
     B:CustomDungeonLootEnabled=true
@@ -103,28 +103,28 @@
     B:EssenceofRagingLifeEnabled=true
 
     # Whether or not Etherium Armor should be enabled. [default: true, synchronized: yes]
-    B:EtheriumArmorEnabled=true
+    B:EtheriumArmorEnabled=false
 
     # Whether or not Etherium Broadsword should be enabled. [default: true, synchronized: yes]
-    B:EtheriumBroadswordEnabled=true
+    B:EtheriumBroadswordEnabled=false
 
     # Whether or not Etherium Ingot should be enabled. [default: true, synchronized: yes]
-    B:EtheriumIngotEnabled=true
+    B:EtheriumIngotEnabled=false
 
     # Whether or not Etherium Ore should be enabled. [default: true, synchronized: yes]
-    B:EtheriumOreEnabled=true
+    B:EtheriumOreEnabled=false
 
     # Whether or not Etherium Pickaxe should be enabled. [default: true, synchronized: yes]
-    B:EtheriumPickaxeEnabled=true
+    B:EtheriumPickaxeEnabled=false
 
     # Whether or not Etherium Scythe should be enabled. [default: true, synchronized: yes]
-    B:EtheriumScytheEnabled=true
+    B:EtheriumScytheEnabled=false
 
     # Whether or not Etherium Shovel should be enabled. [default: true, synchronized: yes]
-    B:EtheriumShovelEnabled=true
+    B:EtheriumShovelEnabled=false
 
     # Whether or not Etherium Warxe should be enabled. [default: true, synchronized: yes]
-    B:EtheriumWarxeEnabled=true
+    B:EtheriumWarxeEnabled=false
 
     # Whether or not Exquisite Ring should be enabled. [default: true, synchronized: yes]
     B:ExquisiteRingEnabled=true
@@ -547,7 +547,7 @@
 
 "Generic Config" {
     # Maximum amount of Soul Crystals a player can loose before they won't drop anymore. Each crystal lost subtracts 10% of from their maximum possible health value. [range: 1 ~ 10, default: 9, synchronized: no]
-    I:MaxSoulCrystalLoss=9
+    I:MaxSoulCrystalLoss=10
 
     # Soul Crystals mechanic mode. 0 - disabled unless enforced by specific in-game items; 1 - also enabled when keepInventory is true; 2 - always enabled. [range: 0 ~ 2, default: 0, synchronized: no]
     I:SoulCrystalsMode=0

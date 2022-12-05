@@ -51,19 +51,19 @@
 						// Do not edit this name
 						"name": "wraith",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					},
 					"forgotten": {
 						// Do not edit this name
 						"name": "forgotten",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					},
 					"wrapped": {
 						// Do not edit this name
 						"name": "wrapped",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					}
 				}
 			}

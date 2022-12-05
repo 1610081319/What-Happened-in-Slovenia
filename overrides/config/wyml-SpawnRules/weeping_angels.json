@@ -10,13 +10,13 @@
 						// Do not edit this name
 						"name": "anomaly",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					},
 					"weeping_angel": {
 						// Do not edit this name
 						"name": "weeping_angel",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 8
 					}
 				}
 			}

@@ -20,6 +20,9 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
     var uuid = entity.uuid;
     var pos = entity.position;
     var dmgsource = event.source;
+    var health = entity.getHealth();
+    var m_health = entity.getMaxHealth();
+    var attacker = dmgsource.trueSource;
 
     if ("player" in attacked) {
         if ("nowhere" in world.dimension) event.cancel();
@@ -82,20 +85,11 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
             }
         }
     }
-    var health = entity.getHealth();
-    var m_health = entity.getMaxHealth();
     if (a in attacked && m_health * 0.4 > health && "xxeus" in attacked) server.executeCommand(effect + uuid + " minecraft:strength 114514 1", true);
     if (attacked in aoa_bosses && "aoa3" in attacked) {
         if (m_health * 0.2 >= health) server.executeCommand(effect + uuid + " minecraft:speed 114514 1", true);
         server.executeCommand(effect + uuid + " minecraft:fire_resistance 114514", true);
     }
-    var attacker = dmgsource.trueSource;
     if (attacker == null) return;
-    if ("player" in attacker.type.commandString && attacked in aoa_bosses) {
-        if (attacker.removeTag("rusher")) {
-            attacker.addTag("rusher");
-            event.cancel();
-        }
-    }
     if (attacker.removeTag("target_slow")) server.executeCommand(effect + uuid + " minecraft:slowness 3 1", true);
 });

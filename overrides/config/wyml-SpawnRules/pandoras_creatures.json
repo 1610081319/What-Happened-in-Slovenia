@@ -38,25 +38,25 @@
 						// Do not edit this name
 						"name": "acidic_archvine",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					},
 					"end_troll": {
 						// Do not edit this name
 						"name": "end_troll",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					},
 					"arachnon": {
 						// Do not edit this name
 						"name": "arachnon",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					},
 					"hellhound": {
 						// Do not edit this name
 						"name": "hellhound",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					}
 				}
 			}

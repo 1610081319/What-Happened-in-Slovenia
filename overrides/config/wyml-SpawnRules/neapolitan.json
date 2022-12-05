@@ -21,7 +21,7 @@
 						// Do not edit this name
 						"name": "plantain_spider",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					}
 				}
 			}

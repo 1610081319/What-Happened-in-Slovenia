@@ -64,7 +64,7 @@
 	// How many ticks to store a SpawnManager for a chunk after it's last update
 	"MANAGER_CACHE_TICKS": 600,
 	// Disable this once you are happy with the configs you have and their impact on memory. This will print how many SpawnManagers and SpawnCaches we have at once, every 10 seconds.
-	"CLEAN_PRINT": true,
+	"CLEAN_PRINT": false,
 	// Allow Paper bags to pickup item spills
 	"ALLOW_PAPER_BAGS": false,
 	// The minimum age an item will need to be in a spill before a Paper bag will be spawned (default 60)
@@ -74,7 +74,7 @@
 	// The amount of time in seconds before a Paper bag will de-spawn (default 300)
 	"PAPER_BAG_DESPAWN_TIME": 300,
 	// The amount of monster creatures that can spawn in a chunk
-	"MONSTER_PER_CHUNK": 70,
+	"MONSTER_PER_CHUNK": 30,
 	// The amount of creatures that can spawn in a chunk
 	"CREATURES_PER_CHUNK": 10,
 	// The amount of ambient creatures that can spawn in a chunk
@@ -82,7 +82,7 @@
 	// The amount of water creatures that can spawn in a chunk
 	"WATER_CREATURES_PER_CHUNK": 5,
 	// The amount of water_ambient creatures that can spawn in a chunk
-	"WATER_AMBIENT_PER_CHUNK": 20,
+	"WATER_AMBIENT_PER_CHUNK": 10,
 	// The amount of misc creatures that can spawn in a chunk
 	"MISC_CREATURES_PER_CHUNK": -1,
 	// Allow per mob, per category, per chunk, per mob limitations from the SpawnLimits directory.

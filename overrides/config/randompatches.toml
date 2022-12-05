@@ -103,7 +103,7 @@
 		#  - ${username}: The username.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion}"
-		simple_title = "Neverise"
+		simple_title = "What Happened in Slovenia"
 		# The Minecraft window title.
 		# The current activity is not available.
 		# Variables:
@@ -113,7 +113,7 @@
 		#  - ${modversion:modid}: The version of the mod with the specified ID.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion}"
-		title = "Neverise | AoA3-${modversion:aoa3}"
+		title = "What Happened in Slovenia"
 		# The Minecraft window title that also takes into account the current activity.
 		# Variables:
 		#  - ${mcversion}: The Minecraft version
@@ -123,7 +123,7 @@
 		#  - ${modversion:modid}: The version of the mod with the specified ID.
 		# '$' can be escaped by using an extra '$'.
 		# Default: "Minecraft ${mcversion} - ${activity}"
-		title_with_activity = "Neverise | AoA3-${modversion:aoa3} | ${activity}"
+		title_with_activity = "What Happened in Slovenia | ${activity}"
 		# Enables custom Minecraft window icons.
 		# Default: true
 		custom_icon = true
@@ -131,16 +131,16 @@
 		# Forward slashes should be used even on Windows to preserve compatibility with other platforms.
 		# Backward slashes will automatically be replaced.
 		# Default: ""
-		icon_16x16 = "openloader/resources/NeveriseResourcepack/assets/neverise/textures/icon_smallest.png"
+		icon_16x16 = "openloader/resources/WhatHappenedInSloveniaResourcepack/assets/what_happened_in_slovenia/textures/icon_smallest.png"
 		# The path to the 16x16 Minecraft window icon relative to the Minecraft instance directory.
 		# Forward slashes should be used even on Windows to preserve compatibility with other platforms.
 		# Backward slashes will automatically be replaced.
 		# Default: ""
-		icon_32x32 = "openloader/resources/NeveriseResourcepack/assets/neverise/textures/icon_medium.png"
+		icon_32x32 = "openloader/resources/WhatHappenedInSloveniaResourcepack/assets/what_happened_in_slovenia/textures/icon_medium.png"
 		# The path to the 256x256 Minecraft window icon relative to the Minecraft instance directory.
 		# This is only used on Mac OS X.
 		# Default: ""
-		icon_256x256 = "openloader/resources/NeveriseResourcepack/assets/neverise/textures/icon_biggest.png"
+		icon_256x256 = "openloader/resources/WhatHappenedInSloveniaResourcepack/assets/what_happened_in_slovenia/textures/icon_biggest.png"
 
 # Options related to connection timeouts.
 [connection_timeouts]

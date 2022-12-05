@@ -85,23 +85,5 @@
         "damagemultiply": 2.0,
         "healthmultiply": 1.5,
         "speedmultiply": 1.2
-    },
-    {
-        "mob": "meetyourfight:bellringer",
-        "healthadd": 300,
-        "onjoin": true,
-        "result": "default"
-    },
-    {
-        "mob": "meetyourfight:dame_fortuna",
-        "healthadd": 200,
-        "onjoin": true,
-        "result": "default"
-    },
-    {
-        "mob": "meetyourfight:swampjaw",
-        "healthadd": 300,
-        "onjoin": true,
-        "result": "default"
     }
 ]

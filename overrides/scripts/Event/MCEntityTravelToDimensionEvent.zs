@@ -36,12 +36,12 @@ CTEventManager.register<MCEntityTravelToDimensionEvent>(event => {
         var pos = entity.position;
         var there = event.dimension.commandString;
         var server = world.asServerWorld().server;
+        var go = server.getWorld(dim_resources[world.random.nextInt(0, 20)]);
         if (entity.removeTag("nowherer")) {
-            event.cancel();
             entity.addTag("otger");
             return;
         }
-
+        
         if (entity.removeTag("overworld")) {
             event.cancel();
             server.executeCommand("execute in minecraft:overworld run tp " + entity.uuid + " 0 256 0", true);
@@ -53,7 +53,6 @@ CTEventManager.register<MCEntityTravelToDimensionEvent>(event => {
             if (entity.removeTag("dim_randomized")) return;
             if (entity.removeTag("recaller")) return;
             if ("nether" in there || "aoa3" in there) {
-                var go = server.getWorld(dim_resources[world.random.nextInt(0, 20)]);
                 event.cancel();
                 server.executeCommand("execute in " + go.toString() + " run tp " + entity.uuid + " " + pos.x + " " + pos.y + " " + pos.z, true);
                 go.setBlockState(pos, <blockstate:minecraft:air>);

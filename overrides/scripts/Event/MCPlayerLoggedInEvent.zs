@@ -10,7 +10,6 @@ CTEventManager.register<MCPlayerLoggedInEvent>(event => {
         return;
     }
     player.addTag("logged");
-    player.addTag("nowherer");
     player.addGameStage("logged");
     player.addGameStage("before_wither");
     world.asServerWorld().server.executeCommand("execute in aoa3:nowhere run tp " + player.uuid + " 0 202 0", true);

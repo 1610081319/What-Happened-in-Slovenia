@@ -14,22 +14,17 @@ CTEventManager.register<MCRightClickBlockEvent>((event) => {
     var sneak = player.isSneaking();
     var bp = event.blockPos;
     var block = world.getBlockState(bp).commandString;
+    var x = bp.x;
+    var y = bp.y;
+    var z = bp.z;
+    var dim = world.dimension;
+    var name = item.commandString;
     
     if (batsman in block) {
-        var x = bp.x;
-        var y = bp.y;
-        var z = bp.z;
-        var dim = world.dimension;
         server.executeCommand("execute in " + dim + " fill " + x + " " + y + " " + z + " " + x + " " + y + " " + z + " minecraft:air", true);
         for bats in 0 .. 64 {
             server.executeCommand("execute in " + dim + " run summon minecraft:bat " + x + " " + y + " " + z, true);
         }
-    }
-
-    if ("rickroll:disk" in item.commandString && "minecraft:jukebox" in block) {
-        player.removeGameStage("momlove");
-        player.removeTag("momlove");
-        return;
     }
 
     if ("bonfires" in block) {
@@ -37,12 +32,12 @@ CTEventManager.register<MCRightClickBlockEvent>((event) => {
         return;
     }
 
-    if (player.getExperienceTotal() >= 50 && player.removeTag("spaceking") && sneak && "aoa3:ancient_rock" in item.commandString) {
+    if (player.getExperienceTotal() >= 50 && player.removeTag("spaceking") && sneak && "aoa3:ancient_rock" in name) {
         var pos as string[] = item.tag.asString().split(" ");
         server.executeCommand("execute in " + world.dimension + " run tp " + player.uuid + " " + pos[9] + " " + pos[5] + " " + pos[1], true);
         player.giveExperiencePoints(-50);
         return;
     }
     
-    if ("bagofyurting" in item.commandString && !("yurtdata_id" in item.getOrCreate.asString()) && !("chest" in block && sneak)) event.cancel();
+    if ("bagofyurting" in name && !("yurtdata_id" in item.getOrCreate.asString()) && !("chest" in block && sneak)) event.cancel();
 });

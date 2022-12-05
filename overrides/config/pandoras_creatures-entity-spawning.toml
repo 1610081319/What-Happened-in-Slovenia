@@ -5,17 +5,17 @@ isDebugModeEnabled = false
 # an Entity, it will not spawn regardless of its Advanced Entity Spawn Settings
 ["Toggle Entity Spawning Settings"]
 	# Toggle Arachnon Spawning
-	arachnonSpawning = false
+	arachnonSpawning = true
 	# Toggle Hellhound Spawning
-	hellhoundSpawning = false
+	hellhoundSpawning = true
 	# Toggle Crab Spawning
-	crabSpawning = false
+	crabSpawning = true
 	# Toggle Seahorse Spawning
-	seahorseSpawning = false
+	seahorseSpawning = true
 	# Toggle Acidic Archvine Spawning
-	acidicArchvineSpawning = false
+	acidicArchvineSpawning = true
 	# Toggle Bufflon Spawning
-	bufflonSpawning = false
+	bufflonSpawning = true
 
 # Tutorial on how to use the Advanced Entity Spawn Settings:
 # Lets start by explaining what each value does, and how to properly use it.

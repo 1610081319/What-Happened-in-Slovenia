@@ -21,31 +21,31 @@
 						// Do not edit this name
 						"name": "trickster",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					},
 					"skeleton_villager": {
 						// Do not edit this name
 						"name": "skeleton_villager",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					},
 					"iceologer": {
 						// Do not edit this name
 						"name": "iceologer",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					},
 					"executioner": {
 						// Do not edit this name
 						"name": "executioner",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					},
 					"griefer": {
 						// Do not edit this name
 						"name": "griefer",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					}
 				}
 			}

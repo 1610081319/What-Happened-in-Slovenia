@@ -10,43 +10,43 @@
 						// Do not edit this name
 						"name": "ignis",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 5
 					},
 					"nameless_sorcerer": {
 						// Do not edit this name
 						"name": "nameless_sorcerer",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					},
 					"ender_golem": {
 						// Do not edit this name
 						"name": "ender_golem",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					},
 					"endermaptera": {
 						// Do not edit this name
 						"name": "endermaptera",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					},
 					"ender_guardian": {
 						// Do not edit this name
 						"name": "ender_guardian",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 5
 					},
 					"netherite_monstrosity": {
 						// Do not edit this name
 						"name": "netherite_monstrosity",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 5
 					},
 					"ignited_revenant": {
 						// Do not edit this name
 						"name": "ignited_revenant",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					}
 				}
 			}

@@ -11,18 +11,10 @@ CTEventManager.register<MCEntityJoinWorldEvent>((event) => {
     var dim = world.dimension;
     var pos = entity.position;
 
-    if ("wyrmroost" in type) {
-        var gatentities as stdlib.List<MCEntity> = world.getEntitiesInArea(pos.add(30, 20, 30), pos.add(- 30, -20, -30));
-        for gater in 0 .. gatentities.length {
-            if ("gateways" in gatentities[gater].type.commandString) return;
-        }
-        event.cancel();
-    }
-
     if ("nowhere" in dim && !("player" in type)) event.cancel();
 
     if ("formidibomb" in type) {
-        if ("otg:far_from_home_7_premium" in dim) {
+        if ("void:withertsorm" in dim) {
             entity.forceSetPosition(pos.x, 200.00, pos.z);
             world.setBlockState(pos.up(200 - pos.y - 1), <blockstate:minecraft:stone>);
         } else {
@@ -32,7 +24,7 @@ CTEventManager.register<MCEntityJoinWorldEvent>((event) => {
     }
 
     if ("weeping_angel" in type) {
-        if ("otg:far_from_home_7_premium" in dim || "bowels" in dim || "nowhere" in dim || "end" in dim) {
+        if ("void:withertsorm" in dim || "bowels" in dim || "nowhere" in dim || "end" in dim) {
             event.cancel();
         } else {
             if (world.random.nextInt(0, 100) > 64) event.cancel();
@@ -42,11 +34,12 @@ CTEventManager.register<MCEntityJoinWorldEvent>((event) => {
 
     if (
         ("dimpaintings" in type && !("overworld" in dim)) || 
-        ("otg:far_from_home_7_premium" in dim && "aoa3" in type) || 
+        ("void:withertsorm" in dim && "aoa3" in type) || 
         ("overworld" in dim && ("upgrade_aquatic" in type)) || 
-        "aoa3:corrupted_traveller" in type || "chimpanzee" in type || "hippogryph" in type || 
-        ("salmon" in type && "aoa3" in dim) || 
-        ("sushigocrafting" in type && !("overworld" in dim))
+        "aoa3:corrupted_traveller" in type || 
+        "chimpanzee" in type || 
+        "hippogryph" in type || 
+        ("salmon" in type && "aoa3" in dim)
     ) {
         event.cancel();
         return;

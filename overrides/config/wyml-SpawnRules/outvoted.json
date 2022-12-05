@@ -10,7 +10,7 @@
 						// Do not edit this name
 						"name": "hunger",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 4
+						"limit": 8
 					}
 				}
 			},
@@ -21,13 +21,13 @@
 						// Do not edit this name
 						"name": "kraken",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 3
+						"limit": 40
 					},
 					"wildfire": {
 						// Do not edit this name
 						"name": "wildfire",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 3
+						"limit": 40
 					}
 				}
 			}

@@ -110,7 +110,10 @@ var items as IItemStack[] = [
     <item:gateways:gate_pearl>.withTag({gateway: "gateways:magma_cube_gate_small"}),
     <item:gateways:gate_pearl>.withTag({gateway: "gateways:shulker_gate_small"}),
     <item:gateways:gate_pearl>.withTag({gateway: "gateways:skeleton_gate_small"}),
-    <item:gateways:gate_pearl>.withTag({gateway: "gateways:slime_gate_small"})
+    <item:gateways:gate_pearl>.withTag({gateway: "gateways:slime_gate_small"}),
+    <item:dimdungeons:block_portal_keyhole>,
+    <item:dimdungeons:block_gilded_portal>,
+    <item:patchouli:guide_book>.withTag({"patchouli:book": "dimdungeons:guide_book" as string})
 ];
 
 for j in 0 .. items.length {

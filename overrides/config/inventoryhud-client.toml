@@ -75,7 +75,7 @@
 	invVal = "BOTTOM"
 	#Potion HUD position (Y)
 	#Range: -9999 ~ 9999
-	yPotionPos = 40
+	yPotionPos = 0
 	#OffHand vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	offVal = "BOTTOM"
@@ -84,7 +84,7 @@
 	helmVal = "BOTTOM"
 	#Armor HUD position (Y)
 	#Range: -9999 ~ 9999
-	yArmPos = 86
+	yArmPos = 70
 	#Inventory HUD position (X)
 	#Range: -9999 ~ 9999
 	xPos = 0
@@ -108,13 +108,13 @@
 	invHal = "MIDDLE"
 	#Inventory HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
-	invValign = "BOTTOM"
+	invValign = "TOP"
 	#InvIcon position (X)
 	#Range: -9999 ~ 9999
 	invPosX = -103
 	#Potion HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	potHalign = "LEFT"
+	potHalign = "RIGHT"
 	#InvIcon position (Y)
 	#Range: -9999 ~ 9999
 	invPosY = 20
@@ -123,7 +123,7 @@
 	bootHal = "MIDDLE"
 	#Armor HUD position (X)
 	#Range: -9999 ~ 9999
-	xArmPos = 1
+	xArmPos = 227
 	#MainHand position (X)
 	#Range: -9999 ~ 9999
 	mainPosX = 103
@@ -138,7 +138,7 @@
 	helmPosY = 54
 	#Inventory HUD position (Y)
 	#Range: -9999 ~ 9999
-	yPos = 150
+	yPos = 63
 	#Helmet position (X)
 	#Range: -9999 ~ 9999
 	helmPosX = 103
@@ -147,7 +147,7 @@
 	mainPosY = 71
 	#Potion HUD position (X)
 	#Range: -9999 ~ 9999
-	xPotionPos = 95
+	xPotionPos = 96
 	#Chestplate position (X)
 	#Range: -9999 ~ 9999
 	chestPosX = 103
@@ -174,7 +174,7 @@
 	arrHal = "MIDDLE"
 	#Potion HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
-	potValign = "BOTTOM"
+	potValign = "TOP"
 	#Arrows position (X)
 	#Range: -9999 ~ 9999
 	arrPosX = 103
@@ -189,7 +189,7 @@
 	arrPosY = 20
 	#Armor HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	armHalign = "LEFT"
+	armHalign = "RIGHT"
 	#Leggings position (Y)
 	#Range: -9999 ~ 9999
 	legPosY = 54

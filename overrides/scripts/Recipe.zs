@@ -26,7 +26,6 @@ var all as IItemStack[] = [
     <item:relics:pedestal>,
     <item:relics:runic_altar>,
     <item:relics:bloody_lectern>,
-    <item:sushigocrafting:avocado_slices>,
     <item:gateways:gate_pearl>.withTag({gateway: "gateways:spider_gate_small"}),
     <item:gateways:gate_pearl>.withTag({gateway: "gateways:witch_gate_small"}),
     <item:gateways:gate_pearl>.withTag({gateway: "gateways:zombie_gate_small"}),
@@ -60,9 +59,9 @@ var all as IItemStack[] = [
     <item:gateways:gate_pearl>.withTag({gateway: "gateways:shulker_gate_small"}),
     <item:gateways:gate_pearl>.withTag({gateway: "gateways:skeleton_gate_small"}),
     <item:gateways:gate_pearl>.withTag({gateway: "gateways:slime_gate_small"}),
-    <item:meetyourfight:fossil_bait>,
-    <item:meetyourfight:haunted_bell>,
-    <item:meetyourfight:devils_ante>
+    <item:dimdungeons:block_portal_keyhole>,
+    <item:dimdungeons:block_gilded_portal>,
+    <item:patchouli:guide_book>.withTag({"patchouli:book": "dimdungeons:guide_book" as string})
 ];
 var sword_names as string[] = [
     <item:dungeons_gear:tempest_knife>.registryName.path,
@@ -144,22 +143,24 @@ var axes as IItemStack[] = [
     <item:dungeons_gear:cursed_axe>,
     <item:dungeons_gear:whirlwind>
 ]; 
-var trophy = <item:aoa3:trophy>;
-var gold_trophy = <item:aoa3:gold_trophy>;
-var rune = <item:aoa3:unpowered_rune>;
-var air = <item:minecraft:air>;
-var orb = <item:paraglider:spirit_orb>;
-var book = <item:witherstormmod:command_block_book>; 
-var sword = <item:witherstormmod:command_block_sword>;
-var axe = <item:witherstormmod:command_block_axe>;
-var iron = <item:minecraft:iron_ingot>;
-var red = <item:minecraft:redstone>;
-var glass = <tag:items:forge:glass>;
-var basalt = <item:minecraft:basalt>;
-var cobblestone = <tag:items:forge:cobblestone>;
-var stick = <tag:items:forge:rods/wooden>;
-var uncrafter = loadedMods.isModLoaded("c" + "o" + "r" + "a" + "i" + "l" + "_" + "r" + "e" + "c" + "y" + "c" + "l" + "e" + "r");
-
+//
+    var trophy = <item:aoa3:trophy>;
+    var gold_trophy = <item:aoa3:gold_trophy>;
+    var rune = <item:aoa3:unpowered_rune>;
+    var air = <item:minecraft:air>;
+    var orb = <item:paraglider:spirit_orb>;
+    var book = <item:witherstormmod:command_block_book>; 
+    var sword = <item:witherstormmod:command_block_sword>;
+    var axe = <item:witherstormmod:command_block_axe>;
+    var iron = <item:minecraft:iron_ingot>;
+    var red = <item:minecraft:redstone>;
+    var glass = <tag:items:forge:glass>;
+    var basalt = <item:minecraft:basalt>;
+    var cobblestone = <tag:items:forge:cobblestone>;
+    var stick = <tag:items:forge:rods/wooden>;
+    var pearl = <item:kubejs:ender_pearl_fragment>;
+    var uncrafter = loadedMods.isModLoaded("c" + "o" + "r" + "a" + "i" + "l" + "_" + "r" + "e" + "c" + "y" + "c" + "l" + "e" + "r");
+//
 for i in 0 .. all.length {
     recipes.removeRecipe(all[i]);
 }
@@ -184,3 +185,8 @@ craftingTable.addShaped("puzzle_master", <item:lootgames:puzzle_master>, [
     [air, orb, air]
 ]);
 if (uncrafter) recipes.removeAll();
+craftingTable.addShaped("ender_pearl", <item:minecraft:ender_pearl>, [
+    [pearl, pearl],
+    [pearl, pearl]
+]);
+craftingTable.addShapeless("ender_pearl_fragment", pearl * 4, [<item:minecraft:ender_pearl>]);

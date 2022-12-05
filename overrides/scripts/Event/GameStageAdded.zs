@@ -9,14 +9,9 @@ CTEventManager.register<GameStageAdded>((event) => {
     var stage = event.stage; 
     var server = world.asServerWorld().server;
 
-    if (stage == "now_exit") {
-        server.executeCommand("gamerule keepInventory false", true);
-        player.removeGameStage("now_exit");
-        player.removeGameStage("exit");
-        return;
-    }
     if (stage == "enig") {
         player.sendMessage(" ");
-        player.sendMessage(MCTextComponent.createTranslationTextComponent("eventMessage.neverise.login"));
+        player.sendMessage(MCTextComponent.createTranslationTextComponent("eventMessage.what_happened_in_slovenia.login"));
+        player.addTag("nowherer");
     }
 });

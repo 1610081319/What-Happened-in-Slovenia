@@ -491,27 +491,48 @@ CTEventManager.register<MCLivingSpawnEvent>((event) => {
     var mcd = random.nextInt(0, 44);
     var aoa3 = random.nextInt(0, 48);
     var standard = random.nextInt(0, 100);
+    var ages = random.nextInt(160000, 320000);
     var classification = entity.type.classification.commandString;
+    var randomixe = x + random.nextInt(-3, 3);
+    var randomize = z + random.nextInt(-3, 3);
     if (entity.removeTag("living_spawned")) {
         entity.addTag("living_spawned");
         return;
     }
     entity.addTag("living_spawned");
-    if ("monster" in classification && !entity.isChild()) {
-        if (standard >= 50) entity.setItemStackToSlot(head, mcd_helmet[mcd]);
-        if (standard >= 70) entity.setItemStackToSlot(chest, mcd_chestplate[mcd]);
-        if (standard >= 60) entity.setItemStackToSlot(legs, mcd_leggings[mcd]);
-        if (standard >= 50) entity.setItemStackToSlot(feet, mcd_boots[mcd]);
+    if ("player_head" in entity.getItemStackFromSlot(head).commandString) entity.setItemStackToSlot(head, <item:minecraft:air>);
+    if ("gateways" in type && standard >= 91) {
+        entity.remove();
+        if (standard == 91 || standard == 92 || standard == 93) {
+            server.executeCommand("execute in " + dim + " run summon iceandfire:fire_dragon " + x + " " + y + " " + z + " {AgeTicks: " + ages + "}", true);
+        } else if (standard == 94 || standard == 95 || standard == 96) {
+            server.executeCommand("execute in " + dim + " run summon iceandfire:ice_dragon " + x + " " + y + " " + z + " {AgeTicks: " + ages + "}", true);
+        } else if (standard == 97 || standard == 98 || standard == 99) {
+            server.executeCommand("execute in " + dim + " run summon iceandfire:lightning_dragon " + x + " " + y + " " + z + " {AgeTicks: " + ages + "}", true);
+        } else {
+            server.executeCommand("execute in " + dim + " run summon weeping_angels:weeping_angel " + x + " " + y + " " + z, true);
+            server.executeCommand("execute in " + dim + " run summon weeping_angels:weeping_angel " + x + " " + y + " " + randomize, true);
+            server.executeCommand("execute in " + dim + " run summon weeping_angels:weeping_angel " + randomixe + " " + y + " " + z, true);
+            server.executeCommand("execute in " + dim + " run summon weeping_angels:weeping_angel " + randomixe + " " + y + " " + randomize, true);
+        }
     }
-    if (("mobz" in type || "minecraft" in type) && standard >= 81) {
-        entity.setItemStackToSlot(head, aoa_helmet[aoa3]);
-        entity.setItemStackToSlot(chest, aoa_chestplate[aoa3]);
-        entity.setItemStackToSlot(legs, aoa_leggings[aoa3]);
-        entity.setItemStackToSlot(feet, aoa_boots[aoa3]);
+    if ("iceandfire" in type && "dragon" in type) entity.setHealth(entity.getMaxHealth());
+    if ("monster" in classification && "void:witherstorm" in dim) {
+        if ("IsBaby: 1" in entity.data.asString()) return;
+        if (standard >= 65) entity.setItemStackToSlot(head, mcd_helmet[mcd]);
+        if (standard >= 85) entity.setItemStackToSlot(chest, mcd_chestplate[mcd]);
+        if (standard >= 75) entity.setItemStackToSlot(legs, mcd_leggings[mcd]);
+        if (standard >= 65) entity.setItemStackToSlot(feet, mcd_boots[mcd]);
     }
-    if ("minecraft:villager" in type && standard > 32) entity.setItemStackToSlot(chest, backpacks[random.nextInt(0,3)]);
-    if ("overworld" in dim || "otg:far_from_home_7_premium" in dim || "nether" in dim) {
+    if ("minecraft:villager" in type && standard > 81) entity.setItemStackToSlot(chest, backpacks[random.nextInt(0,3)]);
+    if ("overworld" in dim || "void:withertsorm" in dim || "nether" in dim) {
         if ("monster" in classification && "minecraft" in type) {
+            if (standard >= 96 && !("void:witherstorm" in dim)) {
+                entity.setItemStackToSlot(head, aoa_helmet[aoa3]);
+                entity.setItemStackToSlot(chest, aoa_chestplate[aoa3]);
+                entity.setItemStackToSlot(legs, aoa_leggings[aoa3]);
+                entity.setItemStackToSlot(feet, aoa_boots[aoa3]);
+            }
             if (standard >= 50) {
                 if ("guardian" in type) {
                     entity.remove();

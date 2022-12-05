@@ -79,25 +79,25 @@
 						// Do not edit this name
 						"name": "thrasher",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					},
 					"flare": {
 						// Do not edit this name
 						"name": "flare",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					},
 					"great_thrasher": {
 						// Do not edit this name
 						"name": "great_thrasher",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					},
 					"ululu": {
 						// Do not edit this name
 						"name": "ululu",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					}
 				}
 			}

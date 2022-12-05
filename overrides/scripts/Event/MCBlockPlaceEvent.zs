@@ -6,13 +6,13 @@ CTEventManager.register<MCBlockPlaceEvent>((event) => {
     var entity = event.entity;
     var world = entity.world;
     if (world.remote) return; 
+    var placed = event.placedBlock.commandString;
+    var server = world.asServerWorld().server;
 
     if ("player" in entity.type.commandString) {
-        var placed = event.placedBlock.commandString;
-        var server = world.asServerWorld().server;
         if ("wither_skeleton_skull" in placed && "command_block" in event.placedAgainst.commandString) {
             server.executeCommand("tag @e add storm_time", true);
-            server.executeCommand("tell @a " + game.localize("eventMessage.neverise.storm_time"), true);
+            server.executeCommand("tell @a " + game.localize("eventMessage.what_happened_in_slovenia.storm_time"), true);
             world.asServerWorld().setTimeToNight();
             return;
         }

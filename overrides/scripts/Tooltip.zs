@@ -1,7 +1,7 @@
 import crafttweaker.api.util.text.MCTextComponent as MCTextComponent;
 import crafttweaker.api.item.IItemStack;
 
-tooltipS(<item:aoa3:fertilised_farmland>, "info.neverise.fertilised_farmland");
+tooltipS(<item:aoa3:fertilised_farmland>, "info.what_happened_in_slovenia.fertilised_farmland");
 
 var vulcanes as IItemStack[] = [
     <item:aoa3:vulcane>,
@@ -173,11 +173,11 @@ var dragonsteel_armor as IItemStack[] = [
     <item:iceandfire:dragonsteel_fire_boots>
 ];
 for dragon in 0 .. dragonsteel_armor.length {
-    tooltip(dragonsteel_armor[dragon], "info.neverise.dragonsteel_armor.1");
-    tooltip(dragonsteel_armor[dragon], "info.neverise.dragonsteel_armor.2");
+    tooltip(dragonsteel_armor[dragon], "info.what_happened_in_slovenia.dragonsteel_armor.1");
+    tooltip(dragonsteel_armor[dragon], "info.what_happened_in_slovenia.dragonsteel_armor.2");
 }
 for i in 0 .. vulcanes.length {
-    tooltipS(vulcanes[i], "info.neverise.vulcane");
+    tooltipS(vulcanes[i], "info.what_happened_in_slovenia.vulcane");
 }
 for sk in 0 .. spaceking.length {
     tooltip(spaceking[sk], "item.aoa3.spaceking_armour.desc.1");
@@ -188,7 +188,7 @@ for rose in 0 .. rosidian.length {
     tooltip(rosidian[rose], "item.aoa3.rosidian_armour.desc.2");
 }
 for storm in 0 .. for_storm.length {
-    tooltip(for_storm[storm], "info.neverise.for_storm");
+    tooltip(for_storm[storm], "info.what_happened_in_slovenia.for_storm");
 }
 
 var items as IItemStack[] = [
@@ -204,16 +204,16 @@ var items as IItemStack[] = [
     <item:bagofyurting:bag_of_yurting>
 ]; 
 var texts as string[] = [
-    "info.neverise.charging_table",
-    "info.neverise.alacrity_bow",
-    "info.neverise.squire_bag",
-    "info.neverise.formidibomb",
-    "info.neverise.nowhere_portal",
-    "info.neverise.puzzle_master",
-    "info.neverise.golden_apple_stew",
-    "info.neverise.command_block_book",
-    "info.neverise.ba_bt_paper",
-    "info.neverise.bagofyurting"
+    "info.what_happened_in_slovenia.charging_table",
+    "info.what_happened_in_slovenia.alacrity_bow",
+    "info.what_happened_in_slovenia.squire_bag",
+    "info.what_happened_in_slovenia.formidibomb",
+    "info.what_happened_in_slovenia.nowhere_portal",
+    "info.what_happened_in_slovenia.puzzle_master",
+    "info.what_happened_in_slovenia.golden_apple_stew",
+    "info.what_happened_in_slovenia.command_block_book",
+    "info.what_happened_in_slovenia.ba_bt_paper",
+    "info.what_happened_in_slovenia.bagofyurting"
 ];
 
 for misc in 0 .. items.length {

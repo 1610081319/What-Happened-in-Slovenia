@@ -195,7 +195,7 @@
 						// Do not edit this name
 						"name": "troll",
 						// Maximum amount of this mob that can spawn per chunk
-						"limit": 70
+						"limit": 40
 					}
 				}
 			}

@@ -87,7 +87,7 @@
 [item_configuration]
 	#Set the durability for melee weapons. [0-1024, default: 250
 	#Range: 0 ~ 1024
-	meleeWeaponDurability = 250
+	meleeWeaponDurability = 500
 
 #Combat Configuration
 [combat_configuration]
@@ -138,7 +138,7 @@
 [effect_specific_configuration]
 	#The damage caused by Party Starter. [0-10000, default: 4]
 	#Range: 0 ~ 10000
-	partyStarterDamage = 4
+	partyStarterDamage = 12
 
 #Enchantment Specific Configuration
 [enchantment_specific_configuration]
