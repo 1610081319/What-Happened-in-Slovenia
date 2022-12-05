@@ -1,4 +1,4 @@
-# What-Happened-in-Slovenia
+# What Happened in Slovenia
 干完这些事，就可以发布：
 
 写 Dungeons Gear 战利品表
