@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "What Happened in Slovenia",
-  "version": "1.0.0.0",
+  "version": "1.1.0.0",
   "author": "Kasualix",
   "files": [
     {
@@ -306,7 +306,7 @@
     },
     {
       "projectID": 314906,
-      "fileID": 3603374,
+      "fileID": 4135807,
       "required": true
     },
     {
@@ -506,7 +506,7 @@
     },
     {
       "projectID": 342584,
-      "fileID": 4134622,
+      "fileID": 4136184,
       "required": true
     },
     {
@@ -1010,13 +1010,13 @@
       "required": true
     },
     {
-      "projectID": 306770,
-      "fileID": 3847029,
+      "projectID": 241160,
+      "fileID": 3098229,
       "required": true
     },
     {
-      "projectID": 241160,
-      "fileID": 3098229,
+      "projectID": 306770,
+      "fileID": 3847029,
       "required": true
     },
     {

@@ -23,7 +23,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "quark:ancient_tome",
+          "name": "minecraft:book",
           "functions": [
             {
               "function": "minecraft:set_count",

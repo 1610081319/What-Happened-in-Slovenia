@@ -7,6 +7,10 @@
       "weapon_attributes": "bettercombat:claymore"
     },
     {
+      "item_id_regex": "greatblade",
+      "weapon_attributes": "bettercombat:greatblade"
+    },
+    {
       "item_id_regex": "great_hammer|greathammer|war_hammer|warhammer|maul",
       "weapon_attributes": "bettercombat:hammer"
     },

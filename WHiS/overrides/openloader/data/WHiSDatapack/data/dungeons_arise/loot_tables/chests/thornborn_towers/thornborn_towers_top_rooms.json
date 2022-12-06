@@ -73,7 +73,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "quark:ancient_tome",
+          "name": "minecraft:book",
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -83,7 +83,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "quark:ancient_tome",
+          "name": "minecraft:book",
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",

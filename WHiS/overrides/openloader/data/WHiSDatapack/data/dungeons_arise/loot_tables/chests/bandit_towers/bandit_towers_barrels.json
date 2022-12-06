@@ -7,22 +7,22 @@
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:iron_helmet"
+          "name": "minecraft:book"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:iron_chestplate"
+          "name": "minecraft:book"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:iron_leggings"
+          "name": "minecraft:book"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
-          "name": "minecraft:iron_boots"
+          "name": "minecraft:book"
         },
         {
           "type": "minecraft:empty",

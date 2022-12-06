@@ -71,7 +71,7 @@
         {
           "type": "minecraft:item",
           "weight": 60,
-          "name": "quark:ancient_tome",
+          "name": "minecraft:book",
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",

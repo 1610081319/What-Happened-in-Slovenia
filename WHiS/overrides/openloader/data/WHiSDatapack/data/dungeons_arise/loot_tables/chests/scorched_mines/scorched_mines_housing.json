@@ -97,7 +97,7 @@
         {
           "type": "minecraft:item",
           "weight": 75,
-          "name": "quark:ancient_tome",
+          "name": "minecraft:book",
           "functions": [
             {
               "function": "minecraft:enchant_randomly"
@@ -107,7 +107,7 @@
         {
           "type": "minecraft:item",
           "weight": 50,
-          "name": "minecraft:iron_helmet",
+          "name": "minecraft:book",
           "functions": [
             {
               "function": "minecraft:enchant_randomly"

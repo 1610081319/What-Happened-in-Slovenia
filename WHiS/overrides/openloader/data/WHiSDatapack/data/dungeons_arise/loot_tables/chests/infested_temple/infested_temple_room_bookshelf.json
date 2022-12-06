@@ -73,7 +73,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "quark:ancient_tome",
+          "name": "minecraft:book",
           "functions": [
             {
               "function": "minecraft:enchant_randomly"
@@ -82,7 +82,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "quark:ancient_tome",
+          "name": "minecraft:book",
           "functions": [
             {
               "function": "minecraft:enchant_randomly"
@@ -91,7 +91,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "quark:ancient_tome",
+          "name": "minecraft:book",
           "functions": [
             {
               "function": "minecraft:enchant_randomly"
@@ -100,7 +100,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "quark:ancient_tome",
+          "name": "minecraft:book",
           "functions": [
             {
               "function": "minecraft:enchant_randomly"

@@ -54,13 +54,13 @@
 
 		["When Configurations Arise"."Fortified Structures"."Illager Castle Spawning Settings"]
 			#Whether Illager Castles generate on your worlds or not.
-			illagerCastleGenerates = false
+			illagerCastleGenerates = true
 			#Maximum separation between Illager Castles (in chunks).
 			#Range: 0 ~ 1000000
-			illagerCastleSpacing = 320
+			illagerCastleSpacing = 160
 			#Minimum spacing between Illager Castles (in chunks).
 			#Range: 0 ~ 1000000
-			illagerCastleSeparation = 120
+			illagerCastleSeparation = 60
 			#Number of Jigsaw iterations when generating an Illager Castle.
 			#Range: 0 ~ 1000000
 			illagerCastleSize = 10
@@ -77,10 +77,10 @@
 			illagerFortGenerates = true
 			#Maximum separation between Illager Forts (in chunks).
 			#Range: 0 ~ 1000000
-			illagerFortSpacing = 320
+			illagerFortSpacing = 160
 			#Minimum spacing between Illager Forts (in chunks).
 			#Range: 0 ~ 1000000
-			illagerFortSeparation = 120
+			illagerFortSeparation = 60
 			#Number of Jigsaw iterations when generating an Illager Fort.
 			#Range: 0 ~ 1000000
 			illagerFortSize = 10
@@ -94,13 +94,13 @@
 
 		["When Configurations Arise"."Fortified Structures"."Illager Hall Spawning Settings"]
 			#Whether Illager Halls generate on your worlds or not.
-			illagerHallGenerates = false
+			illagerHallGenerates = true
 			#Maximum separation between Illager Halls (in chunks).
 			#Range: 0 ~ 1000000
-			illagerHallSpacing = 460
+			illagerHallSpacing = 230
 			#Minimum spacing between Illager Halls (in chunks).
 			#Range: 0 ~ 1000000
-			illagerHallSeparation = 180
+			illagerHallSeparation = 90
 			#Number of Jigsaw iterations when generating an Illager Hall.
 			#Range: 0 ~ 1000000
 			illagerHallSize = 10
@@ -157,10 +157,10 @@
 			monasteryGenerates = true
 			#Maximum separation between Monasteries (in chunks).
 			#Range: 0 ~ 1000000
-			monasterySpacing = 300
+			monasterySpacing = 150
 			#Minimum spacing between Monasteries (in chunks).
 			#Range: 0 ~ 1000000
-			monasterySeparation = 180
+			monasterySeparation = 90
 			#Number of Jigsaw iterations when generating a Monastery.
 			#Range: 0 ~ 1000000
 			monasterySize = 8
@@ -363,10 +363,10 @@
 			coliseumGenerates = true
 			#Maximum separation between Coliseums (in chunks).
 			#Range: 0 ~ 1000000
-			coliseumSpacing = 480
+			coliseumSpacing = 240
 			#Minimum spacing between Coliseums (in chunks).
 			#Range: 0 ~ 1000000
-			coliseumSeparation = 400
+			coliseumSeparation = 200
 			#Number of Jigsaw iterations when generating a Coliseum.
 			#Range: 0 ~ 1000000
 			coliseumSize = 10
@@ -405,10 +405,10 @@
 			infestedTempleGenerates = true
 			#Maximum separation between Infested Temples (in chunks).
 			#Range: 0 ~ 1000000
-			infestedTempleSpacing = 280
+			infestedTempleSpacing = 140
 			#Minimum spacing between Infested Temples (in chunks).
 			#Range: 0 ~ 1000000
-			infestedTempleSeparation = 200
+			infestedTempleSeparation = 100
 			#Number of Jigsaw iterations when generating an Infested Temple.
 			#Range: 0 ~ 1000000
 			infestedTempleSize = 100
@@ -425,10 +425,10 @@
 			plagueAsylumGenerates = true
 			#Maximum separation between Plague Asylums (in chunks).
 			#Range: 0 ~ 1000000
-			plagueAsylumSpacing = 480
+			plagueAsylumSpacing = 240
 			#Minimum spacing between Plague Asylums (in chunks).
 			#Range: 0 ~ 1000000
-			plagueAsylumSeparation = 400
+			plagueAsylumSeparation = 200
 			#Number of Jigsaw iterations when generating a Plague Asylum.
 			#Range: 0 ~ 1000000
 			plagueAsylumSize = 35
@@ -447,10 +447,10 @@
 			heavenlyRiderGenerates = true
 			#Maximum separation between Heavenly Riders (in chunks).
 			#Range: 0 ~ 1000000
-			heavenlyRiderSpacing = 360
+			heavenlyRiderSpacing = 180
 			#Minimum spacing between Heavenly Riders (in chunks).
 			#Range: 0 ~ 1000000
-			heavenlyRiderSeparation = 320
+			heavenlyRiderSeparation = 160
 			#Number of Jigsaw iterations when generating an Heavenly Rider.
 			#Range: 0 ~ 1000000
 			heavenlyRiderSize = 20
@@ -467,10 +467,10 @@
 			heavenlyConquerorGenerates = true
 			#Maximum separation between Heavenly Conquerors (in chunks).
 			#Range: 0 ~ 1000000
-			heavenlyConquerorSpacing = 460
+			heavenlyConquerorSpacing = 230
 			#Minimum spacing between Heavenly Conquerors (in chunks).
 			#Range: 0 ~ 1000000
-			heavenlyConquerorSeparation = 380
+			heavenlyConquerorSeparation = 190
 			#Number of Jigsaw iterations when generating an Heavenly Conqueror.
 			#Range: 0 ~ 1000000
 			heavenlyConquerorSize = 20
@@ -487,10 +487,10 @@
 			heavenlyChallengerGenerates = true
 			#Maximum separation between Heavenly Challengers (in chunks).
 			#Range: 0 ~ 1000000
-			heavenlyChallengerSpacing = 680
+			heavenlyChallengerSpacing = 300
 			#Minimum spacing between Heavenly Challengers (in chunks).
 			#Range: 0 ~ 1000000
-			heavenlyChallengerSeparation = 580
+			heavenlyChallengerSeparation = 200
 			#Number of Jigsaw iterations when generating an Heavenly Challenger.
 			#Range: 0 ~ 1000000
 			heavenlyChallengerSize = 20
@@ -507,10 +507,10 @@
 			aviaryGenerates = true
 			#Maximum separation between Aviaries (in chunks).
 			#Range: 0 ~ 1000000
-			aviarySpacing = 280
+			aviarySpacing = 140
 			#Minimum spacing between Aviaries (in chunks).
 			#Range: 0 ~ 1000000
-			aviarySeparation = 220
+			aviarySeparation = 110
 			#Number of Jigsaw iterations when generating an Aviary.
 			#Range: 0 ~ 1000000
 			aviarySize = 20
@@ -549,10 +549,10 @@
 			scorchedMinesGenerates = true
 			#Maximum separation between Scorched Mines (in chunks).
 			#Range: 0 ~ 1000000
-			scorchedMinesSpacing = 460
+			scorchedMinesSpacing = 230
 			#Minimum spacing between Scorched Mines (in chunks).
 			#Range: 0 ~ 1000000
-			scorchedMinesSeparation = 180
+			scorchedMinesSeparation = 90
 			#Number of Jigsaw iterations when generating an Scorched Mines.
 			#Range: 0 ~ 1000000
 			scorchedMinesSize = 12
@@ -735,10 +735,10 @@
 			shirazPalaceGenerates = true
 			#Maximum separation between Shiraz Palaces (in chunks).
 			#Range: 0 ~ 1000000
-			shirazPalaceSpacing = 320
+			shirazPalaceSpacing = 160
 			#Minimum spacing between Shiraz Palaces (in chunks).
 			#Range: 0 ~ 1000000
-			shirazPalaceSeparation = 280
+			shirazPalaceSeparation = 140
 			#Number of Jigsaw iterations when generating a Shiraz Palace.
 			#Range: 0 ~ 1000000
 			shirazPalaceSize = 50
@@ -757,10 +757,10 @@
 			jungleTreeHouseGenerates = true
 			#Maximum separation between Jungle Tree Houses (in chunks).
 			#Range: 0 ~ 1000000
-			jungleTreeHouseSpacing = 320
+			jungleTreeHouseSpacing = 160
 			#Minimum spacing between Jungle Tree Houses (in chunks).
 			#Range: 0 ~ 1000000
-			jungleTreeHouseSeparation = 280
+			jungleTreeHouseSeparation = 140
 			#Number of Jigsaw iterations when generating a Jungle Tree House.
 			#Range: 0 ~ 1000000
 			jungleTreeHouseSize = 50
