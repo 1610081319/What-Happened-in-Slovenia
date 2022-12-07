@@ -62,7 +62,7 @@
 	#Allowed Values: STRUCTURES, RANDOM_PLACE, DONT
 	teleportType = "RANDOM_PLACE"
 	#Note: This a list of dimensions that angels should NOT teleport you to.
-	notAllowedDimensions = ["void:withertsorm", "aoa3:nowhere", "witherstormmod:bowels", "minecraft:the_end"]
+	notAllowedDimensions = ["whis:witherstorm", "aoa3:nowhere", "witherstormmod:bowels", "minecraft:the_end"]
 	#just teleport. no damage.
 	justTeleport = false
 	#The maximum range a user can be teleported by the Angels

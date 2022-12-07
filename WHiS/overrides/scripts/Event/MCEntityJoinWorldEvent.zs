@@ -14,8 +14,8 @@ CTEventManager.register<MCEntityJoinWorldEvent>((event) => {
     if ("nowhere" in dim && !("player" in type)) event.cancel();
 
     if ("formidibomb" in type) {
-        if ("void:withertsorm" in dim) {
-            entity.forceSetPosition(pos.x, 200.00, pos.z);
+        if ("whis:witherstorm" in dim) {
+            entity.setPosition(pos.x, 200.00, pos.z);
             world.setBlockState(pos.up(200 - pos.y - 1), <blockstate:minecraft:stone>);
         } else {
             event.cancel();
@@ -24,7 +24,7 @@ CTEventManager.register<MCEntityJoinWorldEvent>((event) => {
     }
 
     if ("weeping_angel" in type) {
-        if ("void:withertsorm" in dim || "bowels" in dim || "nowhere" in dim || "end" in dim) {
+        if ("whis:witherstorm" in dim || "bowels" in dim || "nowhere" in dim || "end" in dim) {
             event.cancel();
         } else {
             if (world.random.nextInt(0, 100) > 64) event.cancel();
@@ -34,7 +34,7 @@ CTEventManager.register<MCEntityJoinWorldEvent>((event) => {
 
     if (
         ("dimpaintings" in type && !("overworld" in dim)) || 
-        ("void:withertsorm" in dim && "aoa3" in type) || 
+        ("whis:witherstorm" in dim && "aoa3" in type) || 
         ("overworld" in dim && ("upgrade_aquatic" in type)) || 
         "aoa3:corrupted_traveller" in type || 
         "chimpanzee" in type || 

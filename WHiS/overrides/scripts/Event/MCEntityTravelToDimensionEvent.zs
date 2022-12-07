@@ -37,28 +37,39 @@ CTEventManager.register<MCEntityTravelToDimensionEvent>(event => {
         var there = event.dimension.commandString;
         var server = world.asServerWorld().server;
         var go = server.getWorld(dim_resources[world.random.nextInt(0, 20)]);
+        var name = entity.name;
+
+        if ("bowels" in there) return;
+
         if (entity.removeTag("nowherer")) {
             entity.addTag("otger");
-            return;
         }
         
         if (entity.removeTag("overworld")) {
             event.cancel();
-            server.executeCommand("execute in minecraft:overworld run tp " + entity.uuid + " 0 256 0", true);
-            entity.removeTag("storm_time");
+            server.executeCommand("execute in minecraft:overworld run tp " + name + " 0 256 0", true);
+            server.executeCommand("give " + name + " wither_skeleton_skull", true);
         }
-        
+
+        if (entity.removeTag("goer")) {
+            event.cancel();
+            server.executeCommand("execute in whis:witherstorm run tp " + name + " 0 256 0", true);
+            server.executeCommand("kill @e[type=witherstormmod:wither_storm]", true);
+            server.executeCommand("effect clear " + name + " witherstormmod:wither_sickness", true);
+            entity.removeTag("storm_time");
+            entity.addTag("wither_message_sender");
+        }
+
         if (entity.removeTag("aoa_age")) {
             if (entity.removeTag("bonfirer")) return;
             if (entity.removeTag("dim_randomized")) return;
             if (entity.removeTag("recaller")) return;
             if ("nether" in there || "aoa3" in there) {
                 event.cancel();
-                server.executeCommand("execute in " + go.toString() + " run tp " + entity.uuid + " " + pos.x + " " + pos.y + " " + pos.z, true);
+                server.executeCommand("execute in " + go.toString() + " run tp " + name + " " + pos.x + " " + pos.y + " " + pos.z, true);
                 go.setBlockState(pos, <blockstate:minecraft:air>);
                 go.setBlockState(pos.add(0, 1, 0), <blockstate:minecraft:air>);
                 entity.addTag("dim_randomized");
-                return;
             }
         }
     }

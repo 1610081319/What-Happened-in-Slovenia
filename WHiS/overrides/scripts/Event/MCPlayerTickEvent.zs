@@ -16,7 +16,8 @@ var eyes as IItemStack[] = [
     <item:endrem:corrupted_eye>,
     <item:endrem:lost_eye>,
     <item:endrem:end_crystal_eye>,
-    <item:endrem:witch_eye>
+    <item:endrem:witch_eye>,
+    <item:endrem:ancient_portal_frame> * 3
 ];
 var speeduper = loadedMods.isModLoaded("t" + "o" + "r" + "c" + "h" + "e" + "r" + "i" + "n" + "o");
 var bedrocker = loadedMods.isModLoaded("b" + "a" + "c" + "t" + "e" + "r" + "i" + "u" + "m");
@@ -66,7 +67,16 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
     }
     if (player.inventory.hasIItemStack(<item:minecraft:nether_star>) && player.hasGameStage("before_wither")) {
         player.removeGameStage("before_wither");
+        player.sendMessage(MCTextComponent.createTranslationTextComponent("eventMessage.whis.nether_star.1"));
+        player.sendMessage(MCTextComponent.createTranslationTextComponent("eventMessage.whis.nether_star.2"));
+        player.sendMessage(MCTextComponent.createTranslationTextComponent("eventMessage.whis.nether_star.3"));
+        player.sendMessage(MCTextComponent.createTranslationTextComponent("eventMessage.whis.nether_star.4"));
         player.addGameStage("aoa_age");
+    }
+    if (player.inventory.hasIItemStack(<item:witherstormmod:withered_nether_star>) && !player.hasGameStage("defeat_storm")) {
+        player.addGameStage("defeat_storm");
+        player.sendMessage(MCTextComponent.createTranslationTextComponent("eventMessage.whis.defeat_storm"));
+        player.addTag("overworld");
     }
     if (player.hasGameStage("aoa_age")) player.addTag("aoa_age");
     if (player.hasGameStage("mcsaforge")) player.addTag("mcsaforge");
@@ -74,6 +84,12 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
         player.addTag("target_slow");
     } else {
         player.removeTag("target_slow");
+    }
+    if (player.removeTag("wither_message_sender")) {
+        player.sendMessage(MCTextComponent.createTranslationTextComponent("eventMessage.whis.after_storm.1"));
+        player.sendMessage(MCTextComponent.createTranslationTextComponent("eventMessage.whis.after_storm.2"));
+        player.sendMessage(MCTextComponent.createTranslationTextComponent("eventMessage.whis.after_storm.3"));
+        player.give(<item:witherstormmod:withered_nether_star>);
     }
     if (player.removeTag("eye_giver")) player.give(eyes[world.random.nextInt(0, 11)]);
     if (speeduper) server.executeCommand("effect give @e minecraft:speed 114514 255", true);

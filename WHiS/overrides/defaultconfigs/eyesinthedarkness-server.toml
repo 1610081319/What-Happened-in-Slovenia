@@ -68,7 +68,7 @@
 	#  To disable spawning in the end dimension: [ "!minecraft:the_end" ]
 	#  To disable spawning in the nether dimension: [ "!minecraft:nether" ]
 	#  To disable spawning in all secondary overworlds, but allow the vanilla overworld: [ "minecraft:overworld", "!#minecraft:overworld" ]
-	DimensionRules = ["aoa3:greckon", "!minecraft:overworld", "!minecraft:the_end", "!minecraft:the_nether", "!void:withertsorm"]
+	DimensionRules = ["aoa3:greckon", "!minecraft:overworld", "!minecraft:the_end", "!minecraft:the_nether", "!whis:witherstorm"]
 
 #Default spawn settings
 [spawning_normal]

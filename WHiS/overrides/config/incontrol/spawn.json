@@ -75,6 +75,7 @@
     {
         "mob": "witherstormmod:wither_storm",
         "speedmultiply": 0.5,
+        "healthmultiply": 100,
         "onjoin": true,
         "result": "default"
     },

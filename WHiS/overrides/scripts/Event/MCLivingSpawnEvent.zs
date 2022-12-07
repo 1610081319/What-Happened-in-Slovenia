@@ -504,14 +504,14 @@ CTEventManager.register<MCLivingSpawnEvent>((event) => {
     
     if ("iceandfire" in type && "dragon" in type) entity.setHealth(entity.getMaxHealth());
     if ("monster" in classification && "whis:witherstorm" in dim) {
-        if ("IsBaby: 1" in entity.data.asString()) return;
+        if ("IsBaby:1" in entity.data.asString()) return;
         if (standard >= 65) entity.setItemStackToSlot(head, mcd_helmet[mcd]);
         if (standard >= 85) entity.setItemStackToSlot(chest, mcd_chestplate[mcd]);
         if (standard >= 75) entity.setItemStackToSlot(legs, mcd_leggings[mcd]);
         if (standard >= 65) entity.setItemStackToSlot(feet, mcd_boots[mcd]);
     }
     if ("minecraft:villager" in type && standard > 81) entity.setItemStackToSlot(chest, backpacks[random.nextInt(0,3)]);
-    if ("overworld" in dim || "void:withertsorm" in dim || "nether" in dim) {
+    if ("overworld" in dim || "whis:witherstorm" in dim || "nether" in dim) {
         if ("monster" in classification && "minecraft" in type) {
             if (standard >= 96 && !("whis:witherstorm" in dim)) {
                 entity.setItemStackToSlot(head, aoa_helmet[aoa3]);

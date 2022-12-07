@@ -9,7 +9,7 @@ CTEventManager.register<MCPlayerRespawnEvent>(event => {
     var name = player.name;
 
     if (player.removeTag("witherespawn")) {
-        server.executeCommand("execute in void:withertsorm run tp " + name + " 0 256 0", true);
+        server.executeCommand("execute in whis:witherstorm run tp " + name + " 0 256 0", true);
         server.executeCommand("effect give " + name + " minecraft:slow_falling 60", true);
     }
 });

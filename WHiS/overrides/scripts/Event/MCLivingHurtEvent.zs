@@ -9,7 +9,7 @@ var a = "alacrity";
 var k = "knight";
 var r = "rosidian";
 var s = "spaceking";
-var aoa_bosses = "bane__baroness__blue_guardian__clunkhead__corallus__cotton_candor__craexxeus__creep__crystocore__dracyon__elusive__flash__graw__green_guardian__gyro__harkos__hive_king__kajaros__king_bambambam__king_shroomus__klobber__kror__mechbot__mirage__miskel__nethengeic_wither__okazor__proshield__raxxan__red_guardian__rock_rider__shadowlord__smash__tyrosaur__vinocorne__visualent__voxxulon__xxeus__yellow_guardian";
+var aoa_bosses = "“bane”__“baroness”__“blue_guardian”__“clunkhead”__“corallus”__“cotton_candor”__“craexxeus”__“creep”__“crystocore”__“dracyon”__“elusive”__“flash”__“graw”__“green_guardian”__“gyro”__“harkos”__“hive_king”__“kajaros”__“king_bambambam”__“king_shroomus”__“klobber”__“kror”__“mechbot”__“mirage”__“miskel”__“nethengeic_wither”__“okazor”__“proshield”__“raxxan”__“red_guardian”__“rock_rider”__“shadowlord”__“smash”__“tyrosaur”__“vinocorne”__“visualent”__“voxxulon”__“xxeus”__“yellow_guardian”";
 
 CTEventManager.register<MCLivingHurtEvent>(event => {
     var entity = event.entityLiving;
@@ -23,6 +23,7 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
     var health = entity.getHealth();
     var m_health = entity.getMaxHealth();
     var attacker = dmgsource.trueSource;
+    var who = "“" + attacked + "”";
 
     if ("player" in attacked) {
         if ("nowhere" in world.dimension) event.cancel();
@@ -45,7 +46,7 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
             }
         }
         if (entity.removeTag("storm_time")) {
-            if (world.random.nextDouble(0.00, 1.00) >= 0.81 && !entity.isPotionActive(<effect:witherstormmod:wither_sickness>)) server.executeCommand(effect + uuid + " witherstormmod:wither_sickness 600 1", true);
+            if (world.random.nextDouble(0.00, 1.00) >= 0.81 && !entity.isPotionActive(<effect:witherstormmod:wither_sickness>)) server.executeCommand(effect + uuid + " witherstormmod:wither_sickness 2400 1", true);
             entity.addTag("storm_time");
         }
         if (entity.removeTag("mcsaforge")) {
@@ -86,7 +87,7 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
         }
     }
     if (a in attacked && m_health * 0.4 > health && "xxeus" in attacked) server.executeCommand(effect + uuid + " minecraft:strength 114514 1", true);
-    if (attacked in aoa_bosses && "aoa3" in attacked) {
+    if (who in aoa_bosses && "aoa3" in attacked) {
         if (m_health * 0.2 >= health) server.executeCommand(effect + uuid + " minecraft:speed 114514 1", true);
         server.executeCommand(effect + uuid + " minecraft:fire_resistance 114514", true);
     }
