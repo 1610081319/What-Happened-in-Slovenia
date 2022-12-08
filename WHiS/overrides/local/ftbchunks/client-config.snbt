@@ -2,7 +2,7 @@
 	# Biome blend
 	# Default: "blend_5x5"
 	# Valid values: "none", "blend_3x3", "blend_5x5", "blend_7x7", "blend_9x9", "blend_11x11", "blend_13x13", "blend_15x15"
-	biome_blend: "blend_5x5"
+	biome_blend: "none"
 	
 	# Chunk grid overlay in large map
 	# Default: false

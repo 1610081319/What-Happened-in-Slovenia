@@ -73,7 +73,7 @@
         "healthmultiply": 2.0
     },
     {
-        "mob": "witherstormmod:wither_storm",
+        "mob": ["witherstormmod:wither_storm"],
         "speedmultiply": 0.5,
         "healthmultiply": 100,
         "onjoin": true,

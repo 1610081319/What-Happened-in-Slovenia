@@ -10,7 +10,7 @@
 	targetStationaryChunkRadius = 7
 	#DEFAULT=4. The chance for the Wither Storm to choose a player instead of another entity, out of 10. Reload Type: NONE
 	#Range: 0 ~ 10
-	playerPickupChance = 8
+	playerPickupChance = 4
 	#DEFAULT=1.0. Specifies a modifier value of the evolution rate attribute. The higher the value, the longer it takes for the Wither Storm to make a complete evolution (from phases 0 to 7), and vice versa. Cannot be lower than 0. Reload Type: NONE
 	#Range: 0.01 ~ 32.0
 	evolutionAttributeModifier = 0.1

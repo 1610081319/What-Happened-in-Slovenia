@@ -490,7 +490,6 @@ CTEventManager.register<MCLivingSpawnEvent>((event) => {
     var random = world.random;
     var mcd = random.nextInt(0, 44);
     var aoa3 = random.nextInt(0, 48);
-    var standard = random.nextInt(0, 100);
     var ages = random.nextInt(160000, 320000);
     var classification = entity.type.classification.commandString;
     var randomixe = x + random.nextInt(-3, 3);
@@ -504,22 +503,23 @@ CTEventManager.register<MCLivingSpawnEvent>((event) => {
     
     if ("iceandfire" in type && "dragon" in type) entity.setHealth(entity.getMaxHealth());
     if ("monster" in classification && "whis:witherstorm" in dim) {
-        if ("IsBaby:1" in entity.data.asString()) return;
-        if (standard >= 65) entity.setItemStackToSlot(head, mcd_helmet[mcd]);
-        if (standard >= 85) entity.setItemStackToSlot(chest, mcd_chestplate[mcd]);
-        if (standard >= 75) entity.setItemStackToSlot(legs, mcd_leggings[mcd]);
-        if (standard >= 65) entity.setItemStackToSlot(feet, mcd_boots[mcd]);
+        var baby_check = entity.data.getAt("IsBaby");
+        if (baby_check == null || "1" in baby_check.asString()) return;
+        if (random.nextInt(0, 100) >= 65) entity.setItemStackToSlot(head, mcd_helmet[mcd]);
+        if (random.nextInt(0, 100) >= 85) entity.setItemStackToSlot(chest, mcd_chestplate[mcd]);
+        if (random.nextInt(0, 100) >= 75) entity.setItemStackToSlot(legs, mcd_leggings[mcd]);
+        if (random.nextInt(0, 100) >= 65) entity.setItemStackToSlot(feet, mcd_boots[mcd]);
     }
-    if ("minecraft:villager" in type && standard > 81) entity.setItemStackToSlot(chest, backpacks[random.nextInt(0,3)]);
+    if ("minecraft:villager" in type && random.nextInt(0, 100) > 81) entity.setItemStackToSlot(chest, backpacks[random.nextInt(0,3)]);
     if ("overworld" in dim || "whis:witherstorm" in dim || "nether" in dim) {
         if ("monster" in classification && "minecraft" in type) {
-            if (standard >= 96 && !("whis:witherstorm" in dim)) {
+            if (random.nextInt(0, 100) >= 96 && !("whis:witherstorm" in dim)) {
                 entity.setItemStackToSlot(head, aoa_helmet[aoa3]);
                 entity.setItemStackToSlot(chest, aoa_chestplate[aoa3]);
                 entity.setItemStackToSlot(legs, aoa_leggings[aoa3]);
                 entity.setItemStackToSlot(feet, aoa_boots[aoa3]);
             }
-            if (standard >= 50) {
+            if (random.nextInt(0, 100) >= 50) {
                 if ("guardian" in type) {
                     entity.remove();
                     server.executeCommand("exeucte in " + dim + " run summon aoa3:" + aoa_ocean_mobs[random.nextInt(0, 6)] + " " + x + " " + y + " " + z, true);

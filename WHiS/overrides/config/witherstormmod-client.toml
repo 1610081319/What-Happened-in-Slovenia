@@ -18,7 +18,7 @@
 	#DEFAULT=true. Specifies if a pulsating effect, mimicking endermen pulling the Wither Storm apart, should be rendered once its evolution is complete. Reload Type: NONE
 	renderPulse = true
 	#DEFAULT=true. The distant renderer allows for the Wither Storm to be rendered from much greater distances than what vanilla allows. Disable if you're facing issues with it. Reload Type: NONE
-	distantRenderer = false
+	distantRenderer = true
 	#DEFAULT=true. Toggles the rendering of Block Clusters. Reload Type: NONE
 	blockClusterRendering = false
 	#DEFAULT=true. Specifies if an overlay should be applied to entities that renders wither sickness. Reload Type: GAME

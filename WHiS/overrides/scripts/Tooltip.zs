@@ -1,8 +1,6 @@
 import crafttweaker.api.util.text.MCTextComponent as MCTextComponent;
 import crafttweaker.api.item.IItemStack;
 
-tooltipS(<item:aoa3:fertilised_farmland>, "info.whis.fertilised_farmland");
-
 var vulcanes as IItemStack[] = [
     <item:aoa3:vulcane>,
     <item:aoa3:battle_vulcane>,
@@ -272,4 +270,20 @@ var texts as string[] = [
 
 for misc in 0 .. items.length {
     tooltip(items[misc], texts[misc]);
+}
+
+var itemsS as IItemStack[] = [
+    <item:minecraft:paper>.withTag({Lead: 1 as int}),
+    <item:minecraft:paper>.withTag({Lead: 2 as int}),
+    <item:aoa3:fertilised_farmland>,
+    <item:recall:item_recall>
+];
+var textsS as string[] = [
+    "lead.whis.paper.1",
+    "lead.whis.paper.2",
+    "info.whis.fertilised_farmland",
+    "info.whis.recaller"
+];
+for miscS in 0 .. itemsS.length {
+    tooltipS(itemsS[miscS], textsS[miscS]);
 }

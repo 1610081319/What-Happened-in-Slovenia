@@ -46,7 +46,7 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
             }
         }
         if (entity.removeTag("storm_time")) {
-            if (world.random.nextDouble(0.00, 1.00) >= 0.81 && !entity.isPotionActive(<effect:witherstormmod:wither_sickness>)) server.executeCommand(effect + uuid + " witherstormmod:wither_sickness 2400 1", true);
+            if (world.random.nextDouble(0.00, 1.00) >= 0.81 && !entity.isPotionActive(<effect:witherstormmod:wither_sickness>)) server.executeCommand(effect + uuid + " witherstormmod:wither_sickness 3600 1", true);
             entity.addTag("storm_time");
         }
         if (entity.removeTag("mcsaforge")) {
