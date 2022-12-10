@@ -53,11 +53,11 @@ modifiers.neat.keybind.toggle:
 modifiers.iris.keybind.reload:
 modifiers.iris.keybind.toggleShaders:
 modifiers.iris.keybind.shaderPackSelection:
+modifiers.key.curios.open.desc:
 modifiers.key.togglecleanview:
 modifiers.key.dungeons_libraries.curiosintegration.description_slot1:
 modifiers.key.dungeons_libraries.curiosintegration.description_slot2:
 modifiers.key.dungeons_libraries.curiosintegration.description_slot3:
-modifiers.key.curios.open.desc:
 modifiers.key.aoa3.resources:
 modifiers.key.aoa3.skills:
 modifiers.key.aoa3.adventGui:
@@ -73,11 +73,11 @@ modifiers.Camera down:
 modifiers.Swap shoulder:
 modifiers.Toggle perspective:
 modifiers.Open sound muffler screen:
+modifiers.cos.key.opencosarmorinventory:
 modifiers.placebo.toggleWings:
 modifiers.placebo.toggleTrails:
 modifiers.key.plane_boost.desc:
 modifiers.key.plane_engine_open.desc:
-modifiers.cos.key.opencosarmorinventory:
 modifiers.key.relics.hud_up:
 modifiers.key.relics.hud_down:
 modifiers.key.relics.hud_first:key.keyboard.left.alt
@@ -96,18 +96,8 @@ modifiers.key.toastcontrol.clear:
 modifiers.key.waila.config:
 modifiers.key.waila.show_overlay:
 modifiers.key.waila.toggle_liquid:
-modifiers.quark.keybind.back:
 modifiers.quark.keybind.change_hotbar:
-modifiers.quark.keybind.lock_rotation:
-modifiers.key.inventoryhud.toggle:
-modifiers.key.inventoryhud.openconfig:
-modifiers.key.inventoryhud.togglepot:
-modifiers.key.inventoryhud.togglearm:
-modifiers.key.inventoryhud.toggleall:
-modifiers.quark.keybind.sort_player:
-modifiers.quark.keybind.sort_container:
 modifiers.quark.keybind.camera_mode:
-modifiers.quark.keybind.autorun:
 modifiers.quark.emote.no:
 modifiers.quark.emote.yes:
 modifiers.quark.emote.wave:
@@ -126,8 +116,18 @@ modifiers.quark.keybind.patreon_emote.dab:
 modifiers.quark.keybind.patreon_emote.jet:
 modifiers.quark.keybind.patreon_emote.exorcist:
 modifiers.quark.keybind.patreon_emote.zombie:
+modifiers.quark.keybind.lock_rotation:
+modifiers.quark.keybind.autorun:
+modifiers.quark.keybind.sort_player:
+modifiers.quark.keybind.sort_container:
+modifiers.quark.keybind.back:
 modifiers.quark.keybind.transfer_insert:
 modifiers.quark.keybind.transfer_extract:
+modifiers.key.inventoryhud.toggle:
+modifiers.key.inventoryhud.openconfig:
+modifiers.key.inventoryhud.togglepot:
+modifiers.key.inventoryhud.togglearm:
+modifiers.key.inventoryhud.toggleall:
 modifiers.quark.keybind.shift_lock:
 modifiers.keybinds.bettercombat.feint:
 modifiers.keybinds.bettercombat.toggle_mine_with_weapons:

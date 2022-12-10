@@ -10,7 +10,9 @@ CTEventManager.register<MCEntityJoinWorldEvent>((event) => {
     var server = world.asServerWorld().server;
     var dim = world.dimension;
     var pos = entity.position;
-
+    
+    if ("player_head" in entity.data.asString()) entity.updateData({ArmorItems:[{id:"minecraft:iron_helmet", Count: 1}]});
+    
     if ("nowhere" in dim && !("player" in type)) event.cancel();
 
     if ("formidibomb" in type) {
@@ -29,7 +31,6 @@ CTEventManager.register<MCEntityJoinWorldEvent>((event) => {
         } else {
             if (world.random.nextInt(0, 100) > 64) event.cancel();
         }
-        return;
     }
 
     if (
@@ -40,16 +41,12 @@ CTEventManager.register<MCEntityJoinWorldEvent>((event) => {
         "chimpanzee" in type || 
         "hippogryph" in type || 
         ("salmon" in type && "aoa3" in dim)
-    ) {
-        event.cancel();
-        return;
-    }
-
+    ) event.cancel();
+    
     if (world.asServerWorld().isRaid(pos)) {
         var uuid = entity.uuid;
         server.executeCommand("effect give " + uuid + " minecraft:strength 114514 1", true);
         server.executeCommand("effect give " + uuid + " minecraft:regeneration 114514 1", true);
-        return;
     }
 
     if ("ba_bt:land_golem" in type) {

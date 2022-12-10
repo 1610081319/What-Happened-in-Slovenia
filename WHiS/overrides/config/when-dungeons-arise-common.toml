@@ -15,10 +15,10 @@
 			illagerCampsiteGenerates = true
 			#Maximum separation between Illager Campsites (in chunks).
 			#Range: 0 ~ 1000000
-			illagerCampsiteSpacing = 120
+			illagerCampsiteSpacing = 240
 			#Minimum spacing between Illager Campsites (in chunks).
 			#Range: 0 ~ 1000000
-			illagerCampsiteSeparation = 60
+			illagerCampsiteSeparation = 120
 			#Number of Jigsaw iterations when generating an Illager Campsite.
 			#Range: 0 ~ 1000000
 			illagerCampsiteSize = 10
@@ -35,10 +35,10 @@
 			merchantCampsiteGenerates = true
 			#Maximum separation between merchant Campsites (in chunks).
 			#Range: 0 ~ 1000000
-			merchantCampsiteSpacing = 120
+			merchantCampsiteSpacing = 240
 			#Minimum spacing between merchant Campsites (in chunks).
 			#Range: 0 ~ 1000000
-			merchantCampsiteSeparation = 80
+			merchantCampsiteSeparation = 160
 			#Number of Jigsaw iterations when generating an merchant Campsite.
 			#Range: 0 ~ 1000000
 			merchantCampsiteSize = 10
@@ -57,10 +57,10 @@
 			illagerCastleGenerates = true
 			#Maximum separation between Illager Castles (in chunks).
 			#Range: 0 ~ 1000000
-			illagerCastleSpacing = 160
+			illagerCastleSpacing = 320
 			#Minimum spacing between Illager Castles (in chunks).
 			#Range: 0 ~ 1000000
-			illagerCastleSeparation = 60
+			illagerCastleSeparation = 120
 			#Number of Jigsaw iterations when generating an Illager Castle.
 			#Range: 0 ~ 1000000
 			illagerCastleSize = 10
@@ -77,10 +77,10 @@
 			illagerFortGenerates = true
 			#Maximum separation between Illager Forts (in chunks).
 			#Range: 0 ~ 1000000
-			illagerFortSpacing = 160
+			illagerFortSpacing = 320
 			#Minimum spacing between Illager Forts (in chunks).
 			#Range: 0 ~ 1000000
-			illagerFortSeparation = 60
+			illagerFortSeparation = 120
 			#Number of Jigsaw iterations when generating an Illager Fort.
 			#Range: 0 ~ 1000000
 			illagerFortSize = 10
@@ -117,10 +117,10 @@
 			abandonedTempleGenerates = true
 			#Maximum separation between Abandoned Temples (in chunks).
 			#Range: 0 ~ 1000000
-			abandonedTempleSpacing = 60
+			abandonedTempleSpacing = 180
 			#Minimum spacing between Abandoned Temples (in chunks).
 			#Range: 0 ~ 1000000
-			abandonedTempleSeparation = 40
+			abandonedTempleSeparation = 120
 			#Number of Jigsaw iterations when generating an Abandoned Temple.
 			#Range: 0 ~ 1000000
 			abandonedTempleSize = 30
@@ -137,10 +137,10 @@
 			thornbornTowersGenerates = true
 			#Maximum separation between Thornborn Towers (in chunks).
 			#Range: 0 ~ 1000000
-			thornbornTowersSpacing = 160
+			thornbornTowersSpacing = 320
 			#Minimum spacing between Thornborn Towers (in chunks).
 			#Range: 0 ~ 1000000
-			thornbornTowersSeparation = 140
+			thornbornTowersSeparation = 280
 			#Number of Jigsaw iterations when generating an Thornborn Towers.
 			#Range: 0 ~ 1000000
 			thornbornTowersSize = 80
@@ -157,10 +157,10 @@
 			monasteryGenerates = true
 			#Maximum separation between Monasteries (in chunks).
 			#Range: 0 ~ 1000000
-			monasterySpacing = 150
+			monasterySpacing = 300
 			#Minimum spacing between Monasteries (in chunks).
 			#Range: 0 ~ 1000000
-			monasterySeparation = 90
+			monasterySeparation = 180
 			#Number of Jigsaw iterations when generating a Monastery.
 			#Range: 0 ~ 1000000
 			monasterySize = 8
@@ -199,10 +199,10 @@
 			smallBlimpGenerates = true
 			#Maximum separation between Small Blimps (in chunks).
 			#Range: 0 ~ 1000000
-			smallBlimpSpacing = 160
+			smallBlimpSpacing = 320
 			#Minimum spacing between Small Blimps (in chunks).
 			#Range: 0 ~ 1000000
-			smallBlimpSeparation = 120
+			smallBlimpSeparation = 240
 			#Number of Jigsaw iterations when generating an Small Blimp.
 			#Range: 0 ~ 1000000
 			smallBlimpSize = 100
@@ -221,10 +221,10 @@
 			mushroomVillageGenerates = true
 			#Maximum separation between Mushroom Villages (in chunks).
 			#Range: 0 ~ 1000000
-			mushroomVillageSpacing = 120
+			mushroomVillageSpacing = 240
 			#Minimum spacing between Mushroom Villages (in chunks).
 			#Range: 0 ~ 1000000
-			mushroomVillageSeparation = 40
+			mushroomVillageSeparation = 80
 			#Number of Jigsaw iterations when generating a Mushroom Village.
 			#Range: 0 ~ 1000000
 			mushroomVillageSize = 6
@@ -241,10 +241,10 @@
 			mushroomMinesGenerates = true
 			#Maximum separation between Mushroom Mines (in chunks).
 			#Range: 0 ~ 1000000
-			mushroomMinesSpacing = 160
+			mushroomMinesSpacing = 320
 			#Minimum spacing between Mushroom Mines (in chunks).
 			#Range: 0 ~ 1000000
-			mushroomMinesSeparation = 80
+			mushroomMinesSeparation = 160
 			#Number of Jigsaw iterations when generating a Mushroom Mine.
 			#Range: 0 ~ 1000000
 			mushroomMinesSize = 100
@@ -261,10 +261,10 @@
 			mushroomHouseGenerates = true
 			#Maximum separation between Mushroom House (in chunks).
 			#Range: 0 ~ 1000000
-			mushroomHouseSpacing = 160
+			mushroomHouseSpacing = 320
 			#Minimum spacing between Mushroom House (in chunks).
 			#Range: 0 ~ 1000000
-			mushroomHouseSeparation = 80
+			mushroomHouseSeparation = 160
 			#Number of Jigsaw iterations when generating a Mushroom House.
 			#Range: 0 ~ 1000000
 			mushroomHouseSize = 10
@@ -281,10 +281,10 @@
 			giantMushroomGenerates = true
 			#Maximum separation between Giant Mushrooms (in chunks).
 			#Range: 0 ~ 1000000
-			giantMushroomSpacing = 160
+			giantMushroomSpacing = 320
 			#Minimum spacing between Giant Mushrooms (in chunks).
 			#Range: 0 ~ 1000000
-			giantMushroomSeparation = 80
+			giantMushroomSeparation = 160
 			#Number of Jigsaw iterations when generating a Giant Mushroom.
 			#Range: 0 ~ 1000000
 			giantMushroomSize = 10
@@ -303,10 +303,10 @@
 			smallPrairieHouseGenerates = true
 			#Maximum separation between Small Prairie Houses (in chunks).
 			#Range: 0 ~ 1000000
-			smallPrairieHouseSpacing = 50
+			smallPrairieHouseSpacing = 200
 			#Minimum spacing between Small Prairie Houses (in chunks).
 			#Range: 0 ~ 1000000
-			smallPrairieHouseSeparation = 20
+			smallPrairieHouseSeparation = 80
 			#Number of Jigsaw iterations when generating a Small Prairie House.
 			#Range: 0 ~ 1000000
 			smallPrairieHouseSize = 10
@@ -323,10 +323,10 @@
 			illagerWindmillGenerates = true
 			#Maximum separation between Illager Windmills (in chunks).
 			#Range: 0 ~ 1000000
-			illagerWindmillSpacing = 100
+			illagerWindmillSpacing = 200
 			#Minimum spacing between Illager Windmills (in chunks).
 			#Range: 0 ~ 1000000
-			illagerWindmillSeparation = 90
+			illagerWindmillSeparation = 180
 			#Number of Jigsaw iterations when generating a Illager Windmill.
 			#Range: 0 ~ 1000000
 			illagerWindmillSize = 5
@@ -343,10 +343,10 @@
 			fishingHutGenerates = true
 			#Maximum separation between Fishing Huts (in chunks).
 			#Range: 0 ~ 1000000
-			fishingHutSpacing = 40
+			fishingHutSpacing = 200
 			#Minimum spacing between Fishing Huts (in chunks).
 			#Range: 0 ~ 1000000
-			fishingHutSeparation = 10
+			fishingHutSeparation = 50
 			#Number of Jigsaw iterations when generating a Fishing Hut.
 			#Range: 0 ~ 1000000
 			fishingHutSize = 10
@@ -383,10 +383,10 @@
 			wishingWellGenerates = true
 			#Maximum separation between Wishing Wells (in chunks).
 			#Range: 0 ~ 1000000
-			wishingWellSpacing = 80
+			wishingWellSpacing = 240
 			#Minimum spacing between Wishing Wells (in chunks).
 			#Range: 0 ~ 1000000
-			wishingWellSeparation = 60
+			wishingWellSeparation = 180
 			#Number of Jigsaw iterations when generating a Wishing Well.
 			#Range: 0 ~ 1000000
 			wishingWellSize = 10
@@ -405,10 +405,10 @@
 			infestedTempleGenerates = true
 			#Maximum separation between Infested Temples (in chunks).
 			#Range: 0 ~ 1000000
-			infestedTempleSpacing = 140
+			infestedTempleSpacing = 280
 			#Minimum spacing between Infested Temples (in chunks).
 			#Range: 0 ~ 1000000
-			infestedTempleSeparation = 100
+			infestedTempleSeparation = 200
 			#Number of Jigsaw iterations when generating an Infested Temple.
 			#Range: 0 ~ 1000000
 			infestedTempleSize = 100
@@ -447,10 +447,10 @@
 			heavenlyRiderGenerates = true
 			#Maximum separation between Heavenly Riders (in chunks).
 			#Range: 0 ~ 1000000
-			heavenlyRiderSpacing = 180
+			heavenlyRiderSpacing = 360
 			#Minimum spacing between Heavenly Riders (in chunks).
 			#Range: 0 ~ 1000000
-			heavenlyRiderSeparation = 160
+			heavenlyRiderSeparation = 320
 			#Number of Jigsaw iterations when generating an Heavenly Rider.
 			#Range: 0 ~ 1000000
 			heavenlyRiderSize = 20
@@ -507,10 +507,10 @@
 			aviaryGenerates = true
 			#Maximum separation between Aviaries (in chunks).
 			#Range: 0 ~ 1000000
-			aviarySpacing = 140
+			aviarySpacing = 280
 			#Minimum spacing between Aviaries (in chunks).
 			#Range: 0 ~ 1000000
-			aviarySeparation = 110
+			aviarySeparation = 220
 			#Number of Jigsaw iterations when generating an Aviary.
 			#Range: 0 ~ 1000000
 			aviarySize = 20
@@ -529,10 +529,10 @@
 			miningSystemGenerates = true
 			#Maximum separation between Mining Systems (in chunks).
 			#Range: 0 ~ 1000000
-			miningSystemSpacing = 180
+			miningSystemSpacing = 360
 			#Minimum spacing between Mining Systems (in chunks).
 			#Range: 0 ~ 1000000
-			miningSystemSeparation = 120
+			miningSystemSeparation = 240
 			#Number of Jigsaw iterations when generating an Mining System.
 			#Range: 0 ~ 1000000
 			miningSystemSize = 20
@@ -591,10 +591,10 @@
 			undeadPirateShipGenerates = true
 			#Maximum separation between Undead Pirate Ships (in chunks).
 			#Range: 0 ~ 1000000
-			undeadPirateShipSpacing = 120
+			undeadPirateShipSpacing = 240
 			#Minimum spacing between Undead Pirate Ships (in chunks).
 			#Range: 0 ~ 1000000
-			undeadPirateShipSeparation = 80
+			undeadPirateShipSeparation = 160
 			#Number of Jigsaw iterations when generating a Undead Pirate Ships.
 			#Range: 0 ~ 1000000
 			undeadPirateShipSize = 10
@@ -611,10 +611,10 @@
 			typhonGenerates = true
 			#Maximum separation between Thypons (in chunks).
 			#Range: 0 ~ 1000000
-			typhonSpacing = 120
+			typhonSpacing = 240
 			#Minimum spacing between Thypons (in chunks).
 			#Range: 0 ~ 1000000
-			typhonSeparation = 100
+			typhonSeparation = 200
 			#Number of Jigsaw iterations when generating a Thypons.
 			#Range: 0 ~ 1000000
 			typhonSize = 10
@@ -631,10 +631,10 @@
 			illagerCorsairGenerates = true
 			#Maximum separation between Illager Corsairs (in chunks).
 			#Range: 0 ~ 1000000
-			illagerCorsairSpacing = 128
+			illagerCorsairSpacing = 256
 			#Minimum spacing between Illager Corsairs (in chunks).
 			#Range: 0 ~ 1000000
-			illagerCorsairSeparation = 96
+			illagerCorsairSeparation = 192
 			#Number of Jigsaw iterations when generating a Illager Corsairs.
 			#Range: 0 ~ 1000000
 			illagerCorsairSize = 10
@@ -651,10 +651,10 @@
 			illagerGalleyGenerates = true
 			#Maximum separation between Illager Galleys (in chunks).
 			#Range: 0 ~ 1000000
-			illagerGalleySpacing = 100
+			illagerGalleySpacing = 200
 			#Minimum spacing between Illager Galleys (in chunks).
 			#Range: 0 ~ 1000000
-			illagerGalleySeparation = 60
+			illagerGalleySeparation = 120
 			#Number of Jigsaw iterations when generating a Illager Galleys.
 			#Range: 0 ~ 1000000
 			illagerGalleySize = 10
@@ -673,10 +673,10 @@
 			banditVillageGenerates = true
 			#Maximum separation between Bandit Villages (in chunks).
 			#Range: 0 ~ 1000000
-			banditVillageSpacing = 90
+			banditVillageSpacing = 180
 			#Minimum spacing between Bandit Villages (in chunks).
 			#Range: 0 ~ 1000000
-			banditVillageSeparation = 70
+			banditVillageSeparation = 140
 			#Number of Jigsaw iterations when generating a Bandit Village.
 			#Range: 0 ~ 1000000
 			banditVillageSize = 13
@@ -693,10 +693,10 @@
 			banditTowersGenerates = true
 			#Maximum separation between Bandit Towerss (in chunks).
 			#Range: 0 ~ 1000000
-			banditTowersSpacing = 90
+			banditTowersSpacing = 180
 			#Minimum spacing between Bandit Towers (in chunks).
 			#Range: 0 ~ 1000000
-			banditTowersSeparation = 70
+			banditTowersSeparation = 140
 			#Number of Jigsaw iterations when generating Bandit Towers.
 			#Range: 0 ~ 1000000
 			banditTowersSize = 50
@@ -715,10 +715,10 @@
 			ceryneianHindGenerates = true
 			#Maximum separation between Ceryneian Hinds (in chunks).
 			#Range: 0 ~ 1000000
-			ceryneianHindSpacing = 160
+			ceryneianHindSpacing = 320
 			#Minimum spacing between Ceryneian Hinds (in chunks).
 			#Range: 0 ~ 1000000
-			ceryneianHindSeparation = 140
+			ceryneianHindSeparation = 280
 			#Number of Jigsaw iterations when generating a Ceryneian Hind.
 			#Range: 0 ~ 1000000
 			ceryneianHindSize = 10
@@ -735,10 +735,10 @@
 			shirazPalaceGenerates = true
 			#Maximum separation between Shiraz Palaces (in chunks).
 			#Range: 0 ~ 1000000
-			shirazPalaceSpacing = 160
+			shirazPalaceSpacing = 320
 			#Minimum spacing between Shiraz Palaces (in chunks).
 			#Range: 0 ~ 1000000
-			shirazPalaceSeparation = 140
+			shirazPalaceSeparation = 280
 			#Number of Jigsaw iterations when generating a Shiraz Palace.
 			#Range: 0 ~ 1000000
 			shirazPalaceSize = 50
@@ -757,10 +757,10 @@
 			jungleTreeHouseGenerates = true
 			#Maximum separation between Jungle Tree Houses (in chunks).
 			#Range: 0 ~ 1000000
-			jungleTreeHouseSpacing = 160
+			jungleTreeHouseSpacing = 320
 			#Minimum spacing between Jungle Tree Houses (in chunks).
 			#Range: 0 ~ 1000000
-			jungleTreeHouseSeparation = 140
+			jungleTreeHouseSeparation = 280
 			#Number of Jigsaw iterations when generating a Jungle Tree House.
 			#Range: 0 ~ 1000000
 			jungleTreeHouseSize = 50

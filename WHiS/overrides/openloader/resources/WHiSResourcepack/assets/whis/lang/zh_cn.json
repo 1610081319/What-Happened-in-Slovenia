@@ -9,6 +9,7 @@
     "eventMessage.whis.nether_star.4": "§6§l§o这，就是虚无世界。",
     "eventMessage.whis.storm_time": "§6§l§o已进入凋灵风暴阶段。现在，所有玩家在受到任何伤害时都有概率感染凋零腐败Debuff",
     "eventMessage.whis.defeat_storm": "§6§l§o你已经击溃了凋灵风暴的核心。把Withered Nether Star分享给你的朋友来让他们的进度与你同步",
+    "info.whis.chorus_fruit": "§5§l§o在这样一个末地，怎么找到紫颂果呢？\n自然指南针搜索末地高岛",
     "info.whis.shift": "§c§o请按下Shift获取更详细信息",
     "info.whis.vulcane": "§5手持浊流之杖（主手或副手都行）再右键即可攻击让玩家受过伤的生物（不需要瞄准生物）。\n此真实伤害无视原版的伤害免疫机制（指：无敌帧）。",
     "info.whis.fertilised_farmland": "§5肥沃耕地可用于增产农作物。\n当你收获种植在肥沃耕地上的作物时，它会额外给予你一个作物。\n但是，肥沃耕地不会影响作物收获时的种子数量，也不会影响没有种子的作物（如 马铃薯、胡萝卜）。",

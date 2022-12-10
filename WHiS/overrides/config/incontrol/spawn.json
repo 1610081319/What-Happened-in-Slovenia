@@ -73,7 +73,7 @@
         "healthmultiply": 2.0
     },
     {
-        "mob": ["witherstormmod:wither_storm"],
+        "mob": "witherstormmod:wither_storm",
         "speedmultiply": 0.5,
         "healthmultiply": 100,
         "onjoin": true,
@@ -86,5 +86,11 @@
         "damagemultiply": 2.0,
         "healthmultiply": 1.5,
         "speedmultiply": 1.2
+    },
+    {
+        "mob": "pandoras_creatures:end_troll",
+        "healthmultiply": 0.2,
+        "onjoin": true,
+        "result": "default"
     }
 ]

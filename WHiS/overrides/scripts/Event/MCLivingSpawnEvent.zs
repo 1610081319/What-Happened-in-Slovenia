@@ -499,8 +499,6 @@ CTEventManager.register<MCLivingSpawnEvent>((event) => {
         return;
     }
     entity.addTag("living_spawned");
-    if ("player_head" in entity.getItemStackFromSlot(head).commandString) entity.setItemStackToSlot(head, <item:minecraft:air>);
-    
     if ("iceandfire" in type && "dragon" in type) entity.setHealth(entity.getMaxHealth());
     if ("monster" in classification && "whis:witherstorm" in dim) {
         var baby_check = entity.data.getAt("IsBaby");
@@ -511,7 +509,7 @@ CTEventManager.register<MCLivingSpawnEvent>((event) => {
         if (random.nextInt(0, 100) >= 65) entity.setItemStackToSlot(feet, mcd_boots[mcd]);
     }
     if ("minecraft:villager" in type && random.nextInt(0, 100) > 81) entity.setItemStackToSlot(chest, backpacks[random.nextInt(0,3)]);
-    if ("overworld" in dim || "whis:witherstorm" in dim || "nether" in dim) {
+    if ("overworld" in dim || "whis:witherstorm" in dim || "nether" in dim || "dimdungeons" in dim) {
         if ("monster" in classification && "minecraft" in type) {
             if (random.nextInt(0, 100) >= 96 && !("whis:witherstorm" in dim)) {
                 entity.setItemStackToSlot(head, aoa_helmet[aoa3]);

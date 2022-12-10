@@ -214,6 +214,10 @@
         {
           "type": "minecraft:loot_table",
           "name": "modifiers:books"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "dimdungeons:key"
         }
       ]
     }

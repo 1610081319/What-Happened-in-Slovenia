@@ -253,7 +253,8 @@ var items as IItemStack[] = [
     <item:witherstormmod:golden_apple_stew>,
     <item:witherstormmod:command_block_book>,
     <item:minecraft:paper>.withTag({Mark: 1}),
-    <item:bagofyurting:bag_of_yurting>
+    <item:bagofyurting:bag_of_yurting>,
+    <item:minecraft:chorus_fruit>
 ]; 
 var texts as string[] = [
     "info.whis.charging_table",
@@ -265,7 +266,8 @@ var texts as string[] = [
     "info.whis.golden_apple_stew",
     "info.whis.command_block_book",
     "info.whis.ba_bt_paper",
-    "info.whis.bagofyurting"
+    "info.whis.bagofyurting",
+    "info.whis.chorus_fruit"
 ];
 
 for misc in 0 .. items.length {
