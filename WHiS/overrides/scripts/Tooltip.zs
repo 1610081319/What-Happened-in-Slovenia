@@ -289,3 +289,8 @@ var textsS as string[] = [
 for miscS in 0 .. itemsS.length {
     tooltipS(itemsS[miscS], textsS[miscS]);
 }
+
+var relic as stdlib.List<IItemStack> = loadedMods.getMod("relics").items;
+for loot in 0 .. relic.length {
+    tooltipS(relic[loot], "info.whis.relics");
+}

@@ -1,0 +1,241 @@
+To refresh this file, delete it and run /reload command again! Last updated: Dec 11, 2022, 1:22:48 PM
+
+#witherstormmod:wither_sickness_immune
+- witherstormmod:wither_storm
+- witherstormmod:wither_storm_segment
+- witherstormmod:sickened_zombie
+- witherstormmod:sickened_skeleton
+- witherstormmod:sickened_spider
+- witherstormmod:sickened_creeper
+- witherstormmod:command_block
+- witherstormmod:withered_symbiont
+- witherstormmod:wither_storm_head
+- witherstormmod:tentacle
+- minecraft:wither
+- minecraft:ender_dragon
+- minecraft:slime
+- minecraft:wither_skeleton
+- minecraft:enderman
+- minecraft:phantom
+- minecraft:armor_stand
+
+#endergetic:not_balloon_attachable
+- upgrade_aquatic:flare
+
+#neapolitan:milkable
+- minecraft:cow
+- minecraft:mooshroom
+
+#forge:weak_to_ranged
+
+#iceandfire:scares_cockatrices
+
+#mowziesmobs:barakoa
+- mowziesmobs:barako
+- mowziesmobs:barakoa_sunblocker
+- mowziesmobs:barakoan_barakoana
+- mowziesmobs:barakoan_player
+- mowziesmobs:barakoa_sunblocker_player
+- mowziesmobs:barakoana
+- mowziesmobs:barakoaya
+
+#neapolitan:unaffected_by_slipping
+- neapolitan:plantain_spider
+- neapolitan:chimpanzee
+
+#savageandravage:creeper_proof_types
+- minecraft:painting
+- minecraft:item_frame
+- minecraft:armor_stand
+- minecraft:falling_block
+- minecraft:leash_knot
+
+#forge:weak_to_magic
+
+#iceandfire:fear_dragons
+- minecraft:cow
+- minecraft:sheep
+- minecraft:pig
+- minecraft:chicken
+- minecraft:cat
+- minecraft:fox
+- minecraft:horse
+- minecraft:mooshroom
+- minecraft:ocelot
+- minecraft:llama
+- minecraft:panda
+- minecraft:parrot
+- minecraft:polar_bear
+- minecraft:rabbit
+- minecraft:strider
+- minecraft:trader_llama
+- minecraft:wolf
+- minecraft:hoglin
+
+#iceandfire:villagers
+- minecraft:villager
+- minecraft:wandering_trader
+
+#neapolitan:scares_chimpanzees
+- minecraft:firework_rocket
+- minecraft:lightning_bolt
+- minecraft:small_fireball
+- minecraft:fireball
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- minecraft:evoker_fangs
+- minecraft:tnt
+
+#iceandfire:lightning_dragon_targets
+- #iceandfire:dragon_targets
+
+#extraboats:sitting_mobs
+- savageandravage:griefer
+- savageandravage:executioner
+- savageandravage:iceologer
+- savageandravage:skeleton_villager
+
+#neapolitan:unaffected_by_harmony
+
+#forge:weak_to_melee
+
+#iceandfire:sheep
+- minecraft:sheep
+
+#farmersdelight:horse_feed_users
+- minecraft:horse
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:donkey
+- minecraft:mule
+- minecraft:llama
+
+#forge:weak_to_explosions
+
+#neapolitan:chimpanzee_dart_targets
+- endergetic:bolloom_fruit?
+- endergetic:bolloom_balloon?
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+- conjurer_illager:conjurer
+- savageandravage:griefer
+- savageandravage:executioner
+- savageandravage:iceologer
+- savageandravage:trickster
+
+#industrialforegoing:mob_imprisonment_tool_blacklist
+- artifacts:mimic
+
+#iceandfire:blinded
+- iceandfire:deathworm
+- iceandfire:dragon_skull
+- iceandfire:mob_skull
+
+#farmersdelight:dog_food_users
+- minecraft:wolf
+
+#iceandfire:dragon_targets
+- minecraft:cow
+- minecraft:sheep
+- minecraft:pig
+- minecraft:chicken
+- minecraft:fox
+- minecraft:horse
+- minecraft:mooshroom
+- minecraft:ocelot
+- minecraft:llama
+- minecraft:panda
+- minecraft:parrot
+- minecraft:polar_bear
+- minecraft:rabbit
+- minecraft:trader_llama
+- minecraft:wolf
+- minecraft:cat
+- minecraft:pillager
+- minecraft:cat
+- minecraft:strider
+- minecraft:piglin
+- minecraft:hoglin
+- minecraft:zoglin
+
+#mowziesmobs:barakoa_barako_aligned
+- mowziesmobs:barako
+- mowziesmobs:barakoa_sunblocker
+- mowziesmobs:barakoan_barakoana
+- mowziesmobs:barakoana
+- mowziesmobs:barakoaya
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- savageandravage:spore_cloud
+- savageandravage:confusion_bolt
+
+#brazier:brazier_blacklist
+- minecraft:slime
+- minecraft:magma_cube
+- minecraft:hoglin
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#witherstormmod:sickened_mobs
+- witherstormmod:sickened_zombie
+- witherstormmod:sickened_skeleton
+- witherstormmod:sickened_spider
+- witherstormmod:sickened_creeper
+
+#iceandfire:chickens
+- minecraft:chicken
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+- witherstormmod:sickened_skeleton
+- savageandravage:skeleton_villager
+
+#iceandfire:cyclops_unliftables
+- minecraft:ravager
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+- neapolitan:bananarrow
+- savageandravage:mischief_arrow
+
+#passablefoliage:block
+
+#parry:projectiles_parrying_disabled
+
+#iceandfire:fire_dragon_targets
+- #iceandfire:dragon_targets
+
+#brazier:brazier_whitelist
+- minecraft:wither
+- minecraft:elder_guardian
+- minecraft:ender_dragon
+
+#iceandfire:ice_dragon_targets
+- #iceandfire:dragon_targets
+- minecraft:turtle
+- minecraft:dolphin
+- minecraft:cod
+- minecraft:pufferfish
+- minecraft:salmon
+- minecraft:tropical_fish
+
+#witherstormmod:high_immunity
+- minecraft:player
