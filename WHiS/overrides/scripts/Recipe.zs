@@ -28,7 +28,7 @@ var all as IItemStack[] = [
     <item:relics:bloody_lectern>,
     <item:dimdungeons:block_portal_keyhole>,
     <item:dimdungeons:block_gilded_portal>,
-    <item:patchouli:guide_book>.withTag({"patchouli:book": "dimdungeons:guide_book" as string})
+    <item:patchouli:guide_book>.withTag({"patchouli:book": "dimdungeons:guide_book"})
 ];
 var swords as IItemStack[] = [
     <item:dungeons_gear:tempest_knife>,

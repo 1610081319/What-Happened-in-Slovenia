@@ -72,7 +72,7 @@ CTEventManager.register<MCPlayerTickEvent>(event => {
         player.sendMessage(MCTextComponent.createTranslationTextComponent("eventMessage.whis.nether_star.3"));
         player.sendMessage(MCTextComponent.createTranslationTextComponent("eventMessage.whis.nether_star.4"));
         player.addGameStage("aoa_age");
-        player.give(<item:minecraft:paper>.withTag({Lead: 2 as int}));
+        player.give(<item:minecraft:paper>.withTag({Lead: 2}));
     }
     if (player.inventory.hasIItemStack(<item:witherstormmod:withered_nether_star>) && !player.hasGameStage("defeat_storm")) {
         player.addGameStage("defeat_storm");

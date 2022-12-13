@@ -22,7 +22,6 @@ CTEventManager.register<MCEntityJoinWorldEvent>((event) => {
         } else {
             event.cancel();
         }
-        return;
     }
 
     if ("weeping_angel" in type) {

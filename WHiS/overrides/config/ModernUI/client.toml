@@ -67,5 +67,5 @@
 	#3) Resource location for those loaded with resource packs, for instance: modernui:font/biliw.otf
 	#Using pixelated (bitmap) fonts should consider other settings, and glyph size should be 16x.
 	#This list is only read once when the game is loaded. A game restart is required to reload
-	fontFamily = ["Segoe UI", "modernui:font/biliw.otf", "Noto Sans", "Open Sans", "San Francisco", "Calibri", "Microsoft YaHei UI", "STHeiti", "SimHei", "SansSerif"]
+	fontFamily = ["Segoe UI", "modernui:font/biliw.otf", "Calibri", "Microsoft YaHei UI", "SimHei", "SansSerif"]
 

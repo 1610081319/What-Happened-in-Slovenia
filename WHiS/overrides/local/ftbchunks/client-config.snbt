@@ -116,19 +116,19 @@
 		
 		# Enable minimap
 		# Default: true
-		enabled: true
+		enabled: false
 		
 		# Show entities on minimap
 		# Default: true
-		entities: true
+		entities: false
 		
 		# Show entity heads on minimap
 		# Default: true
-		entity_heads: true
+		entity_heads: false
 		
 		# Entities in minimap will be larger
 		# Default: false
-		large_entities: true
+		large_entities: false
 		
 		# Minimap will not rotate
 		# Default: true

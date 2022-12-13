@@ -250,11 +250,11 @@ var items as IItemStack[] = [
     <item:witherstormmod:formidibomb>,
     <item:aoa3:nowhere_portal>,
     <item:lootgames:puzzle_master>,
-    <item:witherstormmod:golden_apple_stew>,
     <item:witherstormmod:command_block_book>,
     <item:minecraft:paper>.withTag({Mark: 1}),
     <item:bagofyurting:bag_of_yurting>,
-    <item:minecraft:chorus_fruit>
+    <item:minecraft:chorus_fruit>,
+    <item:dimdungeons:item_portal_key>
 ]; 
 var texts as string[] = [
     "info.whis.charging_table",
@@ -263,11 +263,11 @@ var texts as string[] = [
     "info.whis.formidibomb",
     "info.whis.nowhere_portal",
     "info.whis.puzzle_master",
-    "info.whis.golden_apple_stew",
     "info.whis.command_block_book",
     "info.whis.ba_bt_paper",
     "info.whis.bagofyurting",
-    "info.whis.chorus_fruit"
+    "info.whis.chorus_fruit",
+    "info.whis.item_portal_key"
 ];
 
 for misc in 0 .. items.length {
@@ -291,6 +291,7 @@ for miscS in 0 .. itemsS.length {
 }
 
 var relic as stdlib.List<IItemStack> = loadedMods.getMod("relics").items;
+
 for loot in 0 .. relic.length {
     tooltipS(relic[loot], "info.whis.relics");
 }

@@ -14,7 +14,6 @@ CTEventManager.register<MCBlockPlaceEvent>((event) => {
             server.executeCommand("tag @e add storm_time", true);
             server.executeCommand("tell @a " + game.localize("eventMessage.whis.storm_time"), true);
             world.asServerWorld().setTimeToNight();
-            return;
         }
         if ("puzzle_master" in placed && !("celeve" in world.dimension)) event.cancel();
     }

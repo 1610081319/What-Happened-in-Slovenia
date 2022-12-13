@@ -47,23 +47,27 @@ modifiers.key.ftbchunks.minimap.zoomIn:
 modifiers.key.ftbchunks.minimap.zoomOut:
 modifiers.key.charm.openCraftingTable:
 modifiers.key.charm.openEnderChest:
+modifiers.key.itemzoom.toggle:key.keyboard.left.shift
+modifiers.key.itemzoom.hold:
+modifiers.key.itemzoom.zoom.in:
+modifiers.key.itemzoom.zoom.out:
 modifiers.key.reveal:
 modifiers.key.entityculling.toggle:
 modifiers.neat.keybind.toggle:
+modifiers.key.curios.open.desc:
 modifiers.iris.keybind.reload:
 modifiers.iris.keybind.toggleShaders:
 modifiers.iris.keybind.shaderPackSelection:
+modifiers.key.togglecleanview:
 modifiers.key.dungeons_libraries.curiosintegration.description_slot1:
 modifiers.key.dungeons_libraries.curiosintegration.description_slot2:
 modifiers.key.dungeons_libraries.curiosintegration.description_slot3:
-modifiers.key.togglecleanview:
-modifiers.key.curios.open.desc:
+modifiers.sndctrl.text.quickvolumemenu.open:
+modifiers.sndctrl.text.soundconfig.open:
 modifiers.key.aoa3.resources:
 modifiers.key.aoa3.skills:
 modifiers.key.aoa3.adventGui:
 modifiers.key.aoa3.abilityAction:
-modifiers.sndctrl.text.quickvolumemenu.open:
-modifiers.sndctrl.text.soundconfig.open:
 modifiers.Camera left:
 modifiers.Camera right:
 modifiers.Camera closer:
@@ -87,7 +91,7 @@ modifiers.key.relics.hud_fourth:key.keyboard.left.alt
 modifiers.key.relics.hud_fifth:key.keyboard.left.alt
 modifiers.fpsreducer.key.openGui:
 modifiers.fpsreducer.key.forceIdle:
-modifiers.key.justenoughkeys.dropstack:
+modifiers.key.justenoughkeys.dropstack:key.keyboard.left.control
 modifiers.Descend:
 modifiers.key.enderRing:
 modifiers.key.spellstoneAbility:
@@ -96,19 +100,20 @@ modifiers.key.toastcontrol.clear:
 modifiers.key.waila.config:
 modifiers.key.waila.show_overlay:
 modifiers.key.waila.toggle_liquid:
+modifiers.quark.keybind.lock_rotation:
+modifiers.quark.keybind.change_hotbar:
+modifiers.quark.keybind.transfer_insert:
+modifiers.quark.keybind.transfer_extract:
+modifiers.quark.keybind.shift_lock:
+modifiers.quark.keybind.camera_mode:
 modifiers.quark.keybind.sort_player:
 modifiers.quark.keybind.sort_container:
-modifiers.quark.keybind.camera_mode:
-modifiers.quark.keybind.autorun:
 modifiers.key.inventoryhud.toggle:
 modifiers.key.inventoryhud.openconfig:
 modifiers.key.inventoryhud.togglepot:
 modifiers.key.inventoryhud.togglearm:
 modifiers.key.inventoryhud.toggleall:
-modifiers.quark.keybind.transfer_insert:
-modifiers.quark.keybind.transfer_extract:
-modifiers.quark.keybind.shift_lock:
-modifiers.quark.keybind.change_hotbar:
+modifiers.quark.keybind.back:
 modifiers.quark.emote.no:
 modifiers.quark.emote.yes:
 modifiers.quark.emote.wave:
@@ -127,14 +132,13 @@ modifiers.quark.keybind.patreon_emote.dab:
 modifiers.quark.keybind.patreon_emote.jet:
 modifiers.quark.keybind.patreon_emote.exorcist:
 modifiers.quark.keybind.patreon_emote.zombie:
-modifiers.quark.keybind.lock_rotation:
-modifiers.quark.keybind.back:
+modifiers.quark.keybind.autorun:
 modifiers.keybinds.bettercombat.feint:
 modifiers.keybinds.bettercombat.toggle_mine_with_weapons:
 modifiers.keybinds.combatroll.roll:
 modifiers.Build Current Structure:key.keyboard.left.alt
-modifiers.key.paraglider.paragliderSettings:key.keyboard.left.control
 modifiers.key.gravelminer.toggle:
+modifiers.key.paraglider.paragliderSettings:key.keyboard.left.control
 modifiers.keybind.sophisticatedbackpacks.open_backpack:
 modifiers.keybind.sophisticatedbackpacks.inventory_interaction:
 modifiers.keybind.sophisticatedbackpacks.tool_swap:

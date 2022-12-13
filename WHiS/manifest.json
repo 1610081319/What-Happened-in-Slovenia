@@ -10,10 +10,20 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "What Happened in Slovenia",
-  "version": "1.0.3",
+  "name": "WHiS",
+  "version": "1.0.4",
   "author": "Kasualix",
   "files": [
+    {
+      "projectID": 317780,
+      "fileID": 4127334,
+      "required": true
+    },
+    {
+      "projectID": 263420,
+      "fileID": 4127318,
+      "required": true
+    },
     {
       "projectID": 646126,
       "fileID": 3895940,
@@ -21,7 +31,7 @@
     },
     {
       "projectID": 422301,
-      "fileID": 4046681,
+      "fileID": 4167327,
       "required": true
     },
     {
@@ -92,6 +102,11 @@
     {
       "projectID": 480500,
       "fileID": 4103528,
+      "required": true
+    },
+    {
+      "projectID": 261725,
+      "fileID": 3603919,
       "required": true
     },
     {
@@ -310,6 +325,11 @@
       "required": true
     },
     {
+      "projectID": 419176,
+      "fileID": 3320687,
+      "required": true
+    },
+    {
       "projectID": 388800,
       "fileID": 4036267,
       "required": true
@@ -506,7 +526,7 @@
     },
     {
       "projectID": 342584,
-      "fileID": 4136184,
+      "fileID": 4143873,
       "required": true
     },
     {
@@ -876,7 +896,7 @@
     },
     {
       "projectID": 550941,
-      "fileID": 4111908,
+      "fileID": 4160778,
       "required": true
     },
     {
@@ -931,7 +951,7 @@
     },
     {
       "projectID": 401247,
-      "fileID": 4124181,
+      "fileID": 4170871,
       "required": true
     },
     {
@@ -1010,13 +1030,13 @@
       "required": true
     },
     {
-      "projectID": 306770,
-      "fileID": 3847029,
+      "projectID": 241160,
+      "fileID": 3098229,
       "required": true
     },
     {
-      "projectID": 241160,
-      "fileID": 3098229,
+      "projectID": 306770,
+      "fileID": 3847029,
       "required": true
     },
     {

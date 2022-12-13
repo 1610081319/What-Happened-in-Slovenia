@@ -13,6 +13,6 @@ CTEventManager.register<GameStageAdded>((event) => {
         player.sendMessage(" ");
         player.sendMessage(MCTextComponent.createTranslationTextComponent("eventMessage.whis.login"));
         player.addTag("nowherer");
-        player.give(<item:minecraft:paper>.withTag({Lead: 1 as int}));
+        player.give(<item:minecraft:paper>.withTag({Lead: 1}));
     }
 });

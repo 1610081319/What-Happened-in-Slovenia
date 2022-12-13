@@ -77,9 +77,11 @@ CTEventManager.register<MCLivingHurtEvent>(event => {
             var dmg_amt = event.amount;
             if ((r in helmet && r in chestplate && r in leggings) || (r in helmet && r in chestplate && r in boots) || (r in chestplate && r in leggings && r in boots)) {
                 event.setAmount(dmg_amt * 0.2);
+                return;
             }
             if ((r in helmet && r in chestplate) || (r in helmet && r in leggings) || (r in helmet && r in boots) || (r in chestplate && r in boots) || (r in leggings && r in boots)) {
                 event.setAmount(dmg_amt * 0.4);
+                return;
             }
             if (r in helmet || r in chestplate || r in leggings || r in boots) {
                 event.setAmount(dmg_amt * 0.6);

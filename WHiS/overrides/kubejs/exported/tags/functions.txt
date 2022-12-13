@@ -1,9 +1,0 @@
-To refresh this file, delete it and run /reload command again! Last updated: Dec 11, 2022, 1:22:56 PM
-
-#minecraft:tick
-- reset:run
-- reset:run
-
-#minecraft:load
-- reset:reset
-- reset:reset

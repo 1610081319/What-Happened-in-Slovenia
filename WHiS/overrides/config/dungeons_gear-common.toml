@@ -89,15 +89,6 @@
 	#Range: 0 ~ 1024
 	meleeWeaponDurability = 500
 
-#Combat Configuration
-[combat_configuration]
-	#Enable area of effects also being applied to players. 
-	#If you do not want area of effects being applied to other players, disable this feature. [true / false]
-	enableAreaOfEffectOnPlayers = false
-	#Add entities that will never be targeted by aggressive Dungeons Gear effects. 
-	#To do so, enter their registry names.
-	effectTargetBlacklist = ["minecraft:bat", "minecraft:bee", "minecraft:chicken", "minecraft:cod", "minecraft:cow", "minecraft:dolphin", "minecraft:donkey", "minecraft:fox", "minecraft:horse", "minecraft:iron_golem", "minecraft:mooshroom", "minecraft:ocelot", "minecraft:panda", "minecraft:parrot", "minecraft:pig", "minecraft:polar_bear", "minecraft:pufferfish", "minecraft:rabbit", "minecraft:salmon", "minecraft:sheep", "minecraft:squid", "minecraft:strider", "minecraft:trader_llama", "minecraft:tropical_fish", "minecraft:turtle", "minecraft:villager", "minecraft:wandering_trader", "minecraft:wolf"]
-
 #Rarity Loot Table Configuration
 [rarity_loot_table_configuration]
 	#This section determines the quality of gear found in loot tables.
